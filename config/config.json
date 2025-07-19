@@ -1,0 +1,21 @@
+{
+  "general": {
+    "video_folder_path": "videos",
+    "log_level": "INFO",
+    "max_concurrent_uploads": 1
+  },
+  "spotify": {
+    "client_id": "",
+    "client_secret": ""
+  },
+  "web_automation": {
+    "browser": "chrome",
+    "headless": false,
+    "implicit_wait": 10,
+    "upload_timeout": 300
+  },
+  "title_extraction": {
+    "similarity_threshold": 0.8,
+    "remove_keywords": ["Official", "MV", "가사", "lyrics", "커버", "댄스"]
+  }
+}
