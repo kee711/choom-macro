@@ -7585,5 +7585,1597 @@
       "confidence": "high",
       "final_format": "HWASA - I love my body"
     }
+  ],
+  "Imperium K-Pop Dance Team": [
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts (1).mp4",
+      "cleaned_filename": "Put your #HandsUp 🙌 for this break 🥳 #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #shorts",
+      "artist": null,
+      "title": "Put your #HandsUp 🙌 for this break 🥳 #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #shorts",
+      "confidence": "low",
+      "final_format": "Put your #HandsUp 🙌 for this break 🥳 #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I bought diamonds 💎 at my dentist #IceOnMyTeeth #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈.mp4",
+      "cleaned_filename": "I bought diamonds 💎 at my dentist #IceOnMyTeeth #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈",
+      "artist": null,
+      "title": "I bought diamonds 💎 at my dentist #IceOnMyTeeth #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈",
+      "confidence": "low",
+      "final_format": "I bought diamonds 💎 at my dentist #IceOnMyTeeth #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Love me once 🤞 I know you'll love me twice ✌ Killing part 🔥 #KATSEYE's #Debut #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "Love me once 🤞 I know you'll love me twice ✌ Killing part 🔥 #KATSEYE's #Debut #kpopinpublic #shorts",
+      "artist": null,
+      "title": "Love me once 🤞 I know you'll love me twice ✌ Killing part 🔥 #KATSEYE's #Debut #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "Love me once 🤞 I know you'll love me twice ✌ Killing part 🔥 #KATSEYE's #Debut #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #XO cover! ❌⭕ Out now! 🫶 #ENHYPEN #XOChallenge #엔하이픈 #dancecover #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "Watch our #XO ! ❌⭕ Out now! 🫶 #ENHYPEN #XOChallenge #엔하이픈 #dancecover #kpopinpublic #shorts",
+      "artist": null,
+      "title": "Watch our #XO ! ❌⭕ Out now! 🫶 #ENHYPEN #XOChallenge #엔하이픈 #dancecover #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #XO ! ❌⭕ Out now! 🫶 #ENHYPEN #XOChallenge #엔하이픈 #dancecover #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #MonaLisa cover! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army (1).mp4",
+      "cleaned_filename": "Watch our #MonaLisa ! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope MONALISA #bts #army",
+      "artist": null,
+      "title": "Watch our #MonaLisa ! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope MONALISA #bts #army",
+      "confidence": "low",
+      "final_format": "Watch our #MonaLisa ! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope MONALISA #bts #army",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Damn I really make it look #EASY 😎🧢 #LESSERAFIM #EASYChallenge #MakeItLookEasy #kpopinpublic.mp4",
+      "cleaned_filename": "Damn I really make it look #EASY 😎🧢 #LESSERAFIM #EASYChallenge #MakeItLookEasy #kpopinpublic",
+      "artist": null,
+      "title": "Damn I really make it look #EASY 😎🧢 #LESSERAFIM #EASYChallenge #MakeItLookEasy #kpopinpublic",
+      "confidence": "low",
+      "final_format": "Damn I really make it look #EASY 😎🧢 #LESSERAFIM #EASYChallenge #MakeItLookEasy #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Woo! 😮 Like it #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker.mp4",
+      "cleaned_filename": "Woo! 😮 Like it #NMIXX #엔믹스 #Fe3O4 BREAK #Soñar #Soñar Challenge #NSWER #SoñarBreaker",
+      "artist": null,
+      "title": "Woo! 😮 Like it #NMIXX #엔믹스 #Fe3O4 BREAK #Soñar #Soñar Challenge #NSWER #SoñarBreaker",
+      "confidence": "low",
+      "final_format": "Woo! 😮 Like it #NMIXX #엔믹스 #Fe3O4 BREAK #Soñar #Soñar Challenge #NSWER #SoñarBreaker",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Got them all goin' #SHEESH! 🥵 #BabyMonster #YG #BABYMONS7ER #베이비몬스터 #SHEESHChallenge #kpopinpublic.mp4",
+      "cleaned_filename": "Got them all goin' #SHEESH! 🥵 #BabyMonster #YG #BABYMONS7ER #베이비몬스터 #SHEESHChallenge #kpopinpublic",
+      "artist": null,
+      "title": "Got them all goin' #SHEESH! 🥵 #BabyMonster #YG #BABYMONS7ER #베이비몬스터 #SHEESHChallenge #kpopinpublic",
+      "confidence": "low",
+      "final_format": "Got them all goin' #SHEESH! 🥵 #BabyMonster #YG #BABYMONS7ER #베이비몬스터 #SHEESHChallenge #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #SADSONG cover now! 🥺 #P1harmony #dancechallenge #kpopdance #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "Watch our #SADSONG now! 🥺 #P1harmony #dancechallenge #kpopdance #kpopinpublic #shorts",
+      "artist": null,
+      "title": "Watch our #SADSONG now! 🥺 #P1harmony #dancechallenge #kpopdance #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #SADSONG now! 🥺 #P1harmony #dancechallenge #kpopdance #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #GGUM cover now! 🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #shorts.mp4",
+      "cleaned_filename": "Watch our #GGUM now! 🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #shorts",
+      "artist": null,
+      "title": "Watch our #GGUM now! 🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #GGUM now! 🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Sip it Sip it down like #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover.mp4",
+      "cleaned_filename": "Sip it Sip it down like #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover",
+      "artist": null,
+      "title": "Sip it Sip it down like #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover",
+      "confidence": "low",
+      "final_format": "Sip it Sip it down like #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "This part 😍 from #Rockstar 🤘 #Lisa #LaLisa #Blackpink #dancecover #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "This part 😍 from #Rockstar 🤘 #Lisa #LaLisa #Blackpink #dancecover #kpopinpublic #shorts",
+      "artist": null,
+      "title": "This part 😍 from #Rockstar 🤘 #Lisa #LaLisa #Blackpink #dancecover #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "This part 😍 from #Rockstar 🤘 #Lisa #LaLisa #Blackpink #dancecover #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge.mp4",
+      "cleaned_filename": "Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge",
+      "artist": null,
+      "title": "Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge",
+      "confidence": "low",
+      "final_format": "Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "#BadDesire cover out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4",
+      "cleaned_filename": "#BadDesire out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "artist": null,
+      "title": "#BadDesire out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "#BadDesire out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4",
+      "cleaned_filename": "All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "artist": null,
+      "title": "All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Teach me 🥵 #LoveLanguage 💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic (1).mp4",
+      "cleaned_filename": "Teach me 🥵 #LoveLanguage 💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #kpopinpublic",
+      "artist": null,
+      "title": "Teach me 🥵 #LoveLanguage 💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #kpopinpublic",
+      "confidence": "low",
+      "final_format": "Teach me 🥵 #LoveLanguage 💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge (1).mp4",
+      "cleaned_filename": "Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge",
+      "artist": null,
+      "title": "Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge",
+      "confidence": "low",
+      "final_format": "Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts",
+      "artist": null,
+      "title": "🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "3, 2, 1 🙋‍♂️ #PlotTwist 🌊 #TWS #투어스 #247WithUs #Sparkling_Blue #첫만남은계획대로되지않아 #plot_twist.mp4",
+      "cleaned_filename": "3, 2, 1 🙋‍♂️ #PlotTwist 🌊 #TWS #투어스 #247WithUs #Sparkling Blue #첫만남은계획대로되지않아 #plot twist",
+      "artist": null,
+      "title": "3, 2, 1 🙋‍♂️ #PlotTwist 🌊 #TWS #투어스 #247WithUs #Sparkling Blue #첫만남은계획대로되지않아 #plot twist",
+      "confidence": "low",
+      "final_format": "3, 2, 1 🙋‍♂️ #PlotTwist 🌊 #TWS #투어스 #247WithUs #Sparkling Blue #첫만남은계획대로되지않아 #plot twist",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts.mp4",
+      "cleaned_filename": "Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts",
+      "artist": null,
+      "title": "Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts",
+      "confidence": "low",
+      "final_format": "Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "❌⭕ kiss me 💋 don't say no 💗 #ENHYPEN #XO #kpopinpublic #dancecover #shorts.mp4",
+      "cleaned_filename": "❌⭕ kiss me 💋 don't say no 💗 #ENHYPEN #XO #kpopinpublic #dancecover #shorts",
+      "artist": null,
+      "title": "❌⭕ kiss me 💋 don't say no 💗 #ENHYPEN #XO #kpopinpublic #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "❌⭕ kiss me 💋 don't say no 💗 #ENHYPEN #XO #kpopinpublic #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "#IceOnMyTeeth 🦷 for my white tee #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈 #shorts.mp4",
+      "cleaned_filename": "#IceOnMyTeeth 🦷 for my white tee #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈 #shorts",
+      "artist": null,
+      "title": "#IceOnMyTeeth 🦷 for my white tee #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈 #shorts",
+      "confidence": "low",
+      "final_format": "#IceOnMyTeeth 🦷 for my white tee #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Ain't #NoDoubt 🔥😎 #ENHYPEN #DanceCover  #kpopinpublic #dancechallenge #shorts.mp4",
+      "cleaned_filename": "Ain't #NoDoubt 🔥😎 #ENHYPEN #DanceCover #kpopinpublic #dancechallenge #shorts",
+      "artist": null,
+      "title": "Ain't #NoDoubt 🔥😎 #ENHYPEN #DanceCover #kpopinpublic #dancechallenge #shorts",
+      "confidence": "low",
+      "final_format": "Ain't #NoDoubt 🔥😎 #ENHYPEN #DanceCover #kpopinpublic #dancechallenge #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #WORK 💸 cover now! ⬆️ #ATEEZ #kpopinpublic #에이티즈#dancecover #shorts.mp4",
+      "cleaned_filename": "Watch our #WORK 💸 now! ⬆️ #ATEEZ #kpopinpublic #에이티즈#dancecover #shorts",
+      "artist": null,
+      "title": "Watch our #WORK 💸 now! ⬆️ #ATEEZ #kpopinpublic #에이티즈#dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #WORK 💸 now! ⬆️ #ATEEZ #kpopinpublic #에이티즈#dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Wanna be a winner 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌.mp4",
+      "cleaned_filename": "Wanna be a winner 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌",
+      "artist": null,
+      "title": "Wanna be a winner 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌",
+      "confidence": "low",
+      "final_format": "Wanna be a winner 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts.mp4",
+      "cleaned_filename": "Put your #HandsUp 🙌 for this break 🥳 #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #shorts",
+      "artist": null,
+      "title": "Put your #HandsUp 🙌 for this break 🥳 #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #shorts",
+      "confidence": "low",
+      "final_format": "Put your #HandsUp 🙌 for this break 🥳 #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Gimme that beat! 👟 This dance is #Impossible! 😮 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈.mp4",
+      "cleaned_filename": "Gimme that beat! 👟 This is #Impossible! 😮 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈",
+      "artist": null,
+      "title": "Gimme that beat! 👟 This is #Impossible! 😮 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈",
+      "confidence": "low",
+      "final_format": "Gimme that beat! 👟 This is #Impossible! 😮 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Ooh, ooh, oooh 😍 Killing part from #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS.mp4",
+      "cleaned_filename": "Ooh, ooh, oooh 😍 Killing part from #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS",
+      "artist": null,
+      "title": "Ooh, ooh, oooh 😍 Killing part from #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS",
+      "confidence": "low",
+      "final_format": "Ooh, ooh, oooh 😍 Killing part from #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "#OnlyOne that knows your 💗 The best part 🥰 #VCHA #VLIGHTS #kpopinpublic #DanceCover.mp4",
+      "cleaned_filename": "#OnlyOne that knows your 💗 The best part 🥰 #VCHA #VLIGHTS #kpopinpublic #DanceCover",
+      "artist": null,
+      "title": "#OnlyOne that knows your 💗 The best part 🥰 #VCHA #VLIGHTS #kpopinpublic #DanceCover",
+      "confidence": "low",
+      "final_format": "#OnlyOne that knows your 💗 The best part 🥰 #VCHA #VLIGHTS #kpopinpublic #DanceCover",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Sheesh #TGIF 😩 #TGIFChallenge #XG #XG_TGIF.mp4",
+      "cleaned_filename": "Sheesh #TGIF 😩 #TGIFChallenge #XG #XG TGIF",
+      "artist": null,
+      "title": "Sheesh #TGIF 😩 #TGIFChallenge #XG #XG TGIF",
+      "confidence": "low",
+      "final_format": "Sheesh #TGIF 😩 #TGIFChallenge #XG #XG TGIF",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "✋🤚 9024 👇👇 Kick that 🥁 #CrazyForm #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny.mp4",
+      "cleaned_filename": "✋🤚 9024 👇👇 Kick that 🥁 #CrazyForm #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny",
+      "artist": null,
+      "title": "✋🤚 9024 👇👇 Kick that 🥁 #CrazyForm #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny",
+      "confidence": "low",
+      "final_format": "✋🤚 9024 👇👇 Kick that 🥁 #CrazyForm #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "We're #KillinIt! 🤟😤🤟 Da da da da da! #P1Harmony #때깔 #kpopinpublic #P1H.mp4",
+      "cleaned_filename": "We're #KillinIt! 🤟😤🤟 Da da da da da! #P1Harmony #때깔 #kpopinpublic #P1H",
+      "artist": null,
+      "title": "We're #KillinIt! 🤟😤🤟 Da da da da da! #P1Harmony #때깔 #kpopinpublic #P1H",
+      "confidence": "low",
+      "final_format": "We're #KillinIt! 🤟😤🤟 Da da da da da! #P1Harmony #때깔 #kpopinpublic #P1H",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "We hit this dance break! 🔥 Watch our #BADTITUDE #dancecover now! ⬆️ #BADVILLAIN #야호 #shorts.mp4",
+      "cleaned_filename": "We hit this break! 🔥 Watch our #BADTITUDE #dancecover now! ⬆️ #BADVILLAIN #야호 #shorts",
+      "artist": null,
+      "title": "We hit this break! 🔥 Watch our #BADTITUDE #dancecover now! ⬆️ #BADVILLAIN #야호 #shorts",
+      "confidence": "low",
+      "final_format": "We hit this break! 🔥 Watch our #BADTITUDE #dancecover now! ⬆️ #BADVILLAIN #야호 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Act like an angel 👼 and dress like #CRAZY 🤪 Cover out now!  #LESSERAFIM #kpopinpublic #르세라핌 #shorts.mp4",
+      "cleaned_filename": "Act like an angel 👼 and dress like #CRAZY 🤪 out now! #LESSERAFIM #kpopinpublic #르세라핌 #shorts",
+      "artist": null,
+      "title": "Act like an angel 👼 and dress like #CRAZY 🤪 out now! #LESSERAFIM #kpopinpublic #르세라핌 #shorts",
+      "confidence": "low",
+      "final_format": "Act like an angel 👼 and dress like #CRAZY 🤪 out now! #LESSERAFIM #kpopinpublic #르세라핌 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Woo! 😮 Like it #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker (1).mp4",
+      "cleaned_filename": "Woo! 😮 Like it #NMIXX #엔믹스 #Fe3O4 BREAK #Soñar #Soñar Challenge #NSWER #SoñarBreaker",
+      "artist": null,
+      "title": "Woo! 😮 Like it #NMIXX #엔믹스 #Fe3O4 BREAK #Soñar #Soñar Challenge #NSWER #SoñarBreaker",
+      "confidence": "low",
+      "final_format": "Woo! 😮 Like it #NMIXX #엔믹스 #Fe3O4 BREAK #Soñar #Soñar Challenge #NSWER #SoñarBreaker",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #Touch cover now! 💕 #KATSEYE #캣츠아이 #kpopinpublic #danceinpublic #dancecover #shorts.mp4",
+      "cleaned_filename": "Watch our #Touch now! 💕 #KATSEYE #캣츠아이 #kpopinpublic #danceinpublic #dancecover #shorts",
+      "artist": null,
+      "title": "Watch our #Touch now! 💕 #KATSEYE #캣츠아이 #kpopinpublic #danceinpublic #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #Touch now! 💕 #KATSEYE #캣츠아이 #kpopinpublic #danceinpublic #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I'm like some kind of #SuperNova 👾 #Aespa #challenge! Watch our full #kpopinpublic cover! 💃 #short.mp4",
+      "cleaned_filename": "I'm like some kind of #SuperNova 👾 #Aespa #challenge! Watch our full #kpopinpublic ! 💃 #short",
+      "artist": null,
+      "title": "I'm like some kind of #SuperNova 👾 #Aespa #challenge! Watch our full #kpopinpublic ! 💃 #short",
+      "confidence": "low",
+      "final_format": "I'm like some kind of #SuperNova 👾 #Aespa #challenge! Watch our full #kpopinpublic ! 💃 #short",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Batter batter #BATTERUP ⚾ #BABYMONSTER #BATTERUPChallenge #베이비몬스터 #kpopinpublic.mp4",
+      "cleaned_filename": "Batter batter #BATTERUP ⚾ #BABYMONSTER #BATTERUPChallenge #베이비몬스터 #kpopinpublic",
+      "artist": null,
+      "title": "Batter batter #BATTERUP ⚾ #BABYMONSTER #BATTERUPChallenge #베이비몬스터 #kpopinpublic",
+      "confidence": "low",
+      "final_format": "Batter batter #BATTERUP ⚾ #BABYMONSTER #BATTERUPChallenge #베이비몬스터 #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Feel like another #SADSONG 💧 #P1harmony #dancecover #dancechallenge #kpopdance #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "Feel like another #SADSONG 💧 #P1harmony #dancecover #dancechallenge #kpopdance #kpopinpublic #shorts",
+      "artist": null,
+      "title": "Feel like another #SADSONG 💧 #P1harmony #dancecover #dancechallenge #kpopdance #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "Feel like another #SADSONG 💧 #P1harmony #dancecover #dancechallenge #kpopdance #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I can melt an #Igloo ❄️ yeah cuz I'm so dang hot 🥵🔥 #KISSOFLIFE #kpopinpublic #dancecover #shorts.mp4",
+      "cleaned_filename": "I can melt an #Igloo ❄️ yeah cuz I'm so dang hot 🥵🔥 #KISSOFLIFE #kpopinpublic #dancecover #shorts",
+      "artist": null,
+      "title": "I can melt an #Igloo ❄️ yeah cuz I'm so dang hot 🥵🔥 #KISSOFLIFE #kpopinpublic #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "I can melt an #Igloo ❄️ yeah cuz I'm so dang hot 🥵🔥 #KISSOFLIFE #kpopinpublic #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Yeah you already know boy 🤟😤🤟 #KillinIt's Killing Part 🔥 #P1Harmony #때깔 #kpopinpublic #P1H.mp4",
+      "cleaned_filename": "Yeah you already know boy 🤟😤🤟 #KillinIt's Killing Part 🔥 #P1Harmony #때깔 #kpopinpublic #P1H",
+      "artist": null,
+      "title": "Yeah you already know boy 🤟😤🤟 #KillinIt's Killing Part 🔥 #P1Harmony #때깔 #kpopinpublic #P1H",
+      "confidence": "low",
+      "final_format": "Yeah you already know boy 🤟😤🤟 #KillinIt's Killing Part 🔥 #P1Harmony #때깔 #kpopinpublic #P1H",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #NotEnough cover! 🧎‍♂️‍➡️ #kpopinpublic #dancecover #shorts #WEi #위아이 #NOT_ENOUGH.mp4",
+      "cleaned_filename": "Watch our #NotEnough ! 🧎‍♂️‍➡️ #kpopinpublic #dancecover #shorts #WEi #위아이 #NOT ENOUGH",
+      "artist": null,
+      "title": "Watch our #NotEnough ! 🧎‍♂️‍➡️ #kpopinpublic #dancecover #shorts #WEi #위아이 #NOT ENOUGH",
+      "confidence": "low",
+      "final_format": "Watch our #NotEnough ! 🧎‍♂️‍➡️ #kpopinpublic #dancecover #shorts #WEi #위아이 #NOT ENOUGH",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #Igloo 🧊🥶 cover now! #KISSOFLIFE #kpopinpublic #dancecover #dancechallenge #fyp #shorts.mp4",
+      "cleaned_filename": "Watch our #Igloo 🧊🥶 now! #KISSOFLIFE #kpopinpublic #dancecover #dancechallenge #fyp #shorts",
+      "artist": null,
+      "title": "Watch our #Igloo 🧊🥶 now! #KISSOFLIFE #kpopinpublic #dancecover #dancechallenge #fyp #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #Igloo 🧊🥶 now! #KISSOFLIFE #kpopinpublic #dancecover #dancechallenge #fyp #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Omg that new beat! 🍑👋 Guess our #Megan! 🔍 #Gnarly #KATSEYE #KATSEYE_Gnarly #dancecover #shorts.mp4",
+      "cleaned_filename": "Omg that new beat! 🍑👋 Guess our #Megan! 🔍 #Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "artist": null,
+      "title": "Omg that new beat! 🍑👋 Guess our #Megan! 🔍 #Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Omg that new beat! 🍑👋 Guess our #Megan! 🔍 #Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Baby 🤘🤘 I'm a #Rockstar 🎸 #Lisa 🔥 #LaLisa #Blackpink #dancecover #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "Baby 🤘🤘 I'm a #Rockstar 🎸 #Lisa 🔥 #LaLisa #Blackpink #dancecover #kpopinpublic #shorts",
+      "artist": null,
+      "title": "Baby 🤘🤘 I'm a #Rockstar 🎸 #Lisa 🔥 #LaLisa #Blackpink #dancecover #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "Baby 🤘🤘 I'm a #Rockstar 🎸 #Lisa 🔥 #LaLisa #Blackpink #dancecover #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #Steady cover! 💚 #NCTWISH #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #dance #shorts.mp4",
+      "cleaned_filename": "Watch our #Steady ! 💚 #NCTWISH #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct # #shorts",
+      "artist": null,
+      "title": "Watch our #Steady ! 💚 #NCTWISH #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct # #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #Steady ! 💚 #NCTWISH #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct # #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Su su su #SuperNova dance break #challenge! 💃 Watch our full cover! 👾 #Aespa #kpopinpublic #short.mp4",
+      "cleaned_filename": "Su su su #SuperNova break #challenge! 💃 Watch our full ! 👾 #Aespa #kpopinpublic #short",
+      "artist": null,
+      "title": "Su su su #SuperNova break #challenge! 💃 Watch our full ! 👾 #Aespa #kpopinpublic #short",
+      "confidence": "low",
+      "final_format": "Su su su #SuperNova break #challenge! 💃 Watch our full ! 👾 #Aespa #kpopinpublic #short",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I'm a smarter baby 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌.mp4",
+      "cleaned_filename": "I'm a smarter baby 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌",
+      "artist": null,
+      "title": "I'm a smarter baby 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌",
+      "confidence": "low",
+      "final_format": "I'm a smarter baby 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Guess our #Daniela! 🔍 #Gnarly 🥪🔪 #KATSEYE #KATSEYE_Gnarly #dancecover #shorts (1).mp4",
+      "cleaned_filename": "Guess our #Daniela! 🔍 #Gnarly 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "artist": null,
+      "title": "Guess our #Daniela! 🔍 #Gnarly 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Guess our #Daniela! 🔍 #Gnarly 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Dance break 🤩 from #BATTERUP ⚾ #BABYMONSTER #BATTERUPChallenge #베이비몬스터 #kpopinpublic.mp4",
+      "cleaned_filename": "break 🤩 from #BATTERUP ⚾ #BABYMONSTER #BATTERUPChallenge #베이비몬스터 #kpopinpublic",
+      "artist": null,
+      "title": "break 🤩 from #BATTERUP ⚾ #BABYMONSTER #BATTERUPChallenge #베이비몬스터 #kpopinpublic",
+      "confidence": "low",
+      "final_format": "break 🤩 from #BATTERUP ⚾ #BABYMONSTER #BATTERUPChallenge #베이비몬스터 #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Zoom gotta #zoom 💨 #BADVILLAIN #kpopinpublic #dancechallenge #dancecover #kpopfyp #shorts.mp4",
+      "cleaned_filename": "Zoom gotta #zoom 💨 #BADVILLAIN #kpopinpublic #dancechallenge #dancecover #kpopfyp #shorts",
+      "artist": null,
+      "title": "Zoom gotta #zoom 💨 #BADVILLAIN #kpopinpublic #dancechallenge #dancecover #kpopfyp #shorts",
+      "confidence": "low",
+      "final_format": "Zoom gotta #zoom 💨 #BADVILLAIN #kpopinpublic #dancechallenge #dancecover #kpopfyp #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "The vocals 😫🙌 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4",
+      "cleaned_filename": "The vocals 😫🙌 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "artist": null,
+      "title": "The vocals 😫🙌 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "The vocals 😫🙌 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Dive in 🙏🏊‍♂️ #AdultSwim 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI_AdultSwim #카이 #shorts.mp4",
+      "cleaned_filename": "Dive in 🙏🏊‍♂️ #AdultSwim 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI AdultSwim #카이 #shorts",
+      "artist": null,
+      "title": "Dive in 🙏🏊‍♂️ #AdultSwim 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI AdultSwim #카이 #shorts",
+      "confidence": "low",
+      "final_format": "Dive in 🙏🏊‍♂️ #AdultSwim 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI AdultSwim #카이 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Beautiful fire 🙏🔥 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4",
+      "cleaned_filename": "Beautiful fire 🙏🔥 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "artist": null,
+      "title": "Beautiful fire 🙏🔥 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "Beautiful fire 🙏🔥 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "#WaitOnMe 🌄 dance break 🔥 #KAI #kpopinpublic #dancecover #카이 #KAI_WaitOnMe #EXO #엑소 #shorts.mp4",
+      "cleaned_filename": "#WaitOnMe 🌄 break 🔥 #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe #EXO #엑소 #shorts",
+      "artist": null,
+      "title": "#WaitOnMe 🌄 break 🔥 #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe #EXO #엑소 #shorts",
+      "confidence": "low",
+      "final_format": "#WaitOnMe 🌄 break 🔥 #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe #EXO #엑소 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Cuz you're my #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover.mp4",
+      "cleaned_filename": "Cuz you're my #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover",
+      "artist": null,
+      "title": "Cuz you're my #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover",
+      "confidence": "low",
+      "final_format": "Cuz you're my #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Everything’s #Gnarly! 🥪🔪 #KATSEYE #KATSEYE_Gnarly #dancecover #shorts #danceinpublic.mp4",
+      "cleaned_filename": "Everything’s #Gnarly! 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts #danceinpublic",
+      "artist": null,
+      "title": "Everything’s #Gnarly! 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts #danceinpublic",
+      "confidence": "low",
+      "final_format": "Everything’s #Gnarly! 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts #danceinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "artist": null,
+      "title": "All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "B A B Y M O N 😈 Tell a Friend 🤫 #SHEESH #BabyMonster #YG #베이비몬스터 #SHEESHChallenge #kpopinpublic.mp4",
+      "cleaned_filename": "B A B Y M O N 😈 Tell a Friend 🤫 #SHEESH #BabyMonster #YG #베이비몬스터 #SHEESHChallenge #kpopinpublic",
+      "artist": null,
+      "title": "B A B Y M O N 😈 Tell a Friend 🤫 #SHEESH #BabyMonster #YG #베이비몬스터 #SHEESHChallenge #kpopinpublic",
+      "confidence": "low",
+      "final_format": "B A B Y M O N 😈 Tell a Friend 🤫 #SHEESH #BabyMonster #YG #베이비몬스터 #SHEESHChallenge #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Let's #KickIt4Now 👟 #Kickit4NowChallenge #TNX #TheNewSix.mp4",
+      "cleaned_filename": "Let's #KickIt4Now 👟 #Kickit4NowChallenge #TNX #TheNewSix",
+      "artist": null,
+      "title": "Let's #KickIt4Now 👟 #Kickit4NowChallenge #TNX #TheNewSix",
+      "confidence": "low",
+      "final_format": "Let's #KickIt4Now 👟 #Kickit4NowChallenge #TNX #TheNewSix",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Wait! ✋ #PlotTwist 🌊 #TWS  #투어스 #247WithUs #Sparkling_Blue #첫만남은계획대로되지않아 #plot_twist.mp4",
+      "cleaned_filename": "Wait! ✋ #PlotTwist 🌊 #TWS #투어스 #247WithUs #Sparkling Blue #첫만남은계획대로되지않아 #plot twist",
+      "artist": null,
+      "title": "Wait! ✋ #PlotTwist 🌊 #TWS #투어스 #247WithUs #Sparkling Blue #첫만남은계획대로되지않아 #plot twist",
+      "confidence": "low",
+      "final_format": "Wait! ✋ #PlotTwist 🌊 #TWS #투어스 #247WithUs #Sparkling Blue #첫만남은계획대로되지않아 #plot twist",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "The 🍑 part in #CrazyForm 🤪 #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny.mp4",
+      "cleaned_filename": "The 🍑 part in #CrazyForm 🤪 #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny",
+      "artist": null,
+      "title": "The 🍑 part in #CrazyForm 🤪 #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny",
+      "confidence": "low",
+      "final_format": "The 🍑 part in #CrazyForm 🤪 #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "One of one only ☝ #XG #MAYA #COCONA  #SWF2 #Streetwomanfighter2 #SHOWYOUCAN.mp4",
+      "cleaned_filename": "One of one only ☝ #XG #MAYA #COCONA #SWF2 #Streetwomanfighter2 #SHOWYOUCAN",
+      "artist": null,
+      "title": "One of one only ☝ #XG #MAYA #COCONA #SWF2 #Streetwomanfighter2 #SHOWYOUCAN",
+      "confidence": "low",
+      "final_format": "One of one only ☝ #XG #MAYA #COCONA #SWF2 #Streetwomanfighter2 #SHOWYOUCAN",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "All the girls are girling, girling! 💅 #CRAZY #LESSERAFIM #kpopinpublic #dancecover #르세라핌 #shorts.mp4",
+      "cleaned_filename": "All the girls are girling, girling! 💅 #CRAZY #LESSERAFIM #kpopinpublic #dancecover #르세라핌 #shorts",
+      "artist": null,
+      "title": "All the girls are girling, girling! 💅 #CRAZY #LESSERAFIM #kpopinpublic #dancecover #르세라핌 #shorts",
+      "confidence": "low",
+      "final_format": "All the girls are girling, girling! 💅 #CRAZY #LESSERAFIM #kpopinpublic #dancecover #르세라핌 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our cover of #BadDesire! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "Watch our of #BadDesire! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "artist": null,
+      "title": "Watch our of #BadDesire! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "Watch our of #BadDesire! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "This 💘 is #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS.mp4",
+      "cleaned_filename": "This 💘 is #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS",
+      "artist": null,
+      "title": "This 💘 is #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS",
+      "confidence": "low",
+      "final_format": "This 💘 is #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Hey listen to me now! 🔊👋 #NAYEON's #ABCD #kpopinpublic #TWICE #나연 #shorts.mp4",
+      "cleaned_filename": "Hey listen to me now! 🔊👋 #NAYEON's #ABCD #kpopinpublic #TWICE #나연 #shorts",
+      "artist": null,
+      "title": "Hey listen to me now! 🔊👋 #NAYEON's #ABCD #kpopinpublic #TWICE #나연 #shorts",
+      "confidence": "low",
+      "final_format": "Hey listen to me now! 🔊👋 #NAYEON's #ABCD #kpopinpublic #TWICE #나연 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "You see 👁 I got that #MidasTouch 👉👑 #KISSOFLIFE Check out our #kpopinpublic #dancecover! 💖 #키스오브라이프.mp4",
+      "cleaned_filename": "You see 👁 I got that #MidasTouch 👉👑 #KISSOFLIFE Check out our #kpopinpublic #dancecover! 💖 #키스오브라이프",
+      "artist": null,
+      "title": "You see 👁 I got that #MidasTouch 👉👑 #KISSOFLIFE Check out our #kpopinpublic #dancecover! 💖 #키스오브라이프",
+      "confidence": "low",
+      "final_format": "You see 👁 I got that #MidasTouch 👉👑 #KISSOFLIFE Check out our #kpopinpublic #dancecover! 💖 #키스오브라이프",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #TTYL cover now! 🍑💃 #TTYL #Loosemble #Loona #kpopinpublic #dancecover #dancevideo #shorts.mp4",
+      "cleaned_filename": "Watch our #TTYL now! 🍑💃 #TTYL #Loosemble #Loona #kpopinpublic #dancecover #dancevideo #shorts",
+      "artist": null,
+      "title": "Watch our #TTYL now! 🍑💃 #TTYL #Loosemble #Loona #kpopinpublic #dancecover #dancevideo #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #TTYL now! 🍑💃 #TTYL #Loosemble #Loona #kpopinpublic #dancecover #dancevideo #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I'm burning #HOT 🥵🔥 #LESSERAFIM #HOT  #kpopinpublic #dancecover #르세라핌 #LE_SSERAFIM_HOT #shorts.mp4",
+      "cleaned_filename": "I'm burning #HOT 🥵🔥 #LESSERAFIM #HOT #kpopinpublic #dancecover #르세라핌 #LE SSERAFIM HOT #shorts",
+      "artist": null,
+      "title": "I'm burning #HOT 🥵🔥 #LESSERAFIM #HOT #kpopinpublic #dancecover #르세라핌 #LE SSERAFIM HOT #shorts",
+      "confidence": "low",
+      "final_format": "I'm burning #HOT 🥵🔥 #LESSERAFIM #HOT #kpopinpublic #dancecover #르세라핌 #LE SSERAFIM HOT #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "⏱ Hunt down🐺 #DeerHunter #andTEAM #GoInBlind #jpop #kpopfyp #kpopshorts #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "⏱ Hunt down🐺 #DeerHunter #andTEAM #GoInBlind #jpop #kpopfyp #kpopshorts #kpopinpublic #shorts",
+      "artist": null,
+      "title": "⏱ Hunt down🐺 #DeerHunter #andTEAM #GoInBlind #jpop #kpopfyp #kpopshorts #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "⏱ Hunt down🐺 #DeerHunter #andTEAM #GoInBlind #jpop #kpopfyp #kpopshorts #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "YAH-HO is so satisfying! 😊 #BADTITUDE #BADVILLAIN #야호 #dancecover #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "YAH HO is so satisfying! 😊 #BADTITUDE #BADVILLAIN #야호 #dancecover #kpopinpublic #shorts",
+      "artist": null,
+      "title": "YAH HO is so satisfying! 😊 #BADTITUDE #BADVILLAIN #야호 #dancecover #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "YAH HO is so satisfying! 😊 #BADTITUDE #BADVILLAIN #야호 #dancecover #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "But you’ve been so out of #Touch 🤙🤙 #KATSEYE #danceinpublic #debut #kpopinpublic #cover #shorts.mp4",
+      "cleaned_filename": "But you’ve been so out of #Touch 🤙🤙 #KATSEYE #danceinpublic #debut #kpopinpublic # #shorts",
+      "artist": null,
+      "title": "But you’ve been so out of #Touch 🤙🤙 #KATSEYE #danceinpublic #debut #kpopinpublic # #shorts",
+      "confidence": "low",
+      "final_format": "But you’ve been so out of #Touch 🤙🤙 #KATSEYE #danceinpublic #debut #kpopinpublic # #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "#Gnarly cover is out now! 🥪🔪 #KATSEYE #KATSEYE_Gnarly #dancecover #shorts #danceinpublic.mp4",
+      "cleaned_filename": "#Gnarly is out now! 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts #danceinpublic",
+      "artist": null,
+      "title": "#Gnarly is out now! 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts #danceinpublic",
+      "confidence": "low",
+      "final_format": "#Gnarly is out now! 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts #danceinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "We goin' up like #NASA! 🚀 This choreo 🔥 #NCTWISH #NCT #WISH #Jpop #kpopinpublic.mp4",
+      "cleaned_filename": "We goin' up like #NASA! 🚀 This 🔥 #NCTWISH #NCT #WISH #Jpop #kpopinpublic",
+      "artist": null,
+      "title": "We goin' up like #NASA! 🚀 This 🔥 #NCTWISH #NCT #WISH #Jpop #kpopinpublic",
+      "confidence": "low",
+      "final_format": "We goin' up like #NASA! 🚀 This 🔥 #NCTWISH #NCT #WISH #Jpop #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "#HandsUp is out now! 🙌 #dancecover #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #kpopfyp #shorts.mp4",
+      "cleaned_filename": "#HandsUp is out now! 🙌 #dancecover #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #kpopfyp #shorts",
+      "artist": null,
+      "title": "#HandsUp is out now! 🙌 #dancecover #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #kpopfyp #shorts",
+      "confidence": "low",
+      "final_format": "#HandsUp is out now! 🙌 #dancecover #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #kpopfyp #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "#Crush for me! ✋✊ #ZEROBASEONE #제로베이스원 #가시 #MeltingPoint #kpopinpublic.mp4",
+      "cleaned_filename": "#Crush for me! ✋✊ #ZEROBASEONE #제로베이스원 #가시 #MeltingPoint #kpopinpublic",
+      "artist": null,
+      "title": "#Crush for me! ✋✊ #ZEROBASEONE #제로베이스원 #가시 #MeltingPoint #kpopinpublic",
+      "confidence": "low",
+      "final_format": "#Crush for me! ✋✊ #ZEROBASEONE #제로베이스원 #가시 #MeltingPoint #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Guess our #Daniela! 🔍 #Gnarly 🥪🔪 #KATSEYE #KATSEYE_Gnarly #dancecover #shorts.mp4",
+      "cleaned_filename": "Guess our #Daniela! 🔍 #Gnarly 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "artist": null,
+      "title": "Guess our #Daniela! 🔍 #Gnarly 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Guess our #Daniela! 🔍 #Gnarly 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "That's me 💅 #izna #debut #kpopinpublic #shorts #dancecover #dancechallenge #이즈나 #kpopfyp #N_a #debut.mp4",
+      "cleaned_filename": "That's me 💅 #izna #debut #kpopinpublic #shorts #dancecover #dancechallenge #이즈나 #kpopfyp #N a #debut",
+      "artist": null,
+      "title": "That's me 💅 #izna #debut #kpopinpublic #shorts #dancecover #dancechallenge #이즈나 #kpopfyp #N a #debut",
+      "confidence": "low",
+      "final_format": "That's me 💅 #izna #debut #kpopinpublic #shorts #dancecover #dancechallenge #이즈나 #kpopfyp #N a #debut",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Beautiful fire 🙏🔥 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "Beautiful fire 🙏🔥 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "artist": null,
+      "title": "Beautiful fire 🙏🔥 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "Beautiful fire 🙏🔥 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #HandsUp #dancecover! 🙌 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #kpopfyp #shorts (1).mp4",
+      "cleaned_filename": "Watch our #HandsUp #dancecover! 🙌 #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #kpopfyp #shorts",
+      "artist": null,
+      "title": "Watch our #HandsUp #dancecover! 🙌 #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #kpopfyp #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #HandsUp #dancecover! 🙌 #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #kpopfyp #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Like its #Magnetic 🧲#아일릿 #ILLIT #SUPER_REAL_ME #MagneticChallenge #kpopinpublic.mp4",
+      "cleaned_filename": "Like its #Magnetic 🧲#아일릿 #ILLIT #SUPER REAL ME #MagneticChallenge #kpopinpublic",
+      "artist": null,
+      "title": "Like its #Magnetic 🧲#아일릿 #ILLIT #SUPER REAL ME #MagneticChallenge #kpopinpublic",
+      "confidence": "low",
+      "final_format": "Like its #Magnetic 🧲#아일릿 #ILLIT #SUPER REAL ME #MagneticChallenge #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Breathe in, breathe out 😤 #Zoom #BADVILLAIN #kpopinpublic #dancecover #kpopfyp #shorts.mp4",
+      "cleaned_filename": "Breathe in, breathe out 😤 #Zoom #BADVILLAIN #kpopinpublic #dancecover #kpopfyp #shorts",
+      "artist": null,
+      "title": "Breathe in, breathe out 😤 #Zoom #BADVILLAIN #kpopinpublic #dancecover #kpopfyp #shorts",
+      "confidence": "low",
+      "final_format": "Breathe in, breathe out 😤 #Zoom #BADVILLAIN #kpopinpublic #dancecover #kpopfyp #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #HandsUp #dancecover! 🙌 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #kpopfyp #shorts.mp4",
+      "cleaned_filename": "Watch our #HandsUp #dancecover! 🙌 #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #kpopfyp #shorts",
+      "artist": null,
+      "title": "Watch our #HandsUp #dancecover! 🙌 #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #kpopfyp #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #HandsUp #dancecover! 🙌 #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #kpopfyp #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Full shot 🔫 pull it up #Armageddon 💥 #Aespa #에스파 #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "Full shot 🔫 pull it up #Armageddon 💥 #Aespa #에스파 #kpopinpublic #shorts",
+      "artist": null,
+      "title": "Full shot 🔫 pull it up #Armageddon 💥 #Aespa #에스파 #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "Full shot 🔫 pull it up #Armageddon 💥 #Aespa #에스파 #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Come a so-soñar 🌪️ #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker.mp4",
+      "cleaned_filename": "Come a so soñar 🌪️ #NMIXX #엔믹스 #Fe3O4 BREAK #Soñar #Soñar Challenge #NSWER #SoñarBreaker",
+      "artist": null,
+      "title": "Come a so soñar 🌪️ #NMIXX #엔믹스 #Fe3O4 BREAK #Soñar #Soñar Challenge #NSWER #SoñarBreaker",
+      "confidence": "low",
+      "final_format": "Come a so soñar 🌪️ #NMIXX #엔믹스 #Fe3O4 BREAK #Soñar #Soñar Challenge #NSWER #SoñarBreaker",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Best part 👌 from #NAYEON's 🧢 #ABCD #kpopinpublic #TWICE #나연 #shorts.mp4",
+      "cleaned_filename": "Best part 👌 from #NAYEON's 🧢 #ABCD #kpopinpublic #TWICE #나연 #shorts",
+      "artist": null,
+      "title": "Best part 👌 from #NAYEON's 🧢 #ABCD #kpopinpublic #TWICE #나연 #shorts",
+      "confidence": "low",
+      "final_format": "Best part 👌 from #NAYEON's 🧢 #ABCD #kpopinpublic #TWICE #나연 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "This time I want 👆 #Magnetic 🧲#아일릿 #ILLIT #SUPER_REAL_ME #MagneticChallenge #kpopinpublic.mp4",
+      "cleaned_filename": "This time I want 👆 #Magnetic 🧲#아일릿 #ILLIT #SUPER REAL ME #MagneticChallenge #kpopinpublic",
+      "artist": null,
+      "title": "This time I want 👆 #Magnetic 🧲#아일릿 #ILLIT #SUPER REAL ME #MagneticChallenge #kpopinpublic",
+      "confidence": "low",
+      "final_format": "This time I want 👆 #Magnetic 🧲#아일릿 #ILLIT #SUPER REAL ME #MagneticChallenge #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Omg that new beat! 🍑👋 #Gnarly #KATSEYE #KATSEYE_Gnarly #dancecover #shorts (1).mp4",
+      "cleaned_filename": "Omg that new beat! 🍑👋 #Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "artist": null,
+      "title": "Omg that new beat! 🍑👋 #Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Omg that new beat! 🍑👋 #Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #WaitOnMe cover!☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI_WaitOnMe#EXO #엑소 #shorts.mp4",
+      "cleaned_filename": "Watch our #WaitOnMe !☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe#EXO #엑소 #shorts",
+      "artist": null,
+      "title": "Watch our #WaitOnMe !☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe#EXO #엑소 #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #WaitOnMe !☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe#EXO #엑소 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "What’s your #LoveLanguage 🤘🤘💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic.mp4",
+      "cleaned_filename": "What’s your #LoveLanguage 🤘🤘💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #kpopinpublic",
+      "artist": null,
+      "title": "What’s your #LoveLanguage 🤘🤘💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #kpopinpublic",
+      "confidence": "low",
+      "final_format": "What’s your #LoveLanguage 🤘🤘💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "#BadDesire cover out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "#BadDesire out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "artist": null,
+      "title": "#BadDesire out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "#BadDesire out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Hottie hottie, like a bag of Takis 🥵🔥#Gnarly #KATSEYE #KATSEYE_Gnarly #dancecover #shorts.mp4",
+      "cleaned_filename": "Hottie hottie, like a bag of Takis 🥵🔥#Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "artist": null,
+      "title": "Hottie hottie, like a bag of Takis 🥵🔥#Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Hottie hottie, like a bag of Takis 🥵🔥#Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Omg that new beat! 🍑👋 #Gnarly #KATSEYE #KATSEYE_Gnarly #dancecover #shorts.mp4",
+      "cleaned_filename": "Omg that new beat! 🍑👋 #Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "artist": null,
+      "title": "Omg that new beat! 🍑👋 #Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Omg that new beat! 🍑👋 #Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Back it up! 🙌 Back it up! 👠 #SuperLady 🦸‍♀️ #GIDLE #여자아이들 #Two #SuperLadyChallenge #kpopinpublic.mp4",
+      "cleaned_filename": "Back it up! 🙌 Back it up! 👠 #SuperLady 🦸‍♀️ #GIDLE #여자아이들 #Two #SuperLadyChallenge #kpopinpublic",
+      "artist": null,
+      "title": "Back it up! 🙌 Back it up! 👠 #SuperLady 🦸‍♀️ #GIDLE #여자아이들 #Two #SuperLadyChallenge #kpopinpublic",
+      "confidence": "low",
+      "final_format": "Back it up! 🙌 Back it up! 👠 #SuperLady 🦸‍♀️ #GIDLE #여자아이들 #Two #SuperLadyChallenge #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "The vocals 😫🙌 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "The vocals 😫🙌 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "artist": null,
+      "title": "The vocals 😫🙌 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "The vocals 😫🙌 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Melt for you 🤍 #MELTINGPOINT ❄ #ZEROBASEONE #ZB1 #제로베이스원 #MELTINGPOINTChallenge.mp4",
+      "cleaned_filename": "Melt for you 🤍 #MELTINGPOINT ❄ #ZEROBASEONE #ZB1 #제로베이스원 #MELTINGPOINTChallenge",
+      "artist": null,
+      "title": "Melt for you 🤍 #MELTINGPOINT ❄ #ZEROBASEONE #ZB1 #제로베이스원 #MELTINGPOINTChallenge",
+      "confidence": "low",
+      "final_format": "Melt for you 🤍 #MELTINGPOINT ❄ #ZEROBASEONE #ZB1 #제로베이스원 #MELTINGPOINTChallenge",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I'm on that #CashShit 💸 Ah 😜 #MeganTheeStallion #DaBaby #Quanz #Choreography #CashShitChallenge.mp4",
+      "cleaned_filename": "I'm on that #CashShit 💸 Ah 😜 #MeganTheeStallion #DaBaby #Quanz # #CashShitChallenge",
+      "artist": null,
+      "title": "I'm on that #CashShit 💸 Ah 😜 #MeganTheeStallion #DaBaby #Quanz # #CashShitChallenge",
+      "confidence": "low",
+      "final_format": "I'm on that #CashShit 💸 Ah 😜 #MeganTheeStallion #DaBaby #Quanz # #CashShitChallenge",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Was it all #NotEnough 🥲 #kpopinpublic #dancecover #shorts #WEi #위아이 #NOT_ENOUGH.mp4",
+      "cleaned_filename": "Was it all #NotEnough 🥲 #kpopinpublic #dancecover #shorts #WEi #위아이 #NOT ENOUGH",
+      "artist": null,
+      "title": "Was it all #NotEnough 🥲 #kpopinpublic #dancecover #shorts #WEi #위아이 #NOT ENOUGH",
+      "confidence": "low",
+      "final_format": "Was it all #NotEnough 🥲 #kpopinpublic #dancecover #shorts #WEi #위아이 #NOT ENOUGH",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "The girls ate in #WaitOnMe ✋✋ #KAI #TeamBebe #kpopinpublic #dancecover #카이#KAI_WaitOnMe #EXO #shorts.mp4",
+      "cleaned_filename": "The girls ate in #WaitOnMe ✋✋ #KAI #TeamBebe #kpopinpublic #dancecover #카이#KAI WaitOnMe #EXO #shorts",
+      "artist": null,
+      "title": "The girls ate in #WaitOnMe ✋✋ #KAI #TeamBebe #kpopinpublic #dancecover #카이#KAI WaitOnMe #EXO #shorts",
+      "confidence": "low",
+      "final_format": "The girls ate in #WaitOnMe ✋✋ #KAI #TeamBebe #kpopinpublic #dancecover #카이#KAI WaitOnMe #EXO #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "What’s your #LoveLanguage 🤘🤘💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic (1).mp4",
+      "cleaned_filename": "What’s your #LoveLanguage 🤘🤘💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #kpopinpublic",
+      "artist": null,
+      "title": "What’s your #LoveLanguage 🤘🤘💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #kpopinpublic",
+      "confidence": "low",
+      "final_format": "What’s your #LoveLanguage 🤘🤘💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Hottie hottie, like a bag of Takis 🥵🔥#Gnarly #KATSEYE #KATSEYE_Gnarly #dancecover #shorts (1).mp4",
+      "cleaned_filename": "Hottie hottie, like a bag of Takis 🥵🔥#Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "artist": null,
+      "title": "Hottie hottie, like a bag of Takis 🥵🔥#Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Hottie hottie, like a bag of Takis 🥵🔥#Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "#Katseye is taking over the #RPD with #Touch! 👉😊 #Debut #RandomPlayDance #katchykpop #kpopinpublic.mp4",
+      "cleaned_filename": "#Katseye is taking over the #RPD with #Touch! 👉😊 #Debut #RandomPlayDance #katchykpop #kpopinpublic",
+      "artist": null,
+      "title": "#Katseye is taking over the #RPD with #Touch! 👉😊 #Debut #RandomPlayDance #katchykpop #kpopinpublic",
+      "confidence": "low",
+      "final_format": "#Katseye is taking over the #RPD with #Touch! 👉😊 #Debut #RandomPlayDance #katchykpop #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "The 🦵⬆ choreo from #KATSEYE's #Debut 👌😍 #DebutChallenge #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "The 🦵⬆ from #KATSEYE's #Debut 👌😍 #DebutChallenge #kpopinpublic #shorts",
+      "artist": null,
+      "title": "The 🦵⬆ from #KATSEYE's #Debut 👌😍 #DebutChallenge #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "The 🦵⬆ from #KATSEYE's #Debut 👌😍 #DebutChallenge #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our cover of #BadDesire! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4",
+      "cleaned_filename": "Watch our of #BadDesire! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "artist": null,
+      "title": "Watch our of #BadDesire! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "Watch our of #BadDesire! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "All the girls are girling, girling 💅 at our new #RPD! 😍 Out now! ⬆ #LESSERAFIM #CRAZY #kpopinpublic.mp4",
+      "cleaned_filename": "All the girls are girling, girling 💅 at our new #RPD! 😍 Out now! ⬆ #LESSERAFIM #CRAZY #kpopinpublic",
+      "artist": null,
+      "title": "All the girls are girling, girling 💅 at our new #RPD! 😍 Out now! ⬆ #LESSERAFIM #CRAZY #kpopinpublic",
+      "confidence": "low",
+      "final_format": "All the girls are girling, girling 💅 at our new #RPD! 😍 Out now! ⬆ #LESSERAFIM #CRAZY #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Feel like #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge.mp4",
+      "cleaned_filename": "Feel like #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge",
+      "artist": null,
+      "title": "Feel like #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge",
+      "confidence": "low",
+      "final_format": "Feel like #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "#HandsUp is out now! 🙌 #dancecover #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #kpopfyp #shorts (1).mp4",
+      "cleaned_filename": "#HandsUp is out now! 🙌 #dancecover #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #kpopfyp #shorts",
+      "artist": null,
+      "title": "#HandsUp is out now! 🙌 #dancecover #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #kpopfyp #shorts",
+      "confidence": "low",
+      "final_format": "#HandsUp is out now! 🙌 #dancecover #MEOVV #미야오 #MEOVV HANDSUP #kpopinpublic #kpop #kpopfyp #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #WaitOnMe cover!☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI_WaitOnMe#EXO #엑소 #shorts (1).mp4",
+      "cleaned_filename": "Watch our #WaitOnMe !☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe#EXO #엑소 #shorts",
+      "artist": null,
+      "title": "Watch our #WaitOnMe !☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe#EXO #엑소 #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #WaitOnMe !☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe#EXO #엑소 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I get it 😍 #WaitOnMe is out now! #KAI #kpopinpublic #dancecover #카이 #KAI_WaitOnMe#EXO #엑소 #shorts.mp4",
+      "cleaned_filename": "I get it 😍 #WaitOnMe is out now! #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe#EXO #엑소 #shorts",
+      "artist": null,
+      "title": "I get it 😍 #WaitOnMe is out now! #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe#EXO #엑소 #shorts",
+      "confidence": "low",
+      "final_format": "I get it 😍 #WaitOnMe is out now! #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe#EXO #엑소 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Omg that new beat! 🍑👋 Guess our #Megan! 🔍 #Gnarly #KATSEYE #KATSEYE_Gnarly #dancecover #shorts (1).mp4",
+      "cleaned_filename": "Omg that new beat! 🍑👋 Guess our #Megan! 🔍 #Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "artist": null,
+      "title": "Omg that new beat! 🍑👋 Guess our #Megan! 🔍 #Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Omg that new beat! 🍑👋 Guess our #Megan! 🔍 #Gnarly #KATSEYE #KATSEYE Gnarly #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "This kick move 🦶🔥 #FatalTrouble! 🩸 #ENHYPEN #DARKMOON #ENGENE #kpopinpublic #challenge #shorts.mp4",
+      "cleaned_filename": "This kick move 🦶🔥 #FatalTrouble! 🩸 #ENHYPEN #DARKMOON #ENGENE #kpopinpublic #challenge #shorts",
+      "artist": null,
+      "title": "This kick move 🦶🔥 #FatalTrouble! 🩸 #ENHYPEN #DARKMOON #ENGENE #kpopinpublic #challenge #shorts",
+      "confidence": "low",
+      "final_format": "This kick move 🦶🔥 #FatalTrouble! 🩸 #ENHYPEN #DARKMOON #ENGENE #kpopinpublic #challenge #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "The most satisfying part 🔥 Watch our #NoDoubt cover now! 🙏 #ENHYPEN #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "The most satisfying part 🔥 Watch our #NoDoubt now! 🙏 #ENHYPEN #kpopinpublic #shorts",
+      "artist": null,
+      "title": "The most satisfying part 🔥 Watch our #NoDoubt now! 🙏 #ENHYPEN #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "The most satisfying part 🔥 Watch our #NoDoubt now! 🙏 #ENHYPEN #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I #BroughtTheHeatBack!🔥 #ENHYPEN 🧛🐱 #엔하이픈  #kpopinpublic #dancecover #shorts.mp4",
+      "cleaned_filename": "I #BroughtTheHeatBack!🔥 #ENHYPEN 🧛🐱 #엔하이픈 #kpopinpublic #dancecover #shorts",
+      "artist": null,
+      "title": "I #BroughtTheHeatBack!🔥 #ENHYPEN 🧛🐱 #엔하이픈 #kpopinpublic #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "I #BroughtTheHeatBack!🔥 #ENHYPEN 🧛🐱 #엔하이픈 #kpopinpublic #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #AdultSwim cover! 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI_AdultSwim #카이 #shorts.mp4",
+      "cleaned_filename": "Watch our #AdultSwim ! 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI AdultSwim #카이 #shorts",
+      "artist": null,
+      "title": "Watch our #AdultSwim ! 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI AdultSwim #카이 #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #AdultSwim ! 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI AdultSwim #카이 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Killing part! 🔥 #Impossible's dance break 👟 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈.mp4",
+      "cleaned_filename": "Killing part! 🔥 #Impossible's break 👟 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈",
+      "artist": null,
+      "title": "Killing part! 🔥 #Impossible's break 👟 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈",
+      "confidence": "low",
+      "final_format": "Killing part! 🔥 #Impossible's break 👟 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #BroughtTheHeatBack class video now! 🧛🐱 #ENHYPEN #엔하이픈  #kpopinpublic #dancecover #shorts.mp4",
+      "cleaned_filename": "Watch our #BroughtTheHeatBack class video now! 🧛🐱 #ENHYPEN #엔하이픈 #kpopinpublic #dancecover #shorts",
+      "artist": null,
+      "title": "Watch our #BroughtTheHeatBack class video now! 🧛🐱 #ENHYPEN #엔하이픈 #kpopinpublic #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #BroughtTheHeatBack class video now! 🧛🐱 #ENHYPEN #엔하이픈 #kpopinpublic #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Bet you never thought you'd see #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge.mp4",
+      "cleaned_filename": "Bet you never thought you'd see #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge",
+      "artist": null,
+      "title": "Bet you never thought you'd see #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge",
+      "confidence": "low",
+      "final_format": "Bet you never thought you'd see #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #Mantra cover! 💃 #JENNIE #Blackpink #제니 #kpopinpublic #dancecover #shorts.mp4",
+      "cleaned_filename": "Watch our #Mantra ! 💃 #JENNIE #Blackpink #제니 #kpopinpublic #dancecover #shorts",
+      "artist": null,
+      "title": "Watch our #Mantra ! 💃 #JENNIE #Blackpink #제니 #kpopinpublic #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #Mantra ! 💃 #JENNIE #Blackpink #제니 #kpopinpublic #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Teach me 🥵 #LoveLanguage 💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic.mp4",
+      "cleaned_filename": "Teach me 🥵 #LoveLanguage 💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #kpopinpublic",
+      "artist": null,
+      "title": "Teach me 🥵 #LoveLanguage 💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #kpopinpublic",
+      "confidence": "low",
+      "final_format": "Teach me 🥵 #LoveLanguage 💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I am the top #SuperLady 🦸‍♀️ #GIDLE 👑 #여자아이들 #Two #SuperLadyChallenge #kpopinpublic.mp4",
+      "cleaned_filename": "I am the top #SuperLady 🦸‍♀️ #GIDLE 👑 #여자아이들 #Two #SuperLadyChallenge #kpopinpublic",
+      "artist": null,
+      "title": "I am the top #SuperLady 🦸‍♀️ #GIDLE 👑 #여자아이들 #Two #SuperLadyChallenge #kpopinpublic",
+      "confidence": "low",
+      "final_format": "I am the top #SuperLady 🦸‍♀️ #GIDLE 👑 #여자아이들 #Two #SuperLadyChallenge #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "#WaitOnMe 🌄 dance break 🔥 #KAI #kpopinpublic #dancecover #카이 #KAI_WaitOnMe #EXO #엑소 #shorts (1).mp4",
+      "cleaned_filename": "#WaitOnMe 🌄 break 🔥 #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe #EXO #엑소 #shorts",
+      "artist": null,
+      "title": "#WaitOnMe 🌄 break 🔥 #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe #EXO #엑소 #shorts",
+      "confidence": "low",
+      "final_format": "#WaitOnMe 🌄 break 🔥 #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe #EXO #엑소 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Pretty so fine 😍 #MonaLisa #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army.mp4",
+      "cleaned_filename": "Pretty so fine 😍 #MonaLisa #jhope #kpopinpublic #shorts #제이홉 #jhope MONALISA #bts #army",
+      "artist": null,
+      "title": "Pretty so fine 😍 #MonaLisa #jhope #kpopinpublic #shorts #제이홉 #jhope MONALISA #bts #army",
+      "confidence": "low",
+      "final_format": "Pretty so fine 😍 #MonaLisa #jhope #kpopinpublic #shorts #제이홉 #jhope MONALISA #bts #army",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Everything’s #Gnarly! 🥪🔪 #KATSEYE #KATSEYE_Gnarly #dancecover #shorts #danceinpublic (1).mp4",
+      "cleaned_filename": "Everything’s #Gnarly! 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts #danceinpublic",
+      "artist": null,
+      "title": "Everything’s #Gnarly! 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts #danceinpublic",
+      "confidence": "low",
+      "final_format": "Everything’s #Gnarly! 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts #danceinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Go hit that Gum #GGUM! 😈🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #fyp #shorts.mp4",
+      "cleaned_filename": "Go hit that Gum #GGUM! 😈🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #fyp #shorts",
+      "artist": null,
+      "title": "Go hit that Gum #GGUM! 😈🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #fyp #shorts",
+      "confidence": "low",
+      "final_format": "Go hit that Gum #GGUM! 😈🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #fyp #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #MonaLisa cover! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army.mp4",
+      "cleaned_filename": "Watch our #MonaLisa ! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope MONALISA #bts #army",
+      "artist": null,
+      "title": "Watch our #MonaLisa ! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope MONALISA #bts #army",
+      "confidence": "low",
+      "final_format": "Watch our #MonaLisa ! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope MONALISA #bts #army",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Bonnie N Clyde it! 🤝💃 #LESSERAFIM #HOT  #kpopinpublic #dancecover #르세라핌 #LE_SSERAFIM_HOT #shorts.mp4",
+      "cleaned_filename": "Bonnie N Clyde it! 🤝💃 #LESSERAFIM #HOT #kpopinpublic #dancecover #르세라핌 #LE SSERAFIM HOT #shorts",
+      "artist": null,
+      "title": "Bonnie N Clyde it! 🤝💃 #LESSERAFIM #HOT #kpopinpublic #dancecover #르세라핌 #LE SSERAFIM HOT #shorts",
+      "confidence": "low",
+      "final_format": "Bonnie N Clyde it! 🤝💃 #LESSERAFIM #HOT #kpopinpublic #dancecover #르세라핌 #LE SSERAFIM HOT #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "This that pretty girl #Mantra 🌸💅 #JENNIE #Blackpink #제니 #kpopinpublic #dancecover #shorts.mp4",
+      "cleaned_filename": "This that pretty girl #Mantra 🌸💅 #JENNIE #Blackpink #제니 #kpopinpublic #dancecover #shorts",
+      "artist": null,
+      "title": "This that pretty girl #Mantra 🌸💅 #JENNIE #Blackpink #제니 #kpopinpublic #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "This that pretty girl #Mantra 🌸💅 #JENNIE #Blackpink #제니 #kpopinpublic #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "This 🔥 choreo from #FatalTrouble! 🩸 #ENHYPEN #DARKMOON #ENGENE #kpopinpublic #challenge #shorts.mp4",
+      "cleaned_filename": "This 🔥 from #FatalTrouble! 🩸 #ENHYPEN #DARKMOON #ENGENE #kpopinpublic #challenge #shorts",
+      "artist": null,
+      "title": "This 🔥 from #FatalTrouble! 🩸 #ENHYPEN #DARKMOON #ENGENE #kpopinpublic #challenge #shorts",
+      "confidence": "low",
+      "final_format": "This 🔥 from #FatalTrouble! 🩸 #ENHYPEN #DARKMOON #ENGENE #kpopinpublic #challenge #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "#Gnarly cover is out now! 🥪🔪 #KATSEYE #KATSEYE_Gnarly #dancecover #shorts #danceinpublic (1).mp4",
+      "cleaned_filename": "#Gnarly is out now! 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts #danceinpublic",
+      "artist": null,
+      "title": "#Gnarly is out now! 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts #danceinpublic",
+      "confidence": "low",
+      "final_format": "#Gnarly is out now! 🥪🔪 #KATSEYE #KATSEYE Gnarly #dancecover #shorts #danceinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I wanna #Dash 💨 Run it Run it 🏃‍♀️ #NMIXX #NSWER #DashChallenge #kpopinpublic.mp4",
+      "cleaned_filename": "I wanna #Dash 💨 Run it Run it 🏃‍♀️ #NMIXX #NSWER #DashChallenge #kpopinpublic",
+      "artist": null,
+      "title": "I wanna #Dash 💨 Run it Run it 🏃‍♀️ #NMIXX #NSWER #DashChallenge #kpopinpublic",
+      "confidence": "low",
+      "final_format": "I wanna #Dash 💨 Run it Run it 🏃‍♀️ #NMIXX #NSWER #DashChallenge #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Supernova 💥 Killing part 👌 #NASA #NCTWISH #NCT #WISH #Jpop #Kpopinpublic.mp4",
+      "cleaned_filename": "Supernova 💥 Killing part 👌 #NASA #NCTWISH #NCT #WISH #Jpop #Kpopinpublic",
+      "artist": null,
+      "title": "Supernova 💥 Killing part 👌 #NASA #NCTWISH #NCT #WISH #Jpop #Kpopinpublic",
+      "confidence": "low",
+      "final_format": "Supernova 💥 Killing part 👌 #NASA #NCTWISH #NCT #WISH #Jpop #Kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #BroughtTheHeatBack cover now! 🧛🐱 #ENHYPEN #엔하이픈  #kpopinpublic #dancecover #shorts.mp4",
+      "cleaned_filename": "Watch our #BroughtTheHeatBack now! 🧛🐱 #ENHYPEN #엔하이픈 #kpopinpublic #dancecover #shorts",
+      "artist": null,
+      "title": "Watch our #BroughtTheHeatBack now! 🧛🐱 #ENHYPEN #엔하이픈 #kpopinpublic #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #BroughtTheHeatBack now! 🧛🐱 #ENHYPEN #엔하이픈 #kpopinpublic #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "We're so #Different ☺ #WOODZ #Choreography #Kpopinpublic.mp4",
+      "cleaned_filename": "We're so #Different ☺ #WOODZ # #Kpopinpublic",
+      "artist": null,
+      "title": "We're so #Different ☺ #WOODZ # #Kpopinpublic",
+      "confidence": "low",
+      "final_format": "We're so #Different ☺ #WOODZ # #Kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #Steady cover! 💚 #NCTWISH #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #dance #shorts (1).mp4",
+      "cleaned_filename": "Watch our #Steady ! 💚 #NCTWISH #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct # #shorts",
+      "artist": null,
+      "title": "Watch our #Steady ! 💚 #NCTWISH #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct # #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #Steady ! 💚 #NCTWISH #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct # #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Gotta #WORK ⛏ gotta make that money 💰 make purse 👜 #ATEEZ #kpopinpublic #dancecover #에이티즈 #shorts.mp4",
+      "cleaned_filename": "Gotta #WORK ⛏ gotta make that money 💰 make purse 👜 #ATEEZ #kpopinpublic #dancecover #에이티즈 #shorts",
+      "artist": null,
+      "title": "Gotta #WORK ⛏ gotta make that money 💰 make purse 👜 #ATEEZ #kpopinpublic #dancecover #에이티즈 #shorts",
+      "confidence": "low",
+      "final_format": "Gotta #WORK ⛏ gotta make that money 💰 make purse 👜 #ATEEZ #kpopinpublic #dancecover #에이티즈 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Who that girl is 💃 #izna #debut #kpopinpublic #shorts #dancecover #dancechallenge #이즈나 #kpopfyp.mp4",
+      "cleaned_filename": "Who that girl is 💃 #izna #debut #kpopinpublic #shorts #dancecover #dancechallenge #이즈나 #kpopfyp",
+      "artist": null,
+      "title": "Who that girl is 💃 #izna #debut #kpopinpublic #shorts #dancecover #dancechallenge #이즈나 #kpopfyp",
+      "confidence": "low",
+      "final_format": "Who that girl is 💃 #izna #debut #kpopinpublic #shorts #dancecover #dancechallenge #이즈나 #kpopfyp",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Gimme that beat! 👟 This dance is #Impossible! 😮 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈 (1).mp4",
+      "cleaned_filename": "Gimme that beat! 👟 This is #Impossible! 😮 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈",
+      "artist": null,
+      "title": "Gimme that beat! 👟 This is #Impossible! 😮 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈",
+      "confidence": "low",
+      "final_format": "Gimme that beat! 👟 This is #Impossible! 😮 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I get it 😍 #WaitOnMe is out now! #KAI #kpopinpublic #dancecover #카이 #KAI_WaitOnMe#EXO #엑소 #shorts (1).mp4",
+      "cleaned_filename": "I get it 😍 #WaitOnMe is out now! #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe#EXO #엑소 #shorts",
+      "artist": null,
+      "title": "I get it 😍 #WaitOnMe is out now! #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe#EXO #엑소 #shorts",
+      "confidence": "low",
+      "final_format": "I get it 😍 #WaitOnMe is out now! #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe#EXO #엑소 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Season 2 is here! 🔥 Join the Imperium! #audition #kpopinpublic #dancecover #workshop.mp4",
+      "cleaned_filename": "Season 2 is here! 🔥 Join the Imperium! #audition #kpopinpublic #dancecover #workshop",
+      "artist": null,
+      "title": "Season 2 is here! 🔥 Join the Imperium! #audition #kpopinpublic #dancecover #workshop",
+      "confidence": "low",
+      "final_format": "Season 2 is here! 🔥 Join the Imperium! #audition #kpopinpublic #dancecover #workshop",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "🔫 Bang chitty bang 💥 #Aespa #Armageddon #kpopinpublic #shorts.mp4",
+      "cleaned_filename": "🔫 Bang chitty bang 💥 #Aespa #Armageddon #kpopinpublic #shorts",
+      "artist": null,
+      "title": "🔫 Bang chitty bang 💥 #Aespa #Armageddon #kpopinpublic #shorts",
+      "confidence": "low",
+      "final_format": "🔫 Bang chitty bang 💥 #Aespa #Armageddon #kpopinpublic #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "#WaitOnMe ☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI_WaitOnMe #EXO #엑소 #shorts.mp4",
+      "cleaned_filename": "#WaitOnMe ☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe #EXO #엑소 #shorts",
+      "artist": null,
+      "title": "#WaitOnMe ☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe #EXO #엑소 #shorts",
+      "confidence": "low",
+      "final_format": "#WaitOnMe ☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI WaitOnMe #EXO #엑소 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "We ‘bout to blow it up and make a scene ⏱️💣 #IZNA #Timebomb #kpopinpublic #dancecover #shorts.mp4",
+      "cleaned_filename": "We ‘bout to blow it up and make a scene ⏱️💣 #IZNA #Timebomb #kpopinpublic #dancecover #shorts",
+      "artist": null,
+      "title": "We ‘bout to blow it up and make a scene ⏱️💣 #IZNA #Timebomb #kpopinpublic #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "We ‘bout to blow it up and make a scene ⏱️💣 #IZNA #Timebomb #kpopinpublic #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I’m ready to blow your mind ⏱️💣 #IZNA #Timebomb #kpopinpublic #kpopfyp #dancecover #shorts.mp4",
+      "cleaned_filename": "I’m ready to blow your mind ⏱️💣 #IZNA #Timebomb #kpopinpublic #kpopfyp #dancecover #shorts",
+      "artist": null,
+      "title": "I’m ready to blow your mind ⏱️💣 #IZNA #Timebomb #kpopinpublic #kpopfyp #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "I’m ready to blow your mind ⏱️💣 #IZNA #Timebomb #kpopinpublic #kpopfyp #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "We go up! 🙌 Dance break from #CrazyForm 🤪 #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny.mp4",
+      "cleaned_filename": "We go up! 🙌 break from #CrazyForm 🤪 #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny",
+      "artist": null,
+      "title": "We go up! 🙌 break from #CrazyForm 🤪 #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny",
+      "confidence": "low",
+      "final_format": "We go up! 🙌 break from #CrazyForm 🤪 #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our cover of #LoveLanguage! 🤘🤘💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #shorts.mp4",
+      "cleaned_filename": "Watch our of #LoveLanguage! 🤘🤘💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #shorts",
+      "artist": null,
+      "title": "Watch our of #LoveLanguage! 🤘🤘💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #shorts",
+      "confidence": "low",
+      "final_format": "Watch our of #LoveLanguage! 🤘🤘💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Turn it up! 🥳 #AdultSwim 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI_AdultSwim #카이 #shorts.mp4",
+      "cleaned_filename": "Turn it up! 🥳 #AdultSwim 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI AdultSwim #카이 #shorts",
+      "artist": null,
+      "title": "Turn it up! 🥳 #AdultSwim 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI AdultSwim #카이 #shorts",
+      "confidence": "low",
+      "final_format": "Turn it up! 🥳 #AdultSwim 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI AdultSwim #카이 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our #BroughtTheHeatBack class video now! 🧛🐱 #ENHYPEN #엔하이픈  #kpopinpublic #dancecover #shorts (1).mp4",
+      "cleaned_filename": "Watch our #BroughtTheHeatBack class video now! 🧛🐱 #ENHYPEN #엔하이픈 #kpopinpublic #dancecover #shorts",
+      "artist": null,
+      "title": "Watch our #BroughtTheHeatBack class video now! 🧛🐱 #ENHYPEN #엔하이픈 #kpopinpublic #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "Watch our #BroughtTheHeatBack class video now! 🧛🐱 #ENHYPEN #엔하이픈 #kpopinpublic #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I can be the one and #OnlyOne 💗 Dance Break 💃 #VCHA #VLIGHTS #kpopinpublic #DanceCover.mp4",
+      "cleaned_filename": "I can be the one and #OnlyOne 💗 Break 💃 #VCHA #VLIGHTS #kpopinpublic #DanceCover",
+      "artist": null,
+      "title": "I can be the one and #OnlyOne 💗 Break 💃 #VCHA #VLIGHTS #kpopinpublic #DanceCover",
+      "confidence": "low",
+      "final_format": "I can be the one and #OnlyOne 💗 Break 💃 #VCHA #VLIGHTS #kpopinpublic #DanceCover",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Dance Break 🙏 #DejaVu ✨ #TXT #Moa #tomorrow_x_together #kpopinpublic #DanceCover #Shorts.mp4",
+      "cleaned_filename": "Break 🙏 #DejaVu ✨ #TXT #Moa #tomorrow x together #kpopinpublic #DanceCover #Shorts",
+      "artist": null,
+      "title": "Break 🙏 #DejaVu ✨ #TXT #Moa #tomorrow x together #kpopinpublic #DanceCover #Shorts",
+      "confidence": "low",
+      "final_format": "Break 🙏 #DejaVu ✨ #TXT #Moa #tomorrow x together #kpopinpublic #DanceCover #Shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "All night long 🌙 #MELTINGPOINT ❄ #ZEROBASEONE #ZB1 #제로베이스원 #MELTINGPOINTChallenge.mp4",
+      "cleaned_filename": "All night long 🌙 #MELTINGPOINT ❄ #ZEROBASEONE #ZB1 #제로베이스원 #MELTINGPOINTChallenge",
+      "artist": null,
+      "title": "All night long 🌙 #MELTINGPOINT ❄ #ZEROBASEONE #ZB1 #제로베이스원 #MELTINGPOINTChallenge",
+      "confidence": "low",
+      "final_format": "All night long 🌙 #MELTINGPOINT ❄ #ZEROBASEONE #ZB1 #제로베이스원 #MELTINGPOINTChallenge",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Killing Part 👌 #EASY 😎🧢 #LESSERAFIM #EASYChallenge #LE_SSERAFIM_EASY #MakeItLookEasy #kpopinpublic.mp4",
+      "cleaned_filename": "Killing Part 👌 #EASY 😎🧢 #LESSERAFIM #EASYChallenge #LE SSERAFIM EASY #MakeItLookEasy #kpopinpublic",
+      "artist": null,
+      "title": "Killing Part 👌 #EASY 😎🧢 #LESSERAFIM #EASYChallenge #LE SSERAFIM EASY #MakeItLookEasy #kpopinpublic",
+      "confidence": "low",
+      "final_format": "Killing Part 👌 #EASY 😎🧢 #LESSERAFIM #EASYChallenge #LE SSERAFIM EASY #MakeItLookEasy #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "I'm an Otaku bestie 🗾 Watch our #CRAZY cover! 💅 #LESSERAFIM #kpopinpublic #르세라핌 #kpopcover #shorts.mp4",
+      "cleaned_filename": "I'm an Otaku bestie 🗾 Watch our #CRAZY ! 💅 #LESSERAFIM #kpopinpublic #르세라핌 #kpopcover #shorts",
+      "artist": null,
+      "title": "I'm an Otaku bestie 🗾 Watch our #CRAZY ! 💅 #LESSERAFIM #kpopinpublic #르세라핌 #kpopcover #shorts",
+      "confidence": "low",
+      "final_format": "I'm an Otaku bestie 🗾 Watch our #CRAZY ! 💅 #LESSERAFIM #kpopinpublic #르세라핌 #kpopcover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts (1).mp4",
+      "cleaned_filename": "Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts",
+      "artist": null,
+      "title": "Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts",
+      "confidence": "low",
+      "final_format": "Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "You better rizz me tonight 🌙 I'll #TTYL 😘 #TTYL #Loosemble #Loona #kpopinpublic #dancecover #shorts.mp4",
+      "cleaned_filename": "You better rizz me tonight 🌙 I'll #TTYL 😘 #TTYL #Loosemble #Loona #kpopinpublic #dancecover #shorts",
+      "artist": null,
+      "title": "You better rizz me tonight 🌙 I'll #TTYL 😘 #TTYL #Loosemble #Loona #kpopinpublic #dancecover #shorts",
+      "confidence": "low",
+      "final_format": "You better rizz me tonight 🌙 I'll #TTYL 😘 #TTYL #Loosemble #Loona #kpopinpublic #dancecover #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Watch our cover of #LoveLanguage! 🤘🤘💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #shorts (1).mp4",
+      "cleaned_filename": "Watch our of #LoveLanguage! 🤘🤘💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #shorts",
+      "artist": null,
+      "title": "Watch our of #LoveLanguage! 🤘🤘💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #shorts",
+      "confidence": "low",
+      "final_format": "Watch our of #LoveLanguage! 🤘🤘💗#TXT #TXT LoveLanguage #투모로우바이투게더 #TOMORROW X TOGETHER #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Mmm I just wanna continue my pace Ha ✋😮🤚 #Dash #NMIXX #NSWER #DashChallenge #kpopinpublic.mp4",
+      "cleaned_filename": "Mmm I just wanna continue my pace Ha ✋😮🤚 #Dash #NMIXX #NSWER #DashChallenge #kpopinpublic",
+      "artist": null,
+      "title": "Mmm I just wanna continue my pace Ha ✋😮🤚 #Dash #NMIXX #NSWER #DashChallenge #kpopinpublic",
+      "confidence": "low",
+      "final_format": "Mmm I just wanna continue my pace Ha ✋😮🤚 #Dash #NMIXX #NSWER #DashChallenge #kpopinpublic",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "CH-CH-CH-CH- #Cherish #MyLove 💘🦷 #ILLIT 😍 #kpopinpublic #dancecover #kpopfyp #dancechallenge #shorts.mp4",
+      "cleaned_filename": "CH CH CH CH #Cherish #MyLove 💘🦷 #ILLIT 😍 #kpopinpublic #dancecover #kpopfyp #dancechallenge #shorts",
+      "artist": null,
+      "title": "CH CH CH CH #Cherish #MyLove 💘🦷 #ILLIT 😍 #kpopinpublic #dancecover #kpopfyp #dancechallenge #shorts",
+      "confidence": "low",
+      "final_format": "CH CH CH CH #Cherish #MyLove 💘🦷 #ILLIT 😍 #kpopinpublic #dancecover #kpopfyp #dancechallenge #shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    },
+    {
+      "folder": "Imperium K-Pop Dance Team",
+      "original_filename": "Say it 🏃‍♂️ Say it louder ✨ #DejaVu #TXT #Moa #tomorrow_x_together #kpopinpublic #DanceCover #Shorts.mp4",
+      "cleaned_filename": "Say it 🏃‍♂️ Say it louder ✨ #DejaVu #TXT #Moa #tomorrow x together #kpopinpublic #DanceCover #Shorts",
+      "artist": null,
+      "title": "Say it 🏃‍♂️ Say it louder ✨ #DejaVu #TXT #Moa #tomorrow x together #kpopinpublic #DanceCover #Shorts",
+      "confidence": "low",
+      "final_format": "Say it 🏃‍♂️ Say it louder ✨ #DejaVu #TXT #Moa #tomorrow x together #kpopinpublic #DanceCover #Shorts",
+      "error": "Expecting property name enclosed in double quotes: line 2929 column 29 (char 56282)"
+    }
   ]
 }
