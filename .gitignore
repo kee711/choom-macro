@@ -3,11 +3,9 @@
 .env.local
 .env.*.local
 
-# Logs
+# Logs  
 logs/
 *.log
-logs/app.log
-logs/retry.log
 
 # Python
 __pycache__/
@@ -38,6 +36,7 @@ Thumbs.db
 
 # Project specific
 choom/
+accounts.json
 uploaded_files.json
 smart_extraction_results.json
 filename_analysis_results.json
