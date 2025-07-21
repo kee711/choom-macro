@@ -70,13 +70,16 @@ class SmartTitleExtractor:
 - 오로지 파일명에 들어있는 아티스트 이름, 노래 이름만 추출해내야 함
 
 파일명 목록:
-{chr(10).join([f"{i+1}. {name}" for i, name in enumerate(cleaned_names)])}
+{chr(10).join([f"{i+1}. 원본: {orig}, 정리됨: {clean}" for i, (orig, clean) in enumerate(zip(filenames, cleaned_names))])}
 
 각 파일명에 대해 다음 JSON 형식으로 응답해주세요:
 {{
+  "original_filename": "원본 파일명 그대로",
+  "cleaned_filename": "정리된 파일명",
   "artist": "아티스트명 또는 null",
   "title": "노래 제목",
-  "confidence": "high/medium/low"
+  "confidence": "high/medium/low",
+  "final_format": "아티스트 - 제목 형태"
 }}
 
 전체 응답은 JSON 배열 형태로 해주세요."""
@@ -106,18 +109,12 @@ class SmartTitleExtractor:
             
             results = json.loads(content)
             
-            # 결과와 원본 파일명 매칭
+            # OpenAI가 완전한 형태로 응답했으므로 그대로 사용
             final_results = []
-            for i, (original_filename, result) in enumerate(zip(filenames, results)):
-                final_results.append({
-                    "folder": "",  # 나중에 설정
-                    "original_filename": original_filename,
-                    "cleaned_filename": cleaned_names[i],
-                    "artist": result.get("artist"),
-                    "title": result.get("title", ""),
-                    "confidence": result.get("confidence", "medium"),
-                    "final_format": f"{result.get('artist', '')} - {result.get('title', '')}" if result.get('artist') else result.get('title', '')
-                })
+            for result in results:
+                # folder 정보만 추가
+                result["folder"] = ""  # 나중에 설정
+                final_results.append(result)
             
             return final_results
             
