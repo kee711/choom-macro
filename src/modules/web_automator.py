@@ -1,13 +1,12 @@
-from pathlib import Path
-from typing import Optional
-from time import sleep
-import time
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from time import sleep
+from pathlib import Path
+from typing import Optional
+import time
 
 from .config_manager import ConfigManager
 from .logger import setup_logger
@@ -18,58 +17,60 @@ class WebAutomator:
         self.config = config
         self.logger = setup_logger(self.__class__.__name__, config.get('general', 'log_level', 'INFO'))
         
-        # Chrome 옵션 설정
+        # ✅ Chrome 옵션 설정 (WebGL & GPU 최적화)
         options = Options()
+
+        # ✅ 최신 Headless 모드(WebGL 지원) 또는 일반 모드 선택
         if config.get('web_automation', 'headless'):
-            options.add_argument('--headless')
-        
-        # 기본 성능 최적화 옵션들 (WebGL 차단 제거)
+            options.add_argument('--headless=new')  # 최신 크롬 headless 모드 (WebGL 지원)
+
+        # ✅ WebGL/GPU 활성화 필수 옵션
+        options.add_argument('--enable-gpu')
+        options.add_argument('--ignore-gpu-blocklist')
+        options.add_argument('--use-gl=desktop')
+        options.add_argument('--window-size=1920,1080')  # 충분한 렌더링 영역 확보
+
+        # ✅ 안전한 기본 성능 최적화 옵션
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
-        options.add_argument('--disable-extensions')
-        options.add_argument('--disable-plugins')
-        options.add_argument('--disable-images')  # 이미지 로딩 비활성화로 속도 향상
-        options.add_argument('--disable-javascript-harmony-shipping')
-        options.add_argument('--disable-background-timer-throttling')
-        options.add_argument('--disable-renderer-backgrounding')
-        options.add_argument('--disable-backgrounding-occluded-windows')
-        options.add_argument('--disable-client-side-phishing-detection')
-        options.add_argument('--disable-default-apps')
-        options.add_argument('--disable-hang-monitor')
         options.add_argument('--disable-popup-blocking')
-        options.add_argument('--disable-prompt-on-repost')
-        options.add_argument('--disable-sync')
-        options.add_argument('--disable-translate')
-        options.add_argument('--disable-web-security')
-        options.add_argument('--metrics-recording-only')
-        options.add_argument('--no-first-run')
-        options.add_argument('--safebrowsing-disable-auto-update')
-        options.add_argument('--enable-automation')
+        options.add_argument('--disable-notifications')
+        options.add_argument('--disable-infobars')
         options.add_argument('--password-store=basic')
         options.add_argument('--use-mock-keychain')
-        
-        # GPU 관련 옵션들 완화 (완전 비활성화 대신 최소화)
-        options.add_argument('--disable-gpu-sandbox')  # GPU 샌드박스만 비활성화
-        options.add_argument('--force-device-scale-factor=1')  # 디바이스 스케일 강제 설정
-        options.add_argument('--disable-partial-raster')  # 부분 래스터 비활성화
-        options.add_argument('--disable-threaded-animation')  # 쓰레드 애니메이션 비활성화
-        options.add_argument('--disable-threaded-scrolling')  # 쓰레드 스크롤링 비활성화
-        options.add_argument('--disable-checker-imaging')  # 체커 이미징 비활성화
-        
-        # 메모리 최적화
-        options.add_argument('--memory-pressure-off')
-        options.add_argument('--max_old_space_size=4096')
-        
-        # 모바일 브라우저 시뮬레이션 설정
+
+        # ✅ 필요 시만 성능 최적화 (WebGL과 충돌 없음)
+        options.add_argument('--disable-translate')
+        options.add_argument('--disable-sync')
+        options.add_argument('--safebrowsing-disable-auto-update')
+        options.add_argument('--metrics-recording-only')
+        options.add_argument('--no-first-run')
+        options.add_argument('--enable-automation')
+
+        # ❌ WebGL 문제를 유발하는 옵션은 제거
+        # options.add_argument('--disable-partial-raster')
+        # options.add_argument('--disable-threaded-animation')
+        # options.add_argument('--disable-threaded-scrolling')
+        # options.add_argument('--disable-checker-imaging')
+        # options.add_argument('--disable-extensions')
+        # options.add_argument('--disable-plugins')
+
+        # ✅ 모바일 브라우저 시뮬레이션 유지 (WebGL 영향 없음)
         mobile_emulation = {
             "deviceMetrics": {"width": 375, "height": 812, "pixelRatio": 3.0},
-            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1"
+            "userAgent": (
+                "Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) "
+                "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1"
+            )
         }
         options.add_experimental_option("mobileEmulation", mobile_emulation)
-        
-        # Chrome 드라이버 초기화
+
+        # ✅ Chrome 드라이버 초기화
         self.driver = webdriver.Chrome(options=options)
+        self.driver.set_window_size(1920, 1080)  # 렌더링 공간 확보
         self.driver.implicitly_wait(config.get('web_automation', 'implicit_wait', 10))
+
+        self.logger.info("✅ Chrome initialized with WebGL & GPU enabled")
     
 
     def login_with_account(self, email: str, password: str):
