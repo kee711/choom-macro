@@ -48,14 +48,16 @@ class WebAutomator:
         options.add_argument('--password-store=basic')
         options.add_argument('--use-mock-keychain')
         
-        # WebGL 완전 비활성화 (원격 서버 환경에서 오류 방지)
+        # Selenium 특화 WebGL 차단 (일반 크롬과 동일한 환경 조성)
         options.add_argument('--disable-gpu')  # GPU 완전 비활성화
-        options.add_argument('--disable-gpu-rasterization')  # GPU 래스터화 비활성화
-        options.add_argument('--disable-gpu-compositing')  # GPU 컴포지팅 비활성화
-        options.add_argument('--disable-3d-apis')  # 3D API 완전 비활성화 (WebGL 포함)
-        options.add_argument('--disable-accelerated-2d-canvas')  # 2D 캔버스 가속 비활성화
-        options.add_argument('--disable-webgl')  # WebGL 직접 비활성화
-        options.add_argument('--disable-webgl2')  # WebGL2 비활성화
+        options.add_argument('--disable-gpu-sandbox')  # GPU 샌드박스 비활성화
+        options.add_argument('--disable-software-rasterizer')  # 소프트웨어 래스터라이저 비활성화
+        options.add_argument('--disable-background-timer-throttling')  # 백그라운드 타이머 스로틀링 비활성화
+        options.add_argument('--disable-renderer-backgrounding')  # 렌더러 백그라운딩 비활성화
+        options.add_argument('--disable-backgrounding-occluded-windows')  # 가려진 윈도우 백그라운딩 비활성화
+        options.add_argument('--disable-features=VizDisplayCompositor,VizHitTestSurfaceLayer,TranslateUI')  # Viz 컴포지터 비활성화
+        options.add_argument('--force-color-profile=srgb')  # 색상 프로파일 강제 설정
+        options.add_argument('--disable-ipc-flooding-protection')  # IPC 플러딩 보호 비활성화
         
         # 메모리 최적화
         options.add_argument('--memory-pressure-off')
@@ -81,58 +83,73 @@ class WebAutomator:
         self.logger.info(f'Starting login process for: {email}')
         self.driver.get('https://app.hanlim.world/signin')
         
-        # ThreeJS WebGL 오류 방지 스크립트 주입 (페이지는 유지)
+        # Selenium Chrome 전용 WebGL 차단 (일반 크롬과 차이점 해결)
         try:
-            threejs_fix_script = """
-            // ThreeJS WebGL 오류 방지 (페이지 렌더링은 유지)
-            (function() {
-                // WebGL 컨텍스트 생성 시 null 반환하되 오류 방지
-                const originalGetContext = HTMLCanvasElement.prototype.getContext;
-                HTMLCanvasElement.prototype.getContext = function(contextType, contextAttributes) {
-                    if (contextType === 'webgl' || contextType === 'experimental-webgl' || 
-                        contextType === 'webgl2' || contextType === 'experimental-webgl2') {
-                        console.log('WebGL context blocked for ThreeJS compatibility');
-                        return null;
-                    }
-                    return originalGetContext.call(this, contextType, contextAttributes);
-                };
-                
-                // ThreeJS WebGLRenderer 오류 방지
-                window.addEventListener('error', function(e) {
-                    if (e.message && e.message.includes('WebGL')) {
-                        console.log('WebGL error caught and suppressed:', e.message);
-                        e.preventDefault();
-                        return false;
-                    }
-                });
-                
-                // ThreeJS 로드 후 WebGLRenderer 오류 방지
-                let checkThreeJS = setInterval(() => {
-                    if (window.THREE && window.THREE.WebGLRenderer) {
-                        const OriginalWebGLRenderer = window.THREE.WebGLRenderer;
-                        window.THREE.WebGLRenderer = function(parameters) {
-                            console.log('ThreeJS WebGLRenderer blocked - using fallback');
-                            // 빈 객체 반환으로 ThreeJS가 계속 동작하도록 함
-                            return {
-                                domElement: document.createElement('div'),
-                                setSize: function() {},
-                                render: function() {},
-                                dispose: function() {}
-                            };
+            # 페이지 로드 전 스크립트 주입 (Chrome DevTools Protocol 사용)
+            self.driver.execute_cdp_cmd('Page.addScriptToEvaluateOnNewDocument', {
+                'source': """
+                // Selenium 환경에서 WebGL 완전 차단
+                (function() {
+                    console.log('Selenium WebGL blocker initialized');
+                    
+                    // 모든 WebGL 관련 생성자 제거
+                    Object.defineProperty(window, 'WebGLRenderingContext', {
+                        get: function() { return undefined; },
+                        configurable: false
+                    });
+                    
+                    Object.defineProperty(window, 'WebGL2RenderingContext', {
+                        get: function() { return undefined; },
+                        configurable: false
+                    });
+                    
+                    // HTMLCanvasElement.getContext 완전 오버라이드
+                    const OriginalHTMLCanvasElement = window.HTMLCanvasElement;
+                    if (OriginalHTMLCanvasElement) {
+                        OriginalHTMLCanvasElement.prototype.getContext = function(contextType, contextAttributes) {
+                            console.log('Canvas getContext called:', contextType);
+                            if (contextType === 'webgl' || contextType === 'experimental-webgl' || 
+                                contextType === 'webgl2' || contextType === 'experimental-webgl2') {
+                                console.log('WebGL context blocked in Selenium');
+                                return null;
+                            }
+                            // 2D context는 허용
+                            return CanvasRenderingContext2D.prototype.constructor.call(this, contextType, contextAttributes);
                         };
-                        clearInterval(checkThreeJS);
                     }
-                }, 100);
-                
-                // 5초 후 체크 중단
-                setTimeout(() => clearInterval(checkThreeJS), 5000);
-                
-                console.log('ThreeJS WebGL fallback initialized');
-            })();
-            """
-            self.driver.execute_script(threejs_fix_script)
+                    
+                    // 전역 에러 핸들러 (더 강력하게)
+                    window.addEventListener('error', function(e) {
+                        if (e.message && (e.message.includes('WebGL') || e.message.includes('WebGLRenderer'))) {
+                            console.log('WebGL error suppressed:', e.message);
+                            e.stopPropagation();
+                            e.preventDefault();
+                            return false;
+                        }
+                    }, true);
+                    
+                    // unhandledrejection도 처리
+                    window.addEventListener('unhandledrejection', function(e) {
+                        if (e.reason && e.reason.message && e.reason.message.includes('WebGL')) {
+                            console.log('WebGL promise rejection suppressed:', e.reason.message);
+                            e.preventDefault();
+                        }
+                    });
+                })();
+                """
+            })
+            self.logger.info('WebGL blocker injected via CDP')
         except Exception as e:
-            self.logger.info(f'ThreeJS fix script injection failed: {e} (continuing...)')
+            self.logger.info(f'CDP injection failed, using fallback: {e}')
+            # 폴백: 일반 스크립트 주입
+            self.driver.execute_script("""
+                window.WebGLRenderingContext = undefined;
+                window.WebGL2RenderingContext = undefined;
+                HTMLCanvasElement.prototype.getContext = function(type) {
+                    if (type.includes('webgl')) return null;
+                    return null;
+                };
+            """)
         
         # 먼저 모달 닫기
         try:
