@@ -208,3 +208,56 @@
 2025-07-21 09:35:11,011 - RETRY - INFO - ▶️ Starting main.py (attempt 3)
 2025-07-21 09:35:11,011 - RETRY - INFO - 🎯 Running with account range: 21-30
 2025-07-21 09:53:15,621 - RETRY - INFO - ⛔ User interrupted execution
+2025-07-21 09:59:30,990 - RETRY - INFO - 🚀 Starting auto-retry wrapper for main.py
+2025-07-21 09:59:30,990 - RETRY - INFO - 📊 Max retries: 15, Retry delay: 5s
+2025-07-21 09:59:30,990 - RETRY - INFO - ▶️ Starting main.py (attempt 1)
+2025-07-21 09:59:30,990 - RETRY - INFO - 🎯 Running with account range: 21-30
+2025-07-21 10:28:55,407 - RETRY - ERROR - ❌ main.py failed with exit code: 1
+2025-07-21 10:28:55,407 - RETRY - WARNING - 🔄 main.py failed, preparing retry 1/15
+2025-07-21 10:28:55,408 - RETRY - INFO - 🔄 Retry attempt 1/15
+2025-07-21 10:28:55,408 - RETRY - INFO - ⏳ Waiting 5 seconds before restart...
+2025-07-21 10:29:00,416 - RETRY - INFO - ▶️ Starting main.py (attempt 2)
+2025-07-21 10:29:00,417 - RETRY - INFO - 🎯 Running with account range: 21-30
+2025-07-21 10:34:59,975 - RETRY - ERROR - ❌ main.py failed with exit code: 1
+2025-07-21 10:34:59,976 - RETRY - WARNING - 🔄 main.py failed, preparing retry 2/15
+2025-07-21 10:34:59,976 - RETRY - INFO - 🔄 Retry attempt 2/15
+2025-07-21 10:34:59,976 - RETRY - INFO - ⏳ Waiting 5 seconds before restart...
+2025-07-21 10:35:04,985 - RETRY - INFO - ▶️ Starting main.py (attempt 3)
+2025-07-21 10:35:04,986 - RETRY - INFO - 🎯 Running with account range: 21-30
+2025-07-21 10:48:27,144 - RETRY - ERROR - ❌ main.py failed with exit code: 1
+2025-07-21 10:48:27,144 - RETRY - WARNING - 🔄 main.py failed, preparing retry 3/15
+2025-07-21 10:48:27,145 - RETRY - INFO - 🔄 Retry attempt 3/15
+2025-07-21 10:48:27,145 - RETRY - INFO - ⏳ Waiting 5 seconds before restart...
+2025-07-21 10:48:32,145 - RETRY - INFO - ▶️ Starting main.py (attempt 4)
+2025-07-21 10:48:32,146 - RETRY - INFO - 🎯 Running with account range: 21-30
+2025-07-21 11:04:15,650 - RETRY - ERROR - ❌ main.py failed with exit code: 1
+2025-07-21 11:04:15,651 - RETRY - WARNING - 🔄 main.py failed, preparing retry 4/15
+2025-07-21 11:04:15,651 - RETRY - INFO - 🔄 Retry attempt 4/15
+2025-07-21 11:04:15,651 - RETRY - INFO - ⏳ Waiting 5 seconds before restart...
+2025-07-21 11:04:20,661 - RETRY - INFO - ▶️ Starting main.py (attempt 5)
+2025-07-21 11:04:20,662 - RETRY - INFO - 🎯 Running with account range: 21-30
+2025-07-21 11:19:04,354 - RETRY - ERROR - ❌ main.py failed with exit code: 1
+2025-07-21 11:19:04,354 - RETRY - WARNING - 🔄 main.py failed, preparing retry 5/15
+2025-07-21 11:19:04,354 - RETRY - INFO - 🔄 Retry attempt 5/15
+2025-07-21 11:19:04,354 - RETRY - INFO - ⏳ Waiting 5 seconds before restart...
+2025-07-21 11:19:09,363 - RETRY - INFO - ▶️ Starting main.py (attempt 6)
+2025-07-21 11:19:09,364 - RETRY - INFO - 🎯 Running with account range: 21-30
+2025-07-21 11:26:03,699 - RETRY - ERROR - ❌ main.py failed with exit code: 1
+2025-07-21 11:26:03,699 - RETRY - WARNING - 🔄 main.py failed, preparing retry 6/15
+2025-07-21 11:26:03,699 - RETRY - INFO - 🔄 Retry attempt 6/15
+2025-07-21 11:26:03,699 - RETRY - INFO - ⏳ Waiting 5 seconds before restart...
+2025-07-21 11:26:08,705 - RETRY - INFO - ▶️ Starting main.py (attempt 7)
+2025-07-21 11:26:08,705 - RETRY - INFO - 🎯 Running with account range: 21-30
+2025-07-21 11:28:44,227 - RETRY - ERROR - ❌ main.py failed with exit code: 1
+2025-07-21 11:28:44,228 - RETRY - WARNING - 🔄 main.py failed, preparing retry 7/15
+2025-07-21 11:28:44,229 - RETRY - INFO - 🔄 Retry attempt 7/15
+2025-07-21 11:28:44,230 - RETRY - INFO - ⏳ Waiting 5 seconds before restart...
+2025-07-21 11:28:49,233 - RETRY - INFO - ▶️ Starting main.py (attempt 8)
+2025-07-21 11:28:49,233 - RETRY - INFO - 🎯 Running with account range: 21-30
+2025-07-21 11:31:20,921 - RETRY - ERROR - ❌ main.py failed with exit code: 1
+2025-07-21 11:31:20,922 - RETRY - WARNING - 🔄 main.py failed, preparing retry 8/15
+2025-07-21 11:31:20,922 - RETRY - INFO - 🔄 Retry attempt 8/15
+2025-07-21 11:31:20,922 - RETRY - INFO - ⏳ Waiting 5 seconds before restart...
+2025-07-21 11:31:25,928 - RETRY - INFO - ▶️ Starting main.py (attempt 9)
+2025-07-21 11:31:25,928 - RETRY - INFO - 🎯 Running with account range: 21-30
+2025-07-21 11:33:29,877 - RETRY - INFO - ⛔ User interrupted execution

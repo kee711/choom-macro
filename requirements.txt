@@ -1,3 +1,5 @@
 selenium
 fuzzywuzzy[speedup]
 regex
+python-dotenv
+openai

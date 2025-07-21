@@ -4,6 +4,10 @@ import re
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 import openai
+from dotenv import load_dotenv
+
+# .env 파일에서 환경변수 로드
+load_dotenv()
 
 class SmartTitleExtractor:
     def __init__(self, openai_api_key: str):
@@ -47,10 +51,10 @@ class SmartTitleExtractor:
         prompt = f"""다음은 K-pop 댄스 커버 영상의 파일명들입니다. 각 파일명에서 아티스트명과 노래 제목을 추출해주세요.
 
 규칙:
-1. 아티스트명이 명확하지 않거나 확실하지 않으면 null로 설정
-2. 노래 제목은 최대한 정확하게 추출
-3. 한글/영어 아티스트명 모두 인식
-4. 각 결과는 JSON 형식으로 반환
+1. 아티스트 이름과 노래 제목이 파일명, 해시태그에 명확하게 들어가 있지 않으면 null로 설정
+2. 한글/영어 아티스트명 모두 인식
+3. 각 결과는 JSON 형식으로 반환
+4. 파일명에 명확하게 들어가 있지 않으면 null로 설정
 
 파일명 목록:
 {chr(10).join([f"{i+1}. {name}" for i, name in enumerate(cleaned_names)])}
@@ -218,7 +222,7 @@ class SmartTitleExtractor:
 
 def main():
     # OpenAI API 키 설정
-    api_key = "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"  # 실제 API 키로 교체하세요
+    api_key = os.getenv('OPENAI_API_KEY')
 
     
     # config.json에서 choom 폴더 경로 가져오기
