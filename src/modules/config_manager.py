@@ -1,6 +1,11 @@
 import json
+import os
 from pathlib import Path
 from typing import Any, Dict
+from dotenv import load_dotenv
+
+# .env 파일 로드
+load_dotenv()
 
 
 class ConfigManager:
@@ -17,4 +22,13 @@ class ConfigManager:
             raise FileNotFoundError(f"Config not found: {self.config_path}")
 
     def get(self, section: str, key: str, default: Any = None) -> Any:
-        return self.data.get(section, {}).get(key, default)
+        # 먼저 config.json에서 값 확인
+        config_value = self.data.get(section, {}).get(key, default)
+        
+        # video_folder_path의 경우 환경변수 FOLDER_PATH를 우선 사용
+        if section == 'general' and key == 'video_folder_path':
+            env_folder_path = os.getenv('FOLDER_PATH')
+            if env_folder_path:
+                return env_folder_path
+        
+        return config_value
