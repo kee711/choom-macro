@@ -48,50 +48,14 @@ class WebAutomator:
         options.add_argument('--password-store=basic')
         options.add_argument('--use-mock-keychain')
         
-        # WebGL 관련 오류 해결을 위한 포괄적 옵션들
-        # 완전한 소프트웨어 렌더링 강제 (원격 환경 대응)
-        options.add_argument('--disable-gpu')  # GPU 완전 비활성화
-        options.add_argument('--disable-gpu-sandbox')
-        options.add_argument('--disable-software-rasterizer')
-        options.add_argument('--disable-gpu-rasterization')
-        options.add_argument('--disable-gpu-memory-buffer-compositor-resources')
-        options.add_argument('--disable-gpu-memory-buffer-video-frames')
+        # WebGL 오류 방지를 위한 안전한 설정
+        options.add_argument('--disable-gpu-sandbox')  # GPU 샌드박스만 비활성화
+        options.add_argument('--use-gl=swiftshader')  # 소프트웨어 렌더링 사용
+        options.add_argument('--ignore-gpu-blacklist')  # GPU 블랙리스트 무시
         
-        # 소프트웨어 기반 WebGL 강제 사용
-        options.add_argument('--use-gl=swiftshader-webgl')  # WebGL 전용 SwiftShader
-        options.add_argument('--use-angle=swiftshader')  # ANGLE도 SwiftShader 사용
-        options.add_argument('--enable-webgl-software-rendering')  # 소프트웨어 WebGL 렌더링 강제
-        
-        # WebGL 오류 방지 및 호환성 옵션
-        options.add_argument('--ignore-gpu-blacklist')
-        options.add_argument('--ignore-gpu-blocklist')  # 최신 Chrome 용
-        options.add_argument('--disable-gpu-watchdog')
-        options.add_argument('--disable-features=VizDisplayCompositor,VizHitTestSurfaceLayer')
-        options.add_argument('--enable-features=UseSkiaRenderer')  # Skia 렌더러 사용
-        
-        # 가상화 환경 대응
-        options.add_argument('--disable-3d-apis')  # 3D API 완전 비활성화
-        options.add_argument('--disable-accelerated-2d-canvas')  # 하드웨어 가속 2D 비활성화
-        options.add_argument('--disable-accelerated-jpeg-decoding')
-        options.add_argument('--disable-accelerated-mjpeg-decode')
-        options.add_argument('--disable-accelerated-video-decode')
-        
-        # WebGL 컨텍스트 생성 실패 시 대안 제공
-        options.add_argument('--enable-webgl-draft-extensions')
-        options.add_argument('--enable-webgl2-compute-context')  # WebGL2 컴퓨트 컨텍스트
-        options.add_argument('--force-webgl')  # WebGL 강제 활성화
-        
-        # 원격 환경 안정성 옵션
-        options.add_argument('--single-process')  # 단일 프로세스 모드 (안정성 향상)
-        options.add_argument('--disable-background-mode')
-        options.add_argument('--disable-background-networking')
-        
-        # 메모리 최적화 및 WebGL 메모리 관리
+        # 메모리 최적화
         options.add_argument('--memory-pressure-off')
         options.add_argument('--max_old_space_size=4096')
-        options.add_argument('--max-unused-resource-memory-usage-percentage=25')  # 미사용 리소스 메모리 제한
-        options.add_argument('--force-gpu-mem-available-mb=1024')  # GPU 메모리 강제 설정
-        options.add_argument('--gpu-memory-buffer-allocation-timeout=10000')  # GPU 메모리 할당 타임아웃 증가
         
         # 모바일 브라우저 시뮬레이션 설정
         mobile_emulation = {
@@ -103,129 +67,15 @@ class WebAutomator:
         # 추가 모바일 관련 옵션
         options.add_argument('--user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1')
         
-        # WebGL 오류 대비 예외 처리와 함께 드라이버 초기화
-        try:
-            self.driver = webdriver.Chrome(options=options)
-            self.driver.implicitly_wait(config.get('web_automation', 'implicit_wait', 10))
-            
-            # WebGL 컨텍스트 테스트 및 폴백 처리
-            self._test_webgl_support()
-            
-        except Exception as e:
-            self.logger.warning(f"Chrome 초기화 중 오류 발생: {e}")
-            self.logger.info("폴백 옵션으로 재시도...")
-            self._initialize_fallback_driver(config)
+        # Chrome 드라이버 초기화
+        self.driver = webdriver.Chrome(options=options)
+        self.driver.implicitly_wait(config.get('web_automation', 'implicit_wait', 10))
     
-    def _test_webgl_support(self):
-        """WebGL 지원 여부 테스트"""
-        try:
-            self.logger.info("WebGL 지원 테스트 중...")
-            # 간단한 페이지로 이동하여 WebGL 테스트
-            self.driver.get('data:text/html,<html><body><script>var canvas=document.createElement("canvas");var gl=canvas.getContext("webgl");console.log(gl?"WebGL supported":"WebGL not supported");</script></body></html>')
-            sleep(2)
-            
-            # 브라우저 로그에서 WebGL 지원 여부 확인
-            logs = self.driver.get_log('browser')
-            webgl_supported = any('WebGL supported' in log['message'] for log in logs)
-            
-            if not webgl_supported:
-                self.logger.warning("WebGL 지원이 제한적입니다. 추가 안정화 옵션 적용...")
-                self._apply_webgl_fallback()
-            else:
-                self.logger.info("WebGL 지원 확인됨")
-                
-        except Exception as e:
-            self.logger.warning(f"WebGL 테스트 실패: {e}")
-            self._apply_webgl_fallback()
-    
-    def _apply_webgl_fallback(self):
-        """WebGL 오류 시 추가 안정화 스크립트 실행"""
-        try:
-            # 브라우저에서 WebGL 오류 방지를 위한 스크립트 주입
-            webgl_fallback_script = """
-            // WebGL 컨텍스트 생성 실패 시 폴백 처리
-            (function() {
-                var originalGetContext = HTMLCanvasElement.prototype.getContext;
-                HTMLCanvasElement.prototype.getContext = function(type, options) {
-                    if (type === 'webgl' || type === 'experimental-webgl') {
-                        try {
-                            return originalGetContext.call(this, type, {
-                                ...options,
-                                failIfMajorPerformanceCaveat: false,
-                                antialias: false,
-                                alpha: false,
-                                depth: false,
-                                stencil: false,
-                                premultipliedAlpha: false,
-                                preserveDrawingBuffer: false,
-                                powerPreference: 'low-power'
-                            });
-                        } catch (e) {
-                            console.warn('WebGL context creation failed, returning null');
-                            return null;
-                        }
-                    }
-                    return originalGetContext.call(this, type, options);
-                };
-            })();
-            """
-            self.driver.execute_script(webgl_fallback_script)
-            self.logger.info("WebGL 폴백 스크립트 주입 완료")
-            
-        except Exception as e:
-            self.logger.warning(f"WebGL 폴백 스크립트 주입 실패: {e}")
-    
-    def _initialize_fallback_driver(self, config):
-        """완전 안전 모드로 드라이버 재초기화"""
-        try:
-            self.logger.info("안전 모드로 Chrome 드라이버 재초기화...")
-            
-            # 최소한의 안전 옵션만 사용
-            safe_options = Options()
-            safe_options.add_argument('--no-sandbox')
-            safe_options.add_argument('--disable-dev-shm-usage')
-            safe_options.add_argument('--disable-gpu')
-            safe_options.add_argument('--disable-software-rasterizer')
-            safe_options.add_argument('--disable-3d-apis')
-            safe_options.add_argument('--disable-accelerated-2d-canvas')
-            safe_options.add_argument('--single-process')
-            safe_options.add_argument('--no-first-run')
-            safe_options.add_argument('--disable-extensions')
-            safe_options.add_argument('--disable-plugins')
-            
-            # 모바일 에뮬레이션은 유지
-            mobile_emulation = {
-                "deviceMetrics": {"width": 375, "height": 812, "pixelRatio": 3.0},
-                "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1"
-            }
-            safe_options.add_experimental_option("mobileEmulation", mobile_emulation)
-            
-            if config.get('web_automation', 'headless'):
-                safe_options.add_argument('--headless')
-            
-            self.driver = webdriver.Chrome(options=safe_options)
-            self.driver.implicitly_wait(config.get('web_automation', 'implicit_wait', 10))
-            self.logger.info("안전 모드 드라이버 초기화 완료")
-            
-        except Exception as e:
-            self.logger.error(f"안전 모드 드라이버 초기화도 실패: {e}")
-            raise RuntimeError("Chrome 드라이버를 초기화할 수 없습니다. 환경을 확인해주세요.")
 
     def login_with_account(self, email: str, password: str):
         """특정 계정으로 로그인"""
         self.logger.info(f'Starting login process for: {email}')
-        
-        # WebGL 오류 방지를 위해 페이지 로드 전 스크립트 주입 준비
-        try:
-            self.driver.get('https://app.hanlim.world/signin')
-            # 페이지 로드 후 즉시 WebGL 폴백 스크립트 주입
-            self._apply_webgl_fallback()
-        except Exception as e:
-            self.logger.warning(f'페이지 로드 중 오류 발생: {e}')
-            # 오류 발생 시 재시도
-            sleep(3)
-            self.driver.get('https://app.hanlim.world/signin')
-            self._apply_webgl_fallback()
+        self.driver.get('https://app.hanlim.world/signin')
         
         # 먼저 모달 닫기
         try:
@@ -510,21 +360,6 @@ class WebAutomator:
             self.driver.execute_script("arguments[0].click();", element)
             self.logger.info(f'JavaScript click successful{f" for {description}" if description else ""}')
 
-    def _safe_navigate(self, url: str):
-        """WebGL 오류 방지를 위한 안전한 페이지 이동"""
-        try:
-            self.driver.get(url)
-            # 페이지 로드 후 WebGL 폴백 스크립트 주입
-            self._apply_webgl_fallback()
-        except Exception as e:
-            self.logger.warning(f'페이지 이동 중 오류: {e}')
-            sleep(2)
-            try:
-                self.driver.get(url)
-                self._apply_webgl_fallback()
-            except Exception as retry_e:
-                self.logger.error(f'페이지 이동 재시도 실패: {retry_e}')
-                raise
     
     def search_song(self, query: str) -> None:
         try:
@@ -682,11 +517,6 @@ class WebAutomator:
             self.logger.info(f'Starting upload process for: {file_path.name}')
             self.logger.info(f'Search query: {search_query}')
             
-            # 업로드 전 WebGL 오류 방지 스크립트 재주입 (페이지가 변경되었을 수 있음)
-            try:
-                self._apply_webgl_fallback()
-            except Exception as e:
-                self.logger.warning(f'WebGL 폴백 스크립트 주입 실패 (계속 진행): {e}')
             
             # 업로드 시작 전에 알림창 처리
             self._handle_alert_if_present()
@@ -782,10 +612,10 @@ class WebAutomator:
             try:
                 self.logger.info('🔄 Attempting recovery: clicking new-bottom-nav first child div')
                 
-                # new-bottom-nav의 첫 번째 하위 div 클릭
+                # new-bottom-nav의 첫 번째 하위 div 클릭 (nth-child 문법 사용)
                 nav_first_child = self._find_element_safely(
-                    '.new-bottom-nav > div:first-child, .new-bottom-nav div:first-child',
-                    description="new-bottom-nav first child div"
+                    '.new-bottom-nav > div:nth-child(1), .new-bottom-nav div:nth-child(1), .new-bottom-nav > *:nth-child(1), .new-bottom-nav *:nth-child(1)',
+                    description="new-bottom-nav first child element"
                 )
                 if nav_first_child:
                     self._click_element_safely(nav_first_child, "new-bottom-nav first child")
