@@ -6,6 +6,8 @@
 # Logs
 logs/
 *.log
+logs/app.log
+logs/retry.log
 
 # Python
 __pycache__/
