@@ -36,6 +36,7 @@ Thumbs.db
 
 # Project specific
 choom/
+accounts.json
 uploaded_files.json
 smart_extraction_results.json
 filename_analysis_results.json
