@@ -26,7 +26,6 @@ class WebAutomator:
         # 성능 최적화 옵션들
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
-        options.add_argument('--disable-gpu')
         options.add_argument('--disable-extensions')
         options.add_argument('--disable-plugins')
         options.add_argument('--disable-images')  # 이미지 로딩 비활성화로 속도 향상
@@ -48,6 +47,14 @@ class WebAutomator:
         options.add_argument('--enable-automation')
         options.add_argument('--password-store=basic')
         options.add_argument('--use-mock-keychain')
+        
+        # WebGL 관련 오류 해결을 위한 옵션들 (WebGL 활성화하되 안정화)
+        options.add_argument('--disable-gpu-sandbox')  # GPU 샌드박스만 비활성화
+        options.add_argument('--use-gl=swiftshader')  # SwiftShader 사용 (소프트웨어 기반 WebGL)
+        options.add_argument('--enable-webgl')  # WebGL 명시적 활성화
+        options.add_argument('--ignore-gpu-blacklist')  # GPU 블랙리스트 무시
+        options.add_argument('--disable-gpu-watchdog')  # GPU 워치독 비활성화
+        options.add_argument('--disable-features=VizDisplayCompositor')  # 디스플레이 컴포지터 비활성화
         
         # 메모리 최적화
         options.add_argument('--memory-pressure-off')
