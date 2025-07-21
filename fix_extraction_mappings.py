@@ -6,6 +6,7 @@ Smart Extraction Results 매핑 수정 스크립트
 
 import json
 import os
+import sys
 from pathlib import Path
 from typing import Dict, List
 import openai
@@ -13,6 +14,9 @@ from dotenv import load_dotenv
 
 # .env 파일에서 환경변수 로드
 load_dotenv()
+
+# ConfigManager 사용을 위한 경로 추가
+sys.path.append(str(Path(__file__).parent / "src"))
 
 
 class ExtractionValidator:
