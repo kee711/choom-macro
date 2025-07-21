@@ -48,16 +48,19 @@ class WebAutomator:
         options.add_argument('--password-store=basic')
         options.add_argument('--use-mock-keychain')
         
-        # Selenium 특화 WebGL 차단 (일반 크롬과 동일한 환경 조성)
+        # 원격 데스크톱 환경 시뮬레이션 (빠른 렌더링 모드)
         options.add_argument('--disable-gpu')  # GPU 완전 비활성화
-        options.add_argument('--disable-gpu-sandbox')  # GPU 샌드박스 비활성화
+        options.add_argument('--disable-gpu-sandbox')  # GPU 샌드박스 비활성화  
         options.add_argument('--disable-software-rasterizer')  # 소프트웨어 래스터라이저 비활성화
-        options.add_argument('--disable-background-timer-throttling')  # 백그라운드 타이머 스로틀링 비활성화
-        options.add_argument('--disable-renderer-backgrounding')  # 렌더러 백그라운딩 비활성화
-        options.add_argument('--disable-backgrounding-occluded-windows')  # 가려진 윈도우 백그라운딩 비활성화
-        options.add_argument('--disable-features=VizDisplayCompositor,VizHitTestSurfaceLayer,TranslateUI')  # Viz 컴포지터 비활성화
-        options.add_argument('--force-color-profile=srgb')  # 색상 프로파일 강제 설정
-        options.add_argument('--disable-ipc-flooding-protection')  # IPC 플러딩 보호 비활성화
+        options.add_argument('--force-device-scale-factor=1')  # 디바이스 스케일 강제 설정
+        options.add_argument('--disable-partial-raster')  # 부분 래스터 비활성화
+        options.add_argument('--disable-skia-runtime-opts')  # Skia 런타임 최적화 비활성화
+        options.add_argument('--disable-threaded-animation')  # 쓰레드 애니메이션 비활성화
+        options.add_argument('--disable-threaded-scrolling')  # 쓰레드 스크롤링 비활성화
+        options.add_argument('--disable-checker-imaging')  # 체커 이미징 비활성화
+        options.add_argument('--disable-new-content-rendering-timeout')  # 콘텐츠 렌더링 타임아웃 비활성화
+        options.add_argument('--run-all-compositor-stages-before-draw')  # 컴포지터 스테이지 순차 실행
+        options.add_argument('--disable-threaded-compositing')  # 쓰레드 컴포지팅 비활성화
         
         # 메모리 최적화
         options.add_argument('--memory-pressure-off')
@@ -88,50 +91,73 @@ class WebAutomator:
             # 페이지 로드 전 스크립트 주입 (Chrome DevTools Protocol 사용)
             self.driver.execute_cdp_cmd('Page.addScriptToEvaluateOnNewDocument', {
                 'source': """
-                // Selenium 환경에서 WebGL 완전 차단
+                // 원격 데스크톱 환경 대응 WebGL 차단 (타이밍 고려)
                 (function() {
-                    console.log('Selenium WebGL blocker initialized');
+                    console.log('Remote-friendly WebGL blocker initialized');
                     
-                    // 모든 WebGL 관련 생성자 제거
-                    Object.defineProperty(window, 'WebGLRenderingContext', {
-                        get: function() { return undefined; },
-                        configurable: false
-                    });
+                    // 즉시 실행 (원격 환경의 빠른 실행 대응)
+                    const blockWebGL = function() {
+                        // WebGL 생성자들 완전 제거
+                        try {
+                            delete window.WebGLRenderingContext;
+                            delete window.WebGL2RenderingContext;
+                            window.WebGLRenderingContext = undefined;
+                            window.WebGL2RenderingContext = undefined;
+                        } catch(e) {}
+                        
+                        // HTMLCanvasElement 프로토타입 즉시 수정
+                        if (window.HTMLCanvasElement && HTMLCanvasElement.prototype) {
+                            const originalGetContext = HTMLCanvasElement.prototype.getContext;
+                            HTMLCanvasElement.prototype.getContext = function(contextType, contextAttributes) {
+                                console.log('Canvas context request:', contextType);
+                                if (contextType && contextType.toLowerCase().includes('webgl')) {
+                                    console.log('WebGL blocked for remote compatibility');
+                                    return null;
+                                }
+                                try {
+                                    return originalGetContext.call(this, contextType, contextAttributes);
+                                } catch(e) {
+                                    return null;
+                                }
+                            };
+                        }
+                        
+                        // ThreeJS 특화 차단
+                        if (window.THREE) {
+                            try {
+                                window.THREE.WebGLRenderer = function() {
+                                    console.log('ThreeJS WebGLRenderer blocked');
+                                    return { domElement: document.createElement('div') };
+                                };
+                            } catch(e) {}
+                        }
+                    };
                     
-                    Object.defineProperty(window, 'WebGL2RenderingContext', {
-                        get: function() { return undefined; },
-                        configurable: false
-                    });
+                    // 즉시 실행
+                    blockWebGL();
                     
-                    // HTMLCanvasElement.getContext 완전 오버라이드
-                    const OriginalHTMLCanvasElement = window.HTMLCanvasElement;
-                    if (OriginalHTMLCanvasElement) {
-                        OriginalHTMLCanvasElement.prototype.getContext = function(contextType, contextAttributes) {
-                            console.log('Canvas getContext called:', contextType);
-                            if (contextType === 'webgl' || contextType === 'experimental-webgl' || 
-                                contextType === 'webgl2' || contextType === 'experimental-webgl2') {
-                                console.log('WebGL context blocked in Selenium');
-                                return null;
-                            }
-                            // 2D context는 허용
-                            return CanvasRenderingContext2D.prototype.constructor.call(this, contextType, contextAttributes);
-                        };
-                    }
+                    // DOM 로드 후에도 실행 (이중 안전장치)
+                    document.addEventListener('DOMContentLoaded', blockWebGL);
                     
-                    // 전역 에러 핸들러 (더 강력하게)
-                    window.addEventListener('error', function(e) {
-                        if (e.message && (e.message.includes('WebGL') || e.message.includes('WebGLRenderer'))) {
-                            console.log('WebGL error suppressed:', e.message);
-                            e.stopPropagation();
+                    // 타이머로도 실행 (원격 환경의 빠른 로딩 대응)
+                    setTimeout(blockWebGL, 0);
+                    setTimeout(blockWebGL, 10);
+                    setTimeout(blockWebGL, 100);
+                    
+                    // 전역 오류 억제 (강력한 캐치)
+                    const errorHandler = function(e) {
+                        if (e.message && e.message.includes('WebGL')) {
+                            console.log('WebGL error caught:', e.message);
+                            e.stopImmediatePropagation();
                             e.preventDefault();
                             return false;
                         }
-                    }, true);
+                        return true;
+                    };
                     
-                    // unhandledrejection도 처리
+                    window.addEventListener('error', errorHandler, true);
                     window.addEventListener('unhandledrejection', function(e) {
-                        if (e.reason && e.reason.message && e.reason.message.includes('WebGL')) {
-                            console.log('WebGL promise rejection suppressed:', e.reason.message);
+                        if (e.reason && e.reason.toString().includes('WebGL')) {
                             e.preventDefault();
                         }
                     });
