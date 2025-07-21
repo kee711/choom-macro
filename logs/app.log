@@ -7911,3 +7911,308 @@ Stacktrace:
 2025-07-21 11:33:29,696 - main - INFO - 🔚 Closing browser
 2025-07-21 11:33:29,696 - WebAutomator - INFO - Closing browser and cleaning up resources
 2025-07-21 11:33:29,708 - WebAutomator - INFO - Browser closed successfully
+2025-07-21 12:40:48,442 - AccountManager - INFO - Loaded 30 account mappings
+2025-07-21 12:41:24,779 - SmartFileManager - INFO - Loaded smart extraction results for 10 folders
+2025-07-21 12:41:30,915 - AccountManager - INFO - Loaded 30 account mappings
+2025-07-21 12:41:30,916 - MultiAccountUploadTracker - INFO - Loaded upload tracker with 378 files across 53 accounts
+2025-07-21 12:41:30,916 - AccountManager - INFO - Parsed account range: 21 to 30
+2025-07-21 12:41:30,916 - AccountManager - INFO - Filtering accounts by range 21-30: 10 accounts found
+2025-07-21 12:41:30,920 - AccountManager - INFO - Skipping choco82@hanlim.world: All files uploaded (46/43 high confidence files)
+2025-07-21 12:41:30,921 - AccountManager - INFO - Skipping sunset74@hanlim.world: Reached maximum uploads (81/50)
+2025-07-21 12:41:30,921 - AccountManager - INFO - Skipping fluffy28@hanlim.world: Reached maximum uploads (51/50)
+2025-07-21 12:41:30,921 - AccountManager - INFO - Skipping mango88@hanlim.world: All files uploaded (24/20 high confidence files)
+2025-07-21 12:41:30,921 - AccountManager - INFO - Skipping blossom23@hanlim.world: All files uploaded (26/19 high confidence files)
+2025-07-21 12:41:30,921 - AccountManager - INFO - Skipping honey39@hanlim.world: All files uploaded (44/39 high confidence files)
+2025-07-21 12:41:30,921 - AccountManager - WARNING - Folder '당고 Danggo' not found in extraction results
+2025-07-21 12:41:30,921 - AccountManager - INFO - Skipping velvet42@hanlim.world: All files uploaded (0/0 high confidence files)
+2025-07-21 12:41:30,921 - AccountManager - INFO - Skipping ghost17@hanlim.world: All files uploaded (32/21 high confidence files)
+2025-07-21 12:41:30,921 - AccountManager - INFO - Including misty35@hanlim.world: 0/25 files uploaded, 25 remaining
+2025-07-21 12:41:30,921 - AccountManager - INFO - Including witty09@hanlim.world: 0/50 files uploaded, 50 remaining
+2025-07-21 12:41:30,921 - AccountManager - INFO - Found 2 accounts ready for upload (max 50 per account)
+2025-07-21 12:41:30,922 - main - INFO - 🚀 Starting multi-account upload process for 2 accounts
+2025-07-21 12:41:30,922 - main - INFO - 📊 Upload completion check based on high confidence files in smart_extraction_results.json
+2025-07-21 12:41:30,922 - main - INFO - 🎯 Only processing files with confidence='high' from smart_extraction_results.json
+2025-07-21 12:41:30,922 - main - INFO - 🔢 Maximum uploads per account: 50
+2025-07-21 12:41:30,923 - main - INFO - 
+============================================================
+2025-07-21 12:41:30,923 - main - INFO - 🔄 Processing account: misty35@hanlim.world
+2025-07-21 12:41:30,923 - main - INFO - 📁 Assigned folder: Imperium K-Pop Dance Team
+2025-07-21 12:41:30,923 - main - INFO - ============================================================
+2025-07-21 12:41:30,923 - WebAutomator - INFO - Starting login process for: misty35@hanlim.world
+2025-07-21 12:41:33,889 - WebAutomator - INFO - Checking for modal to close
+2025-07-21 12:41:38,393 - WebAutomator - INFO - Modal closed
+2025-07-21 12:41:38,394 - WebAutomator - INFO - Finding email input field
+2025-07-21 12:41:40,819 - WebAutomator - INFO - Email input found, entering email: misty35@hanlim.world
+2025-07-21 12:41:42,831 - WebAutomator - INFO - Finding password input field
+2025-07-21 12:41:42,929 - WebAutomator - INFO - Password input found, entering password
+2025-07-21 12:41:43,695 - WebAutomator - INFO - Finding signin button
+2025-07-21 12:41:43,715 - WebAutomator - INFO - Signin button found, clicking to login
+2025-07-21 12:41:44,108 - WebAutomator - INFO - Waiting for login to complete
+2025-07-21 12:41:48,134 - WebAutomator - INFO - Login successful for: misty35@hanlim.world
+2025-07-21 12:41:48,136 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: I'm on that #CashShit 💸 Ah 😜 #MeganTheeStallion #DaBaby #Quanz #Choreography #CashShitChallenge.mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts (1).mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I bought diamonds 💎 at my dentist #IceOnMyTeeth #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈.mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Love me once 🤞 I know you'll love me twice ✌ Killing part 🔥 #KATSEYE's #Debut #kpopinpublic #shorts.mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #XO cover! ❌⭕ Out now! 🫶 #ENHYPEN #XOChallenge #엔하이픈 #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #MonaLisa cover! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army (1).mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Damn I really make it look #EASY 😎🧢 #LESSERAFIM #EASYChallenge #MakeItLookEasy #kpopinpublic.mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Got them all goin' #SHEESH! 🥵 #BabyMonster #YG #BABYMONS7ER #베이비몬스터 #SHEESHChallenge #kpopinpublic.mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #SADSONG cover now! 🥺 #P1harmony #dancechallenge #kpopdance #kpopinpublic #shorts.mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #GGUM cover now! 🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #shorts.mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Sip it Sip it down like #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover.mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: This part 😍 from #Rockstar 🤘 #Lisa #LaLisa #Blackpink #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge.mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #BadDesire cover out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Teach me 🥵 #LoveLanguage 💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic (1).mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge (1).mp4
+2025-07-21 12:41:48,137 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 3, 2, 1 🙋‍♂️ #PlotTwist 🌊 #TWS #투어스 #247WithUs #Sparkling_Blue #첫만남은계획대로되지않아 #plot_twist.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: ❌⭕ kiss me 💋 don't say no 💗 #ENHYPEN #XO #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #IceOnMyTeeth 🦷 for my white tee #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈 #shorts.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Ain't #NoDoubt 🔥😎 #ENHYPEN #DanceCover  #kpopinpublic #dancechallenge #shorts.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #WORK 💸 cover now! ⬆️ #ATEEZ #kpopinpublic #에이티즈#dancecover #shorts.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Wanna be a winner 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Ooh, ooh, oooh 😍 Killing part from #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #OnlyOne that knows your 💗 The best part 🥰 #VCHA #VLIGHTS #kpopinpublic #DanceCover.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: ✋🤚 9024 👇👇 Kick that 🥁 #CrazyForm #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We're #KillinIt! 🤟😤🤟 Da da da da da! #P1Harmony #때깔 #kpopinpublic #P1H.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We hit this dance break! 🔥 Watch our #BADTITUDE #dancecover now! ⬆️ #BADVILLAIN #야호 #shorts.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Act like an angel 👼 and dress like #CRAZY 🤪 Cover out now!  #LESSERAFIM #kpopinpublic #르세라핌 #shorts.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Woo! 😮 Like it #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker (1).mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #Touch cover now! 💕 #KATSEYE #캣츠아이 #kpopinpublic #danceinpublic #dancecover #shorts.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I'm like some kind of #SuperNova 👾 #Aespa #challenge! Watch our full #kpopinpublic cover! 💃 #short.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Batter batter #BATTERUP ⚾ #BABYMONSTER #BATTERUPChallenge #베이비몬스터 #kpopinpublic.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Feel like another #SADSONG 💧 #P1harmony #dancecover #dancechallenge #kpopdance #kpopinpublic #shorts.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I can melt an #Igloo ❄️ yeah cuz I'm so dang hot 🥵🔥 #KISSOFLIFE #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Yeah you already know boy 🤟😤🤟 #KillinIt's Killing Part 🔥 #P1Harmony #때깔 #kpopinpublic #P1H.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #NotEnough cover! 🧎‍♂️‍➡️ #kpopinpublic #dancecover #shorts #WEi #위아이 #NOT_ENOUGH.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #Igloo 🧊🥶 cover now! #KISSOFLIFE #kpopinpublic #dancecover #dancechallenge #fyp #shorts.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Baby 🤘🤘 I'm a #Rockstar 🎸 #Lisa 🔥 #LaLisa #Blackpink #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Su su su #SuperNova dance break #challenge! 💃 Watch our full cover! 👾 #Aespa #kpopinpublic #short.mp4
+2025-07-21 12:41:48,138 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I'm a smarter baby 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Guess our #Daniela! 🔍 #Gnarly 🥪🔪 #KATSEYE #KATSEYE_Gnarly #dancecover #shorts (1).mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Dance break 🤩 from #BATTERUP ⚾ #BABYMONSTER #BATTERUPChallenge #베이비몬스터 #kpopinpublic.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Zoom gotta #zoom 💨 #BADVILLAIN #kpopinpublic #dancechallenge #dancecover #kpopfyp #shorts.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: The vocals 😫🙌 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Dive in 🙏🏊‍♂️ #AdultSwim 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI_AdultSwim #카이 #shorts.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Beautiful fire 🙏🔥 #BadDesire 🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Cuz you're my #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: B A B Y M O N 😈 Tell a Friend 🤫 #SHEESH #BabyMonster #YG #베이비몬스터 #SHEESHChallenge #kpopinpublic.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Wait! ✋ #PlotTwist 🌊 #TWS  #투어스 #247WithUs #Sparkling_Blue #첫만남은계획대로되지않아 #plot_twist.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: The 🍑 part in #CrazyForm 🤪 #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: One of one only ☝ #XG #MAYA #COCONA  #SWF2 #Streetwomanfighter2 #SHOWYOUCAN.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: All the girls are girling, girling! 💅 #CRAZY #LESSERAFIM #kpopinpublic #dancecover #르세라핌 #shorts.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: This 💘 is #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Hey listen to me now! 🔊👋 #NAYEON's #ABCD #kpopinpublic #TWICE #나연 #shorts.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: You see 👁 I got that #MidasTouch 👉👑 #KISSOFLIFE Check out our #kpopinpublic #dancecover! 💖 #키스오브라이프.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #TTYL cover now! 🍑💃 #TTYL #Loosemble #Loona #kpopinpublic #dancecover #dancevideo #shorts.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I'm burning #HOT 🥵🔥 #LESSERAFIM #HOT  #kpopinpublic #dancecover #르세라핌 #LE_SSERAFIM_HOT #shorts.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: ⏱ Hunt down🐺 #DeerHunter #andTEAM #GoInBlind #jpop #kpopfyp #kpopshorts #kpopinpublic #shorts.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: YAH-HO is so satisfying! 😊 #BADTITUDE #BADVILLAIN #야호 #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: But you’ve been so out of #Touch 🤙🤙 #KATSEYE #danceinpublic #debut #kpopinpublic #cover #shorts.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We goin' up like #NASA! 🚀 This choreo 🔥 #NCTWISH #NCT #WISH #Jpop #kpopinpublic.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #Crush for me! ✋✊ #ZEROBASEONE #제로베이스원 #가시 #MeltingPoint #kpopinpublic.mp4
+2025-07-21 12:41:48,139 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: That's me 💅 #izna #debut #kpopinpublic #shorts #dancecover #dancechallenge #이즈나 #kpopfyp #N_a #debut.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #HandsUp #dancecover! 🙌 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #kpopfyp #shorts (1).mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Like its #Magnetic 🧲#아일릿 #ILLIT #SUPER_REAL_ME #MagneticChallenge #kpopinpublic.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Breathe in, breathe out 😤 #Zoom #BADVILLAIN #kpopinpublic #dancecover #kpopfyp #shorts.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #HandsUp #dancecover! 🙌 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #kpopfyp #shorts.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Full shot 🔫 pull it up #Armageddon 💥 #Aespa #에스파 #kpopinpublic #shorts.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Come a so-soñar 🌪️ #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Best part 👌 from #NAYEON's 🧢 #ABCD #kpopinpublic #TWICE #나연 #shorts.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: This time I want 👆 #Magnetic 🧲#아일릿 #ILLIT #SUPER_REAL_ME #MagneticChallenge #kpopinpublic.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Omg that new beat! 🍑👋 #Gnarly #KATSEYE #KATSEYE_Gnarly #dancecover #shorts (1).mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Back it up! 🙌 Back it up! 👠 #SuperLady 🦸‍♀️ #GIDLE #여자아이들 #Two #SuperLadyChallenge #kpopinpublic.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Melt for you 🤍 #MELTINGPOINT ❄ #ZEROBASEONE #ZB1 #제로베이스원 #MELTINGPOINTChallenge.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Was it all #NotEnough 🥲 #kpopinpublic #dancecover #shorts #WEi #위아이 #NOT_ENOUGH.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: The girls ate in #WaitOnMe ✋✋ #KAI #TeamBebe #kpopinpublic #dancecover #카이#KAI_WaitOnMe #EXO #shorts.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: What’s your #LoveLanguage 🤘🤘💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic (1).mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Hottie hottie, like a bag of Takis 🥵🔥#Gnarly #KATSEYE #KATSEYE_Gnarly #dancecover #shorts (1).mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #Katseye is taking over the #RPD with #Touch! 👉😊 #Debut #RandomPlayDance #katchykpop #kpopinpublic.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: The 🦵⬆ choreo from #KATSEYE's #Debut 👌😍 #DebutChallenge #kpopinpublic #shorts.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our cover of #BadDesire! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: All the girls are girling, girling 💅 at our new #RPD! 😍 Out now! ⬆ #LESSERAFIM #CRAZY #kpopinpublic.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Feel like #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge.mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #HandsUp is out now! 🙌 #dancecover #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #kpopfyp #shorts (1).mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #WaitOnMe cover!☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI_WaitOnMe#EXO #엑소 #shorts (1).mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Omg that new beat! 🍑👋 Guess our #Megan! 🔍 #Gnarly #KATSEYE #KATSEYE_Gnarly #dancecover #shorts (1).mp4
+2025-07-21 12:41:48,140 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: This kick move 🦶🔥 #FatalTrouble! 🩸 #ENHYPEN #DARKMOON #ENGENE #kpopinpublic #challenge #shorts.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: The most satisfying part 🔥 Watch our #NoDoubt cover now! 🙏 #ENHYPEN #kpopinpublic #shorts.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I #BroughtTheHeatBack!🔥 #ENHYPEN 🧛🐱 #엔하이픈  #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #AdultSwim cover! 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI_AdultSwim #카이 #shorts.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Killing part! 🔥 #Impossible's dance break 👟 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Bet you never thought you'd see #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #Mantra cover! 💃 #JENNIE #Blackpink #제니 #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Teach me 🥵 #LoveLanguage 💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I am the top #SuperLady 🦸‍♀️ #GIDLE 👑 #여자아이들 #Two #SuperLadyChallenge #kpopinpublic.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #WaitOnMe 🌄 dance break 🔥 #KAI #kpopinpublic #dancecover #카이 #KAI_WaitOnMe #EXO #엑소 #shorts (1).mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Pretty so fine 😍 #MonaLisa #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Everything’s #Gnarly! 🥪🔪 #KATSEYE #KATSEYE_Gnarly #dancecover #shorts #danceinpublic (1).mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Go hit that Gum #GGUM! 😈🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #fyp #shorts.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #MonaLisa cover! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Bonnie N Clyde it! 🤝💃 #LESSERAFIM #HOT  #kpopinpublic #dancecover #르세라핌 #LE_SSERAFIM_HOT #shorts.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: This that pretty girl #Mantra 🌸💅 #JENNIE #Blackpink #제니 #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: This 🔥 choreo from #FatalTrouble! 🩸 #ENHYPEN #DARKMOON #ENGENE #kpopinpublic #challenge #shorts.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #Gnarly cover is out now! 🥪🔪 #KATSEYE #KATSEYE_Gnarly #dancecover #shorts #danceinpublic (1).mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I wanna #Dash 💨 Run it Run it 🏃‍♀️ #NMIXX #NSWER #DashChallenge #kpopinpublic.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Supernova 💥 Killing part 👌 #NASA #NCTWISH #NCT #WISH #Jpop #Kpopinpublic.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #BroughtTheHeatBack cover now! 🧛🐱 #ENHYPEN #엔하이픈  #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We're so #Different ☺ #WOODZ #Choreography #Kpopinpublic.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #Steady cover! 💚 #NCTWISH #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #dance #shorts (1).mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Gotta #WORK ⛏ gotta make that money 💰 make purse 👜 #ATEEZ #kpopinpublic #dancecover #에이티즈 #shorts.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Who that girl is 💃 #izna #debut #kpopinpublic #shorts #dancecover #dancechallenge #이즈나 #kpopfyp.mp4
+2025-07-21 12:41:48,141 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Gimme that beat! 👟 This dance is #Impossible! 😮 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈 (1).mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I get it 😍 #WaitOnMe is out now! #KAI #kpopinpublic #dancecover #카이 #KAI_WaitOnMe#EXO #엑소 #shorts (1).mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Season 2 is here! 🔥 Join the Imperium! #audition #kpopinpublic #dancecover #workshop.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 🔫 Bang chitty bang 💥 #Aespa #Armageddon #kpopinpublic #shorts.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #WaitOnMe ☝️☝️ #KAI #kpopinpublic #dancecover #카이 #KAI_WaitOnMe #EXO #엑소 #shorts.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We ‘bout to blow it up and make a scene ⏱️💣 #IZNA #Timebomb #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I’m ready to blow your mind ⏱️💣 #IZNA #Timebomb #kpopinpublic #kpopfyp #dancecover #shorts.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We go up! 🙌 Dance break from #CrazyForm 🤪 #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our cover of #LoveLanguage! 🤘🤘💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #shorts.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Turn it up! 🥳 #AdultSwim 💦 #KAI #WaitOnMe #kpopinpublic #BadaLee #EXO #KAI_AdultSwim #카이 #shorts.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our #BroughtTheHeatBack class video now! 🧛🐱 #ENHYPEN #엔하이픈  #kpopinpublic #dancecover #shorts (1).mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I can be the one and #OnlyOne 💗 Dance Break 💃 #VCHA #VLIGHTS #kpopinpublic #DanceCover.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Dance Break 🙏 #DejaVu ✨ #TXT #Moa #tomorrow_x_together #kpopinpublic #DanceCover #Shorts.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: All night long 🌙 #MELTINGPOINT ❄ #ZEROBASEONE #ZB1 #제로베이스원 #MELTINGPOINTChallenge.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Killing Part 👌 #EASY 😎🧢 #LESSERAFIM #EASYChallenge #LE_SSERAFIM_EASY #MakeItLookEasy #kpopinpublic.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I'm an Otaku bestie 🗾 Watch our #CRAZY cover! 💅 #LESSERAFIM #kpopinpublic #르세라핌 #kpopcover #shorts.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts (1).mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: You better rizz me tonight 🌙 I'll #TTYL 😘 #TTYL #Loosemble #Loona #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Watch our cover of #LoveLanguage! 🤘🤘💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #shorts (1).mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Mmm I just wanna continue my pace Ha ✋😮🤚 #Dash #NMIXX #NSWER #DashChallenge #kpopinpublic.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: CH-CH-CH-CH- #Cherish #MyLove 💘🦷 #ILLIT 😍 #kpopinpublic #dancecover #kpopfyp #dancechallenge #shorts.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Say it 🏃‍♂️ Say it louder ✨ #DejaVu #TXT #Moa #tomorrow_x_together #kpopinpublic #DanceCover #Shorts.mp4
+2025-07-21 12:41:48,142 - SmartFileManager - INFO - Found 25 valid videos in folder 'Imperium K-Pop Dance Team'
+2025-07-21 12:41:48,142 - main - INFO - 📄 Found 25 high confidence videos in folder 'Imperium K-Pop Dance Team'
+2025-07-21 12:41:48,142 - main - INFO - 📤 Processing Woo! 😮 Like it #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker.mp4
+2025-07-21 12:41:48,143 - main - INFO - 🎵 Smart extracted - Artist: NMIXX, Title: Soñar
+2025-07-21 12:41:48,143 - main - INFO - 📝 Generated description: NMIXX - Soñar dance cover #beat #lit #rhythm
+2025-07-21 12:41:48,143 - WebAutomator - INFO - Starting upload process for: Woo! 😮 Like it #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker.mp4
+2025-07-21 12:41:48,143 - WebAutomator - INFO - Search query: NMIXX Soñar
+2025-07-21 12:41:49,520 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 12:41:56,950 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 12:41:56,951 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 12:41:57,387 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 12:41:57,387 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 12:41:58,377 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 12:41:58,480 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 12:41:58,496 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 12:41:58,496 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 12:41:59,231 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 12:41:59,901 - WebAutomator - INFO - Step 1: Entering search query: NMIXX Soñar
+2025-07-21 12:41:59,941 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 12:42:00,127 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 12:42:01,328 - WebAutomator - INFO - Step 1: Current input value: "NMIXX Soñar"
+2025-07-21 12:42:01,329 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 12:42:01,329 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 12:42:01,378 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 12:42:02,000 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 12:42:02,000 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 12:42:02,000 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 12:42:03,273 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 12:42:03,521 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 12:42:03,521 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 12:42:03,522 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 12:42:04,537 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 12:42:04,599 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 12:42:05,628 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 12:42:07,844 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 12:42:07,844 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 12:42:07,888 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 12:42:09,366 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 12:42:09,366 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 12:42:09,367 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 12:42:09,382 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Woo! 😮 Like it #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker.mp4
+2025-07-21 12:42:09,690 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 12:42:09,996 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 12:42:11,941 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 12:42:11,941 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 12:42:12,035 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 12:42:12,035 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 12:42:12,059 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 12:42:12,910 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 12:42:12,910 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 12:42:12,911 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 12:42:13,420 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 12:42:13,420 - WebAutomator - INFO - Step 7: Description area found, entering text: NMIXX - Soñar dance cover #beat #lit #rhythm
+2025-07-21 12:42:13,759 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 12:42:13,759 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 12:42:14,027 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 12:42:14,597 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 12:42:14,597 - WebAutomator - INFO - Step 8: Upload completed successfully for Woo! 😮 Like it #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker.mp4
+2025-07-21 12:42:14,600 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Woo! 😮 Like it #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker.mp4
+2025-07-21 12:42:14,600 - WebAutomator - INFO - Recorded upload success in tracker for: Woo! 😮 Like it #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker.mp4
+2025-07-21 12:42:14,600 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 0 → 1
+2025-07-21 12:42:14,600 - main - INFO - ✅ Successfully uploaded Woo! 😮 Like it #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker.mp4 for misty35@hanlim.world (total: 1)
+2025-07-21 12:42:16,606 - main - INFO - 📤 Processing Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts.mp4
+2025-07-21 12:42:16,606 - main - INFO - 🎵 Smart extracted - Artist: NCT, Title: Poppop
+2025-07-21 12:42:16,606 - main - INFO - 📝 Generated description: NCT - Poppop dance cover #rhythm #choreography #shorts
+2025-07-21 12:42:16,606 - WebAutomator - INFO - Starting upload process for: Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts.mp4
+2025-07-21 12:42:16,606 - WebAutomator - INFO - Search query: NCT Poppop
+2025-07-21 12:42:16,608 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 12:42:16,615 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 12:42:17,620 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 12:42:19,967 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 12:42:19,967 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 12:42:24,269 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 12:42:24,270 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 12:42:24,657 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 12:42:25,144 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 12:42:25,186 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 12:42:25,186 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 12:42:25,406 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 12:42:26,057 - WebAutomator - INFO - Step 1: Entering search query: NCT Poppop
+2025-07-21 12:42:26,154 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 12:42:26,267 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 12:42:27,439 - WebAutomator - INFO - Step 1: Current input value: "NCT Poppop"
+2025-07-21 12:42:27,439 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 12:42:27,439 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 12:42:27,570 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 12:42:27,806 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 12:42:27,806 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 12:42:27,806 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 12:42:28,452 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 12:42:29,248 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 12:42:29,248 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 12:42:29,248 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 12:42:30,262 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 12:42:30,426 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 12:42:31,433 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 12:42:31,807 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 12:42:31,808 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 12:42:31,978 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 12:42:32,305 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 12:42:32,305 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 12:42:32,306 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 12:42:32,812 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts.mp4
+2025-07-21 12:42:33,002 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 12:42:33,307 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 12:42:33,822 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 12:42:33,823 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 12:42:33,838 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 12:42:33,838 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 12:42:33,864 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 12:42:34,108 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 12:42:34,109 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 12:42:34,109 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 12:42:34,286 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 12:42:34,287 - WebAutomator - INFO - Step 7: Description area found, entering text: NCT - Poppop dance cover #rhythm #choreography #shorts
+2025-07-21 12:42:34,772 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 12:42:34,772 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 12:42:34,962 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 12:42:35,247 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 12:42:35,248 - WebAutomator - INFO - Step 8: Upload completed successfully for Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts.mp4
+2025-07-21 12:42:35,251 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts.mp4
+2025-07-21 12:42:35,251 - WebAutomator - INFO - Recorded upload success in tracker for: Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts.mp4
+2025-07-21 12:42:35,251 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 1 → 2
+2025-07-21 12:42:35,251 - main - INFO - ✅ Successfully uploaded Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts.mp4 for misty35@hanlim.world (total: 2)
+2025-07-21 12:42:37,256 - main - INFO - 📤 Processing Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts.mp4
+2025-07-21 12:42:37,256 - main - INFO - 🎵 Smart extracted - Artist: MEOVV, Title: Hands Up
+2025-07-21 12:42:37,256 - main - INFO - 📝 Generated description: MEOVV - Hands Up dance cover #choreo #viral #cool
+2025-07-21 12:42:37,256 - WebAutomator - INFO - Starting upload process for: Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts.mp4
+2025-07-21 12:42:37,256 - WebAutomator - INFO - Search query: MEOVV Hands Up
+2025-07-21 12:42:37,260 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 12:42:37,262 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 12:42:38,264 - WebAutomator - INFO - Finding upload button (fast mode)
