@@ -1,4 +1,3 @@
 selenium
-spotipy
 fuzzywuzzy[speedup]
 regex

@@ -4,14 +4,14 @@
     "log_level": "INFO",
     "max_concurrent_uploads": 1,
     "upload_description_template": "Uploaded video",
-    "upload_delay_seconds": 2,
+    "upload_delay_seconds": 1,
     "supported_formats": [".mp4", ".avi", ".mov"]
   },
   "web_automation": {
     "browser": "chrome",
-    "headless": false,
-    "implicit_wait": 8,
-    "upload_timeout": 300
+    "headless": true,
+    "implicit_wait": 6,
+    "upload_timeout": 240
   },
   "title_extraction": {
     "similarity_threshold": 0.8,

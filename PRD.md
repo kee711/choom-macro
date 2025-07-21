@@ -1,3 +1,5 @@
+비밀번호 : test1234!@#$
+
 # 숏폼 영상 자동 업로드 매크로 PRD (Product Requirements Document)
 
 ## 1. 프로젝트 개요
