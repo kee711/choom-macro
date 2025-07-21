@@ -599,6 +599,103 @@ class WebAutomator:
         
         except Exception as e:
             self.logger.error(f'Upload failed for {file_path.name}: {str(e)}')
+            
+            # 업로드 실패 시 복구 시도
+            try:
+                self.logger.info('🔄 Attempting recovery: clicking new-bottom-nav first child div')
+                
+                # new-bottom-nav의 첫 번째 하위 div 클릭
+                nav_first_child = self._find_element_safely(
+                    '.new-bottom-nav > div:first-child, .new-bottom-nav div:first-child',
+                    description="new-bottom-nav first child div"
+                )
+                if nav_first_child:
+                    self._click_element_safely(nav_first_child, "new-bottom-nav first child")
+                    sleep(1)  # 네비게이션 완료 대기
+                    
+                    # search_song 다시 실행
+                    self.logger.info('🔄 Retrying search_song function')
+                    search_query = f"{artist} {title}" if artist and artist.strip() else title
+                    self.search_song(search_query)
+                    
+                    # 복구 후 다시 업로드 시도
+                    self.logger.info('🔄 Retrying upload after recovery')
+                    return self._retry_upload_after_recovery(file_path, artist, title, description, tracker)
+                    
+            except Exception as recovery_error:
+                self.logger.error(f'🔄 Recovery attempt failed: {str(recovery_error)}')
+            
+            return False
+
+    def _retry_upload_after_recovery(self, file_path: Path, artist: str, title: str, description: str, tracker=None) -> bool:
+        """복구 후 업로드 재시도"""
+        try:
+            # Step 3: Scroll down to reveal next button and click
+            self.logger.info('Recovery Step 3: Scrolling down to reveal next button')
+            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            sleep(1)
+            
+            next_btn = self._find_element_safely(
+                '.next-step-button, button.next, button[class*="next"]',
+                description="next button"
+            )
+            self.driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", next_btn)
+            sleep(1)
+            self._click_element_safely(next_btn, "next button")
+            
+            # Step 4: Click import/gallery button
+            self.logger.info('Recovery Step 4: Finding gallery/import button')
+            import_btn = self._find_element_safely(
+                '.gallery-banner, button.import, button[class*="import"], button[class*="gallery"]',
+                description="gallery/import button"
+            )
+            self._click_element_safely(import_btn, "gallery button")
+            
+            # Step 5: Upload file
+            self.logger.info('Recovery Step 5: Finding file input element')
+            file_input = WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, 'input[type="file"]'))
+            )
+            file_input.send_keys(str(file_path.resolve()))
+            
+            sleep(0.3)
+            self._close_file_dialog_if_open()
+            self._wait_for_file_upload_completion()
+            
+            # Step 6: Click next to proceed to description
+            self.logger.info('Recovery Step 6: Finding next button after file upload')
+            next_btn = self._find_element_safely(
+                '.next-step-button, button.next, button[class*="next"]',
+                description="next button after upload"
+            )
+            self._click_element_safely(next_btn, "next button after upload")
+            
+            # Step 7: Enter description
+            self.logger.info('Recovery Step 7: Finding description textarea')
+            desc_area = self._find_element_safely(
+                'textarea.description, textarea[class*="description"], textarea',
+                description="description textarea"
+            )
+            desc_area.send_keys(description)
+            
+            # Step 8: Final upload
+            self.logger.info('Recovery Step 8: Finding final upload button')
+            upload_btn = self._find_element_safely(
+                '.next-step-button, button.submit, button[class*="submit"], button[class*="upload"]',
+                description="final upload button"
+            )
+            self._click_element_safely(upload_btn, "final upload button")
+            self.logger.info(f'Recovery Step 8: Upload completed successfully for {file_path.name}')
+            
+            # 업로드 성공 시 트래커에 기록
+            if tracker:
+                tracker.mark_as_uploaded(file_path.name, artist, title)
+                self.logger.info(f'Recorded recovery upload success in tracker for: {file_path.name}')
+            
+            return True
+            
+        except Exception as e:
+            self.logger.error(f'Recovery upload failed for {file_path.name}: {str(e)}')
             return False
 
     def close(self):
