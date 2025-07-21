@@ -23,7 +23,7 @@ class WebAutomator:
         if config.get('web_automation', 'headless'):
             options.add_argument('--headless')
         
-        # 성능 최적화 옵션들
+        # 기본 성능 최적화 옵션들 (WebGL 차단 제거)
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
         options.add_argument('--disable-extensions')
@@ -48,19 +48,13 @@ class WebAutomator:
         options.add_argument('--password-store=basic')
         options.add_argument('--use-mock-keychain')
         
-        # 원격 데스크톱 환경 시뮬레이션 (빠른 렌더링 모드)
-        options.add_argument('--disable-gpu')  # GPU 완전 비활성화
-        options.add_argument('--disable-gpu-sandbox')  # GPU 샌드박스 비활성화  
-        options.add_argument('--disable-software-rasterizer')  # 소프트웨어 래스터라이저 비활성화
+        # GPU 관련 옵션들 완화 (완전 비활성화 대신 최소화)
+        options.add_argument('--disable-gpu-sandbox')  # GPU 샌드박스만 비활성화
         options.add_argument('--force-device-scale-factor=1')  # 디바이스 스케일 강제 설정
         options.add_argument('--disable-partial-raster')  # 부분 래스터 비활성화
-        options.add_argument('--disable-skia-runtime-opts')  # Skia 런타임 최적화 비활성화
         options.add_argument('--disable-threaded-animation')  # 쓰레드 애니메이션 비활성화
         options.add_argument('--disable-threaded-scrolling')  # 쓰레드 스크롤링 비활성화
         options.add_argument('--disable-checker-imaging')  # 체커 이미징 비활성화
-        options.add_argument('--disable-new-content-rendering-timeout')  # 콘텐츠 렌더링 타임아웃 비활성화
-        options.add_argument('--run-all-compositor-stages-before-draw')  # 컴포지터 스테이지 순차 실행
-        options.add_argument('--disable-threaded-compositing')  # 쓰레드 컴포지팅 비활성화
         
         # 메모리 최적화
         options.add_argument('--memory-pressure-off')
@@ -73,9 +67,6 @@ class WebAutomator:
         }
         options.add_experimental_option("mobileEmulation", mobile_emulation)
         
-        # 추가 모바일 관련 옵션
-        options.add_argument('--user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1')
-        
         # Chrome 드라이버 초기화
         self.driver = webdriver.Chrome(options=options)
         self.driver.implicitly_wait(config.get('web_automation', 'implicit_wait', 10))
@@ -85,97 +76,6 @@ class WebAutomator:
         """특정 계정으로 로그인"""
         self.logger.info(f'Starting login process for: {email}')
         self.driver.get('https://app.hanlim.world/signin')
-        
-        # Selenium Chrome 전용 WebGL 차단 (일반 크롬과 차이점 해결)
-        try:
-            # 페이지 로드 전 스크립트 주입 (Chrome DevTools Protocol 사용)
-            self.driver.execute_cdp_cmd('Page.addScriptToEvaluateOnNewDocument', {
-                'source': """
-                // 원격 데스크톱 환경 대응 WebGL 차단 (타이밍 고려)
-                (function() {
-                    console.log('Remote-friendly WebGL blocker initialized');
-                    
-                    // 즉시 실행 (원격 환경의 빠른 실행 대응)
-                    const blockWebGL = function() {
-                        // WebGL 생성자들 완전 제거
-                        try {
-                            delete window.WebGLRenderingContext;
-                            delete window.WebGL2RenderingContext;
-                            window.WebGLRenderingContext = undefined;
-                            window.WebGL2RenderingContext = undefined;
-                        } catch(e) {}
-                        
-                        // HTMLCanvasElement 프로토타입 즉시 수정
-                        if (window.HTMLCanvasElement && HTMLCanvasElement.prototype) {
-                            const originalGetContext = HTMLCanvasElement.prototype.getContext;
-                            HTMLCanvasElement.prototype.getContext = function(contextType, contextAttributes) {
-                                console.log('Canvas context request:', contextType);
-                                if (contextType && contextType.toLowerCase().includes('webgl')) {
-                                    console.log('WebGL blocked for remote compatibility');
-                                    return null;
-                                }
-                                try {
-                                    return originalGetContext.call(this, contextType, contextAttributes);
-                                } catch(e) {
-                                    return null;
-                                }
-                            };
-                        }
-                        
-                        // ThreeJS 특화 차단
-                        if (window.THREE) {
-                            try {
-                                window.THREE.WebGLRenderer = function() {
-                                    console.log('ThreeJS WebGLRenderer blocked');
-                                    return { domElement: document.createElement('div') };
-                                };
-                            } catch(e) {}
-                        }
-                    };
-                    
-                    // 즉시 실행
-                    blockWebGL();
-                    
-                    // DOM 로드 후에도 실행 (이중 안전장치)
-                    document.addEventListener('DOMContentLoaded', blockWebGL);
-                    
-                    // 타이머로도 실행 (원격 환경의 빠른 로딩 대응)
-                    setTimeout(blockWebGL, 0);
-                    setTimeout(blockWebGL, 10);
-                    setTimeout(blockWebGL, 100);
-                    
-                    // 전역 오류 억제 (강력한 캐치)
-                    const errorHandler = function(e) {
-                        if (e.message && e.message.includes('WebGL')) {
-                            console.log('WebGL error caught:', e.message);
-                            e.stopImmediatePropagation();
-                            e.preventDefault();
-                            return false;
-                        }
-                        return true;
-                    };
-                    
-                    window.addEventListener('error', errorHandler, true);
-                    window.addEventListener('unhandledrejection', function(e) {
-                        if (e.reason && e.reason.toString().includes('WebGL')) {
-                            e.preventDefault();
-                        }
-                    });
-                })();
-                """
-            })
-            self.logger.info('WebGL blocker injected via CDP')
-        except Exception as e:
-            self.logger.info(f'CDP injection failed, using fallback: {e}')
-            # 폴백: 일반 스크립트 주입
-            self.driver.execute_script("""
-                window.WebGLRenderingContext = undefined;
-                window.WebGL2RenderingContext = undefined;
-                HTMLCanvasElement.prototype.getContext = function(type) {
-                    if (type.includes('webgl')) return null;
-                    return null;
-                };
-            """)
         
         # 먼저 모달 닫기
         try:
@@ -617,43 +517,7 @@ class WebAutomator:
             self.logger.info(f'Starting upload process for: {file_path.name}')
             self.logger.info(f'Search query: {search_query}')
             
-            # ThreeJS 호환 WebGL 오류 방지 재주입
-            try:
-                threejs_compat_script = """
-                (function() {
-                    const originalGetContext = HTMLCanvasElement.prototype.getContext;
-                    HTMLCanvasElement.prototype.getContext = function(contextType, contextAttributes) {
-                        if (contextType === 'webgl' || contextType === 'experimental-webgl' || 
-                            contextType === 'webgl2' || contextType === 'experimental-webgl2') {
-                            return null;
-                        }
-                        return originalGetContext.call(this, contextType, contextAttributes);
-                    };
-                    
-                    // 전역 오류 처리기
-                    window.addEventListener('error', function(e) {
-                        if (e.message && e.message.includes('WebGL')) {
-                            e.preventDefault();
-                            return false;
-                        }
-                    });
-                    
-                    // ThreeJS WebGLRenderer 폴백
-                    if (window.THREE && window.THREE.WebGLRenderer) {
-                        window.THREE.WebGLRenderer = function() {
-                            return {
-                                domElement: document.createElement('div'),
-                                setSize: function() {},
-                                render: function() {},
-                                dispose: function() {}
-                            };
-                        };
-                    }
-                })();
-                """
-                self.driver.execute_script(threejs_compat_script)
-            except Exception:
-                pass  # 실패해도 계속 진행
+            # WebGL 관련 코드 제거됨 - 브라우저 렌더링 문제 해결을 위해
             
             # 업로드 시작 전에 알림창 처리
             self._handle_alert_if_present()
