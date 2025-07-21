@@ -1,0 +1,3 @@
+selenium
+fuzzywuzzy[speedup]
+regex

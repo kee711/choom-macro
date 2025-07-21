@@ -1,0 +1,249 @@
+{
+  "emails": [
+    "vivid41@hanlim.world",
+    "beacon17@hanlim.world",
+    "fizzy19@hanlim.world",
+    "poppy21@hanlim.world",
+    "rainy20@hanlim.world",
+    "shadow88@hanlim.world",
+    "olive300@hanlim.world",
+    "lunar70@hanlim.world",
+    "amber15@hanlim.world",
+    "frost66@hanlim.world",
+    "echo92@hanlim.world",
+    "peach77@hanlim.world",
+    "cocoa84@hanlim.world",
+    "neon510@hanlim.world",
+    "ginger48@hanlim.world",
+    "zinc90@hanlim.world",
+    "glow58@hanlim.world",
+    "candy91@hanlim.world",
+    "orbit12@hanlim.world",
+    "noble03@hanlim.world",
+    "choco82@hanlim.world",
+    "sunset74@hanlim.world",
+    "fluffy28@hanlim.world",
+    "mango88@hanlim.world",
+    "blossom23@hanlim.world",
+    "honey39@hanlim.world",
+    "velvet42@hanlim.world",
+    "ghost17@hanlim.world",
+    "misty35@hanlim.world",
+    "witty09@hanlim.world"
+  ],
+  "password": [
+    "test1234!@#$"
+  ],
+  "mappings": [
+    {
+      "id": 1,
+      "email": "vivid41@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Dance up",
+      "uploaded_count": 0
+    },
+    {
+      "id": 2,
+      "email": "beacon17@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "PINKIE kpop",
+      "uploaded_count": 0
+    },
+    {
+      "id": 3,
+      "email": "fizzy19@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Ana Bensig",
+      "uploaded_count": 0
+    },
+    {
+      "id": 4,
+      "email": "poppy21@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "DASURI CHOI",
+      "uploaded_count": 0
+    },
+    {
+      "id": 5,
+      "email": "rainy20@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Dancing Ember",
+      "uploaded_count": 0
+    },
+    {
+      "id": 6,
+      "email": "shadow88@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "ellen*dance",
+      "uploaded_count": 0
+    },
+    {
+      "id": 7,
+      "email": "olive300@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "valwithoutlerie",
+      "uploaded_count": 0
+    },
+    {
+      "id": 8,
+      "email": "lunar70@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Siri",
+      "uploaded_count": 0
+    },
+    {
+      "id": 9,
+      "email": "amber15@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "heyitskimmy",
+      "uploaded_count": 0
+    },
+    {
+      "id": 10,
+      "email": "frost66@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Sei",
+      "uploaded_count": 0
+    },
+    {
+      "id": 11,
+      "email": "echo92@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Puja Shahi",
+      "uploaded_count": 0
+    },
+    {
+      "id": 12,
+      "email": "peach77@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Miran",
+      "uploaded_count": 0
+    },
+    {
+      "id": 13,
+      "email": "cocoa84@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "N2Studios",
+      "uploaded_count": 0
+    },
+    {
+      "id": 14,
+      "email": "neon510@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Aria Ting",
+      "uploaded_count": 0
+    },
+    {
+      "id": 15,
+      "email": "ginger48@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "SILENTIUM",
+      "uploaded_count": 0
+    },
+    {
+      "id": 16,
+      "email": "zinc90@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "sylvie shiu",
+      "uploaded_count": 0
+    },
+    {
+      "id": 17,
+      "email": "glow58@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "王亞婷",
+      "uploaded_count": 0
+    },
+    {
+      "id": 18,
+      "email": "candy91@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "PPEUM DANCE",
+      "uploaded_count": 0
+    },
+    {
+      "id": 19,
+      "email": "orbit12@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "gaozhuo",
+      "uploaded_count": 0
+    },
+    {
+      "id": 20,
+      "email": "noble03@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Dee",
+      "uploaded_count": 0
+    },
+    {
+      "id": 21,
+      "email": "choco82@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "NaYoon",
+      "uploaded_count": 46
+    },
+    {
+      "id": 22,
+      "email": "sunset74@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Anita Tsai",
+      "uploaded_count": 81
+    },
+    {
+      "id": 23,
+      "email": "fluffy28@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Karina Balcerzak",
+      "uploaded_count": 51
+    },
+    {
+      "id": 24,
+      "email": "mango88@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "DANCEBEBE",
+      "uploaded_count": 24
+    },
+    {
+      "id": 25,
+      "email": "blossom23@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "3TO1 DANCE COMMUNITY",
+      "uploaded_count": 0
+    },
+    {
+      "id": 26,
+      "email": "honey39@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Ploopy678",
+      "uploaded_count": 0
+    },
+    {
+      "id": 27,
+      "email": "velvet42@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "당고 Danggo",
+      "uploaded_count": 0
+    },
+    {
+      "id": 28,
+      "email": "ghost17@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "EXRAL PRODUCTION",
+      "uploaded_count": 0
+    },
+    {
+      "id": 29,
+      "email": "misty35@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Imperium K-Pop Dance Team",
+      "uploaded_count": 0
+    },
+    {
+      "id": 30,
+      "email": "witty09@hanlim.world",
+      "password": "test1234!@#$",
+      "folder": "Axiom",
+      "uploaded_count": 0
+    }
+  ]
+}

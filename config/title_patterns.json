@@ -1,0 +1,7 @@
+[
+  "(?P<artist>\\S+)\\s+(?P<title>.+)",
+  "(?P<artist>.+) - (?P<title>.+)",
+  "\\[(?:MV|4K)\\] (?P<artist>.+?) _ (?P<title>.+)",
+  "(?P<title>.+) - (?P<artist>.+) 가사 lyrics",
+  "(?P<artist>.+)_(?P<title>.+)_.*"
+]

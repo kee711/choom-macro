@@ -1,0 +1,24 @@
+{
+  "general": {
+    "video_folder_path": "/Users/minsung/Documents/choom",
+    "log_level": "INFO",
+    "max_concurrent_uploads": 1,
+    "upload_description_template": "Uploaded video",
+    "upload_delay_seconds": 1,
+    "supported_formats": [".mp4", ".avi", ".mov"]
+  },
+  "web_automation": {
+    "browser": "chrome",
+    "headless": true,
+    "implicit_wait": 6,
+    "upload_timeout": 240
+  },
+  "title_extraction": {
+    "similarity_threshold": 0.8,
+    "remove_keywords": ["Official", "MV", "가사", "lyrics", "커버", "댄스", "cover", "MIRRORED", "dance"],
+    "remove_patterns": [
+      "\\[.*?\\]",
+      "\\(.*?\\)"
+    ]
+  }
+}

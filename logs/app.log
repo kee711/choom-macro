@@ -1,0 +1,417 @@
+2025-07-20 22:55:43,697 - main - INFO - ✅ Successfully uploaded Soda Pop - KPOP DH   #sodapop #dancechallenge #netflix #kpopdemonhunters.mp4 for mango88@hanlim.world (total: 11)
+2025-07-20 22:55:45,704 - main - INFO - 📤 Processing #dance #jennie #likejennie #likejenniechallenge #blackpink #kpop.mp4
+2025-07-20 22:55:45,704 - main - INFO - 🎵 Smart extracted - Artist: BTS, Title: Seven
+2025-07-20 22:55:45,704 - main - INFO - 📝 Generated description: BTS - Seven dance cover #rhythm #shorts #viral
+2025-07-20 22:57:26,267 - main - INFO - ✅ Successfully uploaded #dance #jennie #likejennie #likejenniechallenge #blackpink #kpop.mp4 for mango88@hanlim.world (total: 12)
+2025-07-20 22:57:28,268 - main - INFO - 📤 Processing 7️⃣days a week❤️   #shorts #bts #jungkook #seven #latto.mp4
+2025-07-20 22:57:28,268 - main - INFO - 🎵 Smart extracted - Artist: MARK, Title: 1999
+2025-07-20 22:57:28,268 - main - INFO - 📝 Generated description: MARK - 1999 dance cover #korean #music #kdance
+2025-07-20 22:59:20,159 - main - INFO - ✅ Successfully uploaded 7️⃣days a week❤️   #shorts #bts #jungkook #seven #latto.mp4 for mango88@hanlim.world (total: 13)
+2025-07-20 22:59:22,165 - main - INFO - 📤 Processing MARK - 1999   #nct #mark #1999 #kpop #엔시티 #마크 #춤.mp4
+2025-07-20 22:59:22,165 - main - INFO - 🎵 Smart extracted - Artist: NCT DOJAEJUNG, Title: Perfume
+2025-07-20 22:59:22,165 - main - INFO - 📝 Generated description: NCT DOJAEJUNG - Perfume dance cover #idol #kpop #music
+2025-07-20 23:01:44,570 - main - INFO - ✅ Successfully uploaded MARK - 1999   #nct #mark #1999 #kpop #엔시티 #마크 #춤.mp4 for mango88@hanlim.world (total: 14)
+2025-07-20 23:01:46,572 - main - INFO - 📤 Processing NCT DOJAEJUNG - Perfume.mp4
+2025-07-20 23:01:46,572 - main - INFO - 🎵 Smart extracted - Artist: Jay Park, Title: Love Is Ugly
+2025-07-20 23:01:46,572 - main - INFO - 📝 Generated description: Jay Park - Love Is Ugly dance cover #shorts #idol #fyp
+2025-07-20 23:04:01,074 - main - ERROR - ❌ Failed to upload NCT DOJAEJUNG - Perfume.mp4 for mango88@hanlim.world
+2025-07-20 23:04:01,074 - main - ERROR - 🔄 Upload failed - triggering restart to retry with fresh browser session
+2025-07-20 23:04:01,269 - main - INFO - 🔚 Closing browser
+2025-07-20 23:04:06,561 - SmartFileManager - INFO - Loaded smart extraction results for 6 folders
+2025-07-20 23:04:11,422 - AccountManager - INFO - Loaded 10 account mappings
+2025-07-20 23:04:11,423 - MultiAccountUploadTracker - INFO - Loaded upload tracker with 286 files across 50 accounts
+2025-07-20 23:04:11,424 - AccountManager - INFO - Skipping choco82@hanlim.world: All files uploaded (46/43 high confidence files)
+2025-07-20 23:04:11,424 - AccountManager - INFO - Skipping sunset74@hanlim.world: Reached maximum uploads (81/50)
+2025-07-20 23:04:11,424 - AccountManager - INFO - Skipping fluffy28@hanlim.world: Reached maximum uploads (51/50)
+2025-07-20 23:04:11,424 - AccountManager - INFO - Including mango88@hanlim.world: 14/19 files uploaded, 5 remaining
+2025-07-20 23:04:11,424 - AccountManager - INFO - Skipping vivid41@hanlim.world: No folder assigned
+2025-07-20 23:04:11,424 - AccountManager - INFO - Skipping beacon17@hanlim.world: No folder assigned
+2025-07-20 23:04:11,424 - AccountManager - INFO - Skipping fizzy19@hanlim.world: No folder assigned
+2025-07-20 23:04:11,424 - AccountManager - INFO - Skipping poppy21@hanlim.world: No folder assigned
+2025-07-20 23:04:11,424 - AccountManager - INFO - Skipping misty35@hanlim.world: No folder assigned
+2025-07-20 23:04:11,425 - AccountManager - INFO - Skipping witty09@hanlim.world: No folder assigned
+2025-07-20 23:04:11,425 - AccountManager - INFO - Found 1 accounts ready for upload (max 50 per account)
+2025-07-20 23:04:11,425 - main - INFO - 🚀 Starting multi-account upload process for 1 accounts
+2025-07-20 23:04:11,425 - main - INFO - 📊 Upload completion check based on high confidence files in smart_extraction_results.json
+2025-07-20 23:04:11,425 - main - INFO - 🎯 Only processing files with confidence='high' from smart_extraction_results.json
+2025-07-20 23:04:11,425 - main - INFO - 🔢 Maximum uploads per account: 50
+2025-07-20 23:04:11,425 - main - INFO - 
+============================================================
+2025-07-20 23:04:11,425 - main - INFO - 🔄 Processing account: mango88@hanlim.world
+2025-07-20 23:04:11,425 - main - INFO - 📁 Assigned folder: DANCEBEBE
+2025-07-20 23:04:11,425 - main - INFO - ============================================================
+2025-07-20 23:04:11,425 - WebAutomator - INFO - Starting login process for: mango88@hanlim.world
+2025-07-20 23:04:14,327 - WebAutomator - INFO - Checking for modal to close
+2025-07-20 23:04:20,030 - WebAutomator - INFO - Modal closed
+2025-07-20 23:04:20,030 - WebAutomator - INFO - Finding email input field
+2025-07-20 23:04:20,091 - WebAutomator - INFO - Email input found, entering email: mango88@hanlim.world
+2025-07-20 23:04:21,779 - WebAutomator - INFO - Finding password input field
+2025-07-20 23:04:21,907 - WebAutomator - INFO - Password input found, entering password
+2025-07-20 23:04:22,314 - WebAutomator - INFO - Finding signin button
+2025-07-20 23:04:22,933 - WebAutomator - INFO - Signin button found, clicking to login
+2025-07-20 23:04:24,046 - WebAutomator - INFO - Waiting for login to complete
+2025-07-20 23:04:27,975 - WebAutomator - INFO - Login successful for: mango88@hanlim.world
+2025-07-20 23:04:27,976 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: PASSO BEM SOLTO   #dancechallenge #dancecover #passobemsolto #yeonjun.mp4
+2025-07-20 23:04:27,976 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: 얼굴이 너무 가깝나😅   Summer(feat.BE’O) - Paul Blanco.mp4
+2025-07-20 23:04:27,976 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: BAEKHYUN(백현) - Betcha   #shorts #dance #exo #baekhyun #betcha #baekhyun_betcha.mp4
+2025-07-20 23:04:27,976 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: 다시 한 번 교복입게 해줘서 고마워 Say My Name~!   #shorts #dance #kpop #saymyname.mp4
+2025-07-20 23:04:27,976 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 기타 이렇게 잡는거 맞나요🎸   #RIIZE #라이즈 #GetAGuitar #RIIZE_GetAGuitar.mp4
+2025-07-20 23:04:27,976 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Love 119 - RIIZE   #kpop #RIIZE #love119.mp4
+2025-07-20 23:04:27,976 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: TXT - 교환일기(MOA Diary)   #shorts #txt #moadiary #투모로우바이투게더 #교환일기 #두밧두_와리와리.mp4
+2025-07-20 23:04:27,976 - SmartFileManager - INFO - Found 19 valid videos in folder 'DANCEBEBE'
+2025-07-20 23:04:27,976 - main - INFO - 📄 Found 19 high confidence videos in folder 'DANCEBEBE'
+2025-07-20 23:04:27,976 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: 이글루가 뜨거운 이유🕶️   KISS OF LIFE - Igloo #kissoflife #igloo.mp4
+2025-07-20 23:04:27,976 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: Kai - Adult swim   #kai #adultswim #exo #kpop #kpopdance #엑소 #카이.mp4
+2025-07-20 23:04:27,977 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: RIIZE - 잉걸 Ember to Solar(Mirrored)   #kpop #riize #riize_embertosolar #embertosolar #라이즈 #잉걸.mp4
+2025-07-20 23:04:27,977 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: TXT - Love Language   #TXT #lovelanguage #kpopdance #dancecover #투바투 #bighit.mp4
+2025-07-20 23:04:27,977 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: Enhypen - Bite Me   #shorts #enhypen #biteme #bitemechallenge.mp4
+2025-07-20 23:04:27,977 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: TWS - 마음 따라 뛰는 건 멋지지 않아   #tws #countdown #마음따라뛰는건멋지지않아 #투어스.mp4
+2025-07-20 23:04:27,977 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: RIIZE - Bag Bad Back   #riize #bagbadback #kpopdancecover #라이즈.mp4
+2025-07-20 23:04:27,977 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: Stray Kids - 특 S-Class   #특 #s_class #특챌린지 #s_class_challenge #straykids #스트레이키즈 #5_star.mp4
+2025-07-20 23:04:27,977 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: [TUTORIAL(Mirrored, Slow)] 정국(Jungkook) - Seven   #shorts #dance #jungkook #seven #tutorial.mp4
+2025-07-20 23:04:27,977 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: J-hope - MONA LISA   #bts #jhope #monalisa #kpop #kpopdance #dancechallenge.mp4
+2025-07-20 23:04:27,977 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: Soda Pop - KPOP DH   #sodapop #dancechallenge #netflix #kpopdemonhunters.mp4
+2025-07-20 23:04:27,977 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: #dance #jennie #likejennie #likejenniechallenge #blackpink #kpop.mp4
+2025-07-20 23:04:27,977 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: 7️⃣days a week❤️   #shorts #bts #jungkook #seven #latto.mp4
+2025-07-20 23:04:27,977 - main - INFO - ⏭️ Skipping already uploaded file for mango88@hanlim.world: MARK - 1999   #nct #mark #1999 #kpop #엔시티 #마크 #춤.mp4
+2025-07-20 23:04:27,977 - main - INFO - 📤 Processing NCT DOJAEJUNG - Perfume.mp4
+2025-07-20 23:04:27,977 - main - INFO - 🎵 Smart extracted - Artist: Jay Park, Title: Love Is Ugly
+2025-07-20 23:04:27,977 - main - INFO - 📝 Generated description: Jay Park - Love Is Ugly dance cover #energy #shorts #idol
+2025-07-20 23:04:27,977 - WebAutomator - INFO - Starting upload process for: NCT DOJAEJUNG - Perfume.mp4
+2025-07-20 23:04:27,977 - WebAutomator - INFO - Search query: Jay Park Love Is Ugly
+2025-07-20 23:04:29,422 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-20 23:04:36,397 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-20 23:04:36,398 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-20 23:04:37,194 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-20 23:04:37,194 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-20 23:04:38,036 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-20 23:04:38,092 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-20 23:04:38,110 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-20 23:04:38,110 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-20 23:04:38,564 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-20 23:04:39,399 - WebAutomator - INFO - Step 1: Entering search query: Jay Park Love Is Ugly
+2025-07-20 23:04:39,423 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-20 23:04:39,605 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-20 23:04:41,001 - WebAutomator - INFO - Step 1: Current input value: "Jay Park Love Is Ugly"
+2025-07-20 23:04:41,001 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-20 23:04:41,001 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-20 23:04:41,042 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-20 23:04:41,701 - WebAutomator - INFO - Successfully clicked search button
+2025-07-20 23:04:41,701 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-20 23:04:41,701 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-20 23:04:42,328 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-20 23:04:42,813 - WebAutomator - INFO - Successfully clicked search result
+2025-07-20 23:04:42,813 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-20 23:04:42,813 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-20 23:04:43,845 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-20 23:04:43,928 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-20 23:04:45,016 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-20 23:04:45,671 - WebAutomator - INFO - Successfully clicked next button
+2025-07-20 23:04:45,671 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-20 23:04:45,708 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-20 23:04:46,805 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-20 23:04:46,805 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-20 23:04:46,805 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-20 23:04:46,815 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom-macro/choom/DANCEBEBE/NCT DOJAEJUNG - Perfume.mp4
+2025-07-20 23:04:47,351 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-20 23:04:47,657 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-20 23:04:48,288 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-20 23:04:48,288 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-20 23:04:51,384 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-20 23:04:51,384 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-20 23:04:51,429 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-20 23:04:52,190 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-20 23:04:52,191 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-20 23:04:52,191 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-20 23:04:52,585 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-20 23:04:52,585 - WebAutomator - INFO - Step 7: Description area found, entering text: Jay Park - Love Is Ugly dance cover #energy #shorts #idol
+2025-07-20 23:04:53,296 - WebAutomator - INFO - Step 7: Description entered
+2025-07-20 23:04:53,296 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-20 23:04:53,575 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-20 23:04:53,917 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-20 23:04:53,918 - WebAutomator - INFO - Step 8: Upload completed successfully for NCT DOJAEJUNG - Perfume.mp4
+2025-07-20 23:04:53,921 - MultiAccountUploadTracker - INFO - Marked as uploaded for mango88@hanlim.world: NCT DOJAEJUNG - Perfume.mp4
+2025-07-20 23:04:53,921 - WebAutomator - INFO - Recorded upload success in tracker for: NCT DOJAEJUNG - Perfume.mp4
+2025-07-20 23:04:53,921 - AccountManager - INFO - ✅ Incremented upload count for mango88@hanlim.world: 14 → 15
+2025-07-20 23:04:53,921 - main - INFO - ✅ Successfully uploaded NCT DOJAEJUNG - Perfume.mp4 for mango88@hanlim.world (total: 15)
+2025-07-20 23:04:55,926 - main - INFO - 📤 Processing Jay Park - Love Is Ugly   #shorts #dance #LoveIsUgly #jaypark #dancechallenge.mp4
+2025-07-20 23:04:55,927 - main - INFO - 🎵 Smart extracted - Artist: TXT, Title: 교환일기
+2025-07-20 23:04:55,927 - main - INFO - 📝 Generated description: TXT - 교환일기 dance cover #choreo #choreography #shorts
+2025-07-20 23:04:55,928 - WebAutomator - INFO - Starting upload process for: Jay Park - Love Is Ugly   #shorts #dance #LoveIsUgly #jaypark #dancechallenge.mp4
+2025-07-20 23:04:55,928 - WebAutomator - INFO - Search query: TXT 교환일기
+2025-07-20 23:04:55,933 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-20 23:04:55,937 - WebAutomator - INFO - Alert accepted and closed
+2025-07-20 23:04:56,943 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-20 23:04:59,502 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-20 23:04:59,502 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-20 23:05:02,903 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-20 23:05:02,904 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-20 23:05:03,975 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-20 23:05:04,090 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-20 23:05:04,100 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-20 23:05:04,100 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-20 23:05:04,316 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-20 23:05:04,966 - WebAutomator - INFO - Step 1: Entering search query: TXT 교환일기
+2025-07-20 23:05:05,004 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-20 23:05:05,127 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-20 23:05:06,167 - WebAutomator - INFO - Step 1: Current input value: "TXT 교환일기"
+2025-07-20 23:05:06,167 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-20 23:05:06,167 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-20 23:05:06,287 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-20 23:05:06,538 - WebAutomator - INFO - Successfully clicked search button
+2025-07-20 23:05:06,538 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-20 23:05:06,538 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-20 23:05:07,379 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-20 23:05:07,794 - WebAutomator - INFO - Successfully clicked search result
+2025-07-20 23:05:07,794 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-20 23:05:07,795 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-20 23:05:08,812 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-20 23:05:08,831 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-20 23:05:09,838 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-20 23:05:10,021 - WebAutomator - INFO - Successfully clicked next button
+2025-07-20 23:05:10,021 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-20 23:05:10,127 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-20 23:05:10,446 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-20 23:05:10,446 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-20 23:05:10,446 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-20 23:05:10,950 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom-macro/choom/DANCEBEBE/Jay Park - Love Is Ugly   #shorts #dance #LoveIsUgly #jaypark #dancechallenge.mp4
+2025-07-20 23:05:11,146 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-20 23:05:11,452 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-20 23:05:11,800 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-20 23:05:11,800 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-20 23:05:11,809 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-20 23:05:11,809 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-20 23:05:11,826 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-20 23:05:11,934 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-20 23:05:11,934 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-20 23:05:11,934 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-20 23:05:12,504 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-20 23:05:12,505 - WebAutomator - INFO - Step 7: Description area found, entering text: TXT - 교환일기 dance cover #choreo #choreography #shorts
+2025-07-20 23:05:13,486 - WebAutomator - INFO - Step 7: Description entered
+2025-07-20 23:05:13,486 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-20 23:05:13,765 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-20 23:05:14,297 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-20 23:05:14,297 - WebAutomator - INFO - Step 8: Upload completed successfully for Jay Park - Love Is Ugly   #shorts #dance #LoveIsUgly #jaypark #dancechallenge.mp4
+2025-07-20 23:05:14,299 - MultiAccountUploadTracker - INFO - Marked as uploaded for mango88@hanlim.world: Jay Park - Love Is Ugly   #shorts #dance #LoveIsUgly #jaypark #dancechallenge.mp4
+2025-07-20 23:05:14,299 - WebAutomator - INFO - Recorded upload success in tracker for: Jay Park - Love Is Ugly   #shorts #dance #LoveIsUgly #jaypark #dancechallenge.mp4
+2025-07-20 23:05:14,300 - AccountManager - INFO - ✅ Incremented upload count for mango88@hanlim.world: 15 → 16
+2025-07-20 23:05:14,300 - main - INFO - ✅ Successfully uploaded Jay Park - Love Is Ugly   #shorts #dance #LoveIsUgly #jaypark #dancechallenge.mp4 for mango88@hanlim.world (total: 16)
+2025-07-20 23:05:16,305 - main - INFO - 📤 Processing 남이 하면 샤랄라 내가 하면 활어   #shorts #dance #shalala_challenge #taeyong.mp4
+2025-07-20 23:05:16,305 - main - INFO - 🎵 Smart extracted - Artist: Jungkook, Title: 3D
+2025-07-20 23:05:16,305 - main - INFO - 📝 Generated description: Jungkook - 3D dance cover #viral #kpopdance #fyp
+2025-07-20 23:05:16,305 - WebAutomator - INFO - Starting upload process for: 남이 하면 샤랄라 내가 하면 활어   #shorts #dance #shalala_challenge #taeyong.mp4
+2025-07-20 23:05:16,305 - WebAutomator - INFO - Search query: Jungkook 3D
+2025-07-20 23:05:16,309 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-20 23:05:16,313 - WebAutomator - INFO - Alert accepted and closed
+2025-07-20 23:05:17,318 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-20 23:05:22,936 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-20 23:05:22,936 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-20 23:05:26,544 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-20 23:05:26,544 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-20 23:05:27,524 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-20 23:05:27,683 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-20 23:05:27,741 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-20 23:05:27,741 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-20 23:05:27,997 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-20 23:05:28,628 - WebAutomator - INFO - Step 1: Entering search query: Jungkook 3D
+2025-07-20 23:05:28,702 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-20 23:05:28,835 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-20 23:05:29,910 - WebAutomator - INFO - Step 1: Current input value: "Jungkook 3D"
+2025-07-20 23:05:29,910 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-20 23:05:29,910 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-20 23:05:29,933 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-20 23:05:30,060 - WebAutomator - INFO - Successfully clicked search button
+2025-07-20 23:05:30,060 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-20 23:05:30,060 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-20 23:05:30,656 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-20 23:05:30,925 - WebAutomator - INFO - Successfully clicked search result
+2025-07-20 23:05:30,925 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-20 23:05:30,925 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-20 23:05:31,935 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-20 23:05:31,965 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-20 23:05:32,974 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-20 23:05:33,121 - WebAutomator - INFO - Successfully clicked next button
+2025-07-20 23:05:33,122 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-20 23:05:33,210 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-20 23:05:33,404 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-20 23:05:33,404 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-20 23:05:33,404 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-20 23:05:33,863 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom-macro/choom/DANCEBEBE/남이 하면 샤랄라 내가 하면 활어   #shorts #dance #shalala_challenge #taeyong.mp4
+2025-07-20 23:05:33,957 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-20 23:05:34,262 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-20 23:05:34,528 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-20 23:05:34,529 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-20 23:05:34,541 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-20 23:05:34,542 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-20 23:05:34,566 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-20 23:05:34,678 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-20 23:05:34,679 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-20 23:05:34,679 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-20 23:05:34,730 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-20 23:05:34,730 - WebAutomator - INFO - Step 7: Description area found, entering text: Jungkook - 3D dance cover #viral #kpopdance #fyp
+2025-07-20 23:05:34,957 - WebAutomator - INFO - Step 7: Description entered
+2025-07-20 23:05:34,957 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-20 23:05:34,992 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-20 23:05:35,297 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-20 23:05:35,298 - WebAutomator - INFO - Step 8: Upload completed successfully for 남이 하면 샤랄라 내가 하면 활어   #shorts #dance #shalala_challenge #taeyong.mp4
+2025-07-20 23:05:35,300 - MultiAccountUploadTracker - INFO - Marked as uploaded for mango88@hanlim.world: 남이 하면 샤랄라 내가 하면 활어   #shorts #dance #shalala_challenge #taeyong.mp4
+2025-07-20 23:05:35,301 - WebAutomator - INFO - Recorded upload success in tracker for: 남이 하면 샤랄라 내가 하면 활어   #shorts #dance #shalala_challenge #taeyong.mp4
+2025-07-20 23:05:35,301 - AccountManager - INFO - ✅ Incremented upload count for mango88@hanlim.world: 16 → 17
+2025-07-20 23:05:35,301 - main - INFO - ✅ Successfully uploaded 남이 하면 샤랄라 내가 하면 활어   #shorts #dance #shalala_challenge #taeyong.mp4 for mango88@hanlim.world (total: 17)
+2025-07-20 23:05:37,306 - main - INFO - 📤 Processing Jung Kook - 3D   #shorts #dance  #BTS #jungkook #정국 #3D #JungKook3D.mp4
+2025-07-20 23:05:37,306 - main - INFO - 🎵 Smart extracted - Artist: EXO, Title: Wait On Me
+2025-07-20 23:05:37,306 - main - INFO - 📝 Generated description: EXO - Wait On Me dance cover #fyp #energy #cool
+2025-07-20 23:05:37,306 - WebAutomator - INFO - Starting upload process for: Jung Kook - 3D   #shorts #dance  #BTS #jungkook #정국 #3D #JungKook3D.mp4
+2025-07-20 23:05:37,306 - WebAutomator - INFO - Search query: EXO Wait On Me
+2025-07-20 23:05:37,310 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-20 23:05:37,312 - WebAutomator - INFO - Alert accepted and closed
+2025-07-20 23:05:38,318 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-20 23:05:50,782 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-20 23:05:50,782 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-20 23:05:52,063 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-20 23:05:52,063 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-20 23:05:52,528 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-20 23:05:52,632 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-20 23:05:52,660 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-20 23:05:52,660 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-20 23:05:52,789 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-20 23:05:53,417 - WebAutomator - INFO - Step 1: Entering search query: EXO Wait On Me
+2025-07-20 23:05:53,435 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-20 23:05:53,701 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-20 23:05:55,032 - WebAutomator - INFO - Step 1: Current input value: "EXO Wait On Me"
+2025-07-20 23:05:55,032 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-20 23:05:55,032 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-20 23:05:55,079 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-20 23:05:55,336 - WebAutomator - INFO - Successfully clicked search button
+2025-07-20 23:05:55,336 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-20 23:05:55,337 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-20 23:05:55,877 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-20 23:05:55,991 - WebAutomator - INFO - Successfully clicked search result
+2025-07-20 23:05:55,991 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-20 23:05:55,991 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-20 23:05:56,999 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-20 23:05:57,064 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-20 23:05:58,076 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-20 23:05:58,335 - WebAutomator - INFO - Successfully clicked next button
+2025-07-20 23:05:58,335 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-20 23:05:58,444 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-20 23:05:58,642 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-20 23:05:58,643 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-20 23:05:58,643 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-20 23:05:59,110 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom-macro/choom/DANCEBEBE/Jung Kook - 3D   #shorts #dance  #BTS #jungkook #정국 #3D #JungKook3D.mp4
+2025-07-20 23:05:59,214 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-20 23:05:59,519 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-20 23:05:59,814 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-20 23:05:59,814 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-20 23:05:59,826 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-20 23:05:59,826 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-20 23:05:59,842 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-20 23:05:59,982 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-20 23:05:59,982 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-20 23:05:59,982 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-20 23:06:00,008 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-20 23:06:00,009 - WebAutomator - INFO - Step 7: Description area found, entering text: EXO - Wait On Me dance cover #fyp #energy #cool
+2025-07-20 23:06:00,141 - WebAutomator - INFO - Step 7: Description entered
+2025-07-20 23:06:00,141 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-20 23:06:00,259 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-20 23:06:00,422 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-20 23:06:00,422 - WebAutomator - INFO - Step 8: Upload completed successfully for Jung Kook - 3D   #shorts #dance  #BTS #jungkook #정국 #3D #JungKook3D.mp4
+2025-07-20 23:06:00,424 - MultiAccountUploadTracker - INFO - Marked as uploaded for mango88@hanlim.world: Jung Kook - 3D   #shorts #dance  #BTS #jungkook #정국 #3D #JungKook3D.mp4
+2025-07-20 23:06:00,424 - WebAutomator - INFO - Recorded upload success in tracker for: Jung Kook - 3D   #shorts #dance  #BTS #jungkook #정국 #3D #JungKook3D.mp4
+2025-07-20 23:06:00,424 - AccountManager - INFO - ✅ Incremented upload count for mango88@hanlim.world: 17 → 18
+2025-07-20 23:06:00,424 - main - INFO - ✅ Successfully uploaded Jung Kook - 3D   #shorts #dance  #BTS #jungkook #정국 #3D #JungKook3D.mp4 for mango88@hanlim.world (total: 18)
+2025-07-20 23:06:02,427 - main - INFO - 📤 Processing KAI - Wait On Me   #exo #kai #waitonme #kpop #dancechallenge #dancecover #엑소 #카이.mp4
+2025-07-20 23:06:02,427 - main - INFO - 🎵 Smart extracted - Artist: RIIZE, Title: Boom Boom Bass
+2025-07-20 23:06:02,427 - main - INFO - 📝 Generated description: RIIZE - Boom Boom Bass dance cover #korean #dance #energy
+2025-07-20 23:06:02,427 - WebAutomator - INFO - Starting upload process for: KAI - Wait On Me   #exo #kai #waitonme #kpop #dancechallenge #dancecover #엑소 #카이.mp4
+2025-07-20 23:06:02,427 - WebAutomator - INFO - Search query: RIIZE Boom Boom Bass
+2025-07-20 23:06:02,430 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-20 23:06:02,434 - WebAutomator - INFO - Alert accepted and closed
+2025-07-20 23:06:03,439 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-20 23:06:22,831 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-20 23:06:22,831 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-20 23:06:26,764 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-20 23:06:26,765 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-20 23:06:27,600 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-20 23:06:28,630 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-20 23:06:28,644 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-20 23:06:28,645 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-20 23:06:28,978 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-20 23:06:29,617 - WebAutomator - INFO - Step 1: Entering search query: RIIZE Boom Boom Bass
+2025-07-20 23:06:29,671 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-20 23:06:29,780 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-20 23:06:31,102 - WebAutomator - INFO - Step 1: Current input value: "RIIZE Boom Boom Bass"
+2025-07-20 23:06:31,103 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-20 23:06:31,103 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-20 23:06:31,123 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-20 23:06:31,368 - WebAutomator - INFO - Successfully clicked search button
+2025-07-20 23:06:31,368 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-20 23:06:31,368 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-20 23:06:32,033 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-20 23:06:32,233 - WebAutomator - INFO - Successfully clicked search result
+2025-07-20 23:06:32,233 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-20 23:06:32,233 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-20 23:06:33,243 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-20 23:06:33,341 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-20 23:06:34,351 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-20 23:06:34,667 - WebAutomator - INFO - Successfully clicked next button
+2025-07-20 23:06:34,668 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-20 23:06:34,767 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-20 23:06:35,208 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-20 23:06:35,209 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-20 23:06:35,209 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-20 23:06:35,263 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom-macro/choom/DANCEBEBE/KAI - Wait On Me   #exo #kai #waitonme #kpop #dancechallenge #dancecover #엑소 #카이.mp4
+2025-07-20 23:06:35,361 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-20 23:06:35,667 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-20 23:06:36,031 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-20 23:06:36,031 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-20 23:06:36,053 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-20 23:06:36,053 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-20 23:06:36,079 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-20 23:06:36,230 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-20 23:06:36,231 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-20 23:06:36,231 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-20 23:06:36,364 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-20 23:06:36,364 - WebAutomator - INFO - Step 7: Description area found, entering text: RIIZE - Boom Boom Bass dance cover #korean #dance #energy
+2025-07-20 23:06:36,519 - WebAutomator - INFO - Step 7: Description entered
+2025-07-20 23:06:36,519 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-20 23:06:36,687 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-20 23:06:37,078 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-20 23:06:37,078 - WebAutomator - INFO - Step 8: Upload completed successfully for KAI - Wait On Me   #exo #kai #waitonme #kpop #dancechallenge #dancecover #엑소 #카이.mp4
+2025-07-20 23:06:37,080 - MultiAccountUploadTracker - INFO - Marked as uploaded for mango88@hanlim.world: KAI - Wait On Me   #exo #kai #waitonme #kpop #dancechallenge #dancecover #엑소 #카이.mp4
+2025-07-20 23:06:37,080 - WebAutomator - INFO - Recorded upload success in tracker for: KAI - Wait On Me   #exo #kai #waitonme #kpop #dancechallenge #dancecover #엑소 #카이.mp4
+2025-07-20 23:06:37,080 - AccountManager - INFO - ✅ Incremented upload count for mango88@hanlim.world: 18 → 19
+2025-07-20 23:06:37,080 - main - INFO - ✅ Successfully uploaded KAI - Wait On Me   #exo #kai #waitonme #kpop #dancechallenge #dancecover #엑소 #카이.mp4 for mango88@hanlim.world (total: 19)
+2025-07-20 23:06:39,086 - AccountManager - INFO - Updated upload count for mango88@hanlim.world: 24
+2025-07-20 23:06:39,086 - main - INFO - 📊 Account mango88@hanlim.world completed: 5 new files uploaded (total: 24/50)
+2025-07-20 23:06:39,086 - main - INFO - 🚪 Logging out from mango88@hanlim.world
+2025-07-20 23:06:39,086 - WebAutomator - INFO - 🚪 Starting logout process
+2025-07-20 23:06:39,086 - WebAutomator - INFO - 🔍 Looking for profile/menu button
+2025-07-20 23:06:39,089 - WebAutomator - ERROR - ❌ Logout failed: Alert Text: 영상이 성공적으로 업로드되었습니다.
+Message: unexpected alert open: {Alert text : 영상이 성공적으로 업로드되었습니다.}
+  (Session info: chrome=138.0.7204.158)
+Stacktrace:
+0   chromedriver                        0x000000010132b55c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000101323454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x0000000100e723f8 cxxbridge1$string$len + 90664
+3   chromedriver                        0x0000000100efb314 cxxbridge1$string$len + 651588
+4   chromedriver                        0x0000000100eada0c cxxbridge1$string$len + 333884
+5   chromedriver                        0x00000001012ee5e0 cxxbridge1$str$ptr + 2481340
+6   chromedriver                        0x00000001012f1848 cxxbridge1$str$ptr + 2494244
+7   chromedriver                        0x00000001012cf234 cxxbridge1$str$ptr + 2353424
+8   chromedriver                        0x00000001012f2104 cxxbridge1$str$ptr + 2496480
+9   chromedriver                        0x00000001012c02e4 cxxbridge1$str$ptr + 2292160
+10  chromedriver                        0x0000000101311ff8 cxxbridge1$str$ptr + 2627284
+11  chromedriver                        0x0000000101312184 cxxbridge1$str$ptr + 2627680
+12  chromedriver                        0x0000000101323090 cxxbridge1$str$ptr + 2697068
+13  libsystem_pthread.dylib             0x0000000199f7ac0c _pthread_start + 136
+14  libsystem_pthread.dylib             0x0000000199f75b80 thread_start + 8
+
+2025-07-20 23:06:39,090 - WebAutomator - INFO - 🔄 Force logout by navigating to signin page
+2025-07-20 23:07:07,996 - WebAutomator - INFO - 🏁 Logout process completed
+2025-07-20 23:07:10,001 - main - INFO - ✅ Account mango88@hanlim.world processing completed
+
+2025-07-20 23:07:10,002 - main - INFO - 🎉 All accounts processed successfully!
+2025-07-20 23:07:10,002 - main - INFO - 🔚 Closing browser
+2025-07-20 23:07:10,002 - WebAutomator - INFO - Closing browser and cleaning up resources
+2025-07-20 23:07:10,119 - WebAutomator - INFO - Browser closed successfully
