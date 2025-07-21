@@ -123,7 +123,7 @@ class SmartTitleExtractor:
 
     def _load_existing_results(self) -> Dict[str, List[Dict]]:
         """기존 smart_extraction_results.json 로드"""
-        results_file = Path("/Users/minsung/Documents/choom-macro/smart_extraction_results.json")
+        results_file = Path("smart_extraction_results.json")
         
         if not results_file.exists():
             print("📄 기존 결과 파일이 없습니다. 새로 시작합니다.")
@@ -210,7 +210,7 @@ class SmartTitleExtractor:
     def _save_intermediate_results(self, results: Dict[str, List[Dict]]):
         """중간 결과 저장 (API 오류 시 복구용)"""
         try:
-            output_file = "/Users/minsung/Documents/choom-macro/smart_extraction_results.json"
+            output_file = "smart_extraction_results.json"
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(results, f, ensure_ascii=False, indent=2)
         except Exception as e:
@@ -221,8 +221,14 @@ def main():
     api_key = "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"  # 실제 API 키로 교체하세요
 
     
-    # choom 폴더 경로
-    choom_path = "/Users/minsung/Documents/choom"
+    # config.json에서 choom 폴더 경로 가져오기
+    try:
+        with open("config/config.json", 'r', encoding='utf-8') as f:
+            config = json.load(f)
+        choom_path = config.get('general', {}).get('video_folder_path', '/Users/minsung/Documents/choom')
+    except Exception as e:
+        print(f"⚠️ config.json 로드 실패, 기본 경로 사용: {e}")
+        choom_path = "/Users/minsung/Documents/choom"
     
     # 스마트 추출기 초기화
     extractor = SmartTitleExtractor(api_key)
@@ -233,7 +239,7 @@ def main():
         all_results = extractor.process_choom_folders(choom_path)
         
         # 결과 저장
-        output_file = "/Users/minsung/Documents/choom-macro/smart_extraction_results.json"
+        output_file = "smart_extraction_results.json"
         
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(all_results, f, ensure_ascii=False, indent=2)
