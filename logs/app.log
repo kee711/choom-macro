@@ -1318,3 +1318,252 @@
 2025-07-21 13:30:41,638 - main - INFO - 🔚 Closing browser
 2025-07-21 13:30:41,638 - WebAutomator - INFO - Closing browser and cleaning up resources
 2025-07-21 13:30:41,644 - WebAutomator - INFO - Browser closed successfully
+2025-07-21 14:38:30,925 - SmartFileManager - INFO - Loaded smart extraction results for 10 folders
+2025-07-21 14:38:37,195 - AccountManager - INFO - Loaded 30 account mappings
+2025-07-21 14:38:37,196 - MultiAccountUploadTracker - INFO - Loaded upload tracker with 413 files across 55 accounts
+2025-07-21 14:38:37,196 - AccountManager - INFO - Parsed account range: 21 to 30
+2025-07-21 14:38:37,196 - AccountManager - INFO - Filtering accounts by range 21-30: 10 accounts found
+2025-07-21 14:38:37,200 - AccountManager - INFO - Skipping choco82@hanlim.world: All files uploaded (46/43 high confidence files)
+2025-07-21 14:38:37,200 - AccountManager - INFO - Skipping sunset74@hanlim.world: Reached maximum uploads (81/50)
+2025-07-21 14:38:37,200 - AccountManager - INFO - Skipping fluffy28@hanlim.world: Reached maximum uploads (51/50)
+2025-07-21 14:38:37,200 - AccountManager - INFO - Skipping mango88@hanlim.world: All files uploaded (24/20 high confidence files)
+2025-07-21 14:38:37,200 - AccountManager - INFO - Skipping blossom23@hanlim.world: All files uploaded (26/19 high confidence files)
+2025-07-21 14:38:37,200 - AccountManager - INFO - Skipping honey39@hanlim.world: All files uploaded (44/39 high confidence files)
+2025-07-21 14:38:37,200 - AccountManager - WARNING - Folder '당고 Danggo' not found in extraction results
+2025-07-21 14:38:37,200 - AccountManager - INFO - Skipping velvet42@hanlim.world: All files uploaded (0/0 high confidence files)
+2025-07-21 14:38:37,200 - AccountManager - INFO - Skipping ghost17@hanlim.world: All files uploaded (32/21 high confidence files)
+2025-07-21 14:38:37,200 - AccountManager - INFO - Including misty35@hanlim.world: 19/50 files uploaded, 31 remaining
+2025-07-21 14:38:37,201 - AccountManager - INFO - Including witty09@hanlim.world: 11/50 files uploaded, 39 remaining
+2025-07-21 14:38:37,201 - AccountManager - INFO - Found 2 accounts ready for upload (max 50 per account)
+2025-07-21 14:38:37,201 - main - INFO - 🚀 Starting multi-account upload process for 2 accounts
+2025-07-21 14:38:37,201 - main - INFO - 📊 Upload completion check based on high confidence files in smart_extraction_results.json
+2025-07-21 14:38:37,201 - main - INFO - 🎯 Only processing files with confidence='high' from smart_extraction_results.json
+2025-07-21 14:38:37,201 - main - INFO - 🔢 Maximum uploads per account: 50
+2025-07-21 14:38:37,201 - main - INFO - 
+============================================================
+2025-07-21 14:38:37,201 - main - INFO - 🔄 Processing account: misty35@hanlim.world
+2025-07-21 14:38:37,201 - main - INFO - 📁 Assigned folder: Imperium K-Pop Dance Team
+2025-07-21 14:38:37,201 - main - INFO - ============================================================
+2025-07-21 14:38:37,201 - WebAutomator - INFO - Starting login process for: misty35@hanlim.world
+2025-07-21 14:38:40,721 - WebAutomator - INFO - Checking for modal to close
+2025-07-21 14:38:42,746 - WebAutomator - INFO - Modal closed
+2025-07-21 14:38:42,746 - WebAutomator - INFO - Finding email input field
+2025-07-21 14:38:46,121 - WebAutomator - INFO - Email input found, entering email: misty35@hanlim.world
+2025-07-21 14:38:48,355 - WebAutomator - INFO - Finding password input field
+2025-07-21 14:38:49,163 - WebAutomator - INFO - Password input found, entering password
+2025-07-21 14:38:50,173 - WebAutomator - INFO - Finding signin button
+2025-07-21 14:38:50,245 - WebAutomator - INFO - Signin button found, clicking to login
+2025-07-21 14:38:50,811 - WebAutomator - INFO - Waiting for login to complete
+2025-07-21 14:38:55,290 - WebAutomator - INFO - Login successful for: misty35@hanlim.world
+2025-07-21 14:38:55,292 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 3, 2, 1 🙋‍♂️ #PlotTwist 🌊 #TWS #투어스 #247WithUs #Sparkling_Blue #첫만남은계획대로되지않아 #plot_twist.mp4
+2025-07-21 14:38:55,295 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Wait! ✋ #PlotTwist 🌊 #TWS  #투어스 #247WithUs #Sparkling_Blue #첫만남은계획대로되지않아 #plot_twist.mp4
+2025-07-21 14:38:55,295 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Season 2 is here! 🔥 Join the Imperium! #audition #kpopinpublic #dancecover #workshop.mp4
+2025-07-21 14:38:55,296 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: ⏱ Hunt down🐺 #DeerHunter #andTEAM #GoInBlind #jpop #kpopfyp #kpopshorts #kpopinpublic #shorts.mp4
+2025-07-21 14:38:55,296 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: YAH-HO is so satisfying! 😊 #BADTITUDE #BADVILLAIN #야호 #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 14:38:55,296 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: But you’ve been so out of #Touch 🤙🤙 #KATSEYE #danceinpublic #debut #kpopinpublic #cover #shorts.mp4
+2025-07-21 14:38:55,296 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: We goin' up like #NASA! 🚀 This choreo 🔥 #NCTWISH #NCT #WISH #Jpop #kpopinpublic.mp4
+2025-07-21 14:38:55,296 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: #Crush for me! ✋✊ #ZEROBASEONE #제로베이스원 #가시 #MeltingPoint #kpopinpublic.mp4
+2025-07-21 14:38:55,297 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: That's me 💅 #izna #debut #kpopinpublic #shorts #dancecover #dancechallenge #이즈나 #kpopfyp #N_a #debut.mp4
+2025-07-21 14:38:55,297 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: I'm on that #CashShit 💸 Ah 😜 #MeganTheeStallion #DaBaby #Quanz #Choreography #CashShitChallenge.mp4
+2025-07-21 14:38:55,297 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: #Katseye is taking over the #RPD with #Touch! 👉😊 #Debut #RandomPlayDance #katchykpop #kpopinpublic.mp4
+2025-07-21 14:38:55,297 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: The 🦵⬆ choreo from #KATSEYE's #Debut 👌😍 #DebutChallenge #kpopinpublic #shorts.mp4
+2025-07-21 14:38:55,298 - SmartFileManager - WARNING - File does not exist: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Watch our #BadDesire! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 14:38:55,298 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: Feel like #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge.mp4
+2025-07-21 14:38:55,298 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: Bet you never thought you'd see #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge.mp4
+2025-07-21 14:38:55,298 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: Supernova 💥 Killing part 👌 #NASA #NCTWISH #NCT #WISH #Jpop #Kpopinpublic.mp4
+2025-07-21 14:38:55,298 - SmartFileManager - INFO - Found 143 valid videos in folder 'Imperium K-Pop Dance Team'
+2025-07-21 14:38:55,298 - main - INFO - 📄 Found 143 high confidence videos in folder 'Imperium K-Pop Dance Team'
+2025-07-21 14:38:55,299 - main - INFO - 📤 Processing Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts (1).mp4
+2025-07-21 14:38:55,299 - main - INFO - 🎵 Smart extracted - Artist: MEOVV, Title: HANDSUP
+2025-07-21 14:38:55,299 - main - INFO - 📝 Generated description: MEOVV - HANDSUP dance cover #trending #performance #energy
+2025-07-21 14:38:55,299 - WebAutomator - INFO - Starting upload process for: Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts (1).mp4
+2025-07-21 14:38:55,299 - WebAutomator - INFO - Search query: MEOVV HANDSUP
+2025-07-21 14:38:56,832 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:39:04,567 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:39:04,567 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:39:05,161 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:39:05,161 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:39:06,222 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:39:06,298 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:39:06,309 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:39:06,309 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:39:06,859 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:39:07,511 - WebAutomator - INFO - Step 1: Entering search query: MEOVV HANDSUP
+2025-07-21 14:39:07,545 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:39:07,738 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:39:08,784 - WebAutomator - INFO - Step 1: Current input value: "MEOVV HANDSUP"
+2025-07-21 14:39:08,785 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:39:08,785 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:39:08,818 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:39:09,584 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:39:09,584 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:39:09,584 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:39:10,410 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:39:11,084 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:39:11,084 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:39:11,084 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:39:12,096 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:39:12,151 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:39:13,181 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:39:13,952 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:39:13,952 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:39:13,978 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:39:15,105 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:39:15,106 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:39:15,106 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:39:15,118 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts (1).mp4
+2025-07-21 14:39:15,776 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:39:16,082 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:39:16,403 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:39:16,403 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:39:19,891 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:39:19,891 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:39:19,935 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:39:20,558 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:39:20,558 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:39:20,559 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:39:20,920 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:39:20,920 - WebAutomator - INFO - Step 7: Description area found, entering text: MEOVV - HANDSUP dance cover #trending #performance #energy
+2025-07-21 14:39:21,653 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:39:21,653 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:39:21,952 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:39:22,532 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:39:22,532 - WebAutomator - INFO - Step 8: Upload completed successfully for Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts (1).mp4
+2025-07-21 14:39:22,535 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts (1).mp4
+2025-07-21 14:39:22,535 - WebAutomator - INFO - Recorded upload success in tracker for: Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts (1).mp4
+2025-07-21 14:39:22,537 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 19 → 20
+2025-07-21 14:39:22,539 - main - INFO - ✅ Successfully uploaded Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts (1).mp4 for misty35@hanlim.world (total: 20)
+2025-07-21 14:39:24,545 - main - INFO - 📤 Processing I bought diamonds 💎 at my dentist #IceOnMyTeeth #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈.mp4
+2025-07-21 14:39:24,545 - main - INFO - 🎵 Smart extracted - Artist: ATEEZ, Title: Ice On My Teeth
+2025-07-21 14:39:24,545 - main - INFO - 📝 Generated description: ATEEZ - Ice On My Teeth dance cover #trending #kpop #idol
+2025-07-21 14:39:24,545 - WebAutomator - INFO - Starting upload process for: I bought diamonds 💎 at my dentist #IceOnMyTeeth #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈.mp4
+2025-07-21 14:39:24,545 - WebAutomator - INFO - Search query: ATEEZ Ice On My Teeth
+2025-07-21 14:39:24,549 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:39:24,554 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:39:25,555 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:39:31,002 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:39:31,002 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:39:38,494 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:39:38,494 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:39:39,626 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:39:39,845 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:39:39,874 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:39:39,875 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:39:40,507 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:39:41,143 - WebAutomator - INFO - Step 1: Entering search query: ATEEZ Ice On My Teeth
+2025-07-21 14:39:41,207 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:39:41,316 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:39:42,446 - WebAutomator - INFO - Step 1: Current input value: "ATEEZ Ice On My Teeth"
+2025-07-21 14:39:42,446 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:39:42,446 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:39:42,619 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:39:43,220 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:39:43,220 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:39:43,220 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:39:44,015 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:39:44,546 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:39:44,547 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:39:44,547 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:39:45,565 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:39:46,001 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:39:47,010 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:39:47,456 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:39:47,456 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:39:47,566 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:39:48,025 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:39:48,026 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:39:48,026 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:39:48,122 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/I bought diamonds 💎 at my dentist #IceOnMyTeeth #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈.mp4
+2025-07-21 14:39:48,353 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:39:48,658 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:39:49,037 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:39:49,037 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:39:49,046 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:39:49,047 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:39:49,066 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:39:49,369 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:39:49,369 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:39:49,369 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:39:49,507 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:39:49,507 - WebAutomator - INFO - Step 7: Description area found, entering text: ATEEZ - Ice On My Teeth dance cover #trending #kpop #idol
+2025-07-21 14:39:51,417 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:39:51,417 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:39:51,740 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:39:52,408 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:39:52,408 - WebAutomator - INFO - Step 8: Upload completed successfully for I bought diamonds 💎 at my dentist #IceOnMyTeeth #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈.mp4
+2025-07-21 14:39:52,412 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: I bought diamonds 💎 at my dentist #IceOnMyTeeth #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈.mp4
+2025-07-21 14:39:52,412 - WebAutomator - INFO - Recorded upload success in tracker for: I bought diamonds 💎 at my dentist #IceOnMyTeeth #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈.mp4
+2025-07-21 14:39:52,412 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 20 → 21
+2025-07-21 14:39:52,412 - main - INFO - ✅ Successfully uploaded I bought diamonds 💎 at my dentist #IceOnMyTeeth #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈.mp4 for misty35@hanlim.world (total: 21)
+2025-07-21 14:39:54,414 - main - INFO - 📤 Processing Love me once 🤞 I know you'll love me twice ✌ Killing part 🔥 #KATSEYE's #Debut #kpopinpublic #shorts.mp4
+2025-07-21 14:39:54,415 - main - INFO - 🎵 Smart extracted - Artist: KATSEYE, Title: Debut
+2025-07-21 14:39:54,415 - main - INFO - 📝 Generated description: KATSEYE - Debut dance cover #rhythm #korean #trending
+2025-07-21 14:39:54,415 - WebAutomator - INFO - Starting upload process for: Love me once 🤞 I know you'll love me twice ✌ Killing part 🔥 #KATSEYE's #Debut #kpopinpublic #shorts.mp4
+2025-07-21 14:39:54,415 - WebAutomator - INFO - Search query: KATSEYE Debut
+2025-07-21 14:39:54,418 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:39:54,420 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:39:55,425 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:40:00,368 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:40:00,369 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:40:05,092 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:40:05,093 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:40:07,133 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:40:07,329 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:40:07,359 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:40:07,359 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:40:07,646 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:40:08,272 - WebAutomator - INFO - Step 1: Entering search query: KATSEYE Debut
+2025-07-21 14:40:08,338 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:40:08,432 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:40:09,476 - WebAutomator - INFO - Step 1: Current input value: "KATSEYE Debut"
+2025-07-21 14:40:09,476 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:40:09,477 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:40:09,492 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:40:09,620 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:40:09,620 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:40:09,620 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:40:10,264 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:40:11,179 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:40:11,179 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:40:11,179 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:40:12,190 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:40:12,370 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:40:13,380 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:40:13,688 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:40:13,688 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:40:13,776 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:40:14,403 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:40:14,403 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:40:14,404 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:40:14,425 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Love me once 🤞 I know you'll love me twice ✌ Killing part 🔥 #KATSEYE's #Debut #kpopinpublic #shorts.mp4
+2025-07-21 14:40:14,602 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:40:14,905 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:40:15,253 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:40:15,253 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:40:15,279 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:40:15,279 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:40:15,352 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:40:16,534 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:40:16,534 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:40:16,534 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:40:16,756 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:40:16,756 - WebAutomator - INFO - Step 7: Description area found, entering text: KATSEYE - Debut dance cover #rhythm #korean #trending
+2025-07-21 14:40:17,186 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:40:17,187 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:40:17,462 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:40:17,965 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:40:17,965 - WebAutomator - INFO - Step 8: Upload completed successfully for Love me once 🤞 I know you'll love me twice ✌ Killing part 🔥 #KATSEYE's #Debut #kpopinpublic #shorts.mp4
+2025-07-21 14:40:17,967 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Love me once 🤞 I know you'll love me twice ✌ Killing part 🔥 #KATSEYE's #Debut #kpopinpublic #shorts.mp4
+2025-07-21 14:40:17,967 - WebAutomator - INFO - Recorded upload success in tracker for: Love me once 🤞 I know you'll love me twice ✌ Killing part 🔥 #KATSEYE's #Debut #kpopinpublic #shorts.mp4
+2025-07-21 14:40:17,968 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 21 → 22
+2025-07-21 14:40:17,968 - main - INFO - ✅ Successfully uploaded Love me once 🤞 I know you'll love me twice ✌ Killing part 🔥 #KATSEYE's #Debut #kpopinpublic #shorts.mp4 for misty35@hanlim.world (total: 22)
+2025-07-21 14:40:19,971 - main - INFO - 📤 Processing Watch our #XO cover! ❌⭕ Out now! 🫶 #ENHYPEN #XOChallenge #엔하이픈 #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 14:40:19,972 - main - INFO - 🎵 Smart extracted - Artist: ENHYPEN, Title: XO
+2025-07-21 14:40:19,972 - main - INFO - 📝 Generated description: ENHYPEN - XO dance cover #kpop #cool #dance
+2025-07-21 14:40:19,972 - WebAutomator - INFO - Starting upload process for: Watch our #XO cover! ❌⭕ Out now! 🫶 #ENHYPEN #XOChallenge #엔하이픈 #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 14:40:19,972 - WebAutomator - INFO - Search query: ENHYPEN XO
+2025-07-21 14:40:19,979 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:40:19,981 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:40:20,983 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:40:37,569 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:40:37,569 - WebAutomator - INFO - Upload button found, clicking to go to upload page

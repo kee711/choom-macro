@@ -49,11 +49,12 @@ def switch_config_mode():
                 print("❌ Speed config file not found")
         
         elif choice == "2":
-            # Balanced mode (default) - load path from existing config
+            # Balanced mode (default) - load path from environment variable
             try:
-                with current_config.open('r') as f:
-                    existing_config = json.load(f)
-                video_path = existing_config.get('general', {}).get('video_folder_path', '/Users/minsung/Documents/choom')
+                import os
+                from dotenv import load_dotenv
+                load_dotenv()
+                video_path = os.getenv('FOLDER_PATH', '/Users/minsung/Documents/choom')
             except:
                 video_path = '/Users/minsung/Documents/choom'
                 
@@ -87,11 +88,12 @@ def switch_config_mode():
             print("✅ Switched to BALANCED MODE")
             
         elif choice == "3":
-            # Stable mode - load path from existing config
+            # Stable mode - load path from environment variable
             try:
-                with current_config.open('r') as f:
-                    existing_config = json.load(f)
-                video_path = existing_config.get('general', {}).get('video_folder_path', '/Users/minsung/Documents/choom')
+                import os
+                from dotenv import load_dotenv
+                load_dotenv()
+                video_path = os.getenv('FOLDER_PATH', '/Users/minsung/Documents/choom')
             except:
                 video_path = '/Users/minsung/Documents/choom'
                 

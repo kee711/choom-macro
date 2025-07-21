@@ -406,14 +406,19 @@ def main():
     api_key = os.getenv('OPENAI_API_KEY')
 
     
-    # config.json에서 choom 폴더 경로 가져오기
+    # ConfigManager를 통해 choom 폴더 경로 가져오기
     try:
-        with open("config/config.json", 'r', encoding='utf-8') as f:
-            config = json.load(f)
-        choom_path = config.get('general', {}).get('video_folder_path', '/Users/minsung/Documents/choom')
+        from pathlib import Path
+        import sys
+        sys.path.append(str(Path(__file__).parent / "src"))
+        from modules.config_manager import ConfigManager
+        
+        config = ConfigManager()
+        choom_path = config.get('general', 'video_folder_path', '/Users/minsung/Documents/choom')
+        print(f"📁 사용할 choom 폴더 경로: {choom_path}")
     except Exception as e:
-        print(f"⚠️ config.json 로드 실패, 기본 경로 사용: {e}")
-        choom_path = "/Users/minsung/Documents/choom"
+        print(f"⚠️ ConfigManager 로드 실패, 환경변수 사용: {e}")
+        choom_path = os.getenv('FOLDER_PATH', '/Users/minsung/Documents/choom')
     
     # 스마트 추출기 초기화
     extractor = SmartTitleExtractor(api_key)
@@ -467,18 +472,6 @@ def main():
                 print()
         else:
             print(f"\n📋 모든 폴더가 이미 처리되어 새로운 결과가 없습니다.")
-        
-        # 데이터 매핑 검증 및 수정
-        print(f"\n🔍 데이터 매핑 검증 시작...")
-        validator = ExtractionValidator(api_key)
-        corrected_results = validator.validate_and_correct_mappings(all_results)
-        
-        if corrected_results != all_results:
-            print(f"✅ 매핑 오류 수정 완료! 결과를 다시 저장합니다.")
-            with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(corrected_results, f, ensure_ascii=False, indent=2)
-        else:
-            print(f"✅ 모든 매핑이 정확합니다.")
         
     except Exception as e:
         print(f"❌ 오류 발생: {str(e)}")

@@ -18,14 +18,21 @@ def map_accounts_to_folders():
     emails = accounts_data.get('emails', [])
     password = accounts_data.get('password', ['test1234!@#$'])[0]
     
-    # config.json에서 choom 폴더 경로 가져오기
+    # ConfigManager를 통해 choom 폴더 경로 가져오기
     try:
-        with open("config/config.json", 'r', encoding='utf-8') as f:
-            config = json.load(f)
-        choom_path = Path(config.get('general', {}).get('video_folder_path', '/Users/minsung/Documents/choom'))
+        import sys
+        sys.path.append(str(Path(__file__).parent / "src"))
+        from modules.config_manager import ConfigManager
+        
+        config = ConfigManager()
+        choom_path = Path(config.get('general', 'video_folder_path', '/Users/minsung/Documents/choom'))
+        print(f"📁 사용할 choom 폴더 경로: {choom_path}")
     except Exception as e:
-        print(f"⚠️ config.json 로드 실패, 기본 경로 사용: {e}")
-        choom_path = Path("/Users/minsung/Documents/choom")
+        print(f"⚠️ ConfigManager 로드 실패, 환경변수 사용: {e}")
+        import os
+        from dotenv import load_dotenv
+        load_dotenv()
+        choom_path = Path(os.getenv('FOLDER_PATH', '/Users/minsung/Documents/choom'))
     if not choom_path.exists():
         print("❌ choom 폴더를 찾을 수 없습니다.")
         return
