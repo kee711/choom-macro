@@ -56,6 +56,15 @@ class SmartTitleExtractor:
 3. 각 결과는 JSON 형식으로 반환
 4. 파일명에 명확하게 들어가 있지 않으면 null로 설정
 
+추출 예시 :
+    "folder": "EXRAL PRODUCTION",
+    "original_filename": "🇮🇩 Kpop In Public GIDLE - DUMDi DUMBDi  #XRPD #RandomPlayDance #Shorts.mp4",
+    "cleaned_filename": "🇮🇩 Kpop In Public GIDLE DUMDi DUMBDi #XRPD #RandomPlayDance #Shorts",
+    "artist": "GIDLE",
+    "title": "DUMDi DUMBDi",
+    "confidence": "high",
+    "final_format": "GIDLE - DUMDi DUMBDi"
+
 파일명 목록:
 {chr(10).join([f"{i+1}. {name}" for i, name in enumerate(cleaned_names)])}
 
