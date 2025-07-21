@@ -52,7 +52,7 @@ class SmartTitleExtractor:
 
 규칙:
 1. 아티스트 이름과 노래 제목이 파일명, 해시태그에 명확하게 들어가 있지 않으면 null로 설정
-2. 한글/영어 아티스트명 모두 인식
+2. 아티스트 이름, 노래 이름은 파일명, 해시태그에 정확히 포함되어있어야 함. 파일명에 들어있지 않은 아티스트 이름, 노래 이름을 멋대로 추론해내지 말 것
 3. 각 결과는 JSON 형식으로 반환
 4. 파일명에 명확하게 들어가 있지 않으면 null로 설정
 
@@ -64,6 +64,10 @@ class SmartTitleExtractor:
     "title": "DUMDi DUMBDi",
     "confidence": "high",
     "final_format": "GIDLE - DUMDi DUMBDi"
+
+주의사항: 
+- 파일명에 들어있지 않은 아티스트 이름, 노래 이름을 멋대로 추론해내지 말 것
+- 오로지 파일명에 들어있는 아티스트 이름, 노래 이름만 추출해내야 함
 
 파일명 목록:
 {chr(10).join([f"{i+1}. {name}" for i, name in enumerate(cleaned_names)])}

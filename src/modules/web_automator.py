@@ -26,7 +26,6 @@ class WebAutomator:
         # 성능 최적화 옵션들
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
-        options.add_argument('--disable-gpu')
         options.add_argument('--disable-extensions')
         options.add_argument('--disable-plugins')
         options.add_argument('--disable-images')  # 이미지 로딩 비활성화로 속도 향상
@@ -48,6 +47,19 @@ class WebAutomator:
         options.add_argument('--enable-automation')
         options.add_argument('--password-store=basic')
         options.add_argument('--use-mock-keychain')
+        
+        # WebGL 관련 오류 해결을 위한 옵션들
+        options.add_argument('--disable-gpu')  # GPU 가속 비활성화
+        options.add_argument('--disable-gpu-sandbox')  # GPU 샌드박스 비활성화
+        options.add_argument('--disable-software-rasterizer')  # 소프트웨어 래스터라이저 비활성화
+        options.add_argument('--disable-webgl')  # WebGL 완전 비활성화
+        options.add_argument('--disable-webgl2')  # WebGL2 비활성화
+        options.add_argument('--disable-3d-apis')  # 3D API 비활성화
+        options.add_argument('--disable-accelerated-2d-canvas')  # 가속 2D 캔버스 비활성화
+        options.add_argument('--disable-accelerated-jpeg-decoding')  # 가속 JPEG 디코딩 비활성화
+        options.add_argument('--disable-accelerated-mjpeg-decode')  # 가속 MJPEG 디코딩 비활성화
+        options.add_argument('--disable-accelerated-video-decode')  # 가속 비디오 디코딩 비활성화
+        options.add_argument('--use-gl=swiftshader')  # SwiftShader 사용 (소프트웨어 렌더링)
         
         # 메모리 최적화
         options.add_argument('--memory-pressure-off')
