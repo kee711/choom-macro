@@ -1567,3 +1567,1571 @@
 2025-07-21 14:40:20,983 - WebAutomator - INFO - Finding upload button (fast mode)
 2025-07-21 14:40:37,569 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
 2025-07-21 14:40:37,569 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:40:52,347 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:40:52,348 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:40:55,344 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:40:57,137 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:40:57,341 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:40:57,341 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:40:58,596 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:40:59,670 - WebAutomator - INFO - Step 1: Entering search query: ENHYPEN XO
+2025-07-21 14:40:59,737 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:40:59,837 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:41:01,496 - WebAutomator - INFO - Step 1: Current input value: "ENHYPEN XO"
+2025-07-21 14:41:01,496 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:41:01,496 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:41:01,619 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:41:02,207 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:41:02,208 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:41:02,208 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:41:03,037 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:41:03,672 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:41:03,673 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:41:03,673 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:41:04,687 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:41:04,788 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:41:05,798 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:41:06,061 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:41:06,061 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:41:06,193 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:41:06,692 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:41:06,692 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:41:06,692 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:41:06,789 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Watch our #XO cover! ❌⭕ Out now! 🫶 #ENHYPEN #XOChallenge #엔하이픈 #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 14:41:07,373 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:41:07,675 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:41:09,014 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:41:09,015 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:41:09,071 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:41:09,071 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:41:09,267 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:41:10,107 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:41:10,107 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:41:10,107 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:41:10,354 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:41:10,354 - WebAutomator - INFO - Step 7: Description area found, entering text: ENHYPEN - XO dance cover #kpop #cool #dance
+2025-07-21 14:41:10,782 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:41:10,782 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:41:11,176 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:41:11,961 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:41:11,961 - WebAutomator - INFO - Step 8: Upload completed successfully for Watch our #XO cover! ❌⭕ Out now! 🫶 #ENHYPEN #XOChallenge #엔하이픈 #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 14:41:11,964 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Watch our #XO cover! ❌⭕ Out now! 🫶 #ENHYPEN #XOChallenge #엔하이픈 #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 14:41:11,964 - WebAutomator - INFO - Recorded upload success in tracker for: Watch our #XO cover! ❌⭕ Out now! 🫶 #ENHYPEN #XOChallenge #엔하이픈 #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 14:41:11,965 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 22 → 23
+2025-07-21 14:41:11,965 - main - INFO - ✅ Successfully uploaded Watch our #XO cover! ❌⭕ Out now! 🫶 #ENHYPEN #XOChallenge #엔하이픈 #dancecover #kpopinpublic #shorts.mp4 for misty35@hanlim.world (total: 23)
+2025-07-21 14:41:13,966 - main - INFO - 📤 Processing Watch our #MonaLisa cover! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army (1).mp4
+2025-07-21 14:41:13,967 - main - INFO - 🎵 Smart extracted - Artist: jhope, Title: MonaLisa
+2025-07-21 14:41:13,967 - main - INFO - 📝 Generated description: jhope - MonaLisa dance cover #cover #kpop #lit
+2025-07-21 14:41:13,967 - WebAutomator - INFO - Starting upload process for: Watch our #MonaLisa cover! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army (1).mp4
+2025-07-21 14:41:13,967 - WebAutomator - INFO - Search query: jhope MonaLisa
+2025-07-21 14:41:13,972 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:41:13,974 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:41:14,979 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:41:37,607 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:41:37,607 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:41:47,854 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:41:47,854 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:41:49,461 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:41:50,020 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:41:50,141 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:41:50,141 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:41:50,548 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:41:51,625 - WebAutomator - INFO - Step 1: Entering search query: jhope MonaLisa
+2025-07-21 14:41:51,655 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:41:51,771 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:41:53,070 - WebAutomator - INFO - Step 1: Current input value: "jhope MonaLisa"
+2025-07-21 14:41:53,070 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:41:53,070 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:41:53,093 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:41:53,726 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:41:53,727 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:41:53,727 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:41:54,294 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:41:55,028 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:41:55,029 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:41:55,029 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:41:56,513 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:41:56,690 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:41:57,697 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:41:57,974 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:41:57,974 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:41:57,994 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:41:58,375 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:41:58,375 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:41:58,375 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:41:58,384 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Watch our #MonaLisa cover! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army (1).mp4
+2025-07-21 14:41:58,580 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:41:58,882 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:41:59,436 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:41:59,437 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:41:59,554 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:41:59,555 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:41:59,651 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:42:00,453 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:42:00,453 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:42:00,453 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:42:00,543 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:42:00,544 - WebAutomator - INFO - Step 7: Description area found, entering text: jhope - MonaLisa dance cover #cover #kpop #lit
+2025-07-21 14:42:02,175 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:42:02,175 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:42:02,418 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:42:02,813 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:42:02,813 - WebAutomator - INFO - Step 8: Upload completed successfully for Watch our #MonaLisa cover! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army (1).mp4
+2025-07-21 14:42:02,816 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Watch our #MonaLisa cover! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army (1).mp4
+2025-07-21 14:42:02,816 - WebAutomator - INFO - Recorded upload success in tracker for: Watch our #MonaLisa cover! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army (1).mp4
+2025-07-21 14:42:02,816 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 23 → 24
+2025-07-21 14:42:02,816 - main - INFO - ✅ Successfully uploaded Watch our #MonaLisa cover! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army (1).mp4 for misty35@hanlim.world (total: 24)
+2025-07-21 14:42:04,821 - main - INFO - 📤 Processing Damn I really make it look #EASY 😎🧢 #LESSERAFIM #EASYChallenge #MakeItLookEasy #kpopinpublic.mp4
+2025-07-21 14:42:04,822 - main - INFO - 🎵 Smart extracted - Artist: LESSERAFIM, Title: EASY
+2025-07-21 14:42:04,822 - main - INFO - 📝 Generated description: LESSERAFIM - EASY dance cover #rhythm #idol #moves
+2025-07-21 14:42:04,822 - WebAutomator - INFO - Starting upload process for: Damn I really make it look #EASY 😎🧢 #LESSERAFIM #EASYChallenge #MakeItLookEasy #kpopinpublic.mp4
+2025-07-21 14:42:04,822 - WebAutomator - INFO - Search query: LESSERAFIM EASY
+2025-07-21 14:42:04,825 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:42:04,835 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:42:05,840 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:42:35,237 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:42:35,237 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:42:38,910 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:42:38,910 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:42:42,944 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:42:43,051 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:42:43,085 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:42:43,085 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:42:43,292 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:42:43,918 - WebAutomator - INFO - Step 1: Entering search query: LESSERAFIM EASY
+2025-07-21 14:42:43,943 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:42:44,106 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:42:45,220 - WebAutomator - INFO - Step 1: Current input value: "LESSERAFIM EASY"
+2025-07-21 14:42:45,221 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:42:45,221 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:42:45,246 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:42:45,393 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:42:45,393 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:42:45,393 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:42:46,569 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:42:47,197 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:42:47,197 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:42:47,197 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:42:48,239 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:42:48,319 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:42:49,325 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:42:49,559 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:42:49,559 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:42:49,693 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:42:50,241 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:42:50,241 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:42:50,241 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:42:50,337 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Damn I really make it look #EASY 😎🧢 #LESSERAFIM #EASYChallenge #MakeItLookEasy #kpopinpublic.mp4
+2025-07-21 14:42:50,530 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:42:50,835 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:42:51,506 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:42:51,506 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:42:51,630 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:42:51,631 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:42:51,778 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:42:52,619 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:42:52,619 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:42:52,619 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:42:52,724 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:42:52,724 - WebAutomator - INFO - Step 7: Description area found, entering text: LESSERAFIM - EASY dance cover #rhythm #idol #moves
+2025-07-21 14:42:53,689 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:42:53,689 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:42:53,997 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:42:54,554 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:42:54,554 - WebAutomator - INFO - Step 8: Upload completed successfully for Damn I really make it look #EASY 😎🧢 #LESSERAFIM #EASYChallenge #MakeItLookEasy #kpopinpublic.mp4
+2025-07-21 14:42:54,556 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Damn I really make it look #EASY 😎🧢 #LESSERAFIM #EASYChallenge #MakeItLookEasy #kpopinpublic.mp4
+2025-07-21 14:42:54,556 - WebAutomator - INFO - Recorded upload success in tracker for: Damn I really make it look #EASY 😎🧢 #LESSERAFIM #EASYChallenge #MakeItLookEasy #kpopinpublic.mp4
+2025-07-21 14:42:54,557 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 24 → 25
+2025-07-21 14:42:54,557 - main - INFO - ✅ Successfully uploaded Damn I really make it look #EASY 😎🧢 #LESSERAFIM #EASYChallenge #MakeItLookEasy #kpopinpublic.mp4 for misty35@hanlim.world (total: 25)
+2025-07-21 14:42:56,562 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Woo! 😮 Like it #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker.mp4
+2025-07-21 14:42:56,562 - main - INFO - 📤 Processing Got them all goin' #SHEESH! 🥵 #BabyMonster #YG #BABYMONS7ER #베이비몬스터 #SHEESHChallenge #kpopinpublic.mp4
+2025-07-21 14:42:56,562 - main - INFO - 🎵 Smart extracted - Artist: BabyMonster, Title: SHEESH
+2025-07-21 14:42:56,563 - main - INFO - 📝 Generated description: BabyMonster - SHEESH dance cover #style #kpopdance #viral
+2025-07-21 14:42:56,563 - WebAutomator - INFO - Starting upload process for: Got them all goin' #SHEESH! 🥵 #BabyMonster #YG #BABYMONS7ER #베이비몬스터 #SHEESHChallenge #kpopinpublic.mp4
+2025-07-21 14:42:56,563 - WebAutomator - INFO - Search query: BabyMonster SHEESH
+2025-07-21 14:42:56,567 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:42:56,570 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:42:57,575 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:43:31,943 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:43:31,943 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:43:38,152 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:43:38,152 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:43:42,215 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:43:42,468 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:43:42,495 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:43:42,495 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:43:42,747 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:43:43,406 - WebAutomator - INFO - Step 1: Entering search query: BabyMonster SHEESH
+2025-07-21 14:43:43,439 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:43:43,571 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:43:44,720 - WebAutomator - INFO - Step 1: Current input value: "BabyMonster SHEESH"
+2025-07-21 14:43:44,721 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:43:44,721 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:43:44,749 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:43:44,925 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:43:44,925 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:43:44,925 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:43:46,091 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:43:46,752 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:43:46,752 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:43:46,752 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:43:47,767 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:43:47,872 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:43:48,882 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:43:49,136 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:43:49,136 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:43:49,227 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:43:49,659 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:43:49,659 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:43:49,659 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:43:49,667 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Got them all goin' #SHEESH! 🥵 #BabyMonster #YG #BABYMONS7ER #베이비몬스터 #SHEESHChallenge #kpopinpublic.mp4
+2025-07-21 14:43:49,847 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:43:50,152 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:43:50,734 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:43:50,735 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:43:50,789 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:43:50,790 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:43:50,952 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:43:51,582 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:43:51,582 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:43:51,583 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:43:51,636 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:43:51,636 - WebAutomator - INFO - Step 7: Description area found, entering text: BabyMonster - SHEESH dance cover #style #kpopdance #viral
+2025-07-21 14:43:51,894 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:43:51,894 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:43:52,372 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:43:53,021 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:43:53,021 - WebAutomator - INFO - Step 8: Upload completed successfully for Got them all goin' #SHEESH! 🥵 #BabyMonster #YG #BABYMONS7ER #베이비몬스터 #SHEESHChallenge #kpopinpublic.mp4
+2025-07-21 14:43:53,023 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Got them all goin' #SHEESH! 🥵 #BabyMonster #YG #BABYMONS7ER #베이비몬스터 #SHEESHChallenge #kpopinpublic.mp4
+2025-07-21 14:43:53,024 - WebAutomator - INFO - Recorded upload success in tracker for: Got them all goin' #SHEESH! 🥵 #BabyMonster #YG #BABYMONS7ER #베이비몬스터 #SHEESHChallenge #kpopinpublic.mp4
+2025-07-21 14:43:53,024 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 25 → 26
+2025-07-21 14:43:53,024 - main - INFO - ✅ Successfully uploaded Got them all goin' #SHEESH! 🥵 #BabyMonster #YG #BABYMONS7ER #베이비몬스터 #SHEESHChallenge #kpopinpublic.mp4 for misty35@hanlim.world (total: 26)
+2025-07-21 14:43:55,030 - main - INFO - 📤 Processing Watch our #SADSONG cover now! 🥺 #P1harmony #dancechallenge #kpopdance #kpopinpublic #shorts.mp4
+2025-07-21 14:43:55,030 - main - INFO - 🎵 Smart extracted - Artist: P1Harmony, Title: SADSONG
+2025-07-21 14:43:55,030 - main - INFO - 📝 Generated description: P1Harmony - SADSONG dance cover #fyp #cool #energy
+2025-07-21 14:43:55,030 - WebAutomator - INFO - Starting upload process for: Watch our #SADSONG cover now! 🥺 #P1harmony #dancechallenge #kpopdance #kpopinpublic #shorts.mp4
+2025-07-21 14:43:55,031 - WebAutomator - INFO - Search query: P1Harmony SADSONG
+2025-07-21 14:43:55,036 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:43:55,040 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:43:56,045 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:44:37,828 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:44:37,828 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:44:44,278 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:44:44,279 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:44:46,203 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:44:46,596 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:44:46,623 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:44:46,623 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:44:46,966 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:44:47,608 - WebAutomator - INFO - Step 1: Entering search query: P1Harmony SADSONG
+2025-07-21 14:44:47,634 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:44:47,738 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:44:49,047 - WebAutomator - INFO - Step 1: Current input value: "P1Harmony SADSONG"
+2025-07-21 14:44:49,047 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:44:49,047 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:44:49,067 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:44:49,283 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:44:49,283 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:44:49,283 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:44:49,839 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:44:50,355 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:44:50,355 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:44:50,355 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:44:51,363 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:44:51,621 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:44:52,629 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:44:52,955 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:44:52,956 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:44:53,047 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:44:53,477 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:44:53,478 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:44:53,478 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:44:53,488 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Watch our #SADSONG cover now! 🥺 #P1harmony #dancechallenge #kpopdance #kpopinpublic #shorts.mp4
+2025-07-21 14:44:53,628 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:44:53,934 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:44:54,412 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:44:54,413 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:44:54,509 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:44:54,509 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:44:54,763 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:44:55,353 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:44:55,353 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:44:55,353 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:44:55,407 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:44:55,408 - WebAutomator - INFO - Step 7: Description area found, entering text: P1Harmony - SADSONG dance cover #fyp #cool #energy
+2025-07-21 14:44:55,640 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:44:55,641 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:44:55,958 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:44:56,591 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:44:56,592 - WebAutomator - INFO - Step 8: Upload completed successfully for Watch our #SADSONG cover now! 🥺 #P1harmony #dancechallenge #kpopdance #kpopinpublic #shorts.mp4
+2025-07-21 14:44:56,594 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Watch our #SADSONG cover now! 🥺 #P1harmony #dancechallenge #kpopdance #kpopinpublic #shorts.mp4
+2025-07-21 14:44:56,594 - WebAutomator - INFO - Recorded upload success in tracker for: Watch our #SADSONG cover now! 🥺 #P1harmony #dancechallenge #kpopdance #kpopinpublic #shorts.mp4
+2025-07-21 14:44:56,595 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 26 → 27
+2025-07-21 14:44:56,595 - main - INFO - ✅ Successfully uploaded Watch our #SADSONG cover now! 🥺 #P1harmony #dancechallenge #kpopdance #kpopinpublic #shorts.mp4 for misty35@hanlim.world (total: 27)
+2025-07-21 14:44:58,597 - main - INFO - 📤 Processing Watch our #GGUM cover now! 🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #shorts.mp4
+2025-07-21 14:44:58,597 - main - INFO - 🎵 Smart extracted - Artist: TXT, Title: GGUM
+2025-07-21 14:44:58,597 - main - INFO - 📝 Generated description: TXT - GGUM dance cover #choreo #performance #beat
+2025-07-21 14:44:58,597 - WebAutomator - INFO - Starting upload process for: Watch our #GGUM cover now! 🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #shorts.mp4
+2025-07-21 14:44:58,597 - WebAutomator - INFO - Search query: TXT GGUM
+2025-07-21 14:44:58,604 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:44:58,611 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:44:59,617 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:45:51,209 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:45:51,210 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:45:55,482 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:45:55,482 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:45:57,723 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:45:58,169 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:45:58,197 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:45:58,197 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:45:58,470 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:45:59,130 - WebAutomator - INFO - Step 1: Entering search query: TXT GGUM
+2025-07-21 14:45:59,167 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:45:59,277 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:46:00,581 - WebAutomator - INFO - Step 1: Current input value: "TXT GGUM"
+2025-07-21 14:46:00,581 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:46:00,581 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:46:00,609 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:46:00,843 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:46:00,843 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:46:00,843 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:46:01,773 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:46:02,479 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:46:02,479 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:46:02,479 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:46:03,492 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:46:03,733 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:46:04,743 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:46:05,031 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:46:05,031 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:46:05,135 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:46:05,482 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:46:05,482 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:46:05,482 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:46:05,487 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Watch our #GGUM cover now! 🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #shorts.mp4
+2025-07-21 14:46:05,610 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:46:05,915 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:46:06,388 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:46:06,388 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:46:06,507 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:46:06,507 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:46:06,751 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:46:07,605 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:46:07,605 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:46:07,605 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:46:07,657 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:46:07,658 - WebAutomator - INFO - Step 7: Description area found, entering text: TXT - GGUM dance cover #choreo #performance #beat
+2025-07-21 14:46:07,787 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:46:07,787 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:46:08,158 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:46:08,980 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:46:08,980 - WebAutomator - INFO - Step 8: Upload completed successfully for Watch our #GGUM cover now! 🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #shorts.mp4
+2025-07-21 14:46:08,982 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Watch our #GGUM cover now! 🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #shorts.mp4
+2025-07-21 14:46:08,982 - WebAutomator - INFO - Recorded upload success in tracker for: Watch our #GGUM cover now! 🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #shorts.mp4
+2025-07-21 14:46:08,982 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 27 → 28
+2025-07-21 14:46:08,982 - main - INFO - ✅ Successfully uploaded Watch our #GGUM cover now! 🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #shorts.mp4 for misty35@hanlim.world (total: 28)
+2025-07-21 14:46:10,988 - main - INFO - 📤 Processing Sip it Sip it down like #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover.mp4
+2025-07-21 14:46:10,988 - main - INFO - 🎵 Smart extracted - Artist: NCT, Title: Smoothie
+2025-07-21 14:46:10,988 - main - INFO - 📝 Generated description: NCT - Smoothie dance cover #cool #energy #kdance
+2025-07-21 14:46:10,988 - WebAutomator - INFO - Starting upload process for: Sip it Sip it down like #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover.mp4
+2025-07-21 14:46:10,988 - WebAutomator - INFO - Search query: NCT Smoothie
+2025-07-21 14:46:10,991 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:46:10,994 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:46:12,000 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:47:13,885 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:47:13,885 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:47:22,198 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:47:22,198 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:47:24,533 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:47:24,834 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:47:24,979 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:47:24,980 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:47:25,378 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:47:26,043 - WebAutomator - INFO - Step 1: Entering search query: NCT Smoothie
+2025-07-21 14:47:26,069 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:47:26,205 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:47:27,573 - WebAutomator - INFO - Step 1: Current input value: "NCT Smoothie"
+2025-07-21 14:47:27,574 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:47:27,574 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:47:27,596 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:47:27,910 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:47:27,910 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:47:27,910 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:47:28,588 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:47:29,889 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:47:29,889 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:47:29,889 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:47:30,896 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:47:31,202 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:47:32,213 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:47:32,536 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:47:32,536 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:47:32,672 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:47:33,094 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:47:33,094 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:47:33,094 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:47:33,101 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Sip it Sip it down like #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover.mp4
+2025-07-21 14:47:33,301 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:47:33,606 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:47:34,344 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:47:34,344 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:47:34,471 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:47:34,471 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:47:34,678 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:47:35,449 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:47:35,449 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:47:35,449 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:47:35,514 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:47:35,515 - WebAutomator - INFO - Step 7: Description area found, entering text: NCT - Smoothie dance cover #cool #energy #kdance
+2025-07-21 14:47:35,717 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:47:35,717 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:47:36,721 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:47:37,749 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:47:37,749 - WebAutomator - INFO - Step 8: Upload completed successfully for Sip it Sip it down like #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover.mp4
+2025-07-21 14:47:37,751 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Sip it Sip it down like #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover.mp4
+2025-07-21 14:47:37,751 - WebAutomator - INFO - Recorded upload success in tracker for: Sip it Sip it down like #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover.mp4
+2025-07-21 14:47:37,751 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 28 → 29
+2025-07-21 14:47:37,752 - main - INFO - ✅ Successfully uploaded Sip it Sip it down like #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover.mp4 for misty35@hanlim.world (total: 29)
+2025-07-21 14:47:39,757 - main - INFO - 📤 Processing This part 😍 from #Rockstar 🤘 #Lisa #LaLisa #Blackpink #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 14:47:39,757 - main - INFO - 🎵 Smart extracted - Artist: Lisa, Title: Rockstar
+2025-07-21 14:47:39,757 - main - INFO - 📝 Generated description: Lisa - Rockstar dance cover #beat #rhythm #kdance
+2025-07-21 14:47:39,757 - WebAutomator - INFO - Starting upload process for: This part 😍 from #Rockstar 🤘 #Lisa #LaLisa #Blackpink #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 14:47:39,757 - WebAutomator - INFO - Search query: Lisa Rockstar
+2025-07-21 14:47:39,762 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:47:39,765 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:47:40,778 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:48:50,677 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:48:50,677 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:48:56,643 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:48:56,643 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:48:59,514 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:48:59,893 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:48:59,922 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:48:59,922 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:49:00,368 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:49:01,013 - WebAutomator - INFO - Step 1: Entering search query: Lisa Rockstar
+2025-07-21 14:49:01,085 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:49:01,219 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:49:02,561 - WebAutomator - INFO - Step 1: Current input value: "Lisa Rockstar"
+2025-07-21 14:49:02,561 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:49:02,561 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:49:02,577 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:49:02,894 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:49:02,894 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:49:02,894 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:49:03,692 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:49:04,328 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:49:04,329 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:49:04,329 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:49:05,348 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:49:05,607 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:49:06,614 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:49:07,271 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:49:07,271 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:49:07,382 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:49:07,729 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:49:07,730 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:49:07,730 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:49:07,739 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/This part 😍 from #Rockstar 🤘 #Lisa #LaLisa #Blackpink #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 14:49:07,927 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:49:08,232 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:49:08,709 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:49:08,710 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:49:08,824 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:49:08,825 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:49:09,003 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:49:09,705 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:49:09,705 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:49:09,705 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:49:09,784 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:49:09,784 - WebAutomator - INFO - Step 7: Description area found, entering text: Lisa - Rockstar dance cover #beat #rhythm #kdance
+2025-07-21 14:49:09,966 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:49:09,967 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:49:10,478 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:49:11,554 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:49:11,554 - WebAutomator - INFO - Step 8: Upload completed successfully for This part 😍 from #Rockstar 🤘 #Lisa #LaLisa #Blackpink #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 14:49:11,556 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: This part 😍 from #Rockstar 🤘 #Lisa #LaLisa #Blackpink #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 14:49:11,556 - WebAutomator - INFO - Recorded upload success in tracker for: This part 😍 from #Rockstar 🤘 #Lisa #LaLisa #Blackpink #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 14:49:11,557 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 29 → 30
+2025-07-21 14:49:11,557 - main - INFO - ✅ Successfully uploaded This part 😍 from #Rockstar 🤘 #Lisa #LaLisa #Blackpink #dancecover #kpopinpublic #shorts.mp4 for misty35@hanlim.world (total: 30)
+2025-07-21 14:49:13,572 - main - INFO - 📤 Processing Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge.mp4
+2025-07-21 14:49:13,572 - main - INFO - 🎵 Smart extracted - Artist: ZEROBASEONE, Title: Sweat
+2025-07-21 14:49:13,572 - main - INFO - 📝 Generated description: ZEROBASEONE - Sweat dance cover #performance #choreo #cool
+2025-07-21 14:49:13,572 - WebAutomator - INFO - Starting upload process for: Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge.mp4
+2025-07-21 14:49:13,572 - WebAutomator - INFO - Search query: ZEROBASEONE Sweat
+2025-07-21 14:49:13,836 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:50:31,868 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:50:31,868 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:50:37,837 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:50:37,837 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:50:40,449 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:50:40,803 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:50:40,909 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:50:40,909 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:50:41,277 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:50:41,929 - WebAutomator - INFO - Step 1: Entering search query: ZEROBASEONE Sweat
+2025-07-21 14:50:41,971 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:50:42,085 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:50:43,414 - WebAutomator - INFO - Step 1: Current input value: "ZEROBASEONE Sweat"
+2025-07-21 14:50:43,414 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:50:43,414 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:50:43,431 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:50:43,689 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:50:43,690 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:50:43,690 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:50:44,695 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:50:45,308 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:50:45,309 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:50:45,309 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:50:46,317 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:50:46,430 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:50:47,447 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:50:47,769 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:50:47,769 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:50:47,874 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:50:48,213 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:50:48,213 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:50:48,213 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:50:48,224 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge.mp4
+2025-07-21 14:50:48,400 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:50:48,705 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:50:49,241 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:50:49,241 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:50:49,362 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:50:49,362 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:50:49,564 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:50:50,250 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:50:50,251 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:50:50,251 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:50:50,297 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:50:50,297 - WebAutomator - INFO - Step 7: Description area found, entering text: ZEROBASEONE - Sweat dance cover #performance #choreo #cool
+2025-07-21 14:50:50,447 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:50:50,447 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:50:50,949 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:50:51,782 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:50:51,782 - WebAutomator - INFO - Step 8: Upload completed successfully for Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge.mp4
+2025-07-21 14:50:51,784 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge.mp4
+2025-07-21 14:50:51,784 - WebAutomator - INFO - Recorded upload success in tracker for: Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge.mp4
+2025-07-21 14:50:51,785 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 30 → 31
+2025-07-21 14:50:51,785 - main - INFO - ✅ Successfully uploaded Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge.mp4 for misty35@hanlim.world (total: 31)
+2025-07-21 14:50:53,790 - main - INFO - 📤 Processing #BadDesire cover out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 14:50:53,790 - main - INFO - 🎵 Smart extracted - Artist: ENHYPEN, Title: BadDesire
+2025-07-21 14:50:53,791 - main - INFO - 📝 Generated description: ENHYPEN - BadDesire dance cover #lit #fyp #shorts
+2025-07-21 14:50:53,791 - WebAutomator - INFO - Starting upload process for: #BadDesire cover out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 14:50:53,791 - WebAutomator - INFO - Search query: ENHYPEN BadDesire
+2025-07-21 14:50:53,822 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:52:16,770 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:52:16,770 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:52:24,169 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:52:24,169 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:52:28,249 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:52:28,487 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:52:28,506 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:52:28,507 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:52:28,788 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:52:29,438 - WebAutomator - INFO - Step 1: Entering search query: ENHYPEN BadDesire
+2025-07-21 14:52:29,476 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:52:29,599 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:52:30,662 - WebAutomator - INFO - Step 1: Current input value: "ENHYPEN BadDesire"
+2025-07-21 14:52:30,662 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:52:30,662 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:52:30,700 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:52:30,923 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:52:30,923 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:52:30,923 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:52:31,598 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:52:32,169 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:52:32,170 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:52:32,170 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:52:33,179 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:52:33,446 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:52:34,455 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:52:35,118 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:52:35,119 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:52:35,213 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:52:35,532 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:52:35,533 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:52:35,533 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:52:35,543 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/#BadDesire cover out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 14:52:35,725 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:52:36,031 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:52:36,681 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:52:36,681 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:52:36,845 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:52:36,846 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:52:37,048 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:52:37,713 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:52:37,714 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:52:37,714 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:52:37,787 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:52:37,787 - WebAutomator - INFO - Step 7: Description area found, entering text: ENHYPEN - BadDesire dance cover #lit #fyp #shorts
+2025-07-21 14:52:38,598 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:52:38,598 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:52:38,790 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:52:39,259 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:52:39,259 - WebAutomator - INFO - Step 8: Upload completed successfully for #BadDesire cover out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 14:52:39,263 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: #BadDesire cover out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 14:52:39,263 - WebAutomator - INFO - Recorded upload success in tracker for: #BadDesire cover out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 14:52:39,264 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 31 → 32
+2025-07-21 14:52:39,264 - main - INFO - ✅ Successfully uploaded #BadDesire cover out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4 for misty35@hanlim.world (total: 32)
+2025-07-21 14:52:41,269 - main - INFO - 📤 Processing All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 14:52:41,269 - main - INFO - 🎵 Smart extracted - Artist: ENHYPEN, Title: BadDesire
+2025-07-21 14:52:41,269 - main - INFO - 📝 Generated description: ENHYPEN - BadDesire dance cover #lit #viral #rhythm
+2025-07-21 14:52:41,269 - WebAutomator - INFO - Starting upload process for: All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 14:52:41,269 - WebAutomator - INFO - Search query: ENHYPEN BadDesire
+2025-07-21 14:52:41,272 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:52:41,275 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:52:42,280 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:54:19,269 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:54:19,270 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:54:25,773 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:54:25,774 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:54:31,493 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:54:31,782 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:54:31,836 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:54:31,836 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:54:32,084 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:54:32,741 - WebAutomator - INFO - Step 1: Entering search query: ENHYPEN BadDesire
+2025-07-21 14:54:32,760 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:54:32,878 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:54:33,961 - WebAutomator - INFO - Step 1: Current input value: "ENHYPEN BadDesire"
+2025-07-21 14:54:33,962 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:54:33,962 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:54:33,985 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:54:34,114 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:54:34,114 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:54:34,114 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:54:34,576 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:54:35,445 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:54:35,446 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:54:35,446 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:54:37,173 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:54:37,434 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:54:38,473 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:54:39,021 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:54:39,021 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:54:39,135 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:54:39,632 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:54:39,632 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:54:39,632 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:54:39,752 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 14:54:40,011 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:54:40,319 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:54:41,021 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:54:41,021 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:54:41,147 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:54:41,147 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:54:41,330 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:54:42,048 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:54:42,048 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:54:42,049 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:54:42,080 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:54:42,080 - WebAutomator - INFO - Step 7: Description area found, entering text: ENHYPEN - BadDesire dance cover #lit #viral #rhythm
+2025-07-21 14:54:42,982 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:54:42,982 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:54:43,535 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:54:44,160 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:54:44,160 - WebAutomator - INFO - Step 8: Upload completed successfully for All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 14:54:44,162 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 14:54:44,163 - WebAutomator - INFO - Recorded upload success in tracker for: All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 14:54:44,163 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 32 → 33
+2025-07-21 14:54:44,163 - main - INFO - ✅ Successfully uploaded All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4 for misty35@hanlim.world (total: 33)
+2025-07-21 14:54:46,168 - main - INFO - 📤 Processing Teach me 🥵 #LoveLanguage 💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic (1).mp4
+2025-07-21 14:54:46,169 - main - INFO - 🎵 Smart extracted - Artist: TXT, Title: LoveLanguage
+2025-07-21 14:54:46,169 - main - INFO - 📝 Generated description: TXT - LoveLanguage dance cover #viral #energy #kdance
+2025-07-21 14:54:46,169 - WebAutomator - INFO - Starting upload process for: Teach me 🥵 #LoveLanguage 💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic (1).mp4
+2025-07-21 14:54:46,169 - WebAutomator - INFO - Search query: TXT LoveLanguage
+2025-07-21 14:54:46,172 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:54:46,175 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:54:47,178 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:56:37,373 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:56:37,373 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:56:42,846 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:56:42,846 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:56:48,530 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:56:48,770 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:56:48,843 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:56:48,843 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:56:49,142 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:56:49,805 - WebAutomator - INFO - Step 1: Entering search query: TXT LoveLanguage
+2025-07-21 14:56:49,850 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:56:50,001 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:56:51,079 - WebAutomator - INFO - Step 1: Current input value: "TXT LoveLanguage"
+2025-07-21 14:56:51,079 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:56:51,079 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:56:51,108 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:56:51,350 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:56:51,350 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:56:51,350 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:56:51,942 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:56:53,211 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:56:53,211 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:56:53,211 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:56:54,362 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:56:54,631 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:56:55,639 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:56:55,949 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:56:55,949 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:56:56,033 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:56:56,501 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:56:56,501 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:56:56,501 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:56:56,615 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Teach me 🥵 #LoveLanguage 💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic (1).mp4
+2025-07-21 14:56:56,869 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:56:57,173 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:56:57,693 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:56:57,693 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:56:57,927 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:56:57,927 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:56:58,102 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:56:58,841 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:56:58,841 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:56:58,841 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:56:58,894 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:56:58,895 - WebAutomator - INFO - Step 7: Description area found, entering text: TXT - LoveLanguage dance cover #viral #energy #kdance
+2025-07-21 14:56:59,610 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:56:59,610 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:56:59,985 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:57:00,504 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:57:00,504 - WebAutomator - INFO - Step 8: Upload completed successfully for Teach me 🥵 #LoveLanguage 💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic (1).mp4
+2025-07-21 14:57:00,507 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Teach me 🥵 #LoveLanguage 💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic (1).mp4
+2025-07-21 14:57:00,507 - WebAutomator - INFO - Recorded upload success in tracker for: Teach me 🥵 #LoveLanguage 💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic (1).mp4
+2025-07-21 14:57:00,507 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 33 → 34
+2025-07-21 14:57:00,507 - main - INFO - ✅ Successfully uploaded Teach me 🥵 #LoveLanguage 💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic (1).mp4 for misty35@hanlim.world (total: 34)
+2025-07-21 14:57:02,509 - main - INFO - 📤 Processing Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge (1).mp4
+2025-07-21 14:57:02,509 - main - INFO - 🎵 Smart extracted - Artist: ZEROBASEONE, Title: Sweat
+2025-07-21 14:57:02,509 - main - INFO - 📝 Generated description: ZEROBASEONE - Sweat dance cover #rhythm #viral #cool
+2025-07-21 14:57:02,510 - WebAutomator - INFO - Starting upload process for: Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge (1).mp4
+2025-07-21 14:57:02,510 - WebAutomator - INFO - Search query: ZEROBASEONE Sweat
+2025-07-21 14:57:02,513 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:57:02,515 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:57:03,520 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 14:58:52,233 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 14:58:52,234 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 14:58:58,432 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 14:58:58,432 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 14:59:04,079 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 14:59:04,304 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 14:59:04,358 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 14:59:04,358 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 14:59:04,635 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 14:59:05,309 - WebAutomator - INFO - Step 1: Entering search query: ZEROBASEONE Sweat
+2025-07-21 14:59:05,351 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 14:59:05,461 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 14:59:06,571 - WebAutomator - INFO - Step 1: Current input value: "ZEROBASEONE Sweat"
+2025-07-21 14:59:06,571 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 14:59:06,572 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 14:59:06,845 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 14:59:07,694 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 14:59:07,695 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 14:59:07,695 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 14:59:08,454 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 14:59:08,869 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 14:59:08,869 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 14:59:08,869 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 14:59:09,879 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 14:59:10,005 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:59:11,013 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 14:59:11,268 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 14:59:11,268 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 14:59:11,351 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 14:59:11,668 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 14:59:11,668 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 14:59:11,668 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 14:59:11,673 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge (1).mp4
+2025-07-21 14:59:11,885 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 14:59:12,186 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 14:59:12,786 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 14:59:12,786 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 14:59:12,907 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 14:59:12,907 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 14:59:13,085 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 14:59:13,698 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 14:59:13,698 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 14:59:13,698 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 14:59:13,743 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 14:59:13,743 - WebAutomator - INFO - Step 7: Description area found, entering text: ZEROBASEONE - Sweat dance cover #rhythm #viral #cool
+2025-07-21 14:59:14,483 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 14:59:14,483 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 14:59:14,859 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 14:59:15,266 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 14:59:15,267 - WebAutomator - INFO - Step 8: Upload completed successfully for Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge (1).mp4
+2025-07-21 14:59:15,269 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge (1).mp4
+2025-07-21 14:59:15,269 - WebAutomator - INFO - Recorded upload success in tracker for: Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge (1).mp4
+2025-07-21 14:59:15,270 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 34 → 35
+2025-07-21 14:59:15,270 - main - INFO - ✅ Successfully uploaded Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge (1).mp4 for misty35@hanlim.world (total: 35)
+2025-07-21 14:59:17,271 - main - INFO - 📤 Processing 🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts.mp4
+2025-07-21 14:59:17,271 - main - INFO - 🎵 Smart extracted - Artist: Aespa, Title: Armageddon
+2025-07-21 14:59:17,271 - main - INFO - 📝 Generated description: Aespa - Armageddon dance cover #choreography #cool #performance
+2025-07-21 14:59:17,271 - WebAutomator - INFO - Starting upload process for: 🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts.mp4
+2025-07-21 14:59:17,271 - WebAutomator - INFO - Search query: Aespa Armageddon
+2025-07-21 14:59:17,274 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 14:59:17,277 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 14:59:18,282 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 15:00:40,517 - main - INFO - 🔚 Closing browser
+2025-07-21 15:00:40,517 - WebAutomator - INFO - Closing browser and cleaning up resources
+2025-07-21 15:00:40,529 - WebAutomator - INFO - Browser closed successfully
+2025-07-21 15:00:41,959 - SmartFileManager - INFO - Loaded smart extraction results for 10 folders
+2025-07-21 15:00:47,319 - AccountManager - INFO - Loaded 30 account mappings
+2025-07-21 15:00:47,320 - MultiAccountUploadTracker - INFO - Loaded upload tracker with 429 files across 55 accounts
+2025-07-21 15:00:47,320 - AccountManager - INFO - Parsed account range: 21 to 30
+2025-07-21 15:00:47,320 - AccountManager - INFO - Filtering accounts by range 21-30: 10 accounts found
+2025-07-21 15:00:47,324 - AccountManager - INFO - Skipping choco82@hanlim.world: All files uploaded (46/43 high confidence files)
+2025-07-21 15:00:47,324 - AccountManager - INFO - Skipping sunset74@hanlim.world: Reached maximum uploads (81/50)
+2025-07-21 15:00:47,324 - AccountManager - INFO - Skipping fluffy28@hanlim.world: Reached maximum uploads (51/50)
+2025-07-21 15:00:47,324 - AccountManager - INFO - Skipping mango88@hanlim.world: All files uploaded (24/20 high confidence files)
+2025-07-21 15:00:47,324 - AccountManager - INFO - Skipping blossom23@hanlim.world: All files uploaded (26/19 high confidence files)
+2025-07-21 15:00:47,324 - AccountManager - INFO - Skipping honey39@hanlim.world: All files uploaded (44/39 high confidence files)
+2025-07-21 15:00:47,324 - AccountManager - WARNING - Folder '당고 Danggo' not found in extraction results
+2025-07-21 15:00:47,324 - AccountManager - INFO - Skipping velvet42@hanlim.world: All files uploaded (0/0 high confidence files)
+2025-07-21 15:00:47,325 - AccountManager - INFO - Skipping ghost17@hanlim.world: All files uploaded (32/21 high confidence files)
+2025-07-21 15:00:47,325 - AccountManager - INFO - Including misty35@hanlim.world: 35/50 files uploaded, 15 remaining
+2025-07-21 15:00:47,325 - AccountManager - INFO - Including witty09@hanlim.world: 11/50 files uploaded, 39 remaining
+2025-07-21 15:00:47,325 - AccountManager - INFO - Found 2 accounts ready for upload (max 50 per account)
+2025-07-21 15:00:47,325 - main - INFO - 🚀 Starting multi-account upload process for 2 accounts
+2025-07-21 15:00:47,325 - main - INFO - 📊 Upload completion check based on high confidence files in smart_extraction_results.json
+2025-07-21 15:00:47,325 - main - INFO - 🎯 Only processing files with confidence='high' from smart_extraction_results.json
+2025-07-21 15:00:47,326 - main - INFO - 🔢 Maximum uploads per account: 50
+2025-07-21 15:00:47,326 - main - INFO - 
+============================================================
+2025-07-21 15:00:47,326 - main - INFO - 🔄 Processing account: misty35@hanlim.world
+2025-07-21 15:00:47,326 - main - INFO - 📁 Assigned folder: Imperium K-Pop Dance Team
+2025-07-21 15:00:47,326 - main - INFO - ============================================================
+2025-07-21 15:00:47,326 - WebAutomator - INFO - Starting login process for: misty35@hanlim.world
+2025-07-21 15:00:49,985 - WebAutomator - INFO - Checking for modal to close
+2025-07-21 15:00:54,445 - WebAutomator - INFO - Modal closed
+2025-07-21 15:00:54,445 - WebAutomator - INFO - Finding email input field
+2025-07-21 15:00:55,600 - WebAutomator - INFO - Email input found, entering email: misty35@hanlim.world
+2025-07-21 15:00:57,275 - WebAutomator - INFO - Finding password input field
+2025-07-21 15:00:57,991 - WebAutomator - INFO - Password input found, entering password
+2025-07-21 15:00:59,043 - WebAutomator - INFO - Finding signin button
+2025-07-21 15:00:59,121 - WebAutomator - INFO - Signin button found, clicking to login
+2025-07-21 15:00:59,571 - WebAutomator - INFO - Waiting for login to complete
+2025-07-21 15:01:04,796 - WebAutomator - INFO - Login successful for: misty35@hanlim.world
+2025-07-21 15:01:04,797 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 3, 2, 1 🙋‍♂️ #PlotTwist 🌊 #TWS #투어스 #247WithUs #Sparkling_Blue #첫만남은계획대로되지않아 #plot_twist.mp4
+2025-07-21 15:01:04,797 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Wait! ✋ #PlotTwist 🌊 #TWS  #투어스 #247WithUs #Sparkling_Blue #첫만남은계획대로되지않아 #plot_twist.mp4
+2025-07-21 15:01:04,798 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Season 2 is here! 🔥 Join the Imperium! #audition #kpopinpublic #dancecover #workshop.mp4
+2025-07-21 15:01:04,798 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: ⏱ Hunt down🐺 #DeerHunter #andTEAM #GoInBlind #jpop #kpopfyp #kpopshorts #kpopinpublic #shorts.mp4
+2025-07-21 15:01:04,798 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: YAH-HO is so satisfying! 😊 #BADTITUDE #BADVILLAIN #야호 #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 15:01:04,798 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: But you’ve been so out of #Touch 🤙🤙 #KATSEYE #danceinpublic #debut #kpopinpublic #cover #shorts.mp4
+2025-07-21 15:01:04,798 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: We goin' up like #NASA! 🚀 This choreo 🔥 #NCTWISH #NCT #WISH #Jpop #kpopinpublic.mp4
+2025-07-21 15:01:04,798 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: #Crush for me! ✋✊ #ZEROBASEONE #제로베이스원 #가시 #MeltingPoint #kpopinpublic.mp4
+2025-07-21 15:01:04,798 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: That's me 💅 #izna #debut #kpopinpublic #shorts #dancecover #dancechallenge #이즈나 #kpopfyp #N_a #debut.mp4
+2025-07-21 15:01:04,798 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: I'm on that #CashShit 💸 Ah 😜 #MeganTheeStallion #DaBaby #Quanz #Choreography #CashShitChallenge.mp4
+2025-07-21 15:01:04,798 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: #Katseye is taking over the #RPD with #Touch! 👉😊 #Debut #RandomPlayDance #katchykpop #kpopinpublic.mp4
+2025-07-21 15:01:04,798 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: The 🦵⬆ choreo from #KATSEYE's #Debut 👌😍 #DebutChallenge #kpopinpublic #shorts.mp4
+2025-07-21 15:01:04,799 - SmartFileManager - WARNING - File does not exist: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Watch our #BadDesire! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 15:01:04,799 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: Feel like #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge.mp4
+2025-07-21 15:01:04,799 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: Bet you never thought you'd see #GirlsOfTheYear 💃 #VCHA #GOTY #GirlsOfTheYearChallenge.mp4
+2025-07-21 15:01:04,799 - SmartFileManager - INFO - ⏭️ Skipping file with None confidence: Supernova 💥 Killing part 👌 #NASA #NCTWISH #NCT #WISH #Jpop #Kpopinpublic.mp4
+2025-07-21 15:01:04,799 - SmartFileManager - INFO - Found 143 valid videos in folder 'Imperium K-Pop Dance Team'
+2025-07-21 15:01:04,799 - main - INFO - 📄 Found 143 high confidence videos in folder 'Imperium K-Pop Dance Team'
+2025-07-21 15:01:04,799 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts (1).mp4
+2025-07-21 15:01:04,799 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: I bought diamonds 💎 at my dentist #IceOnMyTeeth #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈.mp4
+2025-07-21 15:01:04,799 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Love me once 🤞 I know you'll love me twice ✌ Killing part 🔥 #KATSEYE's #Debut #kpopinpublic #shorts.mp4
+2025-07-21 15:01:04,799 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Watch our #XO cover! ❌⭕ Out now! 🫶 #ENHYPEN #XOChallenge #엔하이픈 #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 15:01:04,799 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Watch our #MonaLisa cover! 👉👈 #jhope #kpopinpublic #shorts #제이홉 #jhope_MONALISA #bts #army (1).mp4
+2025-07-21 15:01:04,799 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Damn I really make it look #EASY 😎🧢 #LESSERAFIM #EASYChallenge #MakeItLookEasy #kpopinpublic.mp4
+2025-07-21 15:01:04,799 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Woo! 😮 Like it #NMIXX  #엔믹스 #Fe3O4_BREAK #Soñar #Soñar_Challenge #NSWER #SoñarBreaker.mp4
+2025-07-21 15:01:04,799 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Got them all goin' #SHEESH! 🥵 #BabyMonster #YG #BABYMONS7ER #베이비몬스터 #SHEESHChallenge #kpopinpublic.mp4
+2025-07-21 15:01:04,799 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Watch our #SADSONG cover now! 🥺 #P1harmony #dancechallenge #kpopdance #kpopinpublic #shorts.mp4
+2025-07-21 15:01:04,800 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Watch our #GGUM cover now! 🔥 #Yeonjun #TXT #GGUMChallenge #연준 #dancecover #dancechallenge #shorts.mp4
+2025-07-21 15:01:04,800 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Sip it Sip it down like #Smoothie 🍓🍊🍑🍌 #NCT #NCTDREAM #kpopinpublic #dancecover.mp4
+2025-07-21 15:01:04,800 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: This part 😍 from #Rockstar 🤘 #Lisa #LaLisa #Blackpink #dancecover #kpopinpublic #shorts.mp4
+2025-07-21 15:01:04,800 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge.mp4
+2025-07-21 15:01:04,800 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: #BadDesire cover out now! 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 15:01:04,800 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: All my #BadDesire 🧛‍♂️🩸 #ENHYPEN #엔하이픈 #WithorWithoutYou #kpopinpublic #shorts (1).mp4
+2025-07-21 15:01:04,800 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Teach me 🥵 #LoveLanguage 💗#TXT #TXT_LoveLanguage #투모로우바이투게더 #TOMORROW_X_TOGETHER #kpopinpublic (1).mp4
+2025-07-21 15:01:04,800 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Oh baby I'll make you #Sweat 💦🥵 #ZB1 #ZEROBASEONE #제로베이스원 #kpopinpublic #sweatchallenge (1).mp4
+2025-07-21 15:01:04,800 - main - INFO - 📤 Processing 🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts.mp4
+2025-07-21 15:01:04,800 - main - INFO - 🎵 Smart extracted - Artist: Aespa, Title: Armageddon
+2025-07-21 15:01:04,800 - main - INFO - 📝 Generated description: Aespa - Armageddon dance cover #cover #rhythm #style
+2025-07-21 15:01:04,800 - WebAutomator - INFO - Starting upload process for: 🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts.mp4
+2025-07-21 15:01:04,800 - WebAutomator - INFO - Search query: Aespa Armageddon
+2025-07-21 15:01:06,181 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 15:01:13,347 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 15:01:13,348 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 15:01:14,031 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 15:01:14,031 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 15:01:15,212 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 15:01:15,295 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 15:01:15,307 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 15:01:15,307 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 15:01:15,796 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 15:01:16,439 - WebAutomator - INFO - Step 1: Entering search query: Aespa Armageddon
+2025-07-21 15:01:16,464 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 15:01:16,656 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 15:01:17,870 - WebAutomator - INFO - Step 1: Current input value: "Aespa Armageddon"
+2025-07-21 15:01:17,870 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 15:01:17,870 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 15:01:17,914 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 15:01:18,418 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 15:01:18,418 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 15:01:18,418 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 15:01:19,303 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 15:01:19,774 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 15:01:19,774 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 15:01:19,774 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 15:01:20,920 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 15:01:20,980 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:01:22,013 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 15:01:23,731 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 15:01:23,731 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 15:01:23,837 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 15:01:25,292 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 15:01:25,292 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 15:01:25,293 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 15:01:25,324 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts.mp4
+2025-07-21 15:01:26,012 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 15:01:26,317 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 15:01:26,836 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 15:01:26,837 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 15:01:28,208 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 15:01:28,209 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 15:01:28,301 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:01:29,028 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 15:01:29,028 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 15:01:29,028 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 15:01:29,544 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 15:01:29,544 - WebAutomator - INFO - Step 7: Description area found, entering text: Aespa - Armageddon dance cover #cover #rhythm #style
+2025-07-21 15:01:30,497 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 15:01:30,505 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 15:01:30,781 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 15:01:31,376 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 15:01:31,376 - WebAutomator - INFO - Step 8: Upload completed successfully for 🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts.mp4
+2025-07-21 15:01:31,380 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: 🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts.mp4
+2025-07-21 15:01:31,380 - WebAutomator - INFO - Recorded upload success in tracker for: 🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts.mp4
+2025-07-21 15:01:31,381 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 35 → 36
+2025-07-21 15:01:31,381 - main - INFO - ✅ Successfully uploaded 🙏 I'ma get it done 💥 #Armageddon #Aespa #에스파 #kpopinpublic #shorts.mp4 for misty35@hanlim.world (total: 36)
+2025-07-21 15:01:33,382 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Let's go #Steady! ✊😁✊ #NCTWISH 💚 #엔시티위시 #Kpopinpublic #Poppop #dancecover #nct #nct127 #shorts.mp4
+2025-07-21 15:01:33,382 - main - INFO - 📤 Processing ❌⭕ kiss me 💋 don't say no 💗 #ENHYPEN #XO #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 15:01:33,382 - main - INFO - 🎵 Smart extracted - Artist: ENHYPEN, Title: XO
+2025-07-21 15:01:33,382 - main - INFO - 📝 Generated description: ENHYPEN - XO dance cover #lit #performance #cover
+2025-07-21 15:01:33,382 - WebAutomator - INFO - Starting upload process for: ❌⭕ kiss me 💋 don't say no 💗 #ENHYPEN #XO #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 15:01:33,382 - WebAutomator - INFO - Search query: ENHYPEN XO
+2025-07-21 15:01:33,386 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 15:01:33,392 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 15:01:34,394 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 15:01:37,669 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 15:01:37,669 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 15:01:41,470 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 15:01:41,470 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 15:01:41,974 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 15:01:42,142 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 15:01:42,174 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 15:01:42,174 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 15:01:42,409 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 15:01:43,051 - WebAutomator - INFO - Step 1: Entering search query: ENHYPEN XO
+2025-07-21 15:01:43,106 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 15:01:43,218 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 15:01:44,152 - WebAutomator - INFO - Step 1: Current input value: "ENHYPEN XO"
+2025-07-21 15:01:44,152 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 15:01:44,152 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 15:01:44,252 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 15:01:44,438 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 15:01:44,439 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 15:01:44,439 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 15:01:44,964 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 15:01:45,494 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 15:01:45,494 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 15:01:45,494 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 15:01:46,558 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 15:01:46,580 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:01:47,593 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 15:01:47,809 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 15:01:47,809 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 15:01:47,910 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 15:01:48,333 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 15:01:48,334 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 15:01:48,334 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 15:01:48,830 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/❌⭕ kiss me 💋 don't say no 💗 #ENHYPEN #XO #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 15:01:49,009 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 15:01:49,314 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 15:01:49,700 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 15:01:49,700 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 15:01:49,711 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 15:01:49,711 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 15:01:49,727 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:01:49,865 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 15:01:49,865 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 15:01:49,865 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 15:01:50,547 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 15:01:50,547 - WebAutomator - INFO - Step 7: Description area found, entering text: ENHYPEN - XO dance cover #lit #performance #cover
+2025-07-21 15:01:51,649 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 15:01:51,650 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 15:01:52,088 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 15:01:52,622 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 15:01:52,623 - WebAutomator - INFO - Step 8: Upload completed successfully for ❌⭕ kiss me 💋 don't say no 💗 #ENHYPEN #XO #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 15:01:52,625 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: ❌⭕ kiss me 💋 don't say no 💗 #ENHYPEN #XO #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 15:01:52,625 - WebAutomator - INFO - Recorded upload success in tracker for: ❌⭕ kiss me 💋 don't say no 💗 #ENHYPEN #XO #kpopinpublic #dancecover #shorts.mp4
+2025-07-21 15:01:52,625 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 36 → 37
+2025-07-21 15:01:52,625 - main - INFO - ✅ Successfully uploaded ❌⭕ kiss me 💋 don't say no 💗 #ENHYPEN #XO #kpopinpublic #dancecover #shorts.mp4 for misty35@hanlim.world (total: 37)
+2025-07-21 15:01:54,630 - main - INFO - 📤 Processing #IceOnMyTeeth 🦷 for my white tee #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈 #shorts.mp4
+2025-07-21 15:01:54,630 - main - INFO - 🎵 Smart extracted - Artist: ATEEZ, Title: Ice On My Teeth
+2025-07-21 15:01:54,630 - main - INFO - 📝 Generated description: ATEEZ - Ice On My Teeth dance cover #performance #cover #moves
+2025-07-21 15:01:54,631 - WebAutomator - INFO - Starting upload process for: #IceOnMyTeeth 🦷 for my white tee #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈 #shorts.mp4
+2025-07-21 15:01:54,631 - WebAutomator - INFO - Search query: ATEEZ Ice On My Teeth
+2025-07-21 15:01:54,634 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 15:01:54,637 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 15:01:55,643 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 15:02:00,191 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 15:02:00,191 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 15:02:02,545 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 15:02:02,546 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 15:02:03,484 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 15:02:03,543 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 15:02:03,554 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 15:02:03,554 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 15:02:03,856 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 15:02:04,483 - WebAutomator - INFO - Step 1: Entering search query: ATEEZ Ice On My Teeth
+2025-07-21 15:02:04,498 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 15:02:04,617 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 15:02:05,528 - WebAutomator - INFO - Step 1: Current input value: "ATEEZ Ice On My Teeth"
+2025-07-21 15:02:05,529 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 15:02:05,529 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 15:02:05,548 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 15:02:05,657 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 15:02:05,658 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 15:02:05,658 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 15:02:06,179 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 15:02:06,432 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 15:02:06,433 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 15:02:06,433 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 15:02:07,441 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 15:02:07,554 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:02:08,563 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 15:02:08,787 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 15:02:08,787 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 15:02:08,914 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 15:02:09,131 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 15:02:09,131 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 15:02:09,132 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 15:02:09,189 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/#IceOnMyTeeth 🦷 for my white tee #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈 #shorts.mp4
+2025-07-21 15:02:09,535 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 15:02:09,840 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 15:02:10,169 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 15:02:10,169 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 15:02:10,303 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 15:02:10,303 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 15:02:10,320 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:02:10,498 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 15:02:10,499 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 15:02:10,499 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 15:02:10,613 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 15:02:10,614 - WebAutomator - INFO - Step 7: Description area found, entering text: ATEEZ - Ice On My Teeth dance cover #performance #cover #moves
+2025-07-21 15:02:11,084 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 15:02:11,084 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 15:02:11,895 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 15:02:12,433 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 15:02:12,434 - WebAutomator - INFO - Step 8: Upload completed successfully for #IceOnMyTeeth 🦷 for my white tee #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈 #shorts.mp4
+2025-07-21 15:02:12,436 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: #IceOnMyTeeth 🦷 for my white tee #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈 #shorts.mp4
+2025-07-21 15:02:12,436 - WebAutomator - INFO - Recorded upload success in tracker for: #IceOnMyTeeth 🦷 for my white tee #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈 #shorts.mp4
+2025-07-21 15:02:12,436 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 37 → 38
+2025-07-21 15:02:12,436 - main - INFO - ✅ Successfully uploaded #IceOnMyTeeth 🦷 for my white tee #ATEEZ #ATINY #kpopinpublic #dancechallenge #에이티즈 #shorts.mp4 for misty35@hanlim.world (total: 38)
+2025-07-21 15:02:14,441 - main - INFO - 📤 Processing Ain't #NoDoubt 🔥😎 #ENHYPEN #DanceCover  #kpopinpublic #dancechallenge #shorts.mp4
+2025-07-21 15:02:14,442 - main - INFO - 🎵 Smart extracted - Artist: ENHYPEN, Title: NoDoubt
+2025-07-21 15:02:14,442 - main - INFO - 📝 Generated description: ENHYPEN - NoDoubt dance cover #kpop #korean #kpopdance
+2025-07-21 15:02:14,442 - WebAutomator - INFO - Starting upload process for: Ain't #NoDoubt 🔥😎 #ENHYPEN #DanceCover  #kpopinpublic #dancechallenge #shorts.mp4
+2025-07-21 15:02:14,443 - WebAutomator - INFO - Search query: ENHYPEN NoDoubt
+2025-07-21 15:02:14,447 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 15:02:14,449 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 15:02:15,454 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 15:02:27,294 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 15:02:27,294 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 15:02:28,765 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 15:02:28,765 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 15:02:29,279 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 15:02:29,353 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 15:02:29,423 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 15:02:29,423 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 15:02:29,684 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 15:02:30,318 - WebAutomator - INFO - Step 1: Entering search query: ENHYPEN NoDoubt
+2025-07-21 15:02:30,334 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 15:02:30,434 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 15:02:31,348 - WebAutomator - INFO - Step 1: Current input value: "ENHYPEN NoDoubt"
+2025-07-21 15:02:31,349 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 15:02:31,349 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 15:02:31,387 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 15:02:31,543 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 15:02:31,544 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 15:02:31,544 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 15:02:32,007 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 15:02:32,274 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 15:02:32,274 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 15:02:32,274 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 15:02:33,284 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 15:02:33,405 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:02:34,415 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 15:02:34,542 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 15:02:34,542 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 15:02:34,638 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 15:02:34,841 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 15:02:34,841 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 15:02:34,841 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 15:02:34,899 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Ain't #NoDoubt 🔥😎 #ENHYPEN #DanceCover  #kpopinpublic #dancechallenge #shorts.mp4
+2025-07-21 15:02:35,076 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 15:02:35,377 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 15:02:35,694 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 15:02:35,694 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 15:02:35,708 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 15:02:35,708 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 15:02:35,726 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:02:35,838 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 15:02:35,838 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 15:02:35,838 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 15:02:35,935 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 15:02:35,935 - WebAutomator - INFO - Step 7: Description area found, entering text: ENHYPEN - NoDoubt dance cover #kpop #korean #kpopdance
+2025-07-21 15:02:36,288 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 15:02:36,288 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 15:02:36,316 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 15:02:36,514 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 15:02:36,514 - WebAutomator - INFO - Step 8: Upload completed successfully for Ain't #NoDoubt 🔥😎 #ENHYPEN #DanceCover  #kpopinpublic #dancechallenge #shorts.mp4
+2025-07-21 15:02:36,517 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Ain't #NoDoubt 🔥😎 #ENHYPEN #DanceCover  #kpopinpublic #dancechallenge #shorts.mp4
+2025-07-21 15:02:36,517 - WebAutomator - INFO - Recorded upload success in tracker for: Ain't #NoDoubt 🔥😎 #ENHYPEN #DanceCover  #kpopinpublic #dancechallenge #shorts.mp4
+2025-07-21 15:02:36,517 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 38 → 39
+2025-07-21 15:02:36,517 - main - INFO - ✅ Successfully uploaded Ain't #NoDoubt 🔥😎 #ENHYPEN #DanceCover  #kpopinpublic #dancechallenge #shorts.mp4 for misty35@hanlim.world (total: 39)
+2025-07-21 15:02:38,522 - main - INFO - 📤 Processing Watch our #WORK 💸 cover now! ⬆️ #ATEEZ #kpopinpublic #에이티즈#dancecover #shorts.mp4
+2025-07-21 15:02:38,522 - main - INFO - 🎵 Smart extracted - Artist: ATEEZ, Title: WORK
+2025-07-21 15:02:38,523 - main - INFO - 📝 Generated description: ATEEZ - WORK dance cover #dancechallenge #idol #choreo
+2025-07-21 15:02:38,523 - WebAutomator - INFO - Starting upload process for: Watch our #WORK 💸 cover now! ⬆️ #ATEEZ #kpopinpublic #에이티즈#dancecover #shorts.mp4
+2025-07-21 15:02:38,523 - WebAutomator - INFO - Search query: ATEEZ WORK
+2025-07-21 15:02:38,526 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 15:02:38,530 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 15:02:39,532 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 15:02:59,352 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 15:02:59,352 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 15:03:00,783 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 15:03:00,783 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 15:03:01,162 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 15:03:01,362 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 15:03:01,381 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 15:03:01,381 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 15:03:01,492 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 15:03:02,119 - WebAutomator - INFO - Step 1: Entering search query: ATEEZ WORK
+2025-07-21 15:03:02,140 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 15:03:02,267 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 15:03:03,129 - WebAutomator - INFO - Step 1: Current input value: "ATEEZ WORK"
+2025-07-21 15:03:03,129 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 15:03:03,129 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 15:03:03,157 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 15:03:03,277 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 15:03:03,278 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 15:03:03,278 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 15:03:03,841 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 15:03:04,284 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 15:03:04,285 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 15:03:04,285 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 15:03:05,292 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 15:03:05,443 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:03:06,452 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 15:03:06,663 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 15:03:06,664 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 15:03:06,691 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 15:03:06,796 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 15:03:06,797 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 15:03:06,797 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 15:03:06,807 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Watch our #WORK 💸 cover now! ⬆️ #ATEEZ #kpopinpublic #에이티즈#dancecover #shorts.mp4
+2025-07-21 15:03:07,018 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 15:03:07,323 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 15:03:08,031 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 15:03:08,032 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 15:03:08,136 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 15:03:08,136 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 15:03:08,389 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:03:08,899 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 15:03:08,899 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 15:03:08,899 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 15:03:09,007 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 15:03:09,007 - WebAutomator - INFO - Step 7: Description area found, entering text: ATEEZ - WORK dance cover #dancechallenge #idol #choreo
+2025-07-21 15:03:09,224 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 15:03:09,224 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 15:03:09,309 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 15:03:09,596 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 15:03:09,596 - WebAutomator - INFO - Step 8: Upload completed successfully for Watch our #WORK 💸 cover now! ⬆️ #ATEEZ #kpopinpublic #에이티즈#dancecover #shorts.mp4
+2025-07-21 15:03:09,598 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Watch our #WORK 💸 cover now! ⬆️ #ATEEZ #kpopinpublic #에이티즈#dancecover #shorts.mp4
+2025-07-21 15:03:09,598 - WebAutomator - INFO - Recorded upload success in tracker for: Watch our #WORK 💸 cover now! ⬆️ #ATEEZ #kpopinpublic #에이티즈#dancecover #shorts.mp4
+2025-07-21 15:03:09,599 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 39 → 40
+2025-07-21 15:03:09,599 - main - INFO - ✅ Successfully uploaded Watch our #WORK 💸 cover now! ⬆️ #ATEEZ #kpopinpublic #에이티즈#dancecover #shorts.mp4 for misty35@hanlim.world (total: 40)
+2025-07-21 15:03:11,599 - main - INFO - 📤 Processing Wanna be a winner 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌.mp4
+2025-07-21 15:03:11,599 - main - INFO - 🎵 Smart extracted - Artist: LESSERAFIM, Title: Smart
+2025-07-21 15:03:11,600 - main - INFO - 📝 Generated description: LESSERAFIM - Smart dance cover #moves #trending #choreo
+2025-07-21 15:03:11,600 - WebAutomator - INFO - Starting upload process for: Wanna be a winner 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌.mp4
+2025-07-21 15:03:11,600 - WebAutomator - INFO - Search query: LESSERAFIM Smart
+2025-07-21 15:03:11,604 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 15:03:11,607 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 15:03:12,612 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 15:03:37,512 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 15:03:37,512 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 15:03:39,373 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 15:03:39,373 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 15:03:39,796 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 15:03:39,892 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 15:03:39,905 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 15:03:39,905 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 15:03:40,120 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 15:03:40,775 - WebAutomator - INFO - Step 1: Entering search query: LESSERAFIM Smart
+2025-07-21 15:03:40,799 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 15:03:40,900 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 15:03:41,770 - WebAutomator - INFO - Step 1: Current input value: "LESSERAFIM Smart"
+2025-07-21 15:03:41,770 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 15:03:41,770 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 15:03:41,787 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 15:03:41,918 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 15:03:41,918 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 15:03:41,918 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 15:03:42,435 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 15:03:42,676 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 15:03:42,676 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 15:03:42,676 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 15:03:43,681 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 15:03:43,702 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:03:44,708 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 15:03:44,839 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 15:03:44,839 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 15:03:44,978 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 15:03:45,202 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 15:03:45,202 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 15:03:45,203 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 15:03:45,263 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Wanna be a winner 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌.mp4
+2025-07-21 15:03:45,468 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 15:03:45,774 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 15:03:46,058 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 15:03:46,058 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 15:03:46,070 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 15:03:46,071 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 15:03:46,088 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:03:46,206 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 15:03:46,206 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 15:03:46,207 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 15:03:46,243 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 15:03:46,243 - WebAutomator - INFO - Step 7: Description area found, entering text: LESSERAFIM - Smart dance cover #moves #trending #choreo
+2025-07-21 15:03:46,420 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 15:03:46,420 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 15:03:46,437 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 15:03:46,590 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 15:03:46,590 - WebAutomator - INFO - Step 8: Upload completed successfully for Wanna be a winner 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌.mp4
+2025-07-21 15:03:46,592 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Wanna be a winner 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌.mp4
+2025-07-21 15:03:46,592 - WebAutomator - INFO - Recorded upload success in tracker for: Wanna be a winner 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌.mp4
+2025-07-21 15:03:46,593 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 40 → 41
+2025-07-21 15:03:46,593 - main - INFO - ✅ Successfully uploaded Wanna be a winner 💃 #Smart 🧠 #LESSERAFIM #SmartChallenge #kpopinpublic #르세라핌.mp4 for misty35@hanlim.world (total: 41)
+2025-07-21 15:03:48,598 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Put your #HandsUp 🙌 for this dance break 🥳 #MEOVV #미야오 #MEOVV_HANDSUP #kpopinpublic #kpop #shorts.mp4
+2025-07-21 15:03:48,598 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Gimme that beat! 👟 This dance is #Impossible! 😮 #RIIZE #ImpossibleChallenge #kpopinpublic #라이즈.mp4
+2025-07-21 15:03:48,598 - main - INFO - 📤 Processing Ooh, ooh, oooh 😍 Killing part from #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS.mp4
+2025-07-21 15:03:48,598 - main - INFO - 🎵 Smart extracted - Artist: VIVIZ, Title: MANIAC
+2025-07-21 15:03:48,598 - main - INFO - 📝 Generated description: VIVIZ - MANIAC dance cover #choreo #moves #cool
+2025-07-21 15:03:48,598 - WebAutomator - INFO - Starting upload process for: Ooh, ooh, oooh 😍 Killing part from #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS.mp4
+2025-07-21 15:03:48,598 - WebAutomator - INFO - Search query: VIVIZ MANIAC
+2025-07-21 15:03:48,602 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 15:03:48,605 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 15:03:49,610 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 15:04:24,737 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 15:04:24,737 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 15:04:25,413 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 15:04:25,413 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 15:04:25,611 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 15:04:25,638 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 15:04:25,657 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 15:04:25,657 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 15:04:25,768 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 15:04:26,418 - WebAutomator - INFO - Step 1: Entering search query: VIVIZ MANIAC
+2025-07-21 15:04:26,454 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 15:04:26,567 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 15:04:27,416 - WebAutomator - INFO - Step 1: Current input value: "VIVIZ MANIAC"
+2025-07-21 15:04:27,416 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 15:04:27,416 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 15:04:27,435 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 15:04:27,545 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 15:04:27,545 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 15:04:27,545 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 15:04:28,131 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 15:04:28,252 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 15:04:28,252 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 15:04:28,253 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 15:04:29,261 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 15:04:29,277 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:04:30,285 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 15:04:30,421 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 15:04:30,421 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 15:04:30,447 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 15:04:30,554 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 15:04:30,555 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 15:04:30,555 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 15:04:30,561 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/Ooh, ooh, oooh 😍 Killing part from #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS.mp4
+2025-07-21 15:04:30,654 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 15:04:30,958 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 15:04:31,542 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 15:04:31,542 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 15:04:31,672 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 15:04:31,673 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 15:04:31,940 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:04:32,477 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 15:04:32,477 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 15:04:32,477 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 15:04:32,601 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 15:04:32,601 - WebAutomator - INFO - Step 7: Description area found, entering text: VIVIZ - MANIAC dance cover #choreo #moves #cool
+2025-07-21 15:04:32,832 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 15:04:32,832 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 15:04:32,895 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 15:04:33,137 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 15:04:33,138 - WebAutomator - INFO - Step 8: Upload completed successfully for Ooh, ooh, oooh 😍 Killing part from #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS.mp4
+2025-07-21 15:04:33,140 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: Ooh, ooh, oooh 😍 Killing part from #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS.mp4
+2025-07-21 15:04:33,140 - WebAutomator - INFO - Recorded upload success in tracker for: Ooh, ooh, oooh 😍 Killing part from #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS.mp4
+2025-07-21 15:04:33,140 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 41 → 42
+2025-07-21 15:04:33,140 - main - INFO - ✅ Successfully uploaded Ooh, ooh, oooh 😍 Killing part from #MANIAC 💃 #VIVIZ #MANIACChallenge #비비지 #은하 #신비 #엄지 #VERSUS.mp4 for misty35@hanlim.world (total: 42)
+2025-07-21 15:04:35,143 - main - INFO - 📤 Processing #OnlyOne that knows your 💗 The best part 🥰 #VCHA #VLIGHTS #kpopinpublic #DanceCover.mp4
+2025-07-21 15:04:35,143 - main - INFO - 🎵 Smart extracted - Artist: VCHA, Title: OnlyOne
+2025-07-21 15:04:35,143 - main - INFO - 📝 Generated description: VCHA - OnlyOne dance cover #idol #dancing #viral
+2025-07-21 15:04:35,143 - WebAutomator - INFO - Starting upload process for: #OnlyOne that knows your 💗 The best part 🥰 #VCHA #VLIGHTS #kpopinpublic #DanceCover.mp4
+2025-07-21 15:04:35,143 - WebAutomator - INFO - Search query: VCHA OnlyOne
+2025-07-21 15:04:35,146 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 15:04:35,149 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 15:04:36,151 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 15:05:19,856 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 15:05:19,857 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 15:05:22,272 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 15:05:22,272 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 15:05:22,538 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 15:05:22,591 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 15:05:22,611 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 15:05:22,611 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 15:05:22,820 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 15:05:23,465 - WebAutomator - INFO - Step 1: Entering search query: VCHA OnlyOne
+2025-07-21 15:05:23,481 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 15:05:23,584 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 15:05:24,460 - WebAutomator - INFO - Step 1: Current input value: "VCHA OnlyOne"
+2025-07-21 15:05:24,460 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 15:05:24,460 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 15:05:24,491 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 15:05:24,602 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 15:05:24,602 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 15:05:24,602 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 15:05:25,095 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 15:05:25,338 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 15:05:25,338 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 15:05:25,339 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 15:05:26,345 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 15:05:26,416 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:05:27,425 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 15:05:27,546 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 15:05:27,546 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 15:05:27,644 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 15:05:27,974 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 15:05:27,975 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 15:05:27,975 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 15:05:28,040 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/#OnlyOne that knows your 💗 The best part 🥰 #VCHA #VLIGHTS #kpopinpublic #DanceCover.mp4
+2025-07-21 15:05:28,276 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 15:05:28,580 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 15:05:28,870 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 15:05:28,871 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 15:05:28,881 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 15:05:28,881 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 15:05:28,928 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:05:29,086 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 15:05:29,086 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 15:05:29,086 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 15:05:29,130 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 15:05:29,131 - WebAutomator - INFO - Step 7: Description area found, entering text: VCHA - OnlyOne dance cover #idol #dancing #viral
+2025-07-21 15:05:29,223 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 15:05:29,223 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 15:05:29,247 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 15:05:29,360 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 15:05:29,360 - WebAutomator - INFO - Step 8: Upload completed successfully for #OnlyOne that knows your 💗 The best part 🥰 #VCHA #VLIGHTS #kpopinpublic #DanceCover.mp4
+2025-07-21 15:05:29,363 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: #OnlyOne that knows your 💗 The best part 🥰 #VCHA #VLIGHTS #kpopinpublic #DanceCover.mp4
+2025-07-21 15:05:29,363 - WebAutomator - INFO - Recorded upload success in tracker for: #OnlyOne that knows your 💗 The best part 🥰 #VCHA #VLIGHTS #kpopinpublic #DanceCover.mp4
+2025-07-21 15:05:29,363 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 42 → 43
+2025-07-21 15:05:29,363 - main - INFO - ✅ Successfully uploaded #OnlyOne that knows your 💗 The best part 🥰 #VCHA #VLIGHTS #kpopinpublic #DanceCover.mp4 for misty35@hanlim.world (total: 43)
+2025-07-21 15:05:31,367 - main - INFO - ⏭️ Skipping already uploaded file for misty35@hanlim.world: Sheesh #TGIF 😩 #TGIFChallenge #XG #XG_TGIF.mp4
+2025-07-21 15:05:31,367 - main - INFO - 📤 Processing ✋🤚 9024 👇👇 Kick that 🥁 #CrazyForm #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny.mp4
+2025-07-21 15:05:31,367 - main - INFO - 🎵 Smart extracted - Artist: ATEEZ, Title: CrazyForm
+2025-07-21 15:05:31,367 - main - INFO - 📝 Generated description: ATEEZ - CrazyForm dance cover #kpopdance #viral #beat
+2025-07-21 15:05:31,367 - WebAutomator - INFO - Starting upload process for: ✋🤚 9024 👇👇 Kick that 🥁 #CrazyForm #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny.mp4
+2025-07-21 15:05:31,367 - WebAutomator - INFO - Search query: ATEEZ CrazyForm
+2025-07-21 15:05:31,374 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 15:05:31,377 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 15:05:32,379 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 15:06:20,071 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 15:06:20,071 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 15:06:25,377 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 15:06:25,377 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 15:06:30,673 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 15:06:31,463 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 15:06:31,499 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 15:06:31,499 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 15:06:32,487 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 15:06:33,593 - WebAutomator - INFO - Step 1: Entering search query: ATEEZ CrazyForm
+2025-07-21 15:06:33,652 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 15:06:33,790 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 15:06:34,998 - WebAutomator - INFO - Step 1: Current input value: "ATEEZ CrazyForm"
+2025-07-21 15:06:34,999 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 15:06:34,999 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 15:06:35,043 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 15:06:35,171 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 15:06:35,171 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 15:06:35,171 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 15:06:35,838 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 15:06:36,207 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 15:06:36,207 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 15:06:36,207 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 15:06:37,215 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 15:06:37,327 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:06:38,332 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 15:06:38,862 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 15:06:38,862 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 15:06:39,009 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 15:06:39,573 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 15:06:39,573 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 15:06:39,573 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 15:06:40,105 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/✋🤚 9024 👇👇 Kick that 🥁 #CrazyForm #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny.mp4
+2025-07-21 15:06:40,359 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 15:06:40,664 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 15:06:41,156 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 15:06:41,156 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 15:06:41,173 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 15:06:41,173 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 15:06:41,199 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:06:41,521 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 15:06:41,522 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 15:06:41,522 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 15:06:41,644 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 15:06:41,644 - WebAutomator - INFO - Step 7: Description area found, entering text: ATEEZ - CrazyForm dance cover #kpopdance #viral #beat
+2025-07-21 15:06:42,290 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 15:06:42,291 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 15:06:42,705 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 15:06:43,213 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 15:06:43,213 - WebAutomator - INFO - Step 8: Upload completed successfully for ✋🤚 9024 👇👇 Kick that 🥁 #CrazyForm #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny.mp4
+2025-07-21 15:06:43,217 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: ✋🤚 9024 👇👇 Kick that 🥁 #CrazyForm #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny.mp4
+2025-07-21 15:06:43,217 - WebAutomator - INFO - Recorded upload success in tracker for: ✋🤚 9024 👇👇 Kick that 🥁 #CrazyForm #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny.mp4
+2025-07-21 15:06:43,217 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 43 → 44
+2025-07-21 15:06:43,217 - main - INFO - ✅ Successfully uploaded ✋🤚 9024 👇👇 Kick that 🥁 #CrazyForm #CrazyFormChallenge #ATEEZ #KpopInPublic #Atiny.mp4 for misty35@hanlim.world (total: 44)
+2025-07-21 15:06:45,222 - main - INFO - 📤 Processing We're #KillinIt! 🤟😤🤟 Da da da da da! #P1Harmony #때깔 #kpopinpublic #P1H.mp4
+2025-07-21 15:06:45,223 - main - INFO - 🎵 Smart extracted - Artist: P1Harmony, Title: KillinIt
+2025-07-21 15:06:45,223 - main - INFO - 📝 Generated description: P1Harmony - KillinIt dance cover #performance #dance #idol
+2025-07-21 15:06:45,223 - WebAutomator - INFO - Starting upload process for: We're #KillinIt! 🤟😤🤟 Da da da da da! #P1Harmony #때깔 #kpopinpublic #P1H.mp4
+2025-07-21 15:06:45,223 - WebAutomator - INFO - Search query: P1Harmony KillinIt
+2025-07-21 15:06:45,226 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 15:06:45,228 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 15:06:46,232 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 15:08:02,749 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 15:08:02,750 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 15:08:18,622 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 15:08:18,622 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 15:08:23,647 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 15:08:24,933 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 15:08:24,994 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 15:08:24,995 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 15:08:26,192 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 15:08:27,316 - WebAutomator - INFO - Step 1: Entering search query: P1Harmony KillinIt
+2025-07-21 15:08:27,342 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 15:08:27,455 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 15:08:28,912 - WebAutomator - INFO - Step 1: Current input value: "P1Harmony KillinIt"
+2025-07-21 15:08:28,912 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 15:08:28,912 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 15:08:29,048 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 15:08:29,746 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 15:08:29,746 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 15:08:29,746 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 15:08:30,509 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 15:08:31,112 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 15:08:31,112 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 15:08:31,112 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 15:08:32,140 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 15:08:32,279 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:08:33,291 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 15:08:33,846 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 15:08:33,846 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 15:08:33,984 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 15:08:34,878 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 15:08:34,879 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 15:08:34,879 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 15:08:34,994 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/We're #KillinIt! 🤟😤🤟 Da da da da da! #P1Harmony #때깔 #kpopinpublic #P1H.mp4
+2025-07-21 15:08:35,245 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 15:08:35,551 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 15:08:36,389 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 15:08:36,391 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 15:08:36,526 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 15:08:36,526 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 15:08:36,812 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:08:37,694 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 15:08:37,695 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 15:08:37,695 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 15:08:38,040 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 15:08:38,040 - WebAutomator - INFO - Step 7: Description area found, entering text: P1Harmony - KillinIt dance cover #performance #dance #idol
+2025-07-21 15:08:38,665 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 15:08:38,665 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 15:08:39,084 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 15:08:39,612 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 15:08:39,612 - WebAutomator - INFO - Step 8: Upload completed successfully for We're #KillinIt! 🤟😤🤟 Da da da da da! #P1Harmony #때깔 #kpopinpublic #P1H.mp4
+2025-07-21 15:08:39,616 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: We're #KillinIt! 🤟😤🤟 Da da da da da! #P1Harmony #때깔 #kpopinpublic #P1H.mp4
+2025-07-21 15:08:39,617 - WebAutomator - INFO - Recorded upload success in tracker for: We're #KillinIt! 🤟😤🤟 Da da da da da! #P1Harmony #때깔 #kpopinpublic #P1H.mp4
+2025-07-21 15:08:39,617 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 44 → 45
+2025-07-21 15:08:39,617 - main - INFO - ✅ Successfully uploaded We're #KillinIt! 🤟😤🤟 Da da da da da! #P1Harmony #때깔 #kpopinpublic #P1H.mp4 for misty35@hanlim.world (total: 45)
+2025-07-21 15:08:41,623 - main - INFO - 📤 Processing We hit this dance break! 🔥 Watch our #BADTITUDE #dancecover now! ⬆️ #BADVILLAIN #야호 #shorts.mp4
+2025-07-21 15:08:41,624 - main - INFO - 🎵 Smart extracted - Artist: BADVILLAIN, Title: BADTITUDE
+2025-07-21 15:08:41,624 - main - INFO - 📝 Generated description: BADVILLAIN - BADTITUDE dance cover #rhythm #dancing #style
+2025-07-21 15:08:41,624 - WebAutomator - INFO - Starting upload process for: We hit this dance break! 🔥 Watch our #BADTITUDE #dancecover now! ⬆️ #BADVILLAIN #야호 #shorts.mp4
+2025-07-21 15:08:41,624 - WebAutomator - INFO - Search query: BADVILLAIN BADTITUDE
+2025-07-21 15:08:41,628 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 15:08:41,630 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 15:08:42,633 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 15:10:00,341 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 15:10:00,342 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 15:10:05,211 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 15:10:05,211 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 15:10:09,467 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 15:10:09,761 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 15:10:09,777 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 15:10:09,777 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 15:10:10,216 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 15:10:10,884 - WebAutomator - INFO - Step 1: Entering search query: BADVILLAIN BADTITUDE
+2025-07-21 15:10:10,942 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 15:10:11,187 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 15:10:12,164 - WebAutomator - INFO - Step 1: Current input value: "BADVILLAIN BADTITUDE"
+2025-07-21 15:10:12,164 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 15:10:12,165 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 15:10:12,445 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 15:10:13,524 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 15:10:13,524 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 15:10:13,524 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 15:10:14,089 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 15:10:14,600 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 15:10:14,600 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 15:10:14,601 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 15:10:15,611 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 15:10:15,821 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:10:16,829 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 15:10:17,264 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 15:10:17,264 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 15:10:17,295 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 15:10:18,341 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 15:10:18,341 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 15:10:18,342 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 15:10:18,359 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/Imperium K-Pop Dance Team/We hit this dance break! 🔥 Watch our #BADTITUDE #dancecover now! ⬆️ #BADVILLAIN #야호 #shorts.mp4
+2025-07-21 15:10:18,480 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 15:10:18,785 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 15:10:19,086 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 15:10:19,086 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 15:10:19,207 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 15:10:19,207 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 15:10:19,490 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 15:10:20,422 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 15:10:20,422 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 15:10:20,423 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 15:10:20,574 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 15:10:20,574 - WebAutomator - INFO - Step 7: Description area found, entering text: BADVILLAIN - BADTITUDE dance cover #rhythm #dancing #style
+2025-07-21 15:10:21,275 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 15:10:21,276 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 15:10:21,683 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 15:10:22,372 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 15:10:22,373 - WebAutomator - INFO - Step 8: Upload completed successfully for We hit this dance break! 🔥 Watch our #BADTITUDE #dancecover now! ⬆️ #BADVILLAIN #야호 #shorts.mp4
+2025-07-21 15:10:22,375 - MultiAccountUploadTracker - INFO - Marked as uploaded for misty35@hanlim.world: We hit this dance break! 🔥 Watch our #BADTITUDE #dancecover now! ⬆️ #BADVILLAIN #야호 #shorts.mp4
+2025-07-21 15:10:22,375 - WebAutomator - INFO - Recorded upload success in tracker for: We hit this dance break! 🔥 Watch our #BADTITUDE #dancecover now! ⬆️ #BADVILLAIN #야호 #shorts.mp4
+2025-07-21 15:10:22,376 - AccountManager - INFO - ✅ Incremented upload count for misty35@hanlim.world: 45 → 46
+2025-07-21 15:10:22,376 - main - INFO - ✅ Successfully uploaded We hit this dance break! 🔥 Watch our #BADTITUDE #dancecover now! ⬆️ #BADVILLAIN #야호 #shorts.mp4 for misty35@hanlim.world (total: 46)
+2025-07-21 15:10:24,380 - main - INFO - 📤 Processing Act like an angel 👼 and dress like #CRAZY 🤪 Cover out now!  #LESSERAFIM #kpopinpublic #르세라핌 #shorts.mp4
+2025-07-21 15:10:24,381 - main - INFO - 🎵 Smart extracted - Artist: LESSERAFIM, Title: CRAZY
+2025-07-21 15:10:24,381 - main - INFO - 📝 Generated description: LESSERAFIM - CRAZY dance cover #choreography #shorts #dancing
+2025-07-21 15:10:24,381 - WebAutomator - INFO - Starting upload process for: Act like an angel 👼 and dress like #CRAZY 🤪 Cover out now!  #LESSERAFIM #kpopinpublic #르세라핌 #shorts.mp4
+2025-07-21 15:10:24,382 - WebAutomator - INFO - Search query: LESSERAFIM CRAZY
+2025-07-21 15:10:24,385 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 15:10:24,388 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 15:10:25,393 - WebAutomator - INFO - Finding upload button (fast mode)
