@@ -81,44 +81,58 @@ class WebAutomator:
         self.logger.info(f'Starting login process for: {email}')
         self.driver.get('https://app.hanlim.world/signin')
         
-        # WebGL 완전 차단 스크립트 주입
+        # ThreeJS WebGL 오류 방지 스크립트 주입 (페이지는 유지)
         try:
-            webgl_block_script = """
-            // WebGL 완전 차단
+            threejs_fix_script = """
+            // ThreeJS WebGL 오류 방지 (페이지 렌더링은 유지)
             (function() {
-                // HTMLCanvasElement.prototype.getContext 오버라이드
+                // WebGL 컨텍스트 생성 시 null 반환하되 오류 방지
                 const originalGetContext = HTMLCanvasElement.prototype.getContext;
                 HTMLCanvasElement.prototype.getContext = function(contextType, contextAttributes) {
-                    // WebGL 관련 컨텍스트 요청 시 null 반환
                     if (contextType === 'webgl' || contextType === 'experimental-webgl' || 
                         contextType === 'webgl2' || contextType === 'experimental-webgl2') {
-                        console.log('WebGL blocked - returning null');
+                        console.log('WebGL context blocked for ThreeJS compatibility');
                         return null;
                     }
                     return originalGetContext.call(this, contextType, contextAttributes);
                 };
                 
-                // WebGLRenderingContext 생성자 차단
-                if (window.WebGLRenderingContext) {
-                    window.WebGLRenderingContext = undefined;
-                }
-                if (window.WebGL2RenderingContext) {
-                    window.WebGL2RenderingContext = undefined;
-                }
+                // ThreeJS WebGLRenderer 오류 방지
+                window.addEventListener('error', function(e) {
+                    if (e.message && e.message.includes('WebGL')) {
+                        console.log('WebGL error caught and suppressed:', e.message);
+                        e.preventDefault();
+                        return false;
+                    }
+                });
                 
-                // WebGL 관련 함수들 차단
-                if (window.WebGLRenderer) {
-                    window.WebGLRenderer = function() {
-                        throw new Error('WebGL is disabled');
-                    };
-                }
+                // ThreeJS 로드 후 WebGLRenderer 오류 방지
+                let checkThreeJS = setInterval(() => {
+                    if (window.THREE && window.THREE.WebGLRenderer) {
+                        const OriginalWebGLRenderer = window.THREE.WebGLRenderer;
+                        window.THREE.WebGLRenderer = function(parameters) {
+                            console.log('ThreeJS WebGLRenderer blocked - using fallback');
+                            // 빈 객체 반환으로 ThreeJS가 계속 동작하도록 함
+                            return {
+                                domElement: document.createElement('div'),
+                                setSize: function() {},
+                                render: function() {},
+                                dispose: function() {}
+                            };
+                        };
+                        clearInterval(checkThreeJS);
+                    }
+                }, 100);
                 
-                console.log('WebGL completely blocked');
+                // 5초 후 체크 중단
+                setTimeout(() => clearInterval(checkThreeJS), 5000);
+                
+                console.log('ThreeJS WebGL fallback initialized');
             })();
             """
-            self.driver.execute_script(webgl_block_script)
+            self.driver.execute_script(threejs_fix_script)
         except Exception as e:
-            self.logger.info(f'WebGL block script injection failed: {e} (continuing...)')
+            self.logger.info(f'ThreeJS fix script injection failed: {e} (continuing...)')
         
         # 먼저 모달 닫기
         try:
@@ -560,9 +574,9 @@ class WebAutomator:
             self.logger.info(f'Starting upload process for: {file_path.name}')
             self.logger.info(f'Search query: {search_query}')
             
-            # WebGL 완전 차단 스크립트 재주입
+            # ThreeJS 호환 WebGL 오류 방지 재주입
             try:
-                webgl_block_script = """
+                threejs_compat_script = """
                 (function() {
                     const originalGetContext = HTMLCanvasElement.prototype.getContext;
                     HTMLCanvasElement.prototype.getContext = function(contextType, contextAttributes) {
@@ -572,11 +586,29 @@ class WebAutomator:
                         }
                         return originalGetContext.call(this, contextType, contextAttributes);
                     };
-                    if (window.WebGLRenderingContext) window.WebGLRenderingContext = undefined;
-                    if (window.WebGL2RenderingContext) window.WebGL2RenderingContext = undefined;
+                    
+                    // 전역 오류 처리기
+                    window.addEventListener('error', function(e) {
+                        if (e.message && e.message.includes('WebGL')) {
+                            e.preventDefault();
+                            return false;
+                        }
+                    });
+                    
+                    // ThreeJS WebGLRenderer 폴백
+                    if (window.THREE && window.THREE.WebGLRenderer) {
+                        window.THREE.WebGLRenderer = function() {
+                            return {
+                                domElement: document.createElement('div'),
+                                setSize: function() {},
+                                render: function() {},
+                                dispose: function() {}
+                            };
+                        };
+                    }
                 })();
                 """
-                self.driver.execute_script(webgl_block_script)
+                self.driver.execute_script(threejs_compat_script)
             except Exception:
                 pass  # 실패해도 계속 진행
             
