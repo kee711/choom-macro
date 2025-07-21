@@ -48,10 +48,12 @@ class WebAutomator:
         options.add_argument('--password-store=basic')
         options.add_argument('--use-mock-keychain')
         
-        # WebGL 오류 방지를 위한 안전한 설정
-        options.add_argument('--disable-gpu-sandbox')  # GPU 샌드박스만 비활성화
-        options.add_argument('--use-gl=swiftshader')  # 소프트웨어 렌더링 사용
-        options.add_argument('--ignore-gpu-blacklist')  # GPU 블랙리스트 무시
+        # WebGL 오류 방지를 위한 핵심 설정 (원격 서버 환경 대응)
+        options.add_argument('--disable-web-security')  # 웹 보안 제한 해제 (WebGL 컨텍스트 생성 허용)
+        options.add_argument('--disable-features=VizDisplayCompositor')  # 하드웨어 가속 컴포지터 비활성화
+        options.add_argument('--use-gl=osmesa')  # 오프스크린 메사 렌더링 (서버 환경에 최적화)
+        options.add_argument('--enable-webgl-software-rendering')  # 소프트웨어 WebGL 강제 활성화
+        options.add_argument('--ignore-gpu-blacklist')  # GPU 제한 무시
         
         # 메모리 최적화
         options.add_argument('--memory-pressure-off')
@@ -76,6 +78,36 @@ class WebAutomator:
         """특정 계정으로 로그인"""
         self.logger.info(f'Starting login process for: {email}')
         self.driver.get('https://app.hanlim.world/signin')
+        
+        # WebGL 오류 방지를 위한 핵심 스크립트 주입
+        try:
+            webgl_fix_script = """
+            // WebGL 컨텍스트 생성 오류 방지
+            (function() {
+                const originalGetContext = HTMLCanvasElement.prototype.getContext;
+                HTMLCanvasElement.prototype.getContext = function(contextType, contextAttributes) {
+                    if (contextType === 'webgl' || contextType === 'experimental-webgl') {
+                        try {
+                            return originalGetContext.call(this, contextType, {
+                                ...contextAttributes,
+                                failIfMajorPerformanceCaveat: false,
+                                antialias: false,
+                                alpha: false,
+                                depth: false,
+                                stencil: false
+                            });
+                        } catch (e) {
+                            console.log('WebGL fallback: returning null context');
+                            return null;
+                        }
+                    }
+                    return originalGetContext.call(this, contextType, contextAttributes);
+                };
+            })();
+            """
+            self.driver.execute_script(webgl_fix_script)
+        except Exception as e:
+            self.logger.info(f'WebGL fix script injection failed: {e} (continuing...)')
         
         # 먼저 모달 닫기
         try:
@@ -517,6 +549,33 @@ class WebAutomator:
             self.logger.info(f'Starting upload process for: {file_path.name}')
             self.logger.info(f'Search query: {search_query}')
             
+            # 업로드 전 WebGL 오류 방지 스크립트 재주입
+            try:
+                webgl_fix_script = """
+                (function() {
+                    const originalGetContext = HTMLCanvasElement.prototype.getContext;
+                    HTMLCanvasElement.prototype.getContext = function(contextType, contextAttributes) {
+                        if (contextType === 'webgl' || contextType === 'experimental-webgl') {
+                            try {
+                                return originalGetContext.call(this, contextType, {
+                                    ...contextAttributes,
+                                    failIfMajorPerformanceCaveat: false,
+                                    antialias: false,
+                                    alpha: false,
+                                    depth: false,
+                                    stencil: false
+                                });
+                            } catch (e) {
+                                return null;
+                            }
+                        }
+                        return originalGetContext.call(this, contextType, contextAttributes);
+                    };
+                })();
+                """
+                self.driver.execute_script(webgl_fix_script)
+            except Exception:
+                pass  # 실패해도 계속 진행
             
             # 업로드 시작 전에 알림창 처리
             self._handle_alert_if_present()
