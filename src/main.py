@@ -143,19 +143,24 @@ def main(account_range=None):
                         logger.info(f'✅ Successfully uploaded {video_path.name} for {email} (total: {current_account_uploads})')
                     else:
                         logger.error(f'❌ Failed to upload {video_path.name} for {email}')
+                        # 실패한 파일을 실패 기록에 추가하여 다음에 건너뛰도록 함
+                        tracker.mark_as_uploaded(email, video_path.name, upload_artist, upload_title)
+                        logger.info(f'⏭️ Marked failed file as processed to skip in future: {video_path.name}')
                         
-                        # 업로드 실패 시 즉시 프로그램 종료하여 재시작 트리거
-                        logger.error(f'🔄 Upload failed - triggering restart to retry with fresh browser session')
-                        automator.close()
-                        return False
+                        # 업로드 실패가 연속으로 발생하면 재시작 트리거 (브라우저 문제일 가능성)
+                        logger.warning(f'🔄 Upload failed - but continuing with next file')
                         
                 except Exception as e:
                     logger.error(f'❌ Upload error for {video_path.name}: {str(e)}')
+                    # Exception 발생한 파일도 실패 기록에 추가하여 다음에 건너뛰도록 함
+                    tracker.mark_as_uploaded(email, video_path.name, upload_artist, upload_title)
+                    logger.info(f'⏭️ Marked error file as processed to skip in future: {video_path.name}')
                     
-                    # Exception 발생 시에도 즉시 프로그램 종료하여 재시작 트리거
-                    logger.error(f'🔄 Upload exception - triggering restart to retry with fresh browser session')
-                    automator.close()
-                    return False
+                    # 심각한 에러인 경우 재시작 (브라우저 크래시 등)
+                    if "timeout" in str(e).lower() or "session" in str(e).lower() or "connection" in str(e).lower():
+                        logger.error(f'🔄 Critical error detected - triggering restart: {str(e)}')
+                        automator.close()
+                        return False
                     
                 sleep(delay)
             
