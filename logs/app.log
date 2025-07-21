@@ -415,3 +415,1073 @@ Stacktrace:
 2025-07-20 23:07:10,002 - main - INFO - 🔚 Closing browser
 2025-07-20 23:07:10,002 - WebAutomator - INFO - Closing browser and cleaning up resources
 2025-07-20 23:07:10,119 - WebAutomator - INFO - Browser closed successfully
+2025-07-21 09:12:13,165 - SmartFileManager - INFO - Loaded smart extraction results for 10 folders
+2025-07-21 09:12:19,280 - AccountManager - INFO - Loaded 30 account mappings
+2025-07-21 09:12:19,281 - MultiAccountUploadTracker - INFO - Loaded upload tracker with 291 files across 50 accounts
+2025-07-21 09:12:19,281 - AccountManager - INFO - Parsed account range: 21 to 30
+2025-07-21 09:12:19,281 - AccountManager - INFO - Filtering accounts by range 21-30: 10 accounts found
+2025-07-21 09:12:19,286 - AccountManager - INFO - Skipping choco82@hanlim.world: All files uploaded (46/43 high confidence files)
+2025-07-21 09:12:19,286 - AccountManager - INFO - Skipping sunset74@hanlim.world: Reached maximum uploads (81/50)
+2025-07-21 09:12:19,286 - AccountManager - INFO - Skipping fluffy28@hanlim.world: Reached maximum uploads (51/50)
+2025-07-21 09:12:19,286 - AccountManager - INFO - Skipping mango88@hanlim.world: All files uploaded (24/20 high confidence files)
+2025-07-21 09:12:19,286 - AccountManager - INFO - Including blossom23@hanlim.world: 0/16 files uploaded, 16 remaining
+2025-07-21 09:12:19,287 - AccountManager - INFO - Including honey39@hanlim.world: 0/39 files uploaded, 39 remaining
+2025-07-21 09:12:19,287 - AccountManager - WARNING - Folder '당고 Danggo' not found in extraction results
+2025-07-21 09:12:19,287 - AccountManager - INFO - Skipping velvet42@hanlim.world: All files uploaded (0/0 high confidence files)
+2025-07-21 09:12:19,287 - AccountManager - INFO - Including ghost17@hanlim.world: 0/50 files uploaded, 50 remaining
+2025-07-21 09:12:19,287 - AccountManager - INFO - Including misty35@hanlim.world: 0/25 files uploaded, 25 remaining
+2025-07-21 09:12:19,287 - AccountManager - INFO - Including witty09@hanlim.world: 0/50 files uploaded, 50 remaining
+2025-07-21 09:12:19,287 - AccountManager - INFO - Found 5 accounts ready for upload (max 50 per account)
+2025-07-21 09:12:19,288 - main - INFO - 🚀 Starting multi-account upload process for 5 accounts
+2025-07-21 09:12:19,288 - main - INFO - 📊 Upload completion check based on high confidence files in smart_extraction_results.json
+2025-07-21 09:12:19,288 - main - INFO - 🎯 Only processing files with confidence='high' from smart_extraction_results.json
+2025-07-21 09:12:19,288 - main - INFO - 🔢 Maximum uploads per account: 50
+2025-07-21 09:12:19,288 - main - INFO - 
+============================================================
+2025-07-21 09:12:19,288 - main - INFO - 🔄 Processing account: blossom23@hanlim.world
+2025-07-21 09:12:19,288 - main - INFO - 📁 Assigned folder: 3TO1 DANCE COMMUNITY
+2025-07-21 09:12:19,288 - main - INFO - ============================================================
+2025-07-21 09:12:19,288 - WebAutomator - INFO - Starting login process for: blossom23@hanlim.world
+2025-07-21 09:12:22,375 - WebAutomator - INFO - Checking for modal to close
+2025-07-21 09:12:27,351 - WebAutomator - INFO - Modal closed
+2025-07-21 09:12:27,352 - WebAutomator - INFO - Finding email input field
+2025-07-21 09:12:27,868 - WebAutomator - INFO - Email input found, entering email: blossom23@hanlim.world
+2025-07-21 09:12:29,604 - WebAutomator - INFO - Finding password input field
+2025-07-21 09:12:30,273 - WebAutomator - INFO - Password input found, entering password
+2025-07-21 09:12:31,260 - WebAutomator - INFO - Finding signin button
+2025-07-21 09:12:31,319 - WebAutomator - INFO - Signin button found, clicking to login
+2025-07-21 09:12:31,883 - WebAutomator - INFO - Waiting for login to complete
+2025-07-21 09:12:35,842 - WebAutomator - INFO - Login successful for: blossom23@hanlim.world
+2025-07-21 09:12:35,843 - SmartFileManager - ERROR - Folder path does not exist: /Users/minsung/Documents/choom-macro/choom/3TO1 DANCE COMMUNITY
+2025-07-21 09:12:35,843 - main - INFO - 📄 Found 0 high confidence videos in folder '3TO1 DANCE COMMUNITY'
+2025-07-21 09:12:35,843 - main - WARNING - ⚠️ No videos found for blossom23@hanlim.world in folder '3TO1 DANCE COMMUNITY'
+2025-07-21 09:12:35,843 - WebAutomator - INFO - 🚪 Starting logout process
+2025-07-21 09:12:35,843 - WebAutomator - INFO - 🔍 Looking for profile/menu button
+2025-07-21 09:12:47,729 - WebAutomator - INFO - 👤 Profile menu opened
+2025-07-21 09:12:51,994 - WebAutomator - INFO - 👤 Profile menu opened
+2025-07-21 09:12:53,028 - WebAutomator - ERROR - ❌ Logout failed: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x000000010470b55c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000104703454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x00000001042523f8 cxxbridge1$string$len + 90664
+3   chromedriver                        0x00000001042580b0 cxxbridge1$string$len + 114400
+4   chromedriver                        0x000000010425a3f4 cxxbridge1$string$len + 123428
+5   chromedriver                        0x000000010425a49c cxxbridge1$string$len + 123596
+6   chromedriver                        0x000000010429b098 cxxbridge1$string$len + 388808
+7   chromedriver                        0x000000010428f4a4 cxxbridge1$string$len + 340692
+8   chromedriver                        0x000000010428efbc cxxbridge1$string$len + 339436
+9   chromedriver                        0x00000001042dab1c cxxbridge1$string$len + 649548
+10  chromedriver                        0x000000010428da0c cxxbridge1$string$len + 333884
+11  chromedriver                        0x00000001046ce5e0 cxxbridge1$str$ptr + 2481340
+12  chromedriver                        0x00000001046d1848 cxxbridge1$str$ptr + 2494244
+13  chromedriver                        0x00000001046af234 cxxbridge1$str$ptr + 2353424
+14  chromedriver                        0x00000001046d2104 cxxbridge1$str$ptr + 2496480
+15  chromedriver                        0x00000001046a02e4 cxxbridge1$str$ptr + 2292160
+16  chromedriver                        0x00000001046f1ff8 cxxbridge1$str$ptr + 2627284
+17  chromedriver                        0x00000001046f2184 cxxbridge1$str$ptr + 2627680
+18  chromedriver                        0x0000000104703090 cxxbridge1$str$ptr + 2697068
+19  libsystem_pthread.dylib             0x0000000199f7ac0c _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000199f75b80 thread_start + 8
+
+2025-07-21 09:12:53,028 - WebAutomator - INFO - 🔄 Force logout by navigating to signin page
+2025-07-21 09:12:56,575 - WebAutomator - INFO - 🏁 Logout process completed
+2025-07-21 09:12:56,575 - main - INFO - 
+============================================================
+2025-07-21 09:12:56,575 - main - INFO - 🔄 Processing account: honey39@hanlim.world
+2025-07-21 09:12:56,575 - main - INFO - 📁 Assigned folder: Ploopy678
+2025-07-21 09:12:56,575 - main - INFO - ============================================================
+2025-07-21 09:12:56,576 - WebAutomator - INFO - Starting login process for: honey39@hanlim.world
+2025-07-21 09:12:57,450 - WebAutomator - INFO - Checking for modal to close
+2025-07-21 09:13:05,535 - WebAutomator - INFO - No modal found or already closed
+2025-07-21 09:13:05,536 - WebAutomator - INFO - Finding email input field
+2025-07-21 09:13:22,210 - main - ERROR - ❌ Login failed for honey39@hanlim.world: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010470b55c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000104703454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x00000001042523f8 cxxbridge1$string$len + 90664
+3   chromedriver                        0x000000010429971c cxxbridge1$string$len + 382284
+4   chromedriver                        0x00000001042dab1c cxxbridge1$string$len + 649548
+5   chromedriver                        0x000000010428da0c cxxbridge1$string$len + 333884
+6   chromedriver                        0x00000001046ce5e0 cxxbridge1$str$ptr + 2481340
+7   chromedriver                        0x00000001046d1848 cxxbridge1$str$ptr + 2494244
+8   chromedriver                        0x00000001046af234 cxxbridge1$str$ptr + 2353424
+9   chromedriver                        0x00000001046d2104 cxxbridge1$str$ptr + 2496480
+10  chromedriver                        0x00000001046a02e4 cxxbridge1$str$ptr + 2292160
+11  chromedriver                        0x00000001046f1ff8 cxxbridge1$str$ptr + 2627284
+12  chromedriver                        0x00000001046f2184 cxxbridge1$str$ptr + 2627680
+13  chromedriver                        0x0000000104703090 cxxbridge1$str$ptr + 2697068
+14  libsystem_pthread.dylib             0x0000000199f7ac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000199f75b80 thread_start + 8
+
+2025-07-21 09:13:22,210 - main - ERROR - 🔄 Login failed - triggering restart to retry with fresh browser session
+2025-07-21 09:13:22,211 - WebAutomator - INFO - Closing browser and cleaning up resources
+2025-07-21 09:13:22,360 - WebAutomator - INFO - Browser closed successfully
+2025-07-21 09:13:22,360 - main - INFO - 🔚 Closing browser
+2025-07-21 09:13:22,360 - WebAutomator - INFO - Closing browser and cleaning up resources
+2025-07-21 09:13:22,363 - WebAutomator - INFO - Browser closed successfully
+2025-07-21 09:13:27,625 - SmartFileManager - INFO - Loaded smart extraction results for 10 folders
+2025-07-21 09:13:32,360 - AccountManager - INFO - Loaded 30 account mappings
+2025-07-21 09:13:32,362 - MultiAccountUploadTracker - INFO - Loaded upload tracker with 291 files across 50 accounts
+2025-07-21 09:13:32,362 - AccountManager - INFO - Parsed account range: 21 to 30
+2025-07-21 09:13:32,362 - AccountManager - INFO - Filtering accounts by range 21-30: 10 accounts found
+2025-07-21 09:13:32,366 - AccountManager - INFO - Skipping choco82@hanlim.world: All files uploaded (46/43 high confidence files)
+2025-07-21 09:13:32,366 - AccountManager - INFO - Skipping sunset74@hanlim.world: Reached maximum uploads (81/50)
+2025-07-21 09:13:32,366 - AccountManager - INFO - Skipping fluffy28@hanlim.world: Reached maximum uploads (51/50)
+2025-07-21 09:13:32,366 - AccountManager - INFO - Skipping mango88@hanlim.world: All files uploaded (24/20 high confidence files)
+2025-07-21 09:13:32,366 - AccountManager - INFO - Including blossom23@hanlim.world: 0/16 files uploaded, 16 remaining
+2025-07-21 09:13:32,366 - AccountManager - INFO - Including honey39@hanlim.world: 0/39 files uploaded, 39 remaining
+2025-07-21 09:13:32,366 - AccountManager - WARNING - Folder '당고 Danggo' not found in extraction results
+2025-07-21 09:13:32,366 - AccountManager - INFO - Skipping velvet42@hanlim.world: All files uploaded (0/0 high confidence files)
+2025-07-21 09:13:32,366 - AccountManager - INFO - Including ghost17@hanlim.world: 0/50 files uploaded, 50 remaining
+2025-07-21 09:13:32,366 - AccountManager - INFO - Including misty35@hanlim.world: 0/25 files uploaded, 25 remaining
+2025-07-21 09:13:32,366 - AccountManager - INFO - Including witty09@hanlim.world: 0/50 files uploaded, 50 remaining
+2025-07-21 09:13:32,367 - AccountManager - INFO - Found 5 accounts ready for upload (max 50 per account)
+2025-07-21 09:13:32,367 - main - INFO - 🚀 Starting multi-account upload process for 5 accounts
+2025-07-21 09:13:32,367 - main - INFO - 📊 Upload completion check based on high confidence files in smart_extraction_results.json
+2025-07-21 09:13:32,367 - main - INFO - 🎯 Only processing files with confidence='high' from smart_extraction_results.json
+2025-07-21 09:13:32,367 - main - INFO - 🔢 Maximum uploads per account: 50
+2025-07-21 09:13:32,367 - main - INFO - 
+============================================================
+2025-07-21 09:13:32,367 - main - INFO - 🔄 Processing account: blossom23@hanlim.world
+2025-07-21 09:13:32,367 - main - INFO - 📁 Assigned folder: 3TO1 DANCE COMMUNITY
+2025-07-21 09:13:32,367 - main - INFO - ============================================================
+2025-07-21 09:13:32,367 - WebAutomator - INFO - Starting login process for: blossom23@hanlim.world
+2025-07-21 09:13:34,821 - main - INFO - 🔚 Closing browser
+2025-07-21 09:13:34,821 - WebAutomator - INFO - Closing browser and cleaning up resources
+2025-07-21 09:13:34,824 - WebAutomator - INFO - Browser closed successfully
+2025-07-21 09:20:49,926 - SmartFileManager - INFO - Loaded smart extraction results for 10 folders
+2025-07-21 09:20:54,660 - AccountManager - INFO - Loaded 30 account mappings
+2025-07-21 09:20:54,661 - MultiAccountUploadTracker - INFO - Loaded upload tracker with 291 files across 50 accounts
+2025-07-21 09:20:54,661 - AccountManager - INFO - Parsed account range: 21 to 30
+2025-07-21 09:20:54,661 - AccountManager - INFO - Filtering accounts by range 21-30: 10 accounts found
+2025-07-21 09:20:54,665 - AccountManager - INFO - Skipping choco82@hanlim.world: All files uploaded (46/43 high confidence files)
+2025-07-21 09:20:54,665 - AccountManager - INFO - Skipping sunset74@hanlim.world: Reached maximum uploads (81/50)
+2025-07-21 09:20:54,665 - AccountManager - INFO - Skipping fluffy28@hanlim.world: Reached maximum uploads (51/50)
+2025-07-21 09:20:54,665 - AccountManager - INFO - Skipping mango88@hanlim.world: All files uploaded (24/20 high confidence files)
+2025-07-21 09:20:54,665 - AccountManager - INFO - Including blossom23@hanlim.world: 0/16 files uploaded, 16 remaining
+2025-07-21 09:20:54,665 - AccountManager - INFO - Including honey39@hanlim.world: 0/39 files uploaded, 39 remaining
+2025-07-21 09:20:54,665 - AccountManager - WARNING - Folder '당고 Danggo' not found in extraction results
+2025-07-21 09:20:54,665 - AccountManager - INFO - Skipping velvet42@hanlim.world: All files uploaded (0/0 high confidence files)
+2025-07-21 09:20:54,665 - AccountManager - INFO - Including ghost17@hanlim.world: 0/50 files uploaded, 50 remaining
+2025-07-21 09:20:54,666 - AccountManager - INFO - Including misty35@hanlim.world: 0/25 files uploaded, 25 remaining
+2025-07-21 09:20:54,666 - AccountManager - INFO - Including witty09@hanlim.world: 0/50 files uploaded, 50 remaining
+2025-07-21 09:20:54,666 - AccountManager - INFO - Found 5 accounts ready for upload (max 50 per account)
+2025-07-21 09:20:54,666 - main - INFO - 🚀 Starting multi-account upload process for 5 accounts
+2025-07-21 09:20:54,666 - main - INFO - 📊 Upload completion check based on high confidence files in smart_extraction_results.json
+2025-07-21 09:20:54,666 - main - INFO - 🎯 Only processing files with confidence='high' from smart_extraction_results.json
+2025-07-21 09:20:54,666 - main - INFO - 🔢 Maximum uploads per account: 50
+2025-07-21 09:20:54,666 - main - INFO - 
+============================================================
+2025-07-21 09:20:54,666 - main - INFO - 🔄 Processing account: blossom23@hanlim.world
+2025-07-21 09:20:54,666 - main - INFO - 📁 Assigned folder: 3TO1 DANCE COMMUNITY
+2025-07-21 09:20:54,666 - main - INFO - ============================================================
+2025-07-21 09:20:54,666 - WebAutomator - INFO - Starting login process for: blossom23@hanlim.world
+2025-07-21 09:20:57,549 - WebAutomator - INFO - Checking for modal to close
+2025-07-21 09:21:01,120 - WebAutomator - INFO - Modal closed
+2025-07-21 09:21:01,120 - WebAutomator - INFO - Finding email input field
+2025-07-21 09:21:02,831 - WebAutomator - INFO - Email input found, entering email: blossom23@hanlim.world
+2025-07-21 09:21:04,424 - WebAutomator - INFO - Finding password input field
+2025-07-21 09:21:05,123 - WebAutomator - INFO - Password input found, entering password
+2025-07-21 09:21:06,370 - WebAutomator - INFO - Finding signin button
+2025-07-21 09:21:06,428 - WebAutomator - INFO - Signin button found, clicking to login
+2025-07-21 09:21:06,936 - WebAutomator - INFO - Waiting for login to complete
+2025-07-21 09:21:10,535 - WebAutomator - INFO - Login successful for: blossom23@hanlim.world
+2025-07-21 09:21:10,536 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: K-POP IN PUBLIC IN A NUTSHELL... #kpopinpublic #dancecover #dance  #kpopcover #EVERGLOW #SLAY.mp4
+2025-07-21 09:21:10,536 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: под какую ещё песню хотите танец 🪩.mp4
+2025-07-21 09:21:10,537 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: HOW SWEET boy and girl ver.💃🏻.mp4
+2025-07-21 09:21:10,537 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: would you like to wake up to this.mp4
+2025-07-21 09:21:10,537 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 🙈🙄 @misofony & Sanny.mp4
+2025-07-21 09:21:10,537 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: SEE THAT Boy💪 and Girl💅 ver..mp4
+2025-07-21 09:21:10,538 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Squid game2 dance with our army👶🏻.mp4
+2025-07-21 09:21:10,538 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Нина, Нара, Авосуро и Саша💖.mp4
+2025-07-21 09:21:10,538 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: little CHRISTMAS dance with Rora, Vasilisa and Bella 🎄🍓.mp4
+2025-07-21 09:21:10,538 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Who is your bias from ADP 👄 (1).mp4
+2025-07-21 09:21:10,538 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Only legs or only hands Which side do you choose 💃🏻.mp4
+2025-07-21 09:21:10,538 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: WHIPLASH boy and girl ver.💃🏻.mp4
+2025-07-21 09:21:10,538 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: JUMP! (1).mp4
+2025-07-21 09:21:10,538 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We know you needed this video today…👀.mp4
+2025-07-21 09:21:10,538 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Партии в aespa 에스파 'Supernova' ЧАСТЬ 1.mp4
+2025-07-21 09:21:10,538 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Who is your bias in Everglow 👀.mp4
+2025-07-21 09:21:10,538 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: SUPERNOVA on our channel ladies and gentlemen!💋.mp4
+2025-07-21 09:21:10,539 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 📍Pixel Quest, Москва (1).mp4
+2025-07-21 09:21:10,539 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: What do you like🩷 (1).mp4
+2025-07-21 09:21:10,539 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: (G)I-DLE - ‘Fate’ with Leyla & @misofony.mp4
+2025-07-21 09:21:10,539 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: we love psy!.mp4
+2025-07-21 09:21:10,539 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: @misofony , Sanny &🐶🐱🐭 #洗澡舞 (1).mp4
+2025-07-21 09:21:10,539 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: А ты шаришь за кпоп 😏.mp4
+2025-07-21 09:21:10,539 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: NEW COVER IS OUT! #kpopinpublic.mp4
+2025-07-21 09:21:10,539 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Do you like new aespa’s song.mp4
+2025-07-21 09:21:10,539 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: look at me!!!.mp4
+2025-07-21 09:21:10,539 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Do you like new Everglow comeback 👀.mp4
+2025-07-21 09:21:10,539 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: SKY CAM   CLC - Hobgoblin (1).mp4
+2025-07-21 09:21:10,539 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: BAAM!🔫❤️‍🔥 (1).mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: NMIXX - DASH 🖤 by Sanny&Ksesha #dancecover.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: BABYMONSTER - ‘Sheesh’ dance cover by @misofony and Sanny.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: DRAMA-MA-MA-MA #aespa #DRAMACHALLENGE #aespadrama #kpopdancecover #dancecover by 3to1.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: holy moly!!! (1).mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #Super_LadyChallenge with Rora and @misofony.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: My favorite dance to make friends 😍.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: The over POV of our new dance cover on CRAZY.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: the process of making our videos!.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 💕 Illit - Tick-Tack   KPOP IN PUBLIC   Avosuro (Wonhee) fancam.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Find an Imposter (1).mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: which type are you🤭.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: K-pop random dance 2024 challenge by 3to1 team! ❤️#kpoprandomdancechallenge.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: GANG GANG GANG GANG😎 (1).mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Who is your ult bias.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: What is your fav (1).mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: You said you love watching sidecams!.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: How i wake up every morning.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: WHIP-WHIPLASH 💅🏻.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Did you expect this dance Lyrics says “shake your ass” by the way🤗.mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Do you like new Irene & Seulgi comeback (1).mp4
+2025-07-21 09:21:10,540 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We ain’t even famous😰 (1).mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: What do you think about Karina’s solo I like it sm! 🔥.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: choreography by Sanny (1).mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: The most addicting part! 👙 (Sanny ver.).mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Нина, Нара, Ксеша и Авосуро 💖.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: emergencyyy!.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 2 часть   WHIPLASH   За кого мы танцуем и наши любимые партии.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Ariana Grande - Bloodline 👄.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: You agree watch our CRAZY dance cover rn!.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: KPOP IN PUBLIC IN A NUTSHELL 💅.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 1 часть   WHIPLASH   За кого мы танцуем и наши любимые партии.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #KPOPINPUBLIC in a nutshell 🤪.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: YEONJUN(연준) 'GGUM' kpop in public challenge 💅.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: u keep taking all of my💨.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: ✨perfect energy yeah we're flawless we're free✨#kpopinpublic #lesserafim #perfectnight #dancecover.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 💕 Illit - Tick-Tack   KPOP IN PUBLIC   Bella (Minju) fancam.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Do u have perfect body or a perfect smile (1).mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Which one do you like more  =).mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: мы станцевали #ихвильнихт.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Do you like new BP song 💅 (1).mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We BRING DRAMA with Avosuro and Marusya #aespa #DRAMACHALLENGE #aespadrama #kpopinpublic  #kpopcover.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 1&Only   SIDECAM (1).mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: ‘THIS AINT JUST A HOBBIE’ (1).mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: PERFECT CHRISTMAS NIGHT⭐️🎄 #kpopinpublic #lesserafim.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 📍Pixel Quest, Москва.mp4
+2025-07-21 09:21:10,541 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #GUMchallenge w @misofony and Milena👄 #JESSIE #JESSIEGUM #kpopinpublic #kpop #dancecover #kpopcover.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We BRING DRAMA with Ksesha and Luna #aespa #DRAMACHALLENGE #aespadrama #kpopinpublic  #kpopcover.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I-DLE - GOOD THING (1).mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #Viviz - #Maniac challenge ✨ #dancecover #kpopinpublic.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: This time i want who💓.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: bam bam bam badi ✨.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Would you like to see more duets like this 💃🏻.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: SUPERNOVA boy and girl ver.💃🏻.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I want to be -.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: оканэ касэку ваташивуаста.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: watch Super Ladies on our channel! #Super_LadyChallenge.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Throwing it back.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: THEY COULD DESCRIBE EVERYTHING WITH ONE SINGLE WORD. (1).mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: watch (G)I-DLE 'Super Lady' KPOP IN PUBLIC video on our channel!.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: The next station is- (1).mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: VIVIZ - Shhh! KPOP IN PUBLIC   chorus ver. #shhhchallenge.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: love me too😡love me too📍Pixel Quest, Москва.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Нина, Нара и Саша 💋.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: It’s Sanny’s birthday! 🎂 Wish her happy birthday in the comments!.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: Do you like when our Nina covers Karina 👊🏻.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Would you like to have such a ringtone💓.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: NOW YOU BE LIKE.. GANG… (1).mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: @misofony , Sanny &🐶🐱🐭 #洗澡舞.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: lose my breath 😈.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: ALL THE GIRLS ARE GIRLING GIRLING!.mp4
+2025-07-21 09:21:10,542 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Try to guess who is gonna be Winter, Karina, Ningning and Giselle!.mp4
+2025-07-21 09:21:10,543 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: EVERGLOW - SLAY🔥  #kpopinpublic #dancecover #dance  #kpopcover #EVERGLOW #SLAY (1).mp4
+2025-07-21 09:21:10,543 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: giving WHIPLASH 💅🏻.mp4
+2025-07-21 09:21:10,543 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: NANI GA SUKI💞 (1).mp4
+2025-07-21 09:21:10,543 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: K-POP RANDOM DANCE UIA VER. (1).mp4
+2025-07-21 09:21:10,543 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: kpop in public in a nutshell.mp4
+2025-07-21 09:21:10,543 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Typical routine at Nikolskaya street🙄💅 (1).mp4
+2025-07-21 09:21:10,543 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: lyrics 💔💔💔 music 🔥🔥🔥.mp4
+2025-07-21 09:21:10,543 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: EVERGLOW - SLAY🔥  #kpopinpublic #dancecover #dance  #kpopcover #EVERGLOW #SLAY.mp4
+2025-07-21 09:21:10,543 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Which side do you pick❔🖤.mp4
+2025-07-21 09:21:10,543 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: from Tokyo to Moscow (1).mp4
+2025-07-21 09:21:10,544 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: KPOP in public   NMIXX - Know About Me dance cover (1).mp4
+2025-07-21 09:21:10,544 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: watch LE SSERAFIM (르세라핌) 'EASY' dance cover on our channel!  #kpopinpublic.mp4
+2025-07-21 09:21:10,544 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: ✨Perfect Night with Avosuro and Marusya✨#kpopinpublic #lesserafim #perfectnight #dancecover.mp4
+2025-07-21 09:21:10,544 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #sticky_challenge.mp4
+2025-07-21 09:21:10,544 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 3to1 will be 3to1 (1).mp4
+2025-07-21 09:21:10,544 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: EVERYTHING S GNARLY🟢 (1).mp4
+2025-07-21 09:21:10,544 - SmartFileManager - INFO - Found 16 valid videos in folder '3TO1 DANCE COMMUNITY'
+2025-07-21 09:21:10,544 - main - INFO - 📄 Found 16 high confidence videos in folder '3TO1 DANCE COMMUNITY'
+2025-07-21 09:21:10,544 - main - INFO - 📤 Processing JINGLE BELL ROCK🤟🏻❄️ #aespa #christmasdance #kpop.mp4
+2025-07-21 09:21:10,544 - main - INFO - 🎵 Smart extracted - Artist: aespa, Title: Jingle Bell Rock
+2025-07-21 09:21:10,544 - main - INFO - 📝 Generated description: aespa - Jingle Bell Rock dance cover #trending #fyp #kdance
+2025-07-21 09:21:10,544 - WebAutomator - INFO - Starting upload process for: JINGLE BELL ROCK🤟🏻❄️ #aespa #christmasdance #kpop.mp4
+2025-07-21 09:21:10,544 - WebAutomator - INFO - Search query: aespa Jingle Bell Rock
+2025-07-21 09:21:11,060 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 09:21:18,879 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 09:21:18,879 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 09:21:19,572 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 09:21:19,572 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 09:21:21,009 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 09:21:21,028 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 09:21:21,037 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 09:21:21,038 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 09:21:21,507 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 09:21:22,144 - WebAutomator - INFO - Step 1: Entering search query: aespa Jingle Bell Rock
+2025-07-21 09:21:22,181 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 09:21:22,305 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 09:21:23,591 - WebAutomator - INFO - Step 1: Current input value: "aespa Jingle Bell Rock"
+2025-07-21 09:21:23,591 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 09:21:23,591 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 09:21:23,633 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 09:21:24,299 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 09:21:24,299 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 09:21:24,299 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 09:21:25,181 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 09:21:25,805 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 09:21:25,805 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 09:21:25,805 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 09:21:26,828 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 09:21:26,972 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:21:27,996 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 09:21:29,296 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 09:21:29,296 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 09:21:29,332 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 09:21:30,538 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 09:21:30,538 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 09:21:30,538 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 09:21:30,557 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/3TO1 DANCE COMMUNITY/JINGLE BELL ROCK🤟🏻❄️ #aespa #christmasdance #kpop.mp4
+2025-07-21 09:21:31,141 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 09:21:31,446 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 09:21:31,818 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 09:21:31,818 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 09:21:33,566 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 09:21:33,567 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 09:21:34,233 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:21:35,220 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 09:21:35,221 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 09:21:35,221 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 09:21:35,639 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 09:21:35,639 - WebAutomator - INFO - Step 7: Description area found, entering text: aespa - Jingle Bell Rock dance cover #trending #fyp #kdance
+2025-07-21 09:21:36,255 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 09:21:36,255 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 09:21:36,460 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 09:21:37,030 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 09:21:37,030 - WebAutomator - INFO - Step 8: Upload completed successfully for JINGLE BELL ROCK🤟🏻❄️ #aespa #christmasdance #kpop.mp4
+2025-07-21 09:21:37,035 - MultiAccountUploadTracker - INFO - Marked as uploaded for blossom23@hanlim.world: JINGLE BELL ROCK🤟🏻❄️ #aespa #christmasdance #kpop.mp4
+2025-07-21 09:21:37,035 - WebAutomator - INFO - Recorded upload success in tracker for: JINGLE BELL ROCK🤟🏻❄️ #aespa #christmasdance #kpop.mp4
+2025-07-21 09:21:37,036 - AccountManager - INFO - ✅ Incremented upload count for blossom23@hanlim.world: 0 → 1
+2025-07-21 09:21:37,037 - main - INFO - ✅ Successfully uploaded JINGLE BELL ROCK🤟🏻❄️ #aespa #christmasdance #kpop.mp4 for blossom23@hanlim.world (total: 1)
+2025-07-21 09:21:39,041 - main - INFO - 📤 Processing VIVIZ - Shhh! KPOP IN PUBLIC   dancebreak ver. #shhh.mp4
+2025-07-21 09:21:39,042 - main - INFO - 🎵 Smart extracted - Artist: VIVIZ, Title: Shhh!
+2025-07-21 09:21:39,042 - main - INFO - 📝 Generated description: VIVIZ - Shhh! dance cover #choreo #korean #style
+2025-07-21 09:21:39,042 - WebAutomator - INFO - Starting upload process for: VIVIZ - Shhh! KPOP IN PUBLIC   dancebreak ver. #shhh.mp4
+2025-07-21 09:21:39,042 - WebAutomator - INFO - Search query: VIVIZ Shhh!
+2025-07-21 09:21:39,046 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 09:21:39,052 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 09:21:40,057 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 09:21:43,634 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 09:21:43,634 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 09:21:46,606 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 09:21:46,606 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 09:21:47,207 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 09:21:47,355 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 09:21:47,365 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 09:21:47,365 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 09:21:47,640 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 09:21:48,322 - WebAutomator - INFO - Step 1: Entering search query: VIVIZ Shhh!
+2025-07-21 09:21:48,375 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 09:21:48,488 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 09:21:49,419 - WebAutomator - INFO - Step 1: Current input value: "VIVIZ Shhh!"
+2025-07-21 09:21:49,420 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 09:21:49,420 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 09:21:49,516 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 09:21:49,799 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 09:21:49,799 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 09:21:49,799 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 09:21:50,692 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 09:21:51,062 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 09:21:51,062 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 09:21:51,062 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 09:21:52,076 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 09:21:52,110 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:21:53,118 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 09:21:53,401 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 09:21:53,401 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 09:21:53,509 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 09:21:53,879 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 09:21:53,880 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 09:21:53,880 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 09:21:54,367 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/3TO1 DANCE COMMUNITY/VIVIZ - Shhh! KPOP IN PUBLIC   dancebreak ver. #shhh.mp4
+2025-07-21 09:21:54,581 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 09:21:54,885 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 09:21:55,365 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 09:21:55,365 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 09:21:55,473 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 09:21:55,473 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 09:21:55,494 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:21:55,681 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 09:21:55,681 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 09:21:55,681 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 09:21:55,874 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 09:21:55,875 - WebAutomator - INFO - Step 7: Description area found, entering text: VIVIZ - Shhh! dance cover #choreo #korean #style
+2025-07-21 09:21:56,308 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 09:21:56,308 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 09:21:56,477 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 09:21:56,805 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 09:21:56,806 - WebAutomator - INFO - Step 8: Upload completed successfully for VIVIZ - Shhh! KPOP IN PUBLIC   dancebreak ver. #shhh.mp4
+2025-07-21 09:21:56,808 - MultiAccountUploadTracker - INFO - Marked as uploaded for blossom23@hanlim.world: VIVIZ - Shhh! KPOP IN PUBLIC   dancebreak ver. #shhh.mp4
+2025-07-21 09:21:56,808 - WebAutomator - INFO - Recorded upload success in tracker for: VIVIZ - Shhh! KPOP IN PUBLIC   dancebreak ver. #shhh.mp4
+2025-07-21 09:21:56,808 - AccountManager - INFO - ✅ Incremented upload count for blossom23@hanlim.world: 1 → 2
+2025-07-21 09:21:56,809 - main - INFO - ✅ Successfully uploaded VIVIZ - Shhh! KPOP IN PUBLIC   dancebreak ver. #shhh.mp4 for blossom23@hanlim.world (total: 2)
+2025-07-21 09:21:58,818 - main - INFO - 📤 Processing ✨Perfect Night with Milena and Yana✨#kpopinpublic #lesserafim #perfectnight #dancecover.mp4
+2025-07-21 09:21:58,822 - main - INFO - 🎵 Smart extracted - Artist: lesserafim, Title: Perfect Night
+2025-07-21 09:21:58,826 - main - INFO - 📝 Generated description: lesserafim - Perfect Night dance cover #dancing #viral #kpopdance
+2025-07-21 09:21:58,827 - WebAutomator - INFO - Starting upload process for: ✨Perfect Night with Milena and Yana✨#kpopinpublic #lesserafim #perfectnight #dancecover.mp4
+2025-07-21 09:21:58,827 - WebAutomator - INFO - Search query: lesserafim Perfect Night
+2025-07-21 09:21:58,840 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 09:21:58,843 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 09:21:59,845 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 09:22:07,611 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 09:22:07,611 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 09:22:10,503 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 09:22:10,503 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 09:22:11,437 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 09:22:11,642 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 09:22:11,666 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 09:22:11,666 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 09:22:11,952 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 09:22:12,600 - WebAutomator - INFO - Step 1: Entering search query: lesserafim Perfect Night
+2025-07-21 09:22:12,733 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 09:22:12,875 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 09:22:13,826 - WebAutomator - INFO - Step 1: Current input value: "lesserafim Perfect Night"
+2025-07-21 09:22:13,827 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 09:22:13,827 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 09:22:13,844 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 09:22:13,972 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 09:22:13,972 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 09:22:13,972 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 09:22:14,492 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 09:22:14,733 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 09:22:14,733 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 09:22:14,733 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 09:22:15,741 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 09:22:15,756 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:22:16,762 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 09:22:16,914 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 09:22:16,914 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 09:22:17,012 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 09:22:17,363 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 09:22:17,363 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 09:22:17,363 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 09:22:17,375 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/3TO1 DANCE COMMUNITY/✨Perfect Night with Milena and Yana✨#kpopinpublic #lesserafim #perfectnight #dancecover.mp4
+2025-07-21 09:22:17,386 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 09:22:17,691 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 09:22:17,981 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 09:22:17,981 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 09:22:17,996 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 09:22:17,996 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 09:22:18,014 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:22:18,131 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 09:22:18,131 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 09:22:18,131 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 09:22:18,176 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 09:22:18,176 - WebAutomator - INFO - Step 7: Description area found, entering text: lesserafim - Perfect Night dance cover #dancing #viral #kpopdance
+2025-07-21 09:22:18,521 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 09:22:18,521 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 09:22:18,707 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 09:22:18,967 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 09:22:18,967 - WebAutomator - INFO - Step 8: Upload completed successfully for ✨Perfect Night with Milena and Yana✨#kpopinpublic #lesserafim #perfectnight #dancecover.mp4
+2025-07-21 09:22:18,969 - MultiAccountUploadTracker - INFO - Marked as uploaded for blossom23@hanlim.world: ✨Perfect Night with Milena and Yana✨#kpopinpublic #lesserafim #perfectnight #dancecover.mp4
+2025-07-21 09:22:18,969 - WebAutomator - INFO - Recorded upload success in tracker for: ✨Perfect Night with Milena and Yana✨#kpopinpublic #lesserafim #perfectnight #dancecover.mp4
+2025-07-21 09:22:18,970 - AccountManager - INFO - ✅ Incremented upload count for blossom23@hanlim.world: 2 → 3
+2025-07-21 09:22:18,970 - main - INFO - ✅ Successfully uploaded ✨Perfect Night with Milena and Yana✨#kpopinpublic #lesserafim #perfectnight #dancecover.mp4 for blossom23@hanlim.world (total: 3)
+2025-07-21 09:22:20,974 - main - INFO - 📤 Processing Партии в aespa 에스파 'Supernova' ЧАСТЬ 2.mp4
+2025-07-21 09:22:20,975 - main - INFO - 🎵 Smart extracted - Artist: aespa, Title: Supernova
+2025-07-21 09:22:20,975 - main - INFO - 📝 Generated description: aespa - Supernova dance cover #fyp #choreography #lit
+2025-07-21 09:22:20,975 - WebAutomator - INFO - Starting upload process for: Партии в aespa 에스파 'Supernova' ЧАСТЬ 2.mp4
+2025-07-21 09:22:20,975 - WebAutomator - INFO - Search query: aespa Supernova
+2025-07-21 09:22:20,979 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 09:22:20,983 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 09:22:21,988 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 09:22:35,531 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 09:22:35,531 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 09:22:37,634 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 09:22:37,634 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 09:22:38,837 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 09:22:39,834 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 09:22:39,938 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 09:22:39,938 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 09:22:40,226 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 09:22:40,869 - WebAutomator - INFO - Step 1: Entering search query: aespa Supernova
+2025-07-21 09:22:40,906 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 09:22:41,020 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 09:22:42,203 - WebAutomator - INFO - Step 1: Current input value: "aespa Supernova"
+2025-07-21 09:22:42,203 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 09:22:42,203 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 09:22:42,238 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 09:22:42,411 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 09:22:42,412 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 09:22:42,412 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 09:22:42,879 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 09:22:43,131 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 09:22:43,131 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 09:22:43,131 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 09:22:44,135 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 09:22:44,150 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:22:45,156 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 09:22:45,359 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 09:22:45,359 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 09:22:45,453 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 09:22:45,777 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 09:22:45,777 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 09:22:45,777 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 09:22:45,791 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/3TO1 DANCE COMMUNITY/Партии в aespa 에스파 'Supernova' ЧАСТЬ 2.mp4
+2025-07-21 09:22:45,806 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 09:22:46,111 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 09:22:46,401 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 09:22:46,401 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 09:22:46,414 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 09:22:46,414 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 09:22:46,431 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:22:46,581 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 09:22:46,581 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 09:22:46,581 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 09:22:46,749 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 09:22:46,750 - WebAutomator - INFO - Step 7: Description area found, entering text: aespa - Supernova dance cover #fyp #choreography #lit
+2025-07-21 09:22:47,027 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 09:22:47,028 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 09:22:47,182 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 09:22:47,315 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 09:22:47,316 - WebAutomator - INFO - Step 8: Upload completed successfully for Партии в aespa 에스파 'Supernova' ЧАСТЬ 2.mp4
+2025-07-21 09:22:47,317 - MultiAccountUploadTracker - INFO - Marked as uploaded for blossom23@hanlim.world: Партии в aespa 에스파 'Supernova' ЧАСТЬ 2.mp4
+2025-07-21 09:22:47,317 - WebAutomator - INFO - Recorded upload success in tracker for: Партии в aespa 에스파 'Supernova' ЧАСТЬ 2.mp4
+2025-07-21 09:22:47,318 - AccountManager - INFO - ✅ Incremented upload count for blossom23@hanlim.world: 3 → 4
+2025-07-21 09:22:47,318 - main - INFO - ✅ Successfully uploaded Партии в aespa 에스파 'Supernova' ЧАСТЬ 2.mp4 for blossom23@hanlim.world (total: 4)
+2025-07-21 09:22:49,323 - main - INFO - 📤 Processing BAGGY JEANS boy and girl ver.💃🏻#kpopinpublic #dancecover #dance #kpopcover #NCTU #baggyjeans #kpop.mp4
+2025-07-21 09:22:49,324 - main - INFO - 🎵 Smart extracted - Artist: NMIXX, Title: DASH
+2025-07-21 09:22:49,324 - main - INFO - 📝 Generated description: NMIXX - DASH dance cover #trending #lit #moves
+2025-07-21 09:22:49,324 - WebAutomator - INFO - Starting upload process for: BAGGY JEANS boy and girl ver.💃🏻#kpopinpublic #dancecover #dance #kpopcover #NCTU #baggyjeans #kpop.mp4
+2025-07-21 09:22:49,324 - WebAutomator - INFO - Search query: NMIXX DASH
+2025-07-21 09:22:49,328 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 09:22:49,332 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 09:22:50,337 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 09:23:12,595 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 09:23:12,596 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 09:23:15,327 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 09:23:15,327 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 09:23:16,007 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 09:23:16,058 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 09:23:16,072 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 09:23:16,072 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 09:23:16,180 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 09:23:16,812 - WebAutomator - INFO - Step 1: Entering search query: NMIXX DASH
+2025-07-21 09:23:16,834 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 09:23:17,797 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 09:23:19,067 - WebAutomator - INFO - Step 1: Current input value: "NMIXX DASH"
+2025-07-21 09:23:19,067 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 09:23:19,068 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 09:23:19,182 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 09:23:19,356 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 09:23:19,356 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 09:23:19,356 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 09:23:19,896 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 09:23:20,248 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 09:23:20,248 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 09:23:20,248 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 09:23:21,256 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 09:23:21,355 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:23:22,366 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 09:23:22,589 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 09:23:22,589 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 09:23:22,687 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 09:23:23,009 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 09:23:23,009 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 09:23:23,009 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 09:23:23,453 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/3TO1 DANCE COMMUNITY/BAGGY JEANS boy and girl ver.💃🏻#kpopinpublic #dancecover #dance #kpopcover #NCTU #baggyjeans #kpop.mp4
+2025-07-21 09:23:23,478 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 09:23:23,783 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 09:23:24,060 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 09:23:24,060 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 09:23:24,072 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 09:23:24,072 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 09:23:24,088 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:23:24,311 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 09:23:24,312 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 09:23:24,312 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 09:23:24,355 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 09:23:24,355 - WebAutomator - INFO - Step 7: Description area found, entering text: NMIXX - DASH dance cover #trending #lit #moves
+2025-07-21 09:23:24,611 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 09:23:24,612 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 09:23:24,759 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 09:23:25,032 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 09:23:25,032 - WebAutomator - INFO - Step 8: Upload completed successfully for BAGGY JEANS boy and girl ver.💃🏻#kpopinpublic #dancecover #dance #kpopcover #NCTU #baggyjeans #kpop.mp4
+2025-07-21 09:23:25,034 - MultiAccountUploadTracker - INFO - Marked as uploaded for blossom23@hanlim.world: BAGGY JEANS boy and girl ver.💃🏻#kpopinpublic #dancecover #dance #kpopcover #NCTU #baggyjeans #kpop.mp4
+2025-07-21 09:23:25,034 - WebAutomator - INFO - Recorded upload success in tracker for: BAGGY JEANS boy and girl ver.💃🏻#kpopinpublic #dancecover #dance #kpopcover #NCTU #baggyjeans #kpop.mp4
+2025-07-21 09:23:25,035 - AccountManager - INFO - ✅ Incremented upload count for blossom23@hanlim.world: 4 → 5
+2025-07-21 09:23:25,035 - main - INFO - ✅ Successfully uploaded BAGGY JEANS boy and girl ver.💃🏻#kpopinpublic #dancecover #dance #kpopcover #NCTU #baggyjeans #kpop.mp4 for blossom23@hanlim.world (total: 5)
+2025-07-21 09:23:27,040 - main - INFO - 📤 Processing Doing the little dance✨ (1).mp4
+2025-07-21 09:23:27,041 - main - INFO - 🎵 Smart extracted - Artist: I DLE, Title: Fate
+2025-07-21 09:23:27,042 - main - INFO - 📝 Generated description: I DLE - Fate dance cover #trending #rhythm #idol
+2025-07-21 09:23:27,042 - WebAutomator - INFO - Starting upload process for: Doing the little dance✨ (1).mp4
+2025-07-21 09:23:27,042 - WebAutomator - INFO - Search query: I DLE Fate
+2025-07-21 09:23:27,047 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 09:23:27,049 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 09:23:28,051 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 09:24:07,296 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 09:24:07,296 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 09:24:08,045 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 09:24:08,045 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 09:24:11,753 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 09:24:11,929 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 09:24:11,959 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 09:24:11,959 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 09:24:12,328 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 09:24:12,969 - WebAutomator - INFO - Step 1: Entering search query: I DLE Fate
+2025-07-21 09:24:13,021 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 09:24:13,170 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 09:24:14,337 - WebAutomator - INFO - Step 1: Current input value: "I DLE Fate"
+2025-07-21 09:24:14,337 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 09:24:14,337 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 09:24:14,399 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 09:24:14,549 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 09:24:14,549 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 09:24:14,549 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 09:24:15,171 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 09:24:15,509 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 09:24:15,509 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 09:24:15,509 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 09:24:16,516 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 09:24:16,537 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:24:17,542 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 09:24:17,843 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 09:24:17,843 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 09:24:17,965 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 09:24:18,305 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 09:24:18,305 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 09:24:18,305 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 09:24:18,721 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/3TO1 DANCE COMMUNITY/Doing the little dance✨ (1).mp4
+2025-07-21 09:24:18,756 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 09:24:19,061 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 09:24:19,331 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 09:24:19,332 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 09:24:19,346 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 09:24:19,347 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 09:24:19,365 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:24:19,644 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 09:24:19,645 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 09:24:19,645 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 09:24:19,745 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 09:24:19,746 - WebAutomator - INFO - Step 7: Description area found, entering text: I DLE - Fate dance cover #trending #rhythm #idol
+2025-07-21 09:24:21,052 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 09:24:21,053 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 09:24:21,385 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 09:24:21,966 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 09:24:21,966 - WebAutomator - INFO - Step 8: Upload completed successfully for Doing the little dance✨ (1).mp4
+2025-07-21 09:24:21,968 - MultiAccountUploadTracker - INFO - Marked as uploaded for blossom23@hanlim.world: Doing the little dance✨ (1).mp4
+2025-07-21 09:24:21,968 - WebAutomator - INFO - Recorded upload success in tracker for: Doing the little dance✨ (1).mp4
+2025-07-21 09:24:21,969 - AccountManager - INFO - ✅ Incremented upload count for blossom23@hanlim.world: 5 → 6
+2025-07-21 09:24:21,969 - main - INFO - ✅ Successfully uploaded Doing the little dance✨ (1).mp4 for blossom23@hanlim.world (total: 6)
+2025-07-21 09:24:23,974 - main - INFO - 📤 Processing Нина и Авосуро 👅.mp4
+2025-07-21 09:24:23,975 - main - INFO - 🎵 Smart extracted - Artist: aespa, Title: Drama
+2025-07-21 09:24:23,975 - main - INFO - 📝 Generated description: aespa - Drama dance cover #choreo #dancechallenge #cover
+2025-07-21 09:24:23,975 - WebAutomator - INFO - Starting upload process for: Нина и Авосуро 👅.mp4
+2025-07-21 09:24:23,975 - WebAutomator - INFO - Search query: aespa Drama
+2025-07-21 09:24:24,251 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 09:24:24,968 - WebAutomator - ERROR - Failed to find element in fast mode: button[class*="upload"], .upload-button
+2025-07-21 09:24:24,968 - WebAutomator - ERROR - Error during song search: Alert Text: 영상이 성공적으로 업로드되었습니다.
+Message: unexpected alert open: {Alert text : 영상이 성공적으로 업로드되었습니다.}
+  (Session info: chrome=138.0.7204.158)
+Stacktrace:
+0   chromedriver                        0x00000001031d355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x00000001031cb454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x0000000102d1a3f8 cxxbridge1$string$len + 90664
+3   chromedriver                        0x0000000102da3314 cxxbridge1$string$len + 651588
+4   chromedriver                        0x0000000102d55a0c cxxbridge1$string$len + 333884
+5   chromedriver                        0x00000001031965e0 cxxbridge1$str$ptr + 2481340
+6   chromedriver                        0x0000000103199848 cxxbridge1$str$ptr + 2494244
+7   chromedriver                        0x0000000103177234 cxxbridge1$str$ptr + 2353424
+8   chromedriver                        0x000000010319a104 cxxbridge1$str$ptr + 2496480
+9   chromedriver                        0x00000001031682e4 cxxbridge1$str$ptr + 2292160
+10  chromedriver                        0x00000001031b9ff8 cxxbridge1$str$ptr + 2627284
+11  chromedriver                        0x00000001031ba184 cxxbridge1$str$ptr + 2627680
+12  chromedriver                        0x00000001031cb090 cxxbridge1$str$ptr + 2697068
+13  libsystem_pthread.dylib             0x0000000199f7ac0c _pthread_start + 136
+14  libsystem_pthread.dylib             0x0000000199f75b80 thread_start + 8
+
+2025-07-21 09:24:26,338 - WebAutomator - INFO - Page debug info: {'body': '\n  <div id="root"><div class="mobile-frame-bg"><div class="mobile-frame"><div class="mobile-frame__pc-message">CHOOM is only available on mobile.</div><div class="loading-container">로딩 중...</div><nav class="new-bottom-nav"><div class="nav-item active"><div class="nav-item-content"><img src="data:image/svg+xml,%3csvg%20width=\'24\'%20height=\'24\'%20viewBox=\'0%200%2024%2024\'%20fill=\'none\'%20xmlns=\'http://www.w3.org/2000/svg\'%3e%3cg%20clip-path=\'url(%23clip0_1484_7078)\'%3e%3cpath%20d=\'M22%2021.3166C22%2022.6779%2017.2985%2023.7819%2011.5%2023.7819C5.70148%2023.7819%201%2022.6779%201%2021.3166V17.3716C1%2016.0102%205.70148%2014.9062%2011.5%2014.9062C17.2985%2014.9062%2022%2016.0102%2022%2017.3716V21.3166Z\'%20fill=\'url(%23paint0_linear_1484_7078)\'/%3e%3cpath%20d=\'M11.5%2019.8359C17.299%2019.8359%2022%2018.7321%2022%2017.3706C22%2016.009%2017.299%2014.9053%2011.5%2014.9053C5.70101%2014.9053%201%2016.009%201%2017.3706C1%2018.7321%205.70101%2019.8359%2011.5%2019.8359Z\'%20fill=\'url(%23paint1_linea', 'searchBox': 'not found', 'searchValue': 'no value'}
+2025-07-21 09:24:26,338 - WebAutomator - ERROR - Upload failed for Нина и Авосуро 👅.mp4: Alert Text: 영상이 성공적으로 업로드되었습니다.
+Message: unexpected alert open: {Alert text : 영상이 성공적으로 업로드되었습니다.}
+  (Session info: chrome=138.0.7204.158)
+Stacktrace:
+0   chromedriver                        0x00000001031d355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x00000001031cb454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x0000000102d1a3f8 cxxbridge1$string$len + 90664
+3   chromedriver                        0x0000000102da3314 cxxbridge1$string$len + 651588
+4   chromedriver                        0x0000000102d55a0c cxxbridge1$string$len + 333884
+5   chromedriver                        0x00000001031965e0 cxxbridge1$str$ptr + 2481340
+6   chromedriver                        0x0000000103199848 cxxbridge1$str$ptr + 2494244
+7   chromedriver                        0x0000000103177234 cxxbridge1$str$ptr + 2353424
+8   chromedriver                        0x000000010319a104 cxxbridge1$str$ptr + 2496480
+9   chromedriver                        0x00000001031682e4 cxxbridge1$str$ptr + 2292160
+10  chromedriver                        0x00000001031b9ff8 cxxbridge1$str$ptr + 2627284
+11  chromedriver                        0x00000001031ba184 cxxbridge1$str$ptr + 2627680
+12  chromedriver                        0x00000001031cb090 cxxbridge1$str$ptr + 2697068
+13  libsystem_pthread.dylib             0x0000000199f7ac0c _pthread_start + 136
+14  libsystem_pthread.dylib             0x0000000199f75b80 thread_start + 8
+
+2025-07-21 09:24:26,338 - main - ERROR - ❌ Failed to upload Нина и Авосуро 👅.mp4 for blossom23@hanlim.world
+2025-07-21 09:24:26,338 - main - ERROR - 🔄 Upload failed - triggering restart to retry with fresh browser session
+2025-07-21 09:24:26,338 - WebAutomator - INFO - Closing browser and cleaning up resources
+2025-07-21 09:24:26,467 - WebAutomator - INFO - Browser closed successfully
+2025-07-21 09:24:26,467 - main - INFO - 🔚 Closing browser
+2025-07-21 09:24:26,468 - WebAutomator - INFO - Closing browser and cleaning up resources
+2025-07-21 09:24:26,470 - WebAutomator - INFO - Browser closed successfully
+2025-07-21 09:24:31,720 - SmartFileManager - INFO - Loaded smart extraction results for 10 folders
+2025-07-21 09:24:36,472 - AccountManager - INFO - Loaded 30 account mappings
+2025-07-21 09:24:36,473 - MultiAccountUploadTracker - INFO - Loaded upload tracker with 297 files across 51 accounts
+2025-07-21 09:24:36,473 - AccountManager - INFO - Parsed account range: 21 to 30
+2025-07-21 09:24:36,473 - AccountManager - INFO - Filtering accounts by range 21-30: 10 accounts found
+2025-07-21 09:24:36,478 - AccountManager - INFO - Skipping choco82@hanlim.world: All files uploaded (46/43 high confidence files)
+2025-07-21 09:24:36,478 - AccountManager - INFO - Skipping sunset74@hanlim.world: Reached maximum uploads (81/50)
+2025-07-21 09:24:36,478 - AccountManager - INFO - Skipping fluffy28@hanlim.world: Reached maximum uploads (51/50)
+2025-07-21 09:24:36,478 - AccountManager - INFO - Skipping mango88@hanlim.world: All files uploaded (24/20 high confidence files)
+2025-07-21 09:24:36,478 - AccountManager - INFO - Including blossom23@hanlim.world: 6/16 files uploaded, 10 remaining
+2025-07-21 09:24:36,478 - AccountManager - INFO - Including honey39@hanlim.world: 0/39 files uploaded, 39 remaining
+2025-07-21 09:24:36,478 - AccountManager - WARNING - Folder '당고 Danggo' not found in extraction results
+2025-07-21 09:24:36,478 - AccountManager - INFO - Skipping velvet42@hanlim.world: All files uploaded (0/0 high confidence files)
+2025-07-21 09:24:36,478 - AccountManager - INFO - Including ghost17@hanlim.world: 0/50 files uploaded, 50 remaining
+2025-07-21 09:24:36,478 - AccountManager - INFO - Including misty35@hanlim.world: 0/25 files uploaded, 25 remaining
+2025-07-21 09:24:36,478 - AccountManager - INFO - Including witty09@hanlim.world: 0/50 files uploaded, 50 remaining
+2025-07-21 09:24:36,478 - AccountManager - INFO - Found 5 accounts ready for upload (max 50 per account)
+2025-07-21 09:24:36,479 - main - INFO - 🚀 Starting multi-account upload process for 5 accounts
+2025-07-21 09:24:36,479 - main - INFO - 📊 Upload completion check based on high confidence files in smart_extraction_results.json
+2025-07-21 09:24:36,479 - main - INFO - 🎯 Only processing files with confidence='high' from smart_extraction_results.json
+2025-07-21 09:24:36,479 - main - INFO - 🔢 Maximum uploads per account: 50
+2025-07-21 09:24:36,479 - main - INFO - 
+============================================================
+2025-07-21 09:24:36,479 - main - INFO - 🔄 Processing account: blossom23@hanlim.world
+2025-07-21 09:24:36,479 - main - INFO - 📁 Assigned folder: 3TO1 DANCE COMMUNITY
+2025-07-21 09:24:36,480 - main - INFO - ============================================================
+2025-07-21 09:24:36,480 - WebAutomator - INFO - Starting login process for: blossom23@hanlim.world
+2025-07-21 09:24:39,122 - WebAutomator - INFO - Checking for modal to close
+2025-07-21 09:24:41,141 - WebAutomator - INFO - Modal closed
+2025-07-21 09:24:41,141 - WebAutomator - INFO - Finding email input field
+2025-07-21 09:24:44,682 - WebAutomator - INFO - Email input found, entering email: blossom23@hanlim.world
+2025-07-21 09:24:46,994 - WebAutomator - INFO - Finding password input field
+2025-07-21 09:24:47,682 - WebAutomator - INFO - Password input found, entering password
+2025-07-21 09:24:48,731 - WebAutomator - INFO - Finding signin button
+2025-07-21 09:24:48,793 - WebAutomator - INFO - Signin button found, clicking to login
+2025-07-21 09:24:49,282 - WebAutomator - INFO - Waiting for login to complete
+2025-07-21 09:24:52,938 - WebAutomator - INFO - Login successful for: blossom23@hanlim.world
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: K-POP IN PUBLIC IN A NUTSHELL... #kpopinpublic #dancecover #dance  #kpopcover #EVERGLOW #SLAY.mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: под какую ещё песню хотите танец 🪩.mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: HOW SWEET boy and girl ver.💃🏻.mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: would you like to wake up to this.mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 🙈🙄 @misofony & Sanny.mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: SEE THAT Boy💪 and Girl💅 ver..mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Squid game2 dance with our army👶🏻.mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Нина, Нара, Авосуро и Саша💖.mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: little CHRISTMAS dance with Rora, Vasilisa and Bella 🎄🍓.mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Who is your bias from ADP 👄 (1).mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Only legs or only hands Which side do you choose 💃🏻.mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: WHIPLASH boy and girl ver.💃🏻.mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: JUMP! (1).mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We know you needed this video today…👀.mp4
+2025-07-21 09:24:52,939 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Партии в aespa 에스파 'Supernova' ЧАСТЬ 1.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Who is your bias in Everglow 👀.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: SUPERNOVA on our channel ladies and gentlemen!💋.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 📍Pixel Quest, Москва (1).mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: What do you like🩷 (1).mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: (G)I-DLE - ‘Fate’ with Leyla & @misofony.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: we love psy!.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: @misofony , Sanny &🐶🐱🐭 #洗澡舞 (1).mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: А ты шаришь за кпоп 😏.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: NEW COVER IS OUT! #kpopinpublic.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Do you like new aespa’s song.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: look at me!!!.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Do you like new Everglow comeback 👀.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: SKY CAM   CLC - Hobgoblin (1).mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: BAAM!🔫❤️‍🔥 (1).mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: NMIXX - DASH 🖤 by Sanny&Ksesha #dancecover.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: BABYMONSTER - ‘Sheesh’ dance cover by @misofony and Sanny.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: DRAMA-MA-MA-MA #aespa #DRAMACHALLENGE #aespadrama #kpopdancecover #dancecover by 3to1.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: holy moly!!! (1).mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #Super_LadyChallenge with Rora and @misofony.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: My favorite dance to make friends 😍.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: The over POV of our new dance cover on CRAZY.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: the process of making our videos!.mp4
+2025-07-21 09:24:52,940 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 💕 Illit - Tick-Tack   KPOP IN PUBLIC   Avosuro (Wonhee) fancam.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Find an Imposter (1).mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: which type are you🤭.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: K-pop random dance 2024 challenge by 3to1 team! ❤️#kpoprandomdancechallenge.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: GANG GANG GANG GANG😎 (1).mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Who is your ult bias.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: What is your fav (1).mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: You said you love watching sidecams!.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: How i wake up every morning.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: WHIP-WHIPLASH 💅🏻.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Did you expect this dance Lyrics says “shake your ass” by the way🤗.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Do you like new Irene & Seulgi comeback (1).mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We ain’t even famous😰 (1).mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: What do you think about Karina’s solo I like it sm! 🔥.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: choreography by Sanny (1).mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: The most addicting part! 👙 (Sanny ver.).mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Нина, Нара, Ксеша и Авосуро 💖.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: emergencyyy!.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 2 часть   WHIPLASH   За кого мы танцуем и наши любимые партии.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Ariana Grande - Bloodline 👄.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: You agree watch our CRAZY dance cover rn!.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: KPOP IN PUBLIC IN A NUTSHELL 💅.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 1 часть   WHIPLASH   За кого мы танцуем и наши любимые партии.mp4
+2025-07-21 09:24:52,941 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #KPOPINPUBLIC in a nutshell 🤪.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: YEONJUN(연준) 'GGUM' kpop in public challenge 💅.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: u keep taking all of my💨.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: ✨perfect energy yeah we're flawless we're free✨#kpopinpublic #lesserafim #perfectnight #dancecover.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 💕 Illit - Tick-Tack   KPOP IN PUBLIC   Bella (Minju) fancam.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Do u have perfect body or a perfect smile (1).mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Which one do you like more  =).mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: мы станцевали #ихвильнихт.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Do you like new BP song 💅 (1).mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We BRING DRAMA with Avosuro and Marusya #aespa #DRAMACHALLENGE #aespadrama #kpopinpublic  #kpopcover.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 1&Only   SIDECAM (1).mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: ‘THIS AINT JUST A HOBBIE’ (1).mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: PERFECT CHRISTMAS NIGHT⭐️🎄 #kpopinpublic #lesserafim.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 📍Pixel Quest, Москва.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #GUMchallenge w @misofony and Milena👄 #JESSIE #JESSIEGUM #kpopinpublic #kpop #dancecover #kpopcover.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: We BRING DRAMA with Ksesha and Luna #aespa #DRAMACHALLENGE #aespadrama #kpopinpublic  #kpopcover.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I-DLE - GOOD THING (1).mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #Viviz - #Maniac challenge ✨ #dancecover #kpopinpublic.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: This time i want who💓.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: bam bam bam badi ✨.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Would you like to see more duets like this 💃🏻.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: SUPERNOVA boy and girl ver.💃🏻.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: I want to be -.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: оканэ касэку ваташивуаста.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: watch Super Ladies on our channel! #Super_LadyChallenge.mp4
+2025-07-21 09:24:52,942 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Throwing it back.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: THEY COULD DESCRIBE EVERYTHING WITH ONE SINGLE WORD. (1).mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: watch (G)I-DLE 'Super Lady' KPOP IN PUBLIC video on our channel!.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: The next station is- (1).mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: VIVIZ - Shhh! KPOP IN PUBLIC   chorus ver. #shhhchallenge.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: love me too😡love me too📍Pixel Quest, Москва.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Нина, Нара и Саша 💋.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: It’s Sanny’s birthday! 🎂 Wish her happy birthday in the comments!.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: Do you like when our Nina covers Karina 👊🏻.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Would you like to have such a ringtone💓.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: NOW YOU BE LIKE.. GANG… (1).mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: @misofony , Sanny &🐶🐱🐭 #洗澡舞.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: lose my breath 😈.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: ALL THE GIRLS ARE GIRLING GIRLING!.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Try to guess who is gonna be Winter, Karina, Ningning and Giselle!.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: EVERGLOW - SLAY🔥  #kpopinpublic #dancecover #dance  #kpopcover #EVERGLOW #SLAY (1).mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: giving WHIPLASH 💅🏻.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: NANI GA SUKI💞 (1).mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: K-POP RANDOM DANCE UIA VER. (1).mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: kpop in public in a nutshell.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Typical routine at Nikolskaya street🙄💅 (1).mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: lyrics 💔💔💔 music 🔥🔥🔥.mp4
+2025-07-21 09:24:52,943 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: EVERGLOW - SLAY🔥  #kpopinpublic #dancecover #dance  #kpopcover #EVERGLOW #SLAY.mp4
+2025-07-21 09:24:52,944 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: Which side do you pick❔🖤.mp4
+2025-07-21 09:24:52,944 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: from Tokyo to Moscow (1).mp4
+2025-07-21 09:24:52,944 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: KPOP in public   NMIXX - Know About Me dance cover (1).mp4
+2025-07-21 09:24:52,944 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: watch LE SSERAFIM (르세라핌) 'EASY' dance cover on our channel!  #kpopinpublic.mp4
+2025-07-21 09:24:52,944 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: ✨Perfect Night with Avosuro and Marusya✨#kpopinpublic #lesserafim #perfectnight #dancecover.mp4
+2025-07-21 09:24:52,944 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: #sticky_challenge.mp4
+2025-07-21 09:24:52,944 - SmartFileManager - INFO - ⏭️ Skipping file with low confidence: 3to1 will be 3to1 (1).mp4
+2025-07-21 09:24:52,944 - SmartFileManager - INFO - ⏭️ Skipping file with medium confidence: EVERYTHING S GNARLY🟢 (1).mp4
+2025-07-21 09:24:52,944 - SmartFileManager - INFO - Found 16 valid videos in folder '3TO1 DANCE COMMUNITY'
+2025-07-21 09:24:52,944 - main - INFO - 📄 Found 16 high confidence videos in folder '3TO1 DANCE COMMUNITY'
+2025-07-21 09:24:52,944 - main - INFO - ⏭️ Skipping already uploaded file for blossom23@hanlim.world: JINGLE BELL ROCK🤟🏻❄️ #aespa #christmasdance #kpop.mp4
+2025-07-21 09:24:52,944 - main - INFO - ⏭️ Skipping already uploaded file for blossom23@hanlim.world: VIVIZ - Shhh! KPOP IN PUBLIC   dancebreak ver. #shhh.mp4
+2025-07-21 09:24:52,944 - main - INFO - ⏭️ Skipping already uploaded file for blossom23@hanlim.world: ✨Perfect Night with Milena and Yana✨#kpopinpublic #lesserafim #perfectnight #dancecover.mp4
+2025-07-21 09:24:52,944 - main - INFO - ⏭️ Skipping already uploaded file for blossom23@hanlim.world: Партии в aespa 에스파 'Supernova' ЧАСТЬ 2.mp4
+2025-07-21 09:24:52,944 - main - INFO - ⏭️ Skipping already uploaded file for blossom23@hanlim.world: BAGGY JEANS boy and girl ver.💃🏻#kpopinpublic #dancecover #dance #kpopcover #NCTU #baggyjeans #kpop.mp4
+2025-07-21 09:24:52,944 - main - INFO - ⏭️ Skipping already uploaded file for blossom23@hanlim.world: Doing the little dance✨ (1).mp4
+2025-07-21 09:24:52,944 - main - INFO - 📤 Processing Нина и Авосуро 👅.mp4
+2025-07-21 09:24:52,945 - main - INFO - 🎵 Smart extracted - Artist: aespa, Title: Drama
+2025-07-21 09:24:52,945 - main - INFO - 📝 Generated description: aespa - Drama dance cover #moves #trending #kpop
+2025-07-21 09:24:52,945 - WebAutomator - INFO - Starting upload process for: Нина и Авосуро 👅.mp4
+2025-07-21 09:24:52,945 - WebAutomator - INFO - Search query: aespa Drama
+2025-07-21 09:24:54,312 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 09:25:01,879 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 09:25:01,879 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 09:25:02,344 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 09:25:02,345 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 09:25:03,509 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 09:25:03,530 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 09:25:03,540 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 09:25:03,540 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 09:25:03,964 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 09:25:04,609 - WebAutomator - INFO - Step 1: Entering search query: aespa Drama
+2025-07-21 09:25:04,635 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 09:25:04,804 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 09:25:05,775 - WebAutomator - INFO - Step 1: Current input value: "aespa Drama"
+2025-07-21 09:25:05,775 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 09:25:05,775 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 09:25:05,817 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 09:25:06,602 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 09:25:06,602 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 09:25:06,602 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 09:25:07,329 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 09:25:07,829 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 09:25:07,830 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 09:25:07,830 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 09:25:08,865 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 09:25:08,938 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:25:10,132 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 09:25:11,314 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 09:25:11,314 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 09:25:11,356 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 09:25:12,487 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 09:25:12,487 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 09:25:12,487 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 09:25:12,498 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/3TO1 DANCE COMMUNITY/Нина и Авосуро 👅.mp4
+2025-07-21 09:25:13,005 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 09:25:13,310 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 09:25:13,797 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 09:25:13,797 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 09:25:17,258 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 09:25:17,258 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 09:25:17,315 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:25:18,010 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 09:25:18,011 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 09:25:18,011 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 09:25:18,465 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 09:25:18,465 - WebAutomator - INFO - Step 7: Description area found, entering text: aespa - Drama dance cover #moves #trending #kpop
+2025-07-21 09:25:19,103 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 09:25:19,103 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 09:25:19,291 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 09:25:19,629 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 09:25:19,629 - WebAutomator - INFO - Step 8: Upload completed successfully for Нина и Авосуро 👅.mp4
+2025-07-21 09:25:19,631 - MultiAccountUploadTracker - INFO - Marked as uploaded for blossom23@hanlim.world: Нина и Авосуро 👅.mp4
+2025-07-21 09:25:19,631 - WebAutomator - INFO - Recorded upload success in tracker for: Нина и Авосуро 👅.mp4
+2025-07-21 09:25:19,632 - AccountManager - INFO - ✅ Incremented upload count for blossom23@hanlim.world: 6 → 7
+2025-07-21 09:25:19,632 - main - INFO - ✅ Successfully uploaded Нина и Авосуро 👅.mp4 for blossom23@hanlim.world (total: 7)
+2025-07-21 09:25:21,637 - main - INFO - 📤 Processing Did we get it done.mp4
+2025-07-21 09:25:21,637 - main - INFO - 🎵 Smart extracted - Artist: SOMI, Title: Fast Forward
+2025-07-21 09:25:21,637 - main - INFO - 📝 Generated description: SOMI - Fast Forward dance cover #performance #kdance #korean
+2025-07-21 09:25:21,637 - WebAutomator - INFO - Starting upload process for: Did we get it done.mp4
+2025-07-21 09:25:21,637 - WebAutomator - INFO - Search query: SOMI Fast Forward
+2025-07-21 09:25:21,639 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 09:25:21,642 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 09:25:22,644 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 09:25:25,673 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 09:25:25,673 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 09:25:28,862 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 09:25:28,863 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 09:25:29,394 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 09:25:29,439 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 09:25:29,454 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 09:25:29,455 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 09:25:29,607 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 09:25:30,300 - WebAutomator - INFO - Step 1: Entering search query: SOMI Fast Forward
+2025-07-21 09:25:30,345 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 09:25:30,452 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 09:25:31,399 - WebAutomator - INFO - Step 1: Current input value: "SOMI Fast Forward"
+2025-07-21 09:25:31,399 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 09:25:31,399 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 09:25:31,528 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 09:25:31,812 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 09:25:31,813 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 09:25:31,813 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 09:25:32,365 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 09:25:32,891 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 09:25:32,891 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 09:25:32,891 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 09:25:33,906 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 09:25:33,987 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:25:34,992 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 09:25:35,248 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 09:25:35,248 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 09:25:35,363 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 09:25:35,588 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 09:25:35,588 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 09:25:35,588 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 09:25:36,089 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/3TO1 DANCE COMMUNITY/Did we get it done.mp4
+2025-07-21 09:25:36,292 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 09:25:36,599 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 09:25:36,939 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 09:25:36,940 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 09:25:36,951 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 09:25:36,952 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 09:25:36,980 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:25:37,164 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 09:25:37,164 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 09:25:37,164 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 09:25:37,339 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 09:25:37,339 - WebAutomator - INFO - Step 7: Description area found, entering text: SOMI - Fast Forward dance cover #performance #kdance #korean
+2025-07-21 09:25:38,834 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 09:25:38,834 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 09:25:39,174 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 09:25:39,897 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 09:25:39,897 - WebAutomator - INFO - Step 8: Upload completed successfully for Did we get it done.mp4
+2025-07-21 09:25:39,899 - MultiAccountUploadTracker - INFO - Marked as uploaded for blossom23@hanlim.world: Did we get it done.mp4
+2025-07-21 09:25:39,899 - WebAutomator - INFO - Recorded upload success in tracker for: Did we get it done.mp4
+2025-07-21 09:25:39,900 - AccountManager - INFO - ✅ Incremented upload count for blossom23@hanlim.world: 7 → 8
+2025-07-21 09:25:39,900 - main - INFO - ✅ Successfully uploaded Did we get it done.mp4 for blossom23@hanlim.world (total: 8)
+2025-07-21 09:25:41,906 - main - INFO - 📤 Processing Write in the comments!.mp4
+2025-07-21 09:25:41,906 - main - INFO - 🎵 Smart extracted - Artist: LE SSERAFIM, Title: Easy
+2025-07-21 09:25:41,906 - main - INFO - 📝 Generated description: LE SSERAFIM - Easy dance cover #cool #choreo #style
+2025-07-21 09:25:41,906 - WebAutomator - INFO - Starting upload process for: Write in the comments!.mp4
+2025-07-21 09:25:41,906 - WebAutomator - INFO - Search query: LE SSERAFIM Easy
+2025-07-21 09:25:41,956 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 09:25:41,964 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 09:25:42,970 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 09:25:48,682 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 09:25:48,682 - WebAutomator - INFO - Upload button found, clicking to go to upload page
+2025-07-21 09:25:50,205 - WebAutomator - INFO - Upload button clicked via JavaScript
+2025-07-21 09:25:50,205 - WebAutomator - INFO - Waiting for upload page to fully load with search elements
+2025-07-21 09:25:50,825 - WebAutomator - INFO - Step 1: Waiting for search box to be fully interactive
+2025-07-21 09:25:50,895 - WebAutomator - INFO - Step 1: Finding search box
+2025-07-21 09:25:50,920 - WebAutomator - INFO - Element found (search input box): .upload-step-1-search-container input
+2025-07-21 09:25:50,920 - WebAutomator - INFO - Step 1: Search box found, focusing and clearing
+2025-07-21 09:25:51,164 - WebAutomator - INFO - Successfully clicked search box focus
+2025-07-21 09:25:51,920 - WebAutomator - INFO - Step 1: Entering search query: LE SSERAFIM Easy
+2025-07-21 09:25:51,947 - WebAutomator - INFO - Element found (search input box (retry)): .upload-step-1-search-container input
+2025-07-21 09:25:52,050 - WebAutomator - INFO - Successfully clicked search box refocus
+2025-07-21 09:25:52,958 - WebAutomator - INFO - Step 1: Current input value: "LE SSERAFIM Easy"
+2025-07-21 09:25:52,958 - WebAutomator - INFO - Step 1: Query entered successfully
+2025-07-21 09:25:52,958 - WebAutomator - INFO - Step 1: Finding search button
+2025-07-21 09:25:52,976 - WebAutomator - INFO - Element found (search button): img[alt*="검색"]
+2025-07-21 09:25:53,109 - WebAutomator - INFO - Successfully clicked search button
+2025-07-21 09:25:53,109 - WebAutomator - INFO - Step 1: Waiting for search results to appear
+2025-07-21 09:25:53,109 - WebAutomator - INFO - Step 1: Finding search results
+2025-07-21 09:25:53,630 - WebAutomator - INFO - Element found (search result item): .search-result-item
+2025-07-21 09:25:53,796 - WebAutomator - INFO - Successfully clicked search result
+2025-07-21 09:25:53,796 - WebAutomator - INFO - Step 1: Song search completed successfully
+2025-07-21 09:25:53,796 - WebAutomator - INFO - Step 3: Scrolling down to reveal next button
+2025-07-21 09:25:54,813 - WebAutomator - INFO - Step 3: Finding next button to proceed
+2025-07-21 09:25:54,911 - WebAutomator - INFO - Element found (next button): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:25:55,916 - WebAutomator - INFO - Step 3: Next button found and scrolled into view, clicking to proceed
+2025-07-21 09:25:56,053 - WebAutomator - INFO - Successfully clicked next button
+2025-07-21 09:25:56,053 - WebAutomator - INFO - Step 4: Finding gallery/import button
+2025-07-21 09:25:56,104 - WebAutomator - INFO - Element found (gallery/import button): .gallery-banner, button.import, button[class*="import"], button[class*="gallery"]
+2025-07-21 09:25:56,228 - WebAutomator - INFO - Successfully clicked gallery button
+2025-07-21 09:25:56,228 - WebAutomator - INFO - Step 4: File dialog opened
+2025-07-21 09:25:56,228 - WebAutomator - INFO - Step 5: Finding file input element
+2025-07-21 09:25:56,697 - WebAutomator - INFO - Step 5: File input found, uploading file: /Users/minsung/Documents/choom/3TO1 DANCE COMMUNITY/Write in the comments!.mp4
+2025-07-21 09:25:56,812 - WebAutomator - INFO - Step 5: File upload initiated
+2025-07-21 09:25:57,114 - WebAutomator - INFO - Closing file dialog with ESC key
+2025-07-21 09:25:57,447 - WebAutomator - INFO - ESC keys sent to close file dialog
+2025-07-21 09:25:57,447 - WebAutomator - INFO - Quick check for file upload completion
+2025-07-21 09:25:57,460 - WebAutomator - INFO - Next button enabled - upload completed
+2025-07-21 09:25:57,460 - WebAutomator - INFO - Step 6: Finding next button after file upload
+2025-07-21 09:25:57,492 - WebAutomator - INFO - Element found (next button after upload): .next-step-button, button.next, button[class*="next"]
+2025-07-21 09:25:57,642 - WebAutomator - INFO - Successfully clicked next button after upload
+2025-07-21 09:25:57,642 - WebAutomator - INFO - Step 6: Moved to description step
+2025-07-21 09:25:57,642 - WebAutomator - INFO - Step 7: Finding description textarea
+2025-07-21 09:25:57,683 - WebAutomator - INFO - Element found (description textarea): textarea.description, textarea[class*="description"], textarea
+2025-07-21 09:25:57,683 - WebAutomator - INFO - Step 7: Description area found, entering text: LE SSERAFIM - Easy dance cover #cool #choreo #style
+2025-07-21 09:25:58,060 - WebAutomator - INFO - Step 7: Description entered
+2025-07-21 09:25:58,061 - WebAutomator - INFO - Step 8: Finding final upload button
+2025-07-21 09:25:59,359 - WebAutomator - INFO - Element found (final upload button): .next-step-button, button.submit, button[class*="submit"], button[class*="upload"]
+2025-07-21 09:25:59,974 - WebAutomator - INFO - Successfully clicked final upload button
+2025-07-21 09:25:59,975 - WebAutomator - INFO - Step 8: Upload completed successfully for Write in the comments!.mp4
+2025-07-21 09:25:59,977 - MultiAccountUploadTracker - INFO - Marked as uploaded for blossom23@hanlim.world: Write in the comments!.mp4
+2025-07-21 09:25:59,977 - WebAutomator - INFO - Recorded upload success in tracker for: Write in the comments!.mp4
+2025-07-21 09:25:59,977 - AccountManager - INFO - ✅ Incremented upload count for blossom23@hanlim.world: 8 → 9
+2025-07-21 09:25:59,977 - main - INFO - ✅ Successfully uploaded Write in the comments!.mp4 for blossom23@hanlim.world (total: 9)
+2025-07-21 09:26:01,980 - main - INFO - 📤 Processing MAGNETIC boy and girl ver.💃🏻.mp4
+2025-07-21 09:26:01,980 - main - INFO - 🎵 Smart extracted - Artist: lesserafim, Title: Perfect Night
+2025-07-21 09:26:01,980 - main - INFO - 📝 Generated description: lesserafim - Perfect Night dance cover #choreo #performance #kdance
+2025-07-21 09:26:01,980 - WebAutomator - INFO - Starting upload process for: MAGNETIC boy and girl ver.💃🏻.mp4
+2025-07-21 09:26:01,980 - WebAutomator - INFO - Search query: lesserafim Perfect Night
+2025-07-21 09:26:01,983 - WebAutomator - INFO - Alert detected: 영상이 성공적으로 업로드되었습니다.
+2025-07-21 09:26:01,987 - WebAutomator - INFO - Alert accepted and closed
+2025-07-21 09:26:02,993 - WebAutomator - INFO - Finding upload button (fast mode)
+2025-07-21 09:26:17,987 - WebAutomator - INFO - Element found (fast) (upload button): button[class*="upload"], .upload-button
+2025-07-21 09:26:17,987 - WebAutomator - INFO - Upload button found, clicking to go to upload page

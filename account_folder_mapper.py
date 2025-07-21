@@ -18,8 +18,14 @@ def map_accounts_to_folders():
     emails = accounts_data.get('emails', [])
     password = accounts_data.get('password', ['test1234!@#$'])[0]
     
-    # choom 폴더 내 폴더명 가져오기
-    choom_path = Path("/Users/minsung/Documents/choom-macro/choom")
+    # config.json에서 choom 폴더 경로 가져오기
+    try:
+        with open("config/config.json", 'r', encoding='utf-8') as f:
+            config = json.load(f)
+        choom_path = Path(config.get('general', {}).get('video_folder_path', '/Users/minsung/Documents/choom'))
+    except Exception as e:
+        print(f"⚠️ config.json 로드 실패, 기본 경로 사용: {e}")
+        choom_path = Path("/Users/minsung/Documents/choom")
     if not choom_path.exists():
         print("❌ choom 폴더를 찾을 수 없습니다.")
         return

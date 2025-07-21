@@ -41,8 +41,9 @@ class SmartFileManager:
             return []
         
         folder_data = self.extraction_results[folder_name]
-        # choom 폴더 기준으로 경로 구성
-        base_path = Path("/Users/minsung/Documents/choom-macro/choom") / folder_name
+        # config에서 video_folder_path 가져와서 경로 구성
+        video_folder_path = self.config.get('general', 'video_folder_path', '/Users/minsung/Documents/choom')
+        base_path = Path(video_folder_path) / folder_name
         
         if not base_path.exists():
             self.logger.error(f"Folder path does not exist: {base_path}")

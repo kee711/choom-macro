@@ -49,10 +49,17 @@ def switch_config_mode():
                 print("❌ Speed config file not found")
         
         elif choice == "2":
-            # Balanced mode (default)
+            # Balanced mode (default) - load path from existing config
+            try:
+                with current_config.open('r') as f:
+                    existing_config = json.load(f)
+                video_path = existing_config.get('general', {}).get('video_folder_path', '/Users/minsung/Documents/choom')
+            except:
+                video_path = '/Users/minsung/Documents/choom'
+                
             balanced_settings = {
                 "general": {
-                    "video_folder_path": "/Users/minsung/Documents/choom-macro/choom/NaYoon",
+                    "video_folder_path": video_path,
                     "log_level": "INFO",
                     "max_concurrent_uploads": 1,
                     "upload_description_template": "Uploaded video",
@@ -80,10 +87,17 @@ def switch_config_mode():
             print("✅ Switched to BALANCED MODE")
             
         elif choice == "3":
-            # Stable mode
+            # Stable mode - load path from existing config
+            try:
+                with current_config.open('r') as f:
+                    existing_config = json.load(f)
+                video_path = existing_config.get('general', {}).get('video_folder_path', '/Users/minsung/Documents/choom')
+            except:
+                video_path = '/Users/minsung/Documents/choom'
+                
             stable_settings = {
                 "general": {
-                    "video_folder_path": "/Users/minsung/Documents/choom-macro/choom/NaYoon",
+                    "video_folder_path": video_path,
                     "log_level": "INFO",
                     "max_concurrent_uploads": 1,
                     "upload_description_template": "Uploaded video",
