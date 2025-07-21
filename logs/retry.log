@@ -280,3 +280,8 @@
 2025-07-21 14:38:30,692 - RETRY - INFO - 📊 Max retries: 15, Retry delay: 5s
 2025-07-21 14:38:30,692 - RETRY - INFO - ▶️ Starting main.py (attempt 1)
 2025-07-21 14:38:30,692 - RETRY - INFO - 🎯 Running with account range: 21-30
+2025-07-21 15:00:40,593 - RETRY - INFO - ⛔ User interrupted execution
+2025-07-21 15:00:41,757 - RETRY - INFO - 🚀 Starting auto-retry wrapper for main.py
+2025-07-21 15:00:41,758 - RETRY - INFO - 📊 Max retries: 15, Retry delay: 5s
+2025-07-21 15:00:41,758 - RETRY - INFO - ▶️ Starting main.py (attempt 1)
+2025-07-21 15:00:41,758 - RETRY - INFO - 🎯 Running with account range: 21-30
